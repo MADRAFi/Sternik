@@ -7,32 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C88BF12885F8A300059C2C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
-		80D7D85A2884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
-		80D7D85C2884A133009EB03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
 		80D7D85D2884A133009EB03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* Assets.xcassets */; };
-		80D7D85E2884A133009EB03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* Assets.xcassets */; };
+		80E67F862885FEE700247DDF /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E67F852885FEE700247DDF /* DataLoader.swift */; };
+		80E67F8928860B9900247DDF /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D7D8502884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D7D8562884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D7D8582884A132009EB03A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		80E67F852885FEE700247DDF /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		80E67F8828860B9900247DDF /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		80D7D84D2884A132009EB03A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80D7D8532884A132009EB03A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,37 +39,22 @@
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
-				80D7D8482884A12B009EB03A /* Shared */,
-				80D7D8572884A132009EB03A /* macOS */,
-				80D7D8512884A132009EB03A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		80D7D8482884A12B009EB03A /* Shared */ = {
-			isa = PBXGroup;
-			children = (
+				80E67F8828860B9900247DDF /* questions.json */,
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				80D7D84A2884A12B009EB03A /* ContentView.swift */,
 				80D7D84B2884A132009EB03A /* Assets.xcassets */,
+				80C88BF02885F8A200059C2C /* question.swift */,
+				80E67F852885FEE700247DDF /* DataLoader.swift */,
+				80D7D8512884A132009EB03A /* Products */,
 			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		80D7D8512884A132009EB03A /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				80D7D8502884A132009EB03A /* Sternik.app */,
-				80D7D8562884A132009EB03A /* Sternik.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		80D7D8572884A132009EB03A /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				80D7D8582884A132009EB03A /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,23 +77,6 @@
 			productReference = 80D7D8502884A132009EB03A /* Sternik.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80D7D8552884A132009EB03A /* Sternik (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80D7D8642884A133009EB03A /* Build configuration list for PBXNativeTarget "Sternik (macOS)" */;
-			buildPhases = (
-				80D7D8522884A132009EB03A /* Sources */,
-				80D7D8532884A132009EB03A /* Frameworks */,
-				80D7D8542884A132009EB03A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Sternik (macOS)";
-			productName = "Sternik (macOS)";
-			productReference = 80D7D8562884A132009EB03A /* Sternik.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,12 +85,9 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					80D7D84F2884A132009EB03A = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					80D7D8552884A132009EB03A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -147,7 +106,6 @@
 			projectRoot = "";
 			targets = (
 				80D7D84F2884A132009EB03A /* Sternik (iOS) */,
-				80D7D8552884A132009EB03A /* Sternik (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -157,15 +115,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E67F8928860B9900247DDF /* questions.json in Resources */,
 				80D7D85D2884A133009EB03A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80D7D8542884A132009EB03A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80D7D85E2884A133009EB03A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,16 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D7D85B2884A133009EB03A /* ContentView.swift in Sources */,
+				80E67F862885FEE700247DDF /* DataLoader.swift in Sources */,
 				80D7D8592884A133009EB03A /* SternikApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80D7D8522884A132009EB03A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80D7D85C2884A133009EB03A /* ContentView.swift in Sources */,
-				80D7D85A2884A133009EB03A /* SternikApp.swift in Sources */,
+				80C88BF12885F8A300059C2C /* question.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +171,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -286,6 +231,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -311,7 +257,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZLH583TLPA;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -319,7 +265,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,7 +275,7 @@
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -341,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZLH583TLPA;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -349,7 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,65 +305,9 @@
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		80D7D8652884A133009EB03A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZLH583TLPA;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
-				PRODUCT_NAME = Sternik;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		80D7D8662884A133009EB03A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZLH583TLPA;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
-				PRODUCT_NAME = Sternik;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -438,15 +328,6 @@
 			buildConfigurations = (
 				80D7D8622884A133009EB03A /* Debug */,
 				80D7D8632884A133009EB03A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80D7D8642884A133009EB03A /* Build configuration list for PBXNativeTarget "Sternik (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80D7D8652884A133009EB03A /* Debug */,
-				80D7D8662884A133009EB03A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
