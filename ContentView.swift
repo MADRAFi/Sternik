@@ -24,6 +24,7 @@ extension UIColor {
 struct ContentView: View {
     @ObservedObject var data = DataLoader()
     
+    var calc: Float = 1 / 10
     @State public var Answer_A: Bool = false
     @State public var Answer_B: Bool = false
     @State public var Answer_C: Bool = false
@@ -91,12 +92,8 @@ struct ContentView: View {
                             Text(data.questionsData[data.currentCategory].category)
                         }
 
-                        ProgressView(value: Float(data.currentQuestion + 1 / data.questionsData[data.currentCategory].questions.count ))
-                            .frame(height: 40)
-                        Text("Question: " + String(data.currentQuestion + 1 ))
-                        Text("Count: " + String(data.questionsData[data.currentCategory].questions.count))
-                        
-                        Text("V: " + String(Float(1 / 10)))
+                        ProgressView(value: Float(data.currentQuestion + 1) / Float(data.questionsData[data.currentCategory].questions.count ))
+
                     }
                 }
                 
