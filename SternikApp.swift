@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+
 struct SternikApp: App {
     var body: some Scene {
         WindowGroup {

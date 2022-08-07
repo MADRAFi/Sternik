@@ -17,11 +17,6 @@ extension UIColor {
 }
 struct ContentView: View {
     @ObservedObject var data = DataLoader()
-    
-    var calc: Float = 1 / 10
-    @State public var Answer_A: Bool = false
-    @State public var Answer_B: Bool = false
-    @State public var Answer_C: Bool = false
     @State public var isAnswered: Bool = false
     @State public var selectedRow : Int = 0
     
@@ -32,21 +27,12 @@ struct ContentView: View {
             selectedRow = 0
         case 1:
             isAnswered = true
-            Answer_A = true
-            Answer_B = false
-            Answer_C = false
             selectedRow = 1
         case 2:
             isAnswered = true
-            Answer_A = false
-            Answer_B = true
-            Answer_C = false
             selectedRow = 2
         case 3:
             isAnswered = true
-            Answer_A = false
-            Answer_B = false
-            Answer_C = true
             selectedRow = 3
         default:
             isAnswered = true
@@ -125,9 +111,6 @@ struct ContentView: View {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        Answer_A = true
-                        Answer_B = false
-                        Answer_C = false
                         selectedRow = 1
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 1
                         isAnswered = true
@@ -154,9 +137,6 @@ struct ContentView: View {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        Answer_A = false
-                        Answer_B = true
-                        Answer_C = false
                         selectedRow = 2
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 2
                         isAnswered = true
@@ -183,9 +163,6 @@ struct ContentView: View {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        Answer_A = false
-                        Answer_B = false
-                        Answer_C = true
                         selectedRow = 3
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 3
                         isAnswered = true
