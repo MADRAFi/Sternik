@@ -10,7 +10,7 @@
 		80C88BF12885F8A300059C2C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
-		80D7D85D2884A133009EB03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* Assets.xcassets */; };
+		80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* JSM.xcassets */; };
 		80E67F862885FEE700247DDF /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E67F852885FEE700247DDF /* DataLoader.swift */; };
 		80E67F8928860B9900247DDF /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions.json */; };
 /* End PBXBuildFile section */
@@ -19,7 +19,7 @@
 		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		80D7D84B2884A132009EB03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D7D84B2884A132009EB03A /* JSM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = JSM.xcassets; sourceTree = "<group>"; };
 		80D7D8502884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E67F852885FEE700247DDF /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		80E67F8828860B9900247DDF /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
@@ -36,13 +36,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8034597C289FE7B300CBC0FA /* JSM */ = {
+			isa = PBXGroup;
+			children = (
+				80D7D84B2884A132009EB03A /* JSM.xcassets */,
+				80E67F8828860B9900247DDF /* questions.json */,
+			);
+			path = JSM;
+			sourceTree = "<group>";
+		};
+		8034597D289FFA1300CBC0FA /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SRC;
+			sourceTree = "<group>";
+		};
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
-				80E67F8828860B9900247DDF /* questions.json */,
+				8034597D289FFA1300CBC0FA /* SRC */,
+				8034597C289FE7B300CBC0FA /* JSM */,
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				80D7D84A2884A12B009EB03A /* ContentView.swift */,
-				80D7D84B2884A132009EB03A /* Assets.xcassets */,
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80E67F852885FEE700247DDF /* DataLoader.swift */,
 				80D7D8512884A132009EB03A /* Products */,
@@ -116,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E67F8928860B9900247DDF /* questions.json in Resources */,
-				80D7D85D2884A133009EB03A /* Assets.xcassets in Resources */,
+				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +208,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -245,6 +261,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -257,6 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = JSM/JSM.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -274,8 +292,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -287,6 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = JSM/JSM.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,8 +324,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
