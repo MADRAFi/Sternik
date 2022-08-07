@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80345981289FFC0400CBC0FA /* SRC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* SRC.xcassets */; };
 		80C88BF12885F8A300059C2C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
 		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		8034597D289FFA1300CBC0FA /* SRC */ = {
 			isa = PBXGroup;
 			children = (
+				80345980289FFC0400CBC0FA /* SRC.xcassets */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80345981289FFC0400CBC0FA /* SRC.xcassets in Resources */,
 				80E67F8928860B9900247DDF /* questions.json in Resources */,
 				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
 			);
