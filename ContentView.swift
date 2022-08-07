@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-//enum SternikColors {
-//
-//    static let positive = Color.green
-//    static let negative = Color.red
-//    static let clean = Color.clear
-//}
 
 extension UIColor {
   struct SternikColors {
@@ -29,54 +23,61 @@ struct ContentView: View {
     @State public var Answer_B: Bool = false
     @State public var Answer_C: Bool = false
     @State public var isAnswered: Bool = false
-//    @State public var RowColor : UIColor = UIColor.SternikColors.clean
+    @State public var selectedRow : Int = 0
     
     func checkAnswer() {
         switch  data.questionsData[data.currentCategory].questions[data.currentQuestion].choice {
         case 0:
             isAnswered = false
+            selectedRow = 0
         case 1:
             isAnswered = true
             Answer_A = true
             Answer_B = false
             Answer_C = false
+            selectedRow = 1
         case 2:
             isAnswered = true
             Answer_A = false
             Answer_B = true
             Answer_C = false
+            selectedRow = 2
         case 3:
             isAnswered = true
             Answer_A = false
             Answer_B = false
             Answer_C = true
+            selectedRow = 3
         default:
             isAnswered = true
         }
     }
     
-    func getRowColor(answer: Bool) -> Color {
-        var rowcol: Color = Color(UIColor.SternikColors.clean)
+    func getRowColor(selected: Int, current: Int) -> Color {
+        var rowColor: Color = Color(UIColor.SternikColors.clean)
 //        return answer && isAnswered ? Color(Color.yellow as! CGColor) : Color(Color.clear as! CGColor)
         if isAnswered {
             if data.ValidateAnswer() {
-                if answer {
-                    rowcol = Color(UIColor.SternikColors.positive)
+                if selected == current && selected == data.questionsData[data.currentCategory].questions[data.currentQuestion].choice {
+                    rowColor = Color(UIColor.SternikColors.positive)
                 } else {
-                    rowcol = Color(UIColor.SternikColors.clean)
+                    rowColor = Color(UIColor.SternikColors.clean)
                 }
             } else {
-                if answer {
-                    rowcol = Color(UIColor.SternikColors.negative)
+                if current == selected && current == data.questionsData[data.currentCategory].questions[data.currentQuestion].choice  {
+                    rowColor = Color(UIColor.SternikColors.negative)
+                } else if current != selected && current == data.questionsData[data.currentCategory].questions[data.currentQuestion].correct {
+                    rowColor = Color(UIColor.SternikColors.positive)
                 } else {
-                    rowcol = Color(UIColor.SternikColors.clean)
+                    
+                    rowColor = Color(UIColor.SternikColors.clean)
                 }
             }
 
         } else {
-            rowcol = Color(UIColor.SternikColors.clean)
+            rowColor = Color(UIColor.SternikColors.clean)
         }
-        return rowcol
+        return rowColor
     }
     
     var body: some View {
@@ -127,11 +128,13 @@ struct ContentView: View {
                         Answer_A = true
                         Answer_B = false
                         Answer_C = false
+                        selectedRow = 1
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 1
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-                    .background(getRowColor(answer: Answer_A))
+//                    .background(getRowColor(answer: Answer_A))
+                    .background(getRowColor(selected: selectedRow, current: 1))
                     .disabled(self.isAnswered)
                     
                     
@@ -154,11 +157,13 @@ struct ContentView: View {
                         Answer_A = false
                         Answer_B = true
                         Answer_C = false
+                        selectedRow = 2
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 2
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-                    .background(getRowColor(answer: Answer_B))
+//                    .background(getRowColor(answer: Answer_B))
+                    .background(getRowColor(selected: selectedRow, current: 2))
                     .disabled(self.isAnswered)
                     
                     HStack {
@@ -181,11 +186,13 @@ struct ContentView: View {
                         Answer_A = false
                         Answer_B = false
                         Answer_C = true
+                        selectedRow = 3
                         data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 3
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-                    .background(getRowColor(answer: Answer_C))
+//                    .background(getRowColor(answer: Answer_C))
+                    .background(getRowColor(selected: selectedRow, current: 3))
                     .disabled(self.isAnswered)
                 }
             }

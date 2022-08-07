@@ -20,7 +20,9 @@ struct question: Codable {
     var correct: Int
     var choice: Int = 0
     
-    private enum CodingKeys: String, CodingKey { case question_id, question, question_image, images, answer_1, answer_2, answer_3, correct }
+    private enum CodingKeys: String, CodingKey {
+        case question_id, question, question_image, images, answer_1, answer_2, answer_3, correct
+    }
 }
 
 struct questionsList: Codable, Identifiable {
