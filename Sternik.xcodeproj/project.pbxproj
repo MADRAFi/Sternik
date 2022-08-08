@@ -7,29 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80345981289FFC0400CBC0FA /* SRC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* SRC.xcassets */; };
-		80345983289FFF8400CBC0FA /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 80345982289FFF8400CBC0FA /* questions_src.json */; };
 		80C88BF12885F8A300059C2C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		80CF62D328A0756D00C59CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
+		80CF62D428A0756D00C59CAD /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E67F852885FEE700247DDF /* DataLoader.swift */; };
+		80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
+		80CF62D628A0756D00C59CAD /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* SRC.xcassets */; };
+		80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 80345982289FFF8400CBC0FA /* questions_src.json */; };
+		80CF62E228A07C0E00C59CAD /* Sternik.app in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D8502884A132009EB03A /* Sternik.app */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* ContentView.swift */; };
 		80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* JSM.xcassets */; };
 		80E67F862885FEE700247DDF /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E67F852885FEE700247DDF /* DataLoader.swift */; };
-		80E67F8928860B9900247DDF /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions.json */; };
+		80E67F8928860B9900247DDF /* questions_jsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions_jsm.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CF62E328A07C0E00C59CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D7D8442884A12A009EB03A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D7D84F2884A132009EB03A;
+			remoteInfo = "Sternik (iOS)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
 		80345982289FFF8400CBC0FA /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CF62E728A0877E00C59CAD /* SRC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SRC.plist; sourceTree = "<group>"; };
+		80CF62E928A0887A00C59CAD /* JSM.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSM.plist; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* JSM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = JSM.xcassets; sourceTree = "<group>"; };
 		80D7D8502884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E67F852885FEE700247DDF /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
-		80E67F8828860B9900247DDF /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		80CF62D728A0756D00C59CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80D7D84D2884A132009EB03A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,7 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				80D7D84B2884A132009EB03A /* JSM.xcassets */,
-				80E67F8828860B9900247DDF /* questions.json */,
+				80E67F8828860B9900247DDF /* questions_jsm.json */,
+				80CF62E928A0887A00C59CAD /* JSM.plist */,
 			);
 			path = JSM;
 			sourceTree = "<group>";
@@ -54,6 +80,7 @@
 			children = (
 				80345982289FFF8400CBC0FA /* questions_src.json */,
 				80345980289FFC0400CBC0FA /* SRC.xcassets */,
+				80CF62E728A0877E00C59CAD /* SRC.plist */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -75,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				80D7D8502884A132009EB03A /* Sternik.app */,
+				80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +110,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		80CF62D128A0756D00C59CAD /* Radio Operator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CF62DD28A0756D00C59CAD /* Build configuration list for PBXNativeTarget "Radio Operator (iOS)" */;
+			buildPhases = (
+				80CF62D228A0756D00C59CAD /* Sources */,
+				80CF62D728A0756D00C59CAD /* Frameworks */,
+				80CF62D828A0756D00C59CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CF62E428A07C0E00C59CAD /* PBXTargetDependency */,
+			);
+			name = "Radio Operator (iOS)";
+			productName = "Sternik (iOS)";
+			productReference = 80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
 		80D7D84F2884A132009EB03A /* Sternik (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80D7D8612884A133009EB03A /* Build configuration list for PBXNativeTarget "Sternik (iOS)" */;
@@ -128,18 +174,27 @@
 			projectRoot = "";
 			targets = (
 				80D7D84F2884A132009EB03A /* Sternik (iOS) */,
+				80CF62D128A0756D00C59CAD /* Radio Operator (iOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		80CF62D828A0756D00C59CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
+				80CF62E228A07C0E00C59CAD /* Sternik.app in Resources */,
+				80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80D7D84E2884A132009EB03A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80345981289FFC0400CBC0FA /* SRC.xcassets in Resources */,
-				80345983289FFF8400CBC0FA /* questions_src.json in Resources */,
-				80E67F8928860B9900247DDF /* questions.json in Resources */,
+				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
 				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +202,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		80CF62D228A0756D00C59CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CF62D328A0756D00C59CAD /* ContentView.swift in Sources */,
+				80CF62D428A0756D00C59CAD /* DataLoader.swift in Sources */,
+				80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */,
+				80CF62D628A0756D00C59CAD /* question.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80D7D84C2884A132009EB03A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,11 +226,95 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		80CF62E428A07C0E00C59CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D7D84F2884A132009EB03A /* Sternik (iOS) */;
+			targetProxy = 80CF62E328A07C0E00C59CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		80CF62DE28A0756D00C59CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_SRC;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor_SRC;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = SRC/SRC.xcassets;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRC/SRC.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio Operator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MADsoft.Radio-Operator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				QUESTIONS_FILE = test;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CF62DF28A0756D00C59CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_SRC;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor_SRC;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = SRC/SRC.xcassets;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRC/SRC.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio Operator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MADsoft.Radio-Operator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				QUESTIONS_FILE = test;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		80D7D85F2884A133009EB03A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -216,7 +366,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
+				QUESTIONS_FILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SRC;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -225,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -269,7 +421,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
+				QUESTIONS_FILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SRC;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -286,6 +439,9 @@
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSM/JSM.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sternik;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,8 +455,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
 				PRODUCT_NAME = Sternik;
+				QUESTIONS_FILE = test;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = JSM;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +475,9 @@
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSM/JSM.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sternik;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,8 +491,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
 				PRODUCT_NAME = Sternik;
+				QUESTIONS_FILE = test;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "JSM SRC";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = JSM;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,6 +504,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		80CF62DD28A0756D00C59CAD /* Build configuration list for PBXNativeTarget "Radio Operator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CF62DE28A0756D00C59CAD /* Debug */,
+				80CF62DF28A0756D00C59CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80D7D8472884A12A009EB03A /* Build configuration list for PBXProject "Sternik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

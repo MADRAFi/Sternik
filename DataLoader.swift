@@ -12,7 +12,6 @@ class DataLoader: ObservableObject {
     @Published var questionsData = [questionsList]()
     @Published var currentCategory = 0          // index of a category
     @Published var currentQuestion = 0          // index of a question
-//    @Published var currentAnswer = 0
 
     
     init() {
@@ -21,7 +20,12 @@ class DataLoader: ObservableObject {
     }
 
     func load() {
-        if let fileLocation = Bundle.main.url(forResource: "questions", withExtension: "json") {
+        
+//        guard let questions_file = Bundle.main.object(forInfoDictionaryKey: "Questions_File") as? String
+        guard let questions_file = Bundle.main.infoDictionary?["Questions_File"] as? String
+        else {return print("Questions_File not found")}
+//        if let fileLocation = Bundle.main.url(forResource: "questions_src", withExtension: "json") {
+        if let fileLocation = Bundle.main.url(forResource: questions_file, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: fileLocation)
                 let jsonDecoder = JSONDecoder()
@@ -29,11 +33,12 @@ class DataLoader: ObservableObject {
                 
                 self.questionsData = JSONdata
                 
-//                print(JSONdata)
+                //                print(JSONdata)
             } catch {
                 print(error)
             }
         }
+
     }
     
 //    func sort() {
