@@ -2,7 +2,7 @@
 
 [{
     "id" : 1,
-    "category" : "Regulaminy",
+    "category_name" : "Regulaminy",
     "questions" : [{
         "question_id" : 1,
         "question" : "Zgodnie z kolejnością pierwszeństwa łączności:",
@@ -206,7 +206,7 @@
     ]
 },
 {   "id" : 2,
-    "category" : "Terminy anglojęzyczne",
+    "category_name" : "Terminy anglojęzyczne",
     "questions" : [{
         "question_id" : 115,
         "question" : "Potrzebuję asysty.",
@@ -230,7 +230,7 @@
     ]
 },
 {   "id" : 3,
-    "category" : "Urządzenia radiowe GMDSS",
+    "category_name" : "Urządzenia radiowe GMDSS",
     "questions" : [{
         "question_id" : 175,
         "question" : "Utworzony system GMDSS pozwala na:",
@@ -254,7 +254,7 @@
     ]
 },
 {   "id" : 4,
-    "category" : "Obsługa urządzen radiowych",
+    "category_name" : "Obsługa urządzen radiowych",
     "questions" : [{
         "question_id" : 201,
         "question" : "Włącz i przygotuj do pracy radiotelefon VHF dla łączności pokładowej.",

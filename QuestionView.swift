@@ -15,13 +15,35 @@ extension UIColor {
       static var clean: UIColor { return UIColor(Color.clear) }
   }
 }
-struct ContentView: View {
-    @ObservedObject var data = DataLoader()
-    @State public var isAnswered: Bool = false
-    @State public var selectedRow : Int = 0
+
+
+struct QuestionView: View {
+
+    @State var questions : [questionsList]
+    
+    @State var isAnswered: Bool = false
+    @State var selectedRow : Int = 0
+    @State var currentCategory: Int = 0          // index of a category
+    @State var currentQuestion: Int = 0          // index of a question
+    @State var questionNumber: Int = 1           // current question number in a set
+    @State var questionTotal: Int = 0        // number of all questions in set
+    
+    @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
+
+    
+    func calculateQuestionsTotal() -> Int {
+    // calculates total number of all questions in a set (all categories)
+        
+        var value: Int = 0
+        for item in questions {
+            value += item.questions.count
+        }
+        
+        return value
+    }
     
     func checkAnswer() {
-        switch  data.questionsData[data.currentCategory].questions[data.currentQuestion].choice {
+        switch  questions[currentCategory].questions[currentQuestion].choice {
         case 0:
             isAnswered = false
             selectedRow = 0
@@ -38,21 +60,28 @@ struct ContentView: View {
             isAnswered = true
         }
     }
-    
+    func ValidateAnswer() -> Bool {
+        if  questions[currentCategory].questions[currentQuestion].correct == questions[currentCategory].questions[currentQuestion].choice {
+            return true
+        } else {
+            return false
+        }
+    }
     func getRowColor(selected: Int, current: Int) -> Color {
         var rowColor: Color = Color(UIColor.SternikColors.clean)
-//        return answer && isAnswered ? Color(Color.yellow as! CGColor) : Color(Color.clear as! CGColor)
+        
         if isAnswered {
-            if data.ValidateAnswer() {
-                if selected == current && selected == data.questionsData[data.currentCategory].questions[data.currentQuestion].choice {
+            if ValidateAnswer() {
+
+                if selected == current && selected == questions[currentCategory].questions[currentQuestion].choice {
                     rowColor = Color(UIColor.SternikColors.positive)
                 } else {
                     rowColor = Color(UIColor.SternikColors.clean)
                 }
             } else {
-                if current == selected && current == data.questionsData[data.currentCategory].questions[data.currentQuestion].choice  {
+                if current == selected && current == questions[currentCategory].questions[currentQuestion].choice  {
                     rowColor = Color(UIColor.SternikColors.negative)
-                } else if current != selected && current == data.questionsData[data.currentCategory].questions[data.currentQuestion].correct {
+                } else if showCorrect && current != selected && current == questions[currentCategory].questions[currentQuestion].correct {
                     rowColor = Color(UIColor.SternikColors.positive)
                 } else {
                     
@@ -67,70 +96,80 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView {
+
             List {
 // ---------------------------------------------------------------------------
                 Section {
                     VStack {
                         HStack {
-                            Text(String(data.questionsData[data.currentCategory].questions[data.currentQuestion].question_id))
+                            
+                            Text(String(questionNumber))
+                            Text("/")
+                            Text(String(questionTotal))
                             Spacer()
-                            Text(String(data.questionsData[data.currentCategory].id) + ":")
-                            Text(data.questionsData[data.currentCategory].category)
+                            Text(String(questions[currentCategory].id) + ":")
+                            Text(questions[currentCategory].category_name)
                         }
 
-                        ProgressView(value: Float(data.currentQuestion + 1) / Float(data.questionsData[data.currentCategory].questions.count ))
+                        ProgressView(value: Float(questionNumber) / Float(questionTotal))
 
                     }
                 }
-                
-// ---------------------------------------------------------------------------
-                Section {
-                    VStack {
-                        Text(data.questionsData[data.currentCategory].questions[data.currentQuestion].question)
-                            .padding(10)
-                        
-                        
-                    }
+                .onAppear {
+                    questionTotal = self.calculateQuestionsTotal()
                 }
                 
 // ---------------------------------------------------------------------------
-                Section {
+                Section(header: Text("Pytanie")) {
+                    VStack {
+                        HStack {
+                            Text(String(questions[currentCategory].questions[currentQuestion].question_id))
+                            Text(questions[currentCategory].questions[currentQuestion].question)
+                                .padding(10)
+                        }
+                    }
+                }
+                .listStyle(GroupedListStyle())
+                
+// ---------------------------------------------------------------------------
+                Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
                             .padding()
-                        if (data.questionsData[data.currentCategory].questions[data.currentQuestion].images) {
-                            Image("q\(data.questionsData[data.currentCategory].questions[data.currentQuestion].question_id)_a1")
+                        if (questions[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(data.questionsData[data.currentCategory].questions[data.currentQuestion].answer_1)
+                            Text(questions[currentCategory].questions[currentQuestion].answer_1)
+                                .padding(7)
                         }
                         Spacer()
                     }
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
-                        data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 1
+                        questions[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-//                    .background(getRowColor(answer: Answer_A))
                     .background(getRowColor(selected: selectedRow, current: 1))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                     
                     
                     HStack() {
                         Text("B")
                             .padding()
-                        if (data.questionsData[data.currentCategory].questions[data.currentQuestion].images) {
-                            Image("q\(data.questionsData[data.currentCategory].questions[data.currentQuestion].question_id)_a2")
+                        if (questions[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(data.questionsData[data.currentCategory].questions[data.currentQuestion].answer_2)
+                            Text(questions[currentCategory].questions[currentQuestion].answer_2)
+                                .padding(7)
 
                         }
                         Spacer()
@@ -138,24 +177,25 @@ struct ContentView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
-                        data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 2
+                        questions[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-//                    .background(getRowColor(answer: Answer_B))
                     .background(getRowColor(selected: selectedRow, current: 2))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                     
                     HStack {
                         Text("C")
                             .padding()
-                        if (data.questionsData[data.currentCategory].questions[data.currentQuestion].images) {
-                            Image("q\(data.questionsData[data.currentCategory].questions[data.currentQuestion].question_id)_a3")
+                        if (questions[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(data.questionsData[data.currentCategory].questions[    data.currentQuestion].answer_3)
+                            Text(questions[currentCategory].questions[currentQuestion].answer_3)
+                                .padding(7)
 
                             
                         }
@@ -164,26 +204,30 @@ struct ContentView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
-                        data.questionsData[data.currentCategory].questions[data.currentQuestion].choice = 3
+                        questions[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
                     }
                     .foregroundColor(.primary)
-//                    .background(getRowColor(answer: Answer_C))
                     .background(getRowColor(selected: selectedRow, current: 3))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                 }
             }
+            .listStyle(GroupedListStyle())
             .navigationTitle("Nauka")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if (data.currentQuestion > 0) {
-                            data.currentQuestion -= 1
+                        if (currentQuestion > 0) {
+                            currentQuestion -= 1
                         } else {
-                            if (data.currentCategory > 0) {
-                                data.currentCategory -= 1
-                                data.currentQuestion = data.questionsData[data.currentCategory].questions.count - 1
+                            if (currentCategory > 0) {
+                                currentCategory -= 1
+                                currentQuestion = questions[currentCategory].questions.count - 1
                             }
+                        }
+                        if questionNumber > 1 {
+                            questionNumber -= 1
                         }
                         checkAnswer()
                         
@@ -195,13 +239,16 @@ struct ContentView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if data.currentQuestion < data.questionsData[data.currentCategory].questions.count - 1 {
-                            data.currentQuestion += 1
+                        if currentQuestion < questions[currentCategory].questions.count - 1 {
+                            currentQuestion += 1
                         } else {
-                            if (data.currentCategory < data.questionsData.count - 1) {
-                                data.currentCategory += 1
-                                data.currentQuestion = 0
+                            if (currentCategory < questions.count - 1) {
+                                currentCategory += 1
+                                currentQuestion = 0
                             }
+                        }
+                        if questionNumber < questionTotal {
+                            questionNumber += 1
                         }
                         checkAnswer()
                     },
@@ -212,24 +259,14 @@ struct ContentView: View {
                 }
             }
             
-        }
+        
     }
 }
 struct ContentView_Previews: PreviewProvider {
+    @State static var questions = questionsList.example_data()
+    
     static var previews: some View {
-        ContentView()
+        QuestionView(questions: questions)
     }
 }
-
-//struct SelectedButtonStyle: ButtonStyle {
-//    func makeBody(configuration: Self.Configuration) -> some View {
-//        configuration.label
-////            .foregroundColor(Color.white)
-//            .padding()
-//            .frame(width: 100, height: 100)
-//            .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.orange]), startPoint: .leading, endPoint: .trailing))
-//            .cornerRadius(15.0)
-//
-//    }
-//}
 

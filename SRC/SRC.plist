@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>About</key>
+	<string>Aplikacja zawiera zestaw pytań do egzaminu SRC (świadectwo operatora łączności bliskiego zasięgu) organizowanego przez UKE</string>
 	<key>Questions_File</key>
 	<string>questions_src</string>
 </dict>
