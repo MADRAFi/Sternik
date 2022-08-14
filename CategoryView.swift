@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CategoryView: View {
-
-    @Binding var questions : [questionsList]
+    
+    @State var questions : [categoryList]
     
     var body: some View {
         NavigationView {
@@ -19,11 +19,11 @@ struct CategoryView: View {
                     VStack {
                         HStack {
                             Text("Wybór testu")
-//                            Spacer()
+                            //                            Spacer()
                         }
                     }
                 }
-                    // ---------------------------------------------------------------------------
+                // ---------------------------------------------------------------------------
                 Section {
                     VStack {
                         ForEach(questions) { item in
@@ -34,39 +34,41 @@ struct CategoryView: View {
                                     Text(item.category_name)
                                     Spacer()
                                 }
-                            }
-//                            .navigationBarBackButtonHidden(true)
-                        }
-                    }
-
-                }
-                Section {
-                    VStack {
-                        HStack {
-                            NavigationLink(destination: QuestionView(questions: questions )) {
-                                Text("Wszystkie działy")
-                                    .padding()
-                                Spacer()
+                                //                            }
+                                //                            .navigationBarBackButtonHidden(true)
                             }
                         }
-                        HStack {
-                            Text("Egzamin próbny")
-                                .padding()
-                            Spacer()
+                        
+                    }
+                    Section {
+                        VStack {
+                            HStack {
+                                NavigationLink(destination: QuestionView(questions: questions )) {
+                                    Text("Wszystkie działy")
+                                        .padding()
+                                    Spacer()
+                                }
+                            }
+                            HStack {
+                                NavigationLink(destination: QuestionView(questions: questions )) {
+                                    Text("Egzamin próbny")
+                                        .padding()
+                                    Spacer()
+                                }
+                            }
                         }
                     }
+                    
                 }
-
             }
         }
     }
 }
-
-struct CategoryView_Previews: PreviewProvider {
-    
-    @State static var questions = questionsList.example_data()
-    
-    static var previews: some View {
-        CategoryView(questions: $questions)
+    struct CategoryView_Previews: PreviewProvider {
+        
+        static var questions = categoryList.example_data()
+        
+        static var previews: some View {
+            CategoryView(questions: questions)
+        }
     }
-}

@@ -14,12 +14,7 @@ extension Bundle {
     var releaseVersionNumber: String? {
         return infoDictionary?["CFBundleShortVersionString"] as? String
     }
-//    var buildVersionNumber: String? {
-//        return infoDictionary?["CFBundleVersion"] as? String
-//    }
-//    var releaseVersionNumberPretty: String {
-//        return "v\(releaseVersionNumber ?? "1.0.0")"
-//    }
+
 }
 struct SettingsView: View {
     @AppStorage("Show_Correct_Answer") private var ShowCorrect : Bool = true
@@ -46,7 +41,8 @@ struct SettingsView: View {
                                 .resizable()
                                 .scaledToFit()
 //                                .frame(height: 100)
-                            .clipShape(RoundedRectangle(cornerRadius: 20))
+//                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                            .cornerRadius(20)
                             .padding()
                             Text(Bundle.main.appName ?? "")
                                 .fontWeight(.medium)

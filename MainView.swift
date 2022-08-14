@@ -10,18 +10,21 @@ import SwiftUI
 struct MainView: View {
     
     @State var selectedTab: Int = 0
-    @State var currentQuestions = questionsList.example_data()
+
+    @ObservedObject var data = QuestionsList()
+
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            CategoryView(questions: $currentQuestions)
+
+            CategoryView(questions: data.questions)
                 .tabItem {
-                    Label("Menu", systemImage: "filemenu.and.selection")
+                    Label("Pytania", systemImage: "filemenu.and.selection")
                 }
                 .tag(0)
 //                ContentView()
 //                .tabItem {
-//                    Label("Pytania", systemImage: "questionmark.app.fill")
+//                    Label("Moduły", systemImage: "questionmark.app.fill")
 //                }
                 .tag(1)
             SettingsView()
@@ -31,10 +34,11 @@ struct MainView: View {
                 .tag(2)
                 
         }
+
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {    
     static var previews: some View {
         MainView()
     }

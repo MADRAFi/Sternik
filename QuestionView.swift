@@ -19,14 +19,15 @@ extension UIColor {
 
 struct QuestionView: View {
 
-    @State var questions : [questionsList]
+    @State var questions : [categoryList]
+//    @Binding var questions: [categoryList]
     
     @State var isAnswered: Bool = false
     @State var selectedRow : Int = 0
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
-    @State var questionTotal: Int = 0        // number of all questions in set
+    @State var questionTotal: Int = 1        // number of all questions in set
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
 
@@ -262,11 +263,13 @@ struct QuestionView: View {
         
     }
 }
-struct ContentView_Previews: PreviewProvider {
-    @State static var questions = questionsList.example_data()
+
+
+struct QuestionView_Previews: PreviewProvider {
+    
+    static var questions = categoryList.example_data()
     
     static var previews: some View {
         QuestionView(questions: questions)
     }
 }
-
