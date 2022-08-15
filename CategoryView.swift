@@ -9,7 +9,8 @@ import SwiftUI
 
 struct CategoryView: View {
     
-    @State var questions : [categoryList]
+//    @State var questions : [categoryList]
+    @ObservedObject var data : QuestionsList
     
     var body: some View {
         NavigationView {
@@ -26,8 +27,8 @@ struct CategoryView: View {
                 // ---------------------------------------------------------------------------
                 Section {
                     VStack {
-                        ForEach(questions) { item in
-                            NavigationLink(destination: QuestionView(questions: questions.filter {$0.id == item.id } )) {
+                        ForEach(data.questions) { item in
+                            NavigationLink(destination: QuestionView(questions: data.questions.filter {$0.id == item.id } )) {
                                 HStack {
                                     Text(String(item.id))
                                         .padding()
@@ -43,16 +44,16 @@ struct CategoryView: View {
                     Section {
                         VStack {
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: questions )) {
+                                NavigationLink(destination: QuestionView(questions: data.questions )) {
                                     Text("Wszystkie działy")
-                                        .padding()
+                                        .padding(5)
                                     Spacer()
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: questions )) {
+                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList() )) {
                                     Text("Egzamin próbny")
-                                        .padding()
+                                        .padding(5)
                                     Spacer()
                                 }
                             }
@@ -66,9 +67,10 @@ struct CategoryView: View {
 }
     struct CategoryView_Previews: PreviewProvider {
         
-        static var questions = categoryList.example_data()
+//        static var questions = categoryList.example_data()
+        static var data = QuestionsList()
         
         static var previews: some View {
-            CategoryView(questions: questions)
+            CategoryView(data: data)
         }
     }

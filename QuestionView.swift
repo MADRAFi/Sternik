@@ -113,6 +113,8 @@ struct QuestionView: View {
                         }
 
                         ProgressView(value: Float(questionNumber) / Float(questionTotal))
+                            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                            .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
 
                     }
                 }

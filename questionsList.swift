@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class QuestionsList: ObservableObject {
 
@@ -55,18 +56,47 @@ class QuestionsList: ObservableObject {
 
     func generateQuestionsList() -> [categoryList] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
-        var examSet: [categoryList] = []
-        var element: categoryList
-        var number: Int = 1
+//        var examSet: [categoryList] = []
+//        var element: categoryList
+//        var number: Int
+//
+//        for item in questions {
+//            number = 0
+//            while number < item.exam {
+//                element = questions.randomElement()!
+//
+//                if !examSet.contains(where: { $0.id == element.id }) {
+//                    examSet.append(element)
+//                    number += 1
+//                }
+//            }
+//        }
+//        return examSet
         
+        var examSet: [categoryList] = []
+        var questions_list: [question] = []
+        var element: question
+        var number: Int
+       
+//        examSet = questions
         for item in questions {
+            number = 0
+            questions_list = []
             while number < item.exam {
-                element = questions.randomElement()!
-                if !examSet.contains(where: { $0.id == element.id }) {
-                    examSet.append(element)
+                element = item.questions.randomElement()!
+                if questions_list.contains(where: {$0.question_id != element.question_id}) || questions_list.isEmpty {
+                    questions_list.append(element)
                     number += 1
                 }
             }
+            examSet.append(
+                categoryList(
+                    id: item.id,
+                    category_name: item.category_name,
+                    exam: item.exam,
+                    questions: questions_list
+                )
+            )
         }
         return examSet
     }

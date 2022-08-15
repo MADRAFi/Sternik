@@ -17,7 +17,8 @@ struct MainView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
 
-            CategoryView(questions: data.questions)
+//            CategoryView(questions: data.questions)
+            CategoryView(data: data)
                 .tabItem {
                     Label("Pytania", systemImage: "filemenu.and.selection")
                 }
