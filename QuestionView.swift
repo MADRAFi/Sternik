@@ -219,6 +219,17 @@ struct QuestionView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
+                        currentQuestion = 0
+                        currentCategory = 0
+                        questionNumber = 1
+                    },
+                        label: {
+                            Image(systemName: "1.square.fill")
+                                .imageScale(.large)
+                    })
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
                         if (currentQuestion > 0) {
                             currentQuestion -= 1
                         } else {
@@ -233,9 +244,9 @@ struct QuestionView: View {
                         checkAnswer()
                         
                     },
-                           label: {
-                        Image(systemName: "arrow.left.square.fill")
-                            .imageScale(.large)
+                        label: {
+                            Image(systemName: "arrow.left.square.fill")
+                                .imageScale(.large)
                     })
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -253,9 +264,9 @@ struct QuestionView: View {
                         }
                         checkAnswer()
                     },
-                           label: {
-                        Image(systemName: "arrow.right.square.fill")
-                            .imageScale(.large)
+                        label: {
+                            Image(systemName: "arrow.right.square.fill")
+                                .imageScale(.large)
                     })
                 }
             }
