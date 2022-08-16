@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>Aplikacja zawiera zestaw pytań do egzaminu JSM (Jachtowy Sternik Morski) organizowanego przez PZŻ</string>
+	<key>Questions_File</key>
+	<string>questions_jsm</string>
+</dict>
+</plist>

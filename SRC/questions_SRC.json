@@ -1,0 +1,285 @@
+
+
+[{
+    "id" : 1,
+    "category_name" : "Regulaminy",
+    "exam": 8,
+    "questions" : [{
+        "question_id" : 1,
+        "question" : "Zgodnie z kolejnością pierwszeństwa łączności:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "łączność ostrzegawcza ma pierwszeństwo przed łącznością pilną",
+        "answer_2" : "łączność ostrzegawcza ma pierwszeństwo przed łącznością publiczną",
+        "answer_3" : "łączność pilna ma pierwszeństwo przed łącznością w niebezpieczeństwie",
+        "correct" : 2
+        },
+        {
+        "question_id" : 2,
+        "question" : "Łączność publiczna to łączność:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dla uzyskania porady medycznej",
+        "answer_2" : "pomiędzy stacją statkową i stacją nadbrzeżną",
+        "answer_3" : "do przekazywania ostrzeżeń",
+        "correct" : 2
+        },
+        {
+        "question_id" : 3,
+        "question" : "Stacja nadbrzeżna to stacja:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "w służbie radiokomunikacyjnej lądowej, prowadząca łączność w rejonie wybrzeża morskiego",
+        "answer_2" : "w służbie radiokomunikacyjnej lotniczej, prowadząca łączność w rejonie wybrzeża morskiego",
+        "answer_3" : "w służbie radiokomunikacyjnej ruchomej morskiej, prowadząca łączność w relacji statek-brzeg, brzeg-statek",
+        "correct" : 3
+        },
+        {
+        "question_id" : 4,
+        "question" : "Ratowniczy Ośrodek Koordynacyjny odpowiedzialny jest za:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "prowadzenie łączności na miejscu akcji ratowniczej",
+        "answer_2" : "przygotowanie służb portowych",
+        "answer_3" : "kierowanie akcją SAR",
+        "correct" : 3
+        },
+        {
+        "question_id" : 5,
+        "question" : "Pasmo VHF obejmuje częstotliwości: ",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "3 ÷ 30 MHz",
+        "answer_2" : "30 ÷ 300 MHz",
+        "answer_3" : "10 ÷ 100 MHz",
+        "correct" : 2
+        },
+        {
+        "question_id" : 6,
+        "question" : "Fale z pasma VHF to inaczej fale:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "milimetrowe",
+        "answer_2" : "centymetrowe",
+        "answer_3" : "metrowe",
+        "correct" : 3
+        },
+        {
+        "question_id" : 7,
+        "question" : "Morski zakres V obejmuje częstotliwości:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "10 ÷ 30 MHz",
+        "answer_2" : "300 ÷ 3000 kHz",
+        "answer_3" : "156 ÷ 174 MHz",
+        "correct" : 3
+        },
+        {
+        "question_id" : 8,
+        "question" : "Radiotelefoniczna stacja statkowa może być identyfikowana przez:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "numer seryjny radiotelefonu VHF",
+        "answer_2" : "znak wywoławczy lub nazwę stacji",
+        "answer_3" : "nazwę armatora/właściciela",
+        "correct" : 2
+        },
+        {
+        "question_id" : 9,
+        "question" : "Simpleks to sposób pracy w kanale radiowym przy którym:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
+        "answer_2" : "obie stacje pracują simpleksem wykorzystując kanał dupleksowy",
+        "answer_3" : "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+        "correct" : 3
+        },
+        {
+        "question_id" : 10,
+        "question" : "Semidupleks to sposób pracy w kanale radiowym przy którym:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
+        "answer_2" : "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+        "answer_3" : "jedna stacja pracuje simpleksem a druga dupleksem",
+        "correct" : 3
+        },
+        {
+        "question_id" : 11,
+        "question" : "Dupleks to sposób pracy w kanale radiowym przy którym:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
+        "answer_2" : "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+        "answer_3" : "jedna stacja pracuje simpleksem a druga dupleksem",
+        "correct" : 1
+        },
+        {
+        "question_id" : 12,
+        "question" : "Kanał simpleksowy to kanał w którym:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "nadajemy i odbieramy na tej samej częstotliwości",
+        "answer_2" : "tylko nadajemy na określonej częstotliwości",
+        "answer_3" : "tylko odbieramy na określonej częstotliwości",
+        "correct" : 1
+        },
+        {
+        "question_id" : 13,
+        "question" : "Kanał dupleksowy to kanał w którym:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "nadajemy i odbieramy na tej samej częstotliwości",
+        "answer_2" : "tylko nadajemy na określonej częstotliwości",
+        "answer_3" : "nadajemy i odbieramy na różnych częstotliwościach ",
+        "correct" : 3
+        },
+        {
+        "question_id" : 14,
+        "question" : "Kanał 16 VHF jest kanałem:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dupleksowym",
+        "answer_2" : "jednoczęstotliwościowym",
+        "answer_3" : "dwuczęstotliwościowym",
+        "correct" : 2
+        },
+        {
+        "question_id" : 15,
+        "question" : "Kanał 6 VHF jest kanałem:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dupleksowym",
+        "answer_2" : "dwuczęstotliwościowym",
+        "answer_3" : "simpleksowym",
+        "correct" : 3
+        },
+        {
+        "question_id" : 16,
+        "question" : "Kanał 15 VHF jest kanałem:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dupleksowym",
+        "answer_2" : "jednoczęstotliwościowym",
+        "answer_3" : "semidupleksowym",
+        "correct" : 2
+        },
+        {
+        "question_id" : 17,
+        "question" : "Kanał 13 VHF jest kanałem:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dupleksowym",
+        "answer_2" : "duosimpleksowym",
+        "answer_3" : "simpleksowym",
+        "correct" : 3
+        },
+        {
+        "question_id" : 18,
+        "question" : "Kanał 70 VHF jest kanałem:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "dupleksowym",
+        "answer_2" : "jednoczęstotliwościowym",
+        "answer_3" : "semidupleksowym",
+        "correct" : 2
+        },
+        {
+        "question_id" : 19,
+        "question" : "W zakresie VHF, do wywołań ogólnych DSC można stosować kanał:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "26",
+        "answer_2" : "6",
+        "answer_3" : "70",
+        "correct" : 3
+        },
+        {
+        "question_id" : 20,
+        "question" : "W zakresie VHF, do wywołań międzystatkowych DSC można stosować kanał:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "15",
+        "answer_2" : "27",
+        "answer_3" : "70",
+        "correct" : 3
+        }
+    ]
+},
+{   "id" : 2,
+    "category_name" : "Terminy anglojęzyczne",
+    "exam": 2,
+    "questions" : [{
+        "question_id" : 115,
+        "question" : "Potrzebuję asysty.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I require assistance.",
+        "answer_2" : "I require escort.",
+        "answer_3" : "I need attention.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 116,
+        "question" : "Pożar w nadbudówce.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Superstructure is fireing.",
+        "answer_2" : "I am having fire in superstructure.",
+        "answer_3" : "Superstructure on fire.",
+        "correct" : 3
+        }
+    ]
+},
+{   "id" : 3,
+    "category_name" : "Urządzenia radiowe GMDSS",
+    "exam": 1,
+    "questions" : [{
+        "question_id" : 175,
+        "question" : "Utworzony system GMDSS pozwala na:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "efektywne alarmowanie w relacji statek -  brzeg",
+        "answer_2" : "automatyczne alarmowanie w relacji statek - samolot",
+        "answer_3" : "automatyczne wykrywanie katastrof",
+        "correct" : 1
+        },
+        {
+        "question_id" : 176,
+        "question" : "System GMDSS do alarmowania stosuje:",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "radiotelegrafię na kanale 16",
+        "answer_2" : "radiotelegrafię na kanale 70",
+        "answer_3" : "cyfrowe selektywne wywołanie",
+        "correct" : 3
+        }
+    ]
+},
+{   "id" : 4,
+    "category_name" : "Obsługa urządzen radiowych",
+    "exam": 2,
+    "questions" : [{
+        "question_id" : 201,
+        "question" : "Włącz i przygotuj do pracy radiotelefon VHF dla łączności pokładowej.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
+        "answer_2" : "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 16, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 25 W na 1 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+        "answer_3" : "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 15, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+        "correct" : 1
+        },
+        {
+        "question_id" : 202,
+        "question" : "Włącz i przygotuj do pracy radiotelefon VHF dla łączności alarmowej.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
+        "answer_2" : "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij  przycisk  16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo ",
+        "answer_3" : "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 13, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+        "correct" : 2
+        }
+    ]
+}
+]
+ 
