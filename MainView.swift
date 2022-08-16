@@ -16,23 +16,27 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-
-//            CategoryView(questions: data.questions)
-            CategoryView(data: data)
-                .tabItem {
-                    Label("Pytania", systemImage: "filemenu.and.selection")
-                }
-                .tag(0)
+            NavigationView {
+//              CategoryView(questions: data.questions)
+                CategoryView(data: data)
+            }
+            .tabItem {
+                Label("Pytania", systemImage: "filemenu.and.selection")
+            }
+            .tag(0)
+            
 //                ContentView()
 //                .tabItem {
 //                    Label("Moduły", systemImage: "questionmark.app.fill")
 //                }
-                .tag(1)
-            SettingsView()
-                .tabItem {
-                    Label("Ustawienia", systemImage: "gearshape.fill")
-                }
-                .tag(2)
+//                .tag(1)
+            
+            
+                SettingsView()
+                    .tabItem {
+                        Label("Ustawienia", systemImage: "gearshape.fill")
+                    }
+                    .tag(2)
                 
         }
 

@@ -3,6 +3,7 @@
 [{
     "id" : 1,
     "category" : "Budowa Jachtów",
+    "exam" : 5,
     "questions" : [{
         "question_id" : 1,
         "question" : "Na jachcie jest urządzenie sterowe ze sterociągami. Podczas rejsu stwierdzono luzy przy obracaniu koła sterowego. Jakie działania należy podjąć w pierwszej kolejności?",
@@ -207,6 +208,7 @@
 },
 {   "id" : 2,
     "category" : "Locja",
+    "exam" : 1,
     "questions" : [{
         "question_id" : 41,
         "question" : "Na fragmencie mapy na rysunku pokazana jest pława No2. Jaka jest charakterystyka światła tej pławy?",

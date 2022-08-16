@@ -13,7 +13,7 @@ struct CategoryView: View {
     @ObservedObject var data : QuestionsList
     
     var body: some View {
-        NavigationView {
+//        NavigationView {
             List {
                 // ---------------------------------------------------------------------------
                 Section {
@@ -26,9 +26,9 @@ struct CategoryView: View {
                 }
                 // ---------------------------------------------------------------------------
                 Section {
-                    VStack {
+
                         ForEach(data.questions) { item in
-                            NavigationLink(destination: QuestionView(questions: data.questions.filter {$0.id == item.id } )) {
+                            NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) )) {
                                 HStack {
                                     Text(String(item.id))
                                         .padding()
@@ -40,11 +40,10 @@ struct CategoryView: View {
                             }
                         }
                         
-                    }
                     Section {
-                        VStack {
+  
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions )) {
+                                NavigationLink(destination: QuestionView(questions: data.questions)) {
                                     Text("Wszystkie działy")
                                         .padding(5)
                                     Spacer()
@@ -57,12 +56,12 @@ struct CategoryView: View {
                                     Spacer()
                                 }
                             }
-                        }
+
                     }
                     
                 }
             }
-        }
+//        }
     }
 }
     struct CategoryView_Previews: PreviewProvider {

@@ -56,45 +56,33 @@ class QuestionsList: ObservableObject {
 
     func generateQuestionsList() -> [categoryList] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
-//        var examSet: [categoryList] = []
-//        var element: categoryList
-//        var number: Int
-//
-//        for item in questions {
-//            number = 0
-//            while number < item.exam {
-//                element = questions.randomElement()!
-//
-//                if !examSet.contains(where: { $0.id == element.id }) {
-//                    examSet.append(element)
-//                    number += 1
-//                }
-//            }
-//        }
-//        return examSet
         
+//        var set : [categoryList] = questions
         var examSet: [categoryList] = []
         var questions_list: [question] = []
         var element: question
+        var questions_all: [question]
         var number: Int
        
-//        examSet = questions
         for item in questions {
             number = 0
             questions_list = []
+            questions_all = item.questions
             while number < item.exam {
-                element = item.questions.randomElement()!
-                if questions_list.contains(where: {$0.question_id != element.question_id}) || questions_list.isEmpty {
-                    questions_list.append(element)
-                    number += 1
-                }
+//                print("Losowanie kategoria: \(item.id)")
+                questions_all.shuffle()
+                element = questions_all.first!
+                questions_all.removeFirst()
+                questions_list.append(element)
+                number += 1
+//                print("-- P: \(element.question_id)")
             }
             examSet.append(
                 categoryList(
                     id: item.id,
                     category_name: item.category_name,
                     exam: item.exam,
-                    questions: questions_list
+                    questions: questions_list.sorted(by: { $0.question_id < $1.question_id })
                 )
             )
         }
