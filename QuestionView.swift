@@ -7,21 +7,11 @@
 
 import SwiftUI
 
-
-extension UIColor {
-  struct SternikColors {
-      static var positive: UIColor  { return UIColor(Color.green) }
-      static var negative: UIColor { return UIColor(Color.red) }
-      static var clean: UIColor { return UIColor(Color.clear) }
-  }
-}
-
-
 struct QuestionView: View {
 
     @State var questions : [categoryList]
 //    @Binding var questions: [categoryList]
-    
+
     @State var isAnswered: Bool = false
     @State var selectedRow : Int = 0
     @State var currentCategory: Int = 0          // index of a category
@@ -69,29 +59,29 @@ struct QuestionView: View {
         }
     }
     func getRowColor(selected: Int, current: Int) -> Color {
-        var rowColor: Color = Color(UIColor.SternikColors.clean)
+        var rowColor: Color = Color.clear
         
         if isAnswered {
             if ValidateAnswer() {
 
                 if selected == current && selected == questions[currentCategory].questions[currentQuestion].choice {
-                    rowColor = Color(UIColor.SternikColors.positive)
+                    rowColor = Color("Positive")
                 } else {
-                    rowColor = Color(UIColor.SternikColors.clean)
+                    rowColor = Color.clear
                 }
             } else {
                 if current == selected && current == questions[currentCategory].questions[currentQuestion].choice  {
-                    rowColor = Color(UIColor.SternikColors.negative)
+                    rowColor = Color("Negative")
                 } else if showCorrect && current != selected && current == questions[currentCategory].questions[currentQuestion].correct {
-                    rowColor = Color(UIColor.SternikColors.positive)
+                    rowColor = Color("Positive")
                 } else {
                     
-                    rowColor = Color(UIColor.SternikColors.clean)
+                    rowColor = Color.clear
                 }
             }
 
         } else {
-            rowColor = Color(UIColor.SternikColors.clean)
+            rowColor = Color.clear
         }
         return rowColor
     }

@@ -72,11 +72,10 @@ struct SettingsView: View {
                 
             }
             .listStyle(GroupedListStyle())
-            .navigationViewStyle(.stack)
             .navigationTitle("Ustawienia")
 
         }
-
+        .navigationViewStyle(.stack)
         
     }
 }
