@@ -40,21 +40,20 @@ struct SettingsView: View {
                             Image("About")
                                 .resizable()
                                 .scaledToFit()
-                            //                                .frame(height: 100)
-                            //                            .clipShape(RoundedRectangle(cornerRadius: 20))
                                 .cornerRadius(20)
                                 .padding()
                             Text(Bundle.main.appName ?? "")
                                 .fontWeight(.medium)
                                 .font(.largeTitle)
                         }
-                        .frame(height: 150)
+//                        .frame(height: 150)
                         VStack{
                             Text(about ?? "")
+                            Spacer()
                             Text("Pytania w aplikacji pochodzą z udostępionych w internecie materiałów do nauki.")
-                                .frame(width: 350, height: 100)
                         }
-                        .frame(width: 350, height: 200)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(nil)
                     }
                     .padding(.vertical)
                     
@@ -71,7 +70,7 @@ struct SettingsView: View {
                 
                 
             }
-            .listStyle(GroupedListStyle())
+//            .listStyle(GroupedListStyle())
             .navigationTitle("Ustawienia")
             .navigationBarTitleDisplayMode(.large)
 

@@ -137,7 +137,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_1)
-                                .padding(7)
+                                .padding()
                         }
                         Spacer()
                     }
@@ -163,7 +163,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_2)
-                                .padding(7)
+                                .padding()
 
                         }
                         Spacer()
@@ -189,7 +189,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_3)
-                                .padding(7)
+                                .padding()
 
                             
                         }
@@ -206,10 +206,12 @@ struct QuestionView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                 }
+//                .multilineTextAlignment(.leading)
+                .lineLimit(nil)
             }
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.large)
-            .listStyle(GroupedListStyle())
+//            .listStyle(GroupedListStyle())
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

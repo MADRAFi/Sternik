@@ -28,9 +28,6 @@ struct CategoryView: View {
                             NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                 HStack {
                                     Image("Icon_\(item.id)")
-                                        .resizable()
-                                        .scaledToFit()
-//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
                                         .padding()
                                     Text(item.category_name)
                                     Spacer()
@@ -39,20 +36,15 @@ struct CategoryView: View {
                             }
                         }
                         
-                        //                    Section {
                         
                         HStack {
                             NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie kategorie")) {
                                 HStack {
                                     Image("Icon_Learn")
-                                        .resizable()
-                                        .scaledToFit()
-//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
                                         .padding()
                                     Text("Wszystkie kategorie")
-                                        .padding(5)
+                                    Spacer()
                                 }
-                                Spacer()
                             }
                             
                         }
@@ -60,19 +52,14 @@ struct CategoryView: View {
                             NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
                                 HStack {
                                     Image("Icon_Exam")
-                                        .resizable()
-                                        .scaledToFit()
-//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
                                         .padding()
                                     Text("Egzamin próbny")
-                                        .padding(5)
+                                    Spacer()
                                 }
-                                Spacer()
+                                
                             }
                             
                         }
-                        
-                        //                    }
                         
                     }
                 }
