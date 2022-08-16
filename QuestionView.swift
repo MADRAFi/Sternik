@@ -21,7 +21,7 @@ struct QuestionView: View {
     @State var questionTotal: Int = 1        // number of all questions in set
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
-
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
     
     func calculateQuestionsTotal() -> Int {
     // calculates total number of all questions in a set (all categories)
@@ -87,6 +87,46 @@ struct QuestionView: View {
         return rowColor
     }
     
+    func advanceToNextQuestion() {
+        if ShowNextQuestion && isAnswered {
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                // code to execute after 1 second
+                NextQuestion()
+            }
+        }
+    }
+    
+    fileprivate func PreviousQuestion() {
+        if (currentQuestion > 0) {
+            currentQuestion -= 1
+        } else {
+            if (currentCategory > 0) {
+                currentCategory -= 1
+                currentQuestion = questions[currentCategory].questions.count - 1
+            }
+        }
+        if questionNumber > 1 {
+            questionNumber -= 1
+        }
+        checkAnswer()
+    }
+    
+    fileprivate func NextQuestion() {
+        if currentQuestion < questions[currentCategory].questions.count - 1 {
+            currentQuestion += 1
+        } else {
+            if (currentCategory < questions.count - 1) {
+                currentCategory += 1
+                currentQuestion = 0
+            }
+        }
+        if questionNumber < questionTotal {
+            questionNumber += 1
+        }
+        checkAnswer()
+    }
+    
     var body: some View {
 
             List {
@@ -123,7 +163,7 @@ struct QuestionView: View {
                         }
                     }
                 }
-                .listStyle(GroupedListStyle())
+//                .listStyle(GroupedListStyle())
                 
 // ---------------------------------------------------------------------------
                 Section(header: Text("Odpowiedzi")) {
@@ -146,6 +186,7 @@ struct QuestionView: View {
                         selectedRow = 1
                         questions[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 1))
@@ -173,6 +214,7 @@ struct QuestionView: View {
                         selectedRow = 2
                         questions[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 2))
@@ -200,6 +242,7 @@ struct QuestionView: View {
                         selectedRow = 3
                         questions[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 3))
@@ -226,19 +269,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if (currentQuestion > 0) {
-                            currentQuestion -= 1
-                        } else {
-                            if (currentCategory > 0) {
-                                currentCategory -= 1
-                                currentQuestion = questions[currentCategory].questions.count - 1
-                            }
-                        }
-                        if questionNumber > 1 {
-                            questionNumber -= 1
-                        }
-                        checkAnswer()
-                        
+                        PreviousQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.left.square.fill")
@@ -247,18 +278,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if currentQuestion < questions[currentCategory].questions.count - 1 {
-                            currentQuestion += 1
-                        } else {
-                            if (currentCategory < questions.count - 1) {
-                                currentCategory += 1
-                                currentQuestion = 0
-                            }
-                        }
-                        if questionNumber < questionTotal {
-                            questionNumber += 1
-                        }
-                        checkAnswer()
+                        NextQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.right.square.fill")

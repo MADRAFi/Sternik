@@ -18,6 +18,7 @@ extension Bundle {
 }
 struct SettingsView: View {
     @AppStorage("Show_Correct_Answer") private var ShowCorrect : Bool = true
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
     
     let about = Bundle.main.infoDictionary?["About"] as? String
     //    else {return print("About not found")}
@@ -31,7 +32,11 @@ struct SettingsView: View {
                             Text("Pokaż dobre odpowiedzi")
                         }
                     }
-                    //                    .foregroundColor(.primary)
+                    HStack {
+                        Toggle(isOn: $ShowNextQuestion) {
+                            Text("Pokaż następne pytanie")
+                        }
+                    }
                 }
                 
                 Section(header: Text("Informacja")) {
