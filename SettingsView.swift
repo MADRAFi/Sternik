@@ -18,9 +18,9 @@ extension Bundle {
 }
 struct SettingsView: View {
     @AppStorage("Show_Correct_Answer") private var ShowCorrect : Bool = true
-
+    
     let about = Bundle.main.infoDictionary?["About"] as? String
-//    else {return print("About not found")}
+    //    else {return print("About not found")}
     
     var body: some View {
         NavigationView {
@@ -31,7 +31,7 @@ struct SettingsView: View {
                             Text("Pokaż dobre odpowiedzi")
                         }
                     }
-//                    .foregroundColor(.primary)
+                    //                    .foregroundColor(.primary)
                 }
                 
                 Section(header: Text("Informacja")) {
@@ -40,10 +40,10 @@ struct SettingsView: View {
                             Image("About")
                                 .resizable()
                                 .scaledToFit()
-//                                .frame(height: 100)
-//                            .clipShape(RoundedRectangle(cornerRadius: 20))
-                            .cornerRadius(20)
-                            .padding()
+                            //                                .frame(height: 100)
+                            //                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                                .cornerRadius(20)
+                                .padding()
                             Text(Bundle.main.appName ?? "")
                                 .fontWeight(.medium)
                                 .font(.largeTitle)
@@ -62,9 +62,9 @@ struct SettingsView: View {
                         Text("Wersja:")
                         Spacer()
                         Text(Bundle.main.releaseVersionNumber ?? "1.0")
-
+                        
                     }
-                
+                    
                     
                 }
                 
@@ -73,15 +73,11 @@ struct SettingsView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Ustawienia")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                        Button("Wróć", action: {
-                            print("wroc")
-                        })
-                }
-            }
-            
+            .navigationBarTitleDisplayMode(.large)
+
         }
+        .navigationViewStyle(.stack)
+        
     }
 }
 struct SettingsView_Previews: PreviewProvider {
