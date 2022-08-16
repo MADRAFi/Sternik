@@ -9,62 +9,64 @@ import SwiftUI
 
 struct CategoryView: View {
     
-//    @State var questions : [categoryList]
+    //    @State var questions : [categoryList]
     @ObservedObject var data : QuestionsList
     
     var body: some View {
         NavigationView {
-            List {
-                // ---------------------------------------------------------------------------
-                Section {
-                    VStack {
-                        HStack {
-                            Text("Wybór kategorii")
-                            //                            Spacer()
-                        }
-                    }
-                }
-                // ---------------------------------------------------------------------------
-                Section {
 
+                //            Image("Background")
+                //                .resizable()
+                //                .scaledToFill()
+                //                .ignoresSafeArea()
+                ////                .opacity(0.5)
+                
+                List {
+                    Section {
+                        
                         ForEach(data.questions) { item in
-                            NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) )) {
+                            NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                 HStack {
                                     Text(String(item.id))
                                         .padding()
                                     Text(item.category_name)
                                     Spacer()
                                 }
-
+                                
                             }
-                            .navigationTitle("\(item.category_name)")
                         }
                         
-                    Section {
-  
-                            HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions)) {
-                                    Text("Wszystkie działy")
-                                        .padding(5)
-                                    Spacer()
-                                }
-                                .navigationTitle("Nauka")
+                        //                    Section {
+                        
+                        HStack {
+                            NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie kategorie")) {
+                                Text("Wszystkie kategorie")
+                                    .padding(5)
+                                Spacer()
                             }
-                            HStack {
-                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList() )) {
-                                    Text("Egzamin próbny")
-                                        .padding(5)
-                                    Spacer()
-                                }
-                                .navigationTitle("Egzamin")
+                            
+                        }
+                        HStack {
+                            NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
+                                Text("Egzamin próbny")
+                                    .padding(5)
+                                Spacer()
                             }
-
+                            
+                        }
+                        
+                        //                    }
+                        
                     }
-                    
                 }
-            }
+
+                .navigationTitle("Wybór kategorii")
+                .navigationBarTitleDisplayMode(.large)
+                
+
         }
         .navigationViewStyle(.stack)
+        
     }
 }
     struct CategoryView_Previews: PreviewProvider {

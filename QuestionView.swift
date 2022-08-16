@@ -10,6 +10,7 @@ import SwiftUI
 struct QuestionView: View {
 
     @State var questions : [categoryList]
+    @State var title: String
 //    @Binding var questions: [categoryList]
 
     @State var isAnswered: Bool = false
@@ -206,6 +207,8 @@ struct QuestionView: View {
                     .disabled(self.isAnswered)
                 }
             }
+            .navigationTitle(title)
+            .navigationBarTitleDisplayMode(.large)
             .listStyle(GroupedListStyle())
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -272,6 +275,6 @@ struct QuestionView_Previews: PreviewProvider {
     static var questions = categoryList.example_data()
     
     static var previews: some View {
-        QuestionView(questions: questions)
+        QuestionView(questions: questions, title: "Preview")
     }
 }

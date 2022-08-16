@@ -73,6 +73,7 @@ struct SettingsView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Ustawienia")
+            .navigationBarTitleDisplayMode(.large)
 
         }
         .navigationViewStyle(.stack)
