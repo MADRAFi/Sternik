@@ -217,7 +217,6 @@ struct QuestionView: View {
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationTitle("Nauka")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

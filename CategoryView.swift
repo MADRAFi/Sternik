@@ -13,13 +13,13 @@ struct CategoryView: View {
     @ObservedObject var data : QuestionsList
     
     var body: some View {
-//        NavigationView {
+        NavigationView {
             List {
                 // ---------------------------------------------------------------------------
                 Section {
                     VStack {
                         HStack {
-                            Text("Wybór testu")
+                            Text("Wybór kategorii")
                             //                            Spacer()
                         }
                     }
@@ -35,9 +35,9 @@ struct CategoryView: View {
                                     Text(item.category_name)
                                     Spacer()
                                 }
-                                //                            }
-                                //                            .navigationBarBackButtonHidden(true)
+
                             }
+                            .navigationTitle("\(item.category_name)")
                         }
                         
                     Section {
@@ -48,6 +48,7 @@ struct CategoryView: View {
                                         .padding(5)
                                     Spacer()
                                 }
+                                .navigationTitle("Nauka")
                             }
                             HStack {
                                 NavigationLink(destination: QuestionView(questions: data.generateQuestionsList() )) {
@@ -55,13 +56,15 @@ struct CategoryView: View {
                                         .padding(5)
                                     Spacer()
                                 }
+                                .navigationTitle("Egzamin")
                             }
 
                     }
                     
                 }
             }
-//        }
+        }
+        .navigationViewStyle(.stack)
     }
 }
     struct CategoryView_Previews: PreviewProvider {

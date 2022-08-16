@@ -16,14 +16,12 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            NavigationView {
-//              CategoryView(questions: data.questions)
                 CategoryView(data: data)
-            }
-            .tabItem {
-                Label("Pytania", systemImage: "filemenu.and.selection")
-            }
-            .tag(0)
+//                    .navigationViewStyle(.stack)
+                .tabItem {
+                    Label("Pytania", systemImage: "filemenu.and.selection")
+                }
+                .tag(0)
             
 //                ContentView()
 //                .tabItem {
@@ -33,12 +31,14 @@ struct MainView: View {
             
             
                 SettingsView()
+//                    .navigationViewStyle(.stack)
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
                     }
                     .tag(2)
                 
         }
+        
 
     }
 }
