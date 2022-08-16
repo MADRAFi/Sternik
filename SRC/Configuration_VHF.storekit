@@ -1,0 +1,33 @@
+{
+  "identifier" : "31D51E00",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "B4E14E39",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "com.temporary.id",
+      "referenceName" : null,
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
