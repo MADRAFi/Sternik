@@ -27,7 +27,10 @@ struct CategoryView: View {
                         ForEach(data.questions) { item in
                             NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                 HStack {
-                                    Text(String(item.id))
+                                    Image("Icon_\(item.id)")
+                                        .resizable()
+                                        .scaledToFit()
+//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
                                         .padding()
                                     Text(item.category_name)
                                     Spacer()
@@ -40,16 +43,30 @@ struct CategoryView: View {
                         
                         HStack {
                             NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie kategorie")) {
-                                Text("Wszystkie kategorie")
-                                    .padding(5)
+                                HStack {
+                                    Image("Icon_Learn")
+                                        .resizable()
+                                        .scaledToFit()
+//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
+                                        .padding()
+                                    Text("Wszystkie kategorie")
+                                        .padding(5)
+                                }
                                 Spacer()
                             }
                             
                         }
                         HStack {
                             NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
-                                Text("Egzamin próbny")
-                                    .padding(5)
+                                HStack {
+                                    Image("Icon_Exam")
+                                        .resizable()
+                                        .scaledToFit()
+//                                        .frame(maxWidth: 96, maxHeight: 96, alignment: .center)
+                                        .padding()
+                                    Text("Egzamin próbny")
+                                        .padding(5)
+                                }
                                 Spacer()
                             }
                             
