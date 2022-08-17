@@ -128,13 +128,6 @@ struct QuestionView: View {
         }
         if questionNumber < questionTotal {
             questionNumber += 1
-        } else {
-            // show stats
-            if questionTotal == answersCorrect + answersWrong {
-                showStats = true
-            } else {
-                endTime = .now
-            }
         }
         checkAnswer()
     }
@@ -144,6 +137,15 @@ struct QuestionView: View {
             answersCorrect += 1
         } else {
             answersWrong += 1
+        }
+    }
+    
+    fileprivate func checkFinished() {
+        // show stats
+        if questionTotal == answersCorrect + answersWrong {
+            endTime = .now
+            showStats = true
+
         }
     }
     
@@ -179,6 +181,8 @@ struct QuestionView: View {
                         HStack {
                             Text(String(questions[currentCategory].questions[currentQuestion].question_id))
                             Text(questions[currentCategory].questions[currentQuestion].question)
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
                                 .padding(10)
                         }
                     }
@@ -189,7 +193,8 @@ struct QuestionView: View {
                 Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
                                 .resizable()
@@ -198,16 +203,19 @@ struct QuestionView: View {
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_1)
                                 .lineLimit(nil)
-                                .padding()
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
                         questions[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
                         incrementAnswerCounters()
+                        checkFinished()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
@@ -218,7 +226,8 @@ struct QuestionView: View {
                     
                     HStack() {
                         Text("B")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
                                 .resizable()
@@ -227,17 +236,20 @@ struct QuestionView: View {
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_2)
                                 .lineLimit(nil)
-                                .padding()
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
 
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
                         questions[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
                         incrementAnswerCounters()
+                        checkFinished()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
@@ -247,7 +259,8 @@ struct QuestionView: View {
                     
                     HStack {
                         Text("C")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
                                 .resizable()
@@ -256,18 +269,21 @@ struct QuestionView: View {
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_3)
                                 .lineLimit(nil)
-                                .padding()
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
 
                             
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
                         questions[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
                         incrementAnswerCounters()
+                        checkFinished()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)

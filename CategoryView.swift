@@ -29,11 +29,11 @@ struct CategoryView: View {
                             }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie kategorie")) {
+                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Nauka")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding()
-                                        Text("Wszystkie kategorie")
+                                        Text("Nauka")
                                         Spacer()
                                     }
                                 }
@@ -55,7 +55,7 @@ struct CategoryView: View {
                             
                         }
                     }
-                    .navigationTitle("Wybór kategorii")
+                    .navigationTitle("Kategorie")
                     .navigationBarTitleDisplayMode(.large)
 
             }

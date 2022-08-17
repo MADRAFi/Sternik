@@ -19,7 +19,7 @@ struct StatsView: View {
     
     var body: some View {
         
-        let diffComponents = Calendar.current.dateComponents([.hour, .minute, .second], from: endTime, to: startTime)
+        let diffComponents = Calendar.current.dateComponents([.hour, .minute, .second], from: startTime, to: endTime)
         let hours = diffComponents.hour
         let minutes = diffComponents.minute
         let seconds = diffComponents.second
