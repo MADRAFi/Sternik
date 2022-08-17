@@ -29,7 +29,7 @@ struct SettingsView: View {
                 Section(header: Text("Pytania"))  {
                     HStack {
                         Toggle(isOn: $ShowCorrect) {
-                            Text("Pokaż dobre odpowiedzi")
+                            Text("Pokaż prawidłowe odpowiedzi")
                         }
                     }
                     HStack {
@@ -51,27 +51,27 @@ struct SettingsView: View {
                                 .fontWeight(.medium)
                                 .font(.largeTitle)
                         }
-//                        .frame(height: 150)
-                        VStack{
+                        .frame(height: 150)
+                        
+                        VStack(alignment: .leading){
                             Text(about ?? "")
-                            Spacer()
+                                .padding(.vertical)
+//                            Spacer()
                             Text("Pytania w aplikacji pochodzą z udostępionych w internecie materiałów do nauki.")
                         }
                         .multilineTextAlignment(.leading)
                         .lineLimit(nil)
                     }
                     .padding(.vertical)
-                    
+                }
+                Section {
                     HStack {
                         Text("Wersja:")
                         Spacer()
                         Text(Bundle.main.releaseVersionNumber ?? "1.0")
                         
                     }
-                    
-                    
                 }
-                
                 
                 
             }
