@@ -14,11 +14,17 @@ struct QuestionView: View {
 //    @Binding var questions: [categoryList]
 
     @State var isAnswered: Bool = false
+    @State var showStats: Bool = false
     @State var selectedRow : Int = 0
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
     @State var questionTotal: Int = 1        // number of all questions in set
+    @State var answersCorrect: Int = 0
+    @State var answersWrong: Int = 0
+    @State var startTime: Date = .now
+    @State var endTime: Date = .now
+    
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
@@ -52,7 +58,7 @@ struct QuestionView: View {
             isAnswered = true
         }
     }
-    func ValidateAnswer() -> Bool {
+    func validateAnswer() -> Bool {
         if  questions[currentCategory].questions[currentQuestion].correct == questions[currentCategory].questions[currentQuestion].choice {
             return true
         } else {
@@ -63,8 +69,7 @@ struct QuestionView: View {
         var rowColor: Color = Color.clear
         
         if isAnswered {
-            if ValidateAnswer() {
-
+            if validateAnswer() {
                 if selected == current && selected == questions[currentCategory].questions[currentQuestion].choice {
                     rowColor = Color("Positive")
                 } else {
@@ -92,12 +97,12 @@ struct QuestionView: View {
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 // code to execute after 1 second
-                NextQuestion()
+                nextQuestion()
             }
         }
     }
     
-    fileprivate func PreviousQuestion() {
+    fileprivate func previousQuestion() {
         if (currentQuestion > 0) {
             currentQuestion -= 1
         } else {
@@ -112,7 +117,7 @@ struct QuestionView: View {
         checkAnswer()
     }
     
-    fileprivate func NextQuestion() {
+    fileprivate func nextQuestion() {
         if currentQuestion < questions[currentCategory].questions.count - 1 {
             currentQuestion += 1
         } else {
@@ -123,13 +128,30 @@ struct QuestionView: View {
         }
         if questionNumber < questionTotal {
             questionNumber += 1
+        } else {
+            // show stats
+            if questionTotal == answersCorrect + answersWrong {
+                endTime = .now
+                showStats = true
+            }
         }
         checkAnswer()
     }
     
+    fileprivate func incrementAnswerCounters() {
+        if validateAnswer() {
+            answersCorrect += 1
+        } else {
+            answersWrong += 1
+        }
+    }
+    
     var body: some View {
+        
+        var formatStyle = Date.RelativeFormatStyle()
+        
 
-            List {
+        List {
 // ---------------------------------------------------------------------------
                 Section {
                     VStack {
@@ -146,12 +168,12 @@ struct QuestionView: View {
                         ProgressView(value: Float(questionNumber) / Float(questionTotal))
                             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                             .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
-
+//                        Text(startTime, style: .relative)
+                        Text(startTime, style: .relative)
+                        
                     }
                 }
-                .onAppear {
-                    questionTotal = self.calculateQuestionsTotal()
-                }
+
                 
 // ---------------------------------------------------------------------------
                 Section(header: Text("Pytanie")) {
@@ -186,6 +208,7 @@ struct QuestionView: View {
                         selectedRow = 1
                         questions[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
+                        incrementAnswerCounters()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
@@ -214,6 +237,7 @@ struct QuestionView: View {
                         selectedRow = 2
                         questions[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
+                        incrementAnswerCounters()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
@@ -242,6 +266,7 @@ struct QuestionView: View {
                         selectedRow = 3
                         questions[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
+                        incrementAnswerCounters()
                         advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
@@ -255,6 +280,16 @@ struct QuestionView: View {
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.large)
 //            .listStyle(GroupedListStyle())
+            .onAppear {
+                questionTotal = self.calculateQuestionsTotal()
+                startTime = .now
+                formatStyle.presentation = .numeric
+                startTime.formatted(formatStyle)
+            }
+            .sheet(isPresented: $showStats) {
+                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
+
+            }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
@@ -269,7 +304,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        PreviousQuestion()
+                        previousQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.left.square.fill")
@@ -278,7 +313,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        NextQuestion()
+                        nextQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.right.square.fill")
