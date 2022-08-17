@@ -26,19 +26,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Pytania"))  {
-                    HStack {
-                        Toggle(isOn: $ShowCorrect) {
-                            Text("Pokaż prawidłowe odpowiedzi")
-                        }
-                    }
-                    HStack {
-                        Toggle(isOn: $ShowNextQuestion) {
-                            Text("Pokaż następne pytanie")
-                        }
-                    }
-                }
-                
                 Section(header: Text("Informacja")) {
                     VStack {
                         HStack {
@@ -64,6 +51,20 @@ struct SettingsView: View {
                     }
                     .padding(.vertical)
                 }
+                
+                Section(header: Text("Pytania"))  {
+                    HStack {
+                        Toggle(isOn: $ShowCorrect) {
+                            Text("Pokaż prawidłowe odpowiedzi")
+                        }
+                    }
+                    HStack {
+                        Toggle(isOn: $ShowNextQuestion) {
+                            Text("Pokaż następne pytanie")
+                        }
+                    }
+                }
+                
                 Section {
                     HStack {
                         Text("Wersja:")
