@@ -34,11 +34,13 @@ struct SettingsView: View {
                                 .scaledToFit()
                                 .cornerRadius(20)
                                 .padding()
+                                .frame(height: 150)
                             Text(Bundle.main.appName ?? "")
                                 .fontWeight(.medium)
-                                .font(.largeTitle)
+                                .font(.title)
+                                .multilineTextAlignment(.leading)
                         }
-                        .frame(height: 150)
+
                         
                         VStack(alignment: .leading){
                             Text(about ?? "")
@@ -48,6 +50,7 @@ struct SettingsView: View {
                         }
                         .multilineTextAlignment(.leading)
                         .lineLimit(nil)
+                        .fixedSize(horizontal: false, vertical: true)
                     }
                     .padding(.vertical)
                 }

@@ -141,7 +141,7 @@ struct QuestionView: View {
     }
     
     fileprivate func checkFinished() {
-        // show stats
+        // show stats view
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true

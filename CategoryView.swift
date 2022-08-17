@@ -20,7 +20,8 @@ struct CategoryView: View {
                                 NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                     HStack {
                                         Image("Icon_\(item.id)")
-                                            .padding()
+                                            .padding(.vertical, 8)
+                                            .padding(.horizontal)
                                         Text(item.category_name)
                                         Spacer()
                                     }
@@ -32,7 +33,8 @@ struct CategoryView: View {
                                 NavigationLink(destination: QuestionView(questions: data.questions, title: "Nauka")) {
                                     HStack {
                                         Image("Icon_Learn")
-                                            .padding()
+                                            .padding(.vertical, 8)
+                                            .padding(.horizontal)
                                         Text("Nauka")
                                         Spacer()
                                     }
@@ -44,7 +46,8 @@ struct CategoryView: View {
                                 NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
                                     HStack {
                                         Image("Icon_Exam")
-                                            .padding()
+                                            .padding(.vertical, 8)
+                                            .padding(.horizontal)
                                         Text("Egzamin próbny")
                                         Spacer()
                                     }
