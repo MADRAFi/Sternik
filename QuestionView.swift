@@ -11,7 +11,6 @@ struct QuestionView: View {
 
     @State var questions : [categoryList]
     @State var title: String
-//    @Binding var questions: [categoryList]
 
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
@@ -28,6 +27,7 @@ struct QuestionView: View {
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
+      
     
     func calculateQuestionsTotal() -> Int {
     // calculates total number of all questions in a set (all categories)
@@ -96,7 +96,7 @@ struct QuestionView: View {
         if ShowNextQuestion && isAnswered {
 
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                // code to execute after 1 second
+            // code to execute after 1 second
                 nextQuestion()
             }
         }
@@ -131,8 +131,9 @@ struct QuestionView: View {
         } else {
             // show stats
             if questionTotal == answersCorrect + answersWrong {
-                endTime = .now
                 showStats = true
+            } else {
+                endTime = .now
             }
         }
         checkAnswer()
@@ -148,9 +149,6 @@ struct QuestionView: View {
     
     var body: some View {
         
-        var formatStyle = Date.RelativeFormatStyle()
-        
-
         List {
 // ---------------------------------------------------------------------------
                 Section {
@@ -169,7 +167,7 @@ struct QuestionView: View {
                             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                             .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
 //                        Text(startTime, style: .relative)
-                        Text(startTime, style: .relative)
+
                         
                     }
                 }
@@ -199,6 +197,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_1)
+                                .lineLimit(nil)
                                 .padding()
                         }
                         Spacer()
@@ -227,6 +226,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_2)
+                                .lineLimit(nil)
                                 .padding()
 
                         }
@@ -255,6 +255,7 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_3)
+                                .lineLimit(nil)
                                 .padding()
 
                             
@@ -282,14 +283,17 @@ struct QuestionView: View {
 //            .listStyle(GroupedListStyle())
             .onAppear {
                 questionTotal = self.calculateQuestionsTotal()
-                startTime = .now
-                formatStyle.presentation = .numeric
-                startTime.formatted(formatStyle)
+                if questionTotal == answersCorrect + answersWrong && showStats == true {
+                    showStats = false
+//                    self.presentationMode.wrappedValue.dismiss()
+                } else {
+                    startTime = .now
+                }
             }
             .sheet(isPresented: $showStats) {
                 StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
-
             }
+
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

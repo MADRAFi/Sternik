@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StatsView: View {
-
+    
     @Binding var showStats: Bool
     
     @Binding var startTime: Date
@@ -19,11 +19,11 @@ struct StatsView: View {
     
     var body: some View {
         
-        let diffComponents = Calendar.current.dateComponents([.hour, .minute, .second], from: startTime, to: endTime)
+        let diffComponents = Calendar.current.dateComponents([.hour, .minute, .second], from: endTime, to: startTime)
         let hours = diffComponents.hour
         let minutes = diffComponents.minute
         let seconds = diffComponents.second
-
+        
         
         NavigationView {
             VStack {
@@ -33,7 +33,7 @@ struct StatsView: View {
                             Text("Czas")
                             Spacer()
                             Text("\(hours!, specifier: "%.2d"):\(minutes!, specifier: "%.2d"):\(seconds!, specifier: "%.2d")" )
-
+                            
                         }
                     }
                     Section {
@@ -61,30 +61,34 @@ struct StatsView: View {
                         }
                     }
                 }
-                HStack {
-                    Spacer()
-                    Button("Zamknij") {
-//                        presentationMode.wrappedValue.dismiss()
-                        showStats = false
-                    }
-
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(Color("AccentColor"))
-                    .foregroundColor(Color.primary)
-                    .clipShape(Capsule())
-                    Spacer()
+                Button(action: {
+                    showStats = false
+                }) {
+                  HStack {
+                    Text("Zamknij")
+                        .padding()
+                  }
+                  .frame(maxWidth: .infinity)
                 }
+                .contentShape(Rectangle())
+                .background(Color("AccentColor"))
+                .foregroundColor(Color.primary)
+                .clipShape(Capsule())
+                .padding()
+                
             }
-            .navigationTitle("Statystyki")
+            
         }
+        .navigationTitle("Statystyki")
         .navigationViewStyle(.stack)
     }
+
 }
+
 
 struct StatsView_Previews: PreviewProvider {
     
     static var previews: some View {
-        StatsView(showStats: .constant(true), startTime: .constant(Date()),endTime: .constant(Date().addingTimeInterval(12)), questionTotal: .constant(75), answersCorrect: .constant(65), answersWrong: .constant(10))
+        StatsView(showStats: .constant(true), startTime: .constant(Date().addingTimeInterval(12)),endTime: .constant(Date()), questionTotal: .constant(75), answersCorrect: .constant(65), answersWrong: .constant(10))
     }
 }
