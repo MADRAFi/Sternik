@@ -18,6 +18,7 @@ extension Bundle {
 }
 struct SettingsView: View {
     @AppStorage("Show_Correct_Answer") private var ShowCorrect : Bool = true
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
     
     let about = Bundle.main.infoDictionary?["About"] as? String
     //    else {return print("About not found")}
@@ -25,23 +26,12 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Pytania"))  {
-                    HStack {
-                        Toggle(isOn: $ShowCorrect) {
-                            Text("Pokaż dobre odpowiedzi")
-                        }
-                    }
-                    //                    .foregroundColor(.primary)
-                }
-                
                 Section(header: Text("Informacja")) {
                     VStack {
                         HStack {
                             Image("About")
                                 .resizable()
                                 .scaledToFit()
-                            //                                .frame(height: 100)
-                            //                            .clipShape(RoundedRectangle(cornerRadius: 20))
                                 .cornerRadius(20)
                                 .padding()
                             Text(Bundle.main.appName ?? "")
@@ -49,30 +39,46 @@ struct SettingsView: View {
                                 .font(.largeTitle)
                         }
                         .frame(height: 150)
-                        VStack{
+                        
+                        VStack(alignment: .leading){
                             Text(about ?? "")
+                                .padding(.vertical)
+//                            Spacer()
                             Text("Pytania w aplikacji pochodzą z udostępionych w internecie materiałów do nauki.")
-                                .frame(width: 350, height: 100)
                         }
-                        .frame(width: 350, height: 200)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(nil)
                     }
                     .padding(.vertical)
-                    
+                }
+                
+                Section(header: Text("Pytania"))  {
+                    HStack {
+                        Toggle(isOn: $ShowCorrect) {
+                            Text("Pokaż prawidłowe odpowiedzi")
+                        }
+                    }
+                    HStack {
+                        Toggle(isOn: $ShowNextQuestion) {
+                            Text("Pokaż następne pytanie")
+                        }
+                    }
+                }
+                
+                Section {
                     HStack {
                         Text("Wersja:")
                         Spacer()
                         Text(Bundle.main.releaseVersionNumber ?? "1.0")
                         
                     }
-                    
-                    
                 }
                 
                 
-                
             }
-            .listStyle(GroupedListStyle())
+//            .listStyle(GroupedListStyle())
             .navigationTitle("Ustawienia")
+            .navigationBarTitleDisplayMode(.large)
 
         }
         .navigationViewStyle(.stack)

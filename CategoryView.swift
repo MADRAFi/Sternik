@@ -9,62 +9,59 @@ import SwiftUI
 
 struct CategoryView: View {
     
-//    @State var questions : [categoryList]
     @ObservedObject var data : QuestionsList
     
     var body: some View {
-        NavigationView {
-            List {
-                // ---------------------------------------------------------------------------
-                Section {
-                    VStack {
-                        HStack {
-                            Text("Wybór kategorii")
-                            //                            Spacer()
+        
+            NavigationView {
+                    List {
+                        Section {
+                            ForEach(data.questions) { item in
+                                NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                    HStack {
+                                        Image("Icon_\(item.id)")
+                                            .padding()
+                                        Text(item.category_name)
+                                        Spacer()
+                                    }
+                                    
+                                }
+                            }
+                            
+                            HStack {
+                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Nauka")) {
+                                    HStack {
+                                        Image("Icon_Learn")
+                                            .padding()
+                                        Text("Nauka")
+                                        Spacer()
+                                    }
+                                }
+                                
+                            }
+                            
+                            HStack {
+                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
+                                    HStack {
+                                        Image("Icon_Exam")
+                                            .padding()
+                                        Text("Egzamin próbny")
+                                        Spacer()
+                                    }
+                                    
+                                }
+                                
+                            }
+                            
                         }
                     }
-                }
-                // ---------------------------------------------------------------------------
-                Section {
+                    .navigationTitle("Kategorie")
+                    .navigationBarTitleDisplayMode(.large)
 
-                        ForEach(data.questions) { item in
-                            NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) )) {
-                                HStack {
-                                    Text(String(item.id))
-                                        .padding()
-                                    Text(item.category_name)
-                                    Spacer()
-                                }
-
-                            }
-                            .navigationTitle("\(item.category_name)")
-                        }
-                        
-                    Section {
-  
-                            HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions)) {
-                                    Text("Wszystkie działy")
-                                        .padding(5)
-                                    Spacer()
-                                }
-                                .navigationTitle("Nauka")
-                            }
-                            HStack {
-                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList() )) {
-                                    Text("Egzamin próbny")
-                                        .padding(5)
-                                    Spacer()
-                                }
-                                .navigationTitle("Egzamin")
-                            }
-
-                    }
-                    
-                }
             }
-        }
-        .navigationViewStyle(.stack)
+            .navigationViewStyle(.stack)
+
+        
     }
 }
     struct CategoryView_Previews: PreviewProvider {

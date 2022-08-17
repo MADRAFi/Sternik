@@ -257,7 +257,7 @@
     ]
 },
 {   "id" : 4,
-    "category_name" : "Obsługa urządzen radiowych",
+    "category_name" : "Obsługa urządzeń radiowych",
     "exam": 2,
     "questions" : [{
         "question_id" : 201,

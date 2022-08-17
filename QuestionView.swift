@@ -10,17 +10,24 @@ import SwiftUI
 struct QuestionView: View {
 
     @State var questions : [categoryList]
-//    @Binding var questions: [categoryList]
+    @State var title: String
 
     @State var isAnswered: Bool = false
+    @State var showStats: Bool = false
     @State var selectedRow : Int = 0
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
     @State var questionTotal: Int = 1        // number of all questions in set
+    @State var answersCorrect: Int = 0
+    @State var answersWrong: Int = 0
+    @State var startTime: Date = .now
+    @State var endTime: Date = .now
+    
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
-
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
+      
     
     func calculateQuestionsTotal() -> Int {
     // calculates total number of all questions in a set (all categories)
@@ -51,7 +58,7 @@ struct QuestionView: View {
             isAnswered = true
         }
     }
-    func ValidateAnswer() -> Bool {
+    func validateAnswer() -> Bool {
         if  questions[currentCategory].questions[currentQuestion].correct == questions[currentCategory].questions[currentQuestion].choice {
             return true
         } else {
@@ -62,8 +69,7 @@ struct QuestionView: View {
         var rowColor: Color = Color.clear
         
         if isAnswered {
-            if ValidateAnswer() {
-
+            if validateAnswer() {
                 if selected == current && selected == questions[currentCategory].questions[currentQuestion].choice {
                     rowColor = Color("Positive")
                 } else {
@@ -86,31 +92,91 @@ struct QuestionView: View {
         return rowColor
     }
     
-    var body: some View {
+    func advanceToNextQuestion() {
+        if ShowNextQuestion && isAnswered {
 
-            List {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            // code to execute after 1 second
+                nextQuestion()
+            }
+        }
+    }
+    
+    fileprivate func previousQuestion() {
+        if (currentQuestion > 0) {
+            currentQuestion -= 1
+        } else {
+            if (currentCategory > 0) {
+                currentCategory -= 1
+                currentQuestion = questions[currentCategory].questions.count - 1
+            }
+        }
+        if questionNumber > 1 {
+            questionNumber -= 1
+        }
+        checkAnswer()
+    }
+    
+    fileprivate func nextQuestion() {
+        if currentQuestion < questions[currentCategory].questions.count - 1 {
+            currentQuestion += 1
+        } else {
+            if (currentCategory < questions.count - 1) {
+                currentCategory += 1
+                currentQuestion = 0
+            }
+        }
+        if questionNumber < questionTotal {
+            questionNumber += 1
+        }
+        checkAnswer()
+    }
+    
+    fileprivate func incrementAnswerCounters() {
+        if validateAnswer() {
+            answersCorrect += 1
+        } else {
+            answersWrong += 1
+        }
+    }
+    
+    fileprivate func checkFinished() {
+        // show stats
+        if questionTotal == answersCorrect + answersWrong {
+            endTime = .now
+            showStats = true
+
+        }
+    }
+    
+    var body: some View {
+        
+        List {
 // ---------------------------------------------------------------------------
                 Section {
                     VStack {
-                        HStack {
-                            
-                            Text(String(questionNumber))
-                            Text("/")
-                            Text(String(questionTotal))
-                            Spacer()
+                        HStack() {
                             Text(String(questions[currentCategory].id) + ":")
                             Text(questions[currentCategory].category_name)
+                            Spacer()
                         }
-
                         ProgressView(value: Float(questionNumber) / Float(questionTotal))
                             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                             .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
+                        HStack {
+                            //                        Text(startTime, style: .relative)
+                            Spacer()
+                            Text(String(questionNumber))
+                            Text("/")
+                            Text(String(questionTotal))
 
+                        }
+
+
+                        
                     }
                 }
-                .onAppear {
-                    questionTotal = self.calculateQuestionsTotal()
-                }
+
                 
 // ---------------------------------------------------------------------------
                 Section(header: Text("Pytanie")) {
@@ -118,17 +184,20 @@ struct QuestionView: View {
                         HStack {
                             Text(String(questions[currentCategory].questions[currentQuestion].question_id))
                             Text(questions[currentCategory].questions[currentQuestion].question)
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
                                 .padding(10)
                         }
                     }
                 }
-                .listStyle(GroupedListStyle())
+//                .listStyle(GroupedListStyle())
                 
 // ---------------------------------------------------------------------------
                 Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
                                 .resizable()
@@ -136,15 +205,21 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_1)
-                                .padding(7)
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
                         questions[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
+                        incrementAnswerCounters()
+                        checkFinished()
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 1))
@@ -154,7 +229,8 @@ struct QuestionView: View {
                     
                     HStack() {
                         Text("B")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
                                 .resizable()
@@ -162,16 +238,22 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_2)
-                                .padding(7)
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
 
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
                         questions[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
+                        incrementAnswerCounters()
+                        checkFinished()
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 2))
@@ -180,7 +262,8 @@ struct QuestionView: View {
                     
                     HStack {
                         Text("C")
-                            .padding()
+                            .padding(.horizontal)
+                            .padding(.vertical, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
                                 .resizable()
@@ -188,25 +271,48 @@ struct QuestionView: View {
                                 .frame(width: 128, height: 128)
                         } else {
                             Text(questions[currentCategory].questions[currentQuestion].answer_3)
-                                .padding(7)
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .padding(.vertical, 5)
 
                             
                         }
                         Spacer()
                     }
+                    .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
                         questions[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
+                        incrementAnswerCounters()
+                        checkFinished()
+                        advanceToNextQuestion()
                     }
                     .foregroundColor(.primary)
                     .background(getRowColor(selected: selectedRow, current: 3))
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                 }
+//                .multilineTextAlignment(.leading)
+                .lineLimit(nil)
             }
-            .listStyle(GroupedListStyle())
+            .navigationTitle(title)
+            .navigationBarTitleDisplayMode(.large)
+//            .listStyle(GroupedListStyle())
+            .onAppear {
+                questionTotal = self.calculateQuestionsTotal()
+                if questionTotal == answersCorrect + answersWrong && showStats == true {
+                    showStats = false
+//                    self.presentationMode.wrappedValue.dismiss()
+                } else {
+                    startTime = .now
+                }
+            }
+            .sheet(isPresented: $showStats) {
+                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
+            }
+
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
@@ -221,19 +327,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if (currentQuestion > 0) {
-                            currentQuestion -= 1
-                        } else {
-                            if (currentCategory > 0) {
-                                currentCategory -= 1
-                                currentQuestion = questions[currentCategory].questions.count - 1
-                            }
-                        }
-                        if questionNumber > 1 {
-                            questionNumber -= 1
-                        }
-                        checkAnswer()
-                        
+                        previousQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.left.square.fill")
@@ -242,18 +336,7 @@ struct QuestionView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        if currentQuestion < questions[currentCategory].questions.count - 1 {
-                            currentQuestion += 1
-                        } else {
-                            if (currentCategory < questions.count - 1) {
-                                currentCategory += 1
-                                currentQuestion = 0
-                            }
-                        }
-                        if questionNumber < questionTotal {
-                            questionNumber += 1
-                        }
-                        checkAnswer()
+                        nextQuestion()
                     },
                         label: {
                             Image(systemName: "arrow.right.square.fill")
@@ -272,6 +355,6 @@ struct QuestionView_Previews: PreviewProvider {
     static var questions = categoryList.example_data()
     
     static var previews: some View {
-        QuestionView(questions: questions)
+        QuestionView(questions: questions, title: "Preview")
     }
 }

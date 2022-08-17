@@ -17,7 +17,6 @@ struct MainView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
                 CategoryView(data: data)
-//                    .navigationViewStyle(.stack)
                 .tabItem {
                     Label("Pytania", systemImage: "filemenu.and.selection")
                 }
@@ -31,7 +30,6 @@ struct MainView: View {
             
             
                 SettingsView()
-//                    .navigationViewStyle(.stack)
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
                     }
