@@ -204,6 +204,10 @@
         "answer_3" : "70",
         "correct" : 3
         }
+        
+        
+        
+        
     ]
 },
 {   "id" : 2,
@@ -2366,9 +2370,9 @@
         "question" : "Ustaw intensywność podświetlenia wyświetlacza i przycisków w radiotelefonie VHF.",
         "question_image" : "",
         "images" : false,
-        "answer_1" : "Za pomocą przycisków ◄ ► przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie",
+        "answer_1" : "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie",
         "answer_2" : "ZaZa pomocą  przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie, za pomocą przycisku ENT zatwierdź ustawienia podświetlenia",
-        "answer_3" : "Za pomocą przycisków ◄ ► przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą pokrętła VOL/SQL ustaw intensywność podświetlenia",
+        "answer_3" : "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą pokrętła VOL/SQL ustaw intensywność podświetlenia",
         "correct" : 3
         },
         {
@@ -2376,9 +2380,9 @@
         "question" : "Sprawdź, które kanały są wpisane do pamięci skanowania radiotelefonu.",
         "question_image" : "",
         "images" : false,
-        "answer_1" : "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem * Wciśnij i przytrzymaj przez 3 sekundy przycisk funkcyjny [*]",
-        "answer_2" : "ZaDo pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem * Naciśnij jednocześnie przyciski funkcyjne SCAN i [*]",
-        "answer_3" : "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem * Za pomocą przycisków CH sprawdź, który kanał oznaczony jest na wyświetlaczu symbolem *",
+        "answer_1" : "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Wciśnij i przytrzymaj przez 3 sekundy przycisk funkcyjny *️⃣",
+        "answer_2" : "ZaDo pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Naciśnij jednocześnie przyciski funkcyjne SCAN i *️⃣",
+        "answer_3" : "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Za pomocą przycisków CH sprawdź, który kanał oznaczony jest na wyświetlaczu symbolem ✽",
         "correct" : 1
         }, 
         {
@@ -2386,7 +2390,7 @@
         "question" : "Dodaj kanały 6,13 i 16 do listy skaningowej w radiotelefonie VHF.",
         "question_image" : "",
         "images" : false,
-        "answer_1" : "Za pomocą przycisków CH ustaw kanał 6, wciśnij przycisk funkcyjny [*], powtórz to samo dla kanału 13 i kanału 16.",
+        "answer_1" : "Za pomocą przycisków CH ustaw kanał 6, wciśnij przycisk funkcyjny *️⃣, powtórz to samo dla kanału 13 i kanału 16.",
         "answer_2" : "ZaWciśnij przycisk funkcyjny SCAN, w ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, wciśnij przycisk ENT.",
         "answer_3" : "W ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, naciśnij przycisk funkcyjny SCAN.",
         "correct" : 1
@@ -2456,9 +2460,9 @@
         "question" : "Wprowadź pozycję geograficzną oraz aktualny czas.",
         "question_image" : "",
         "images" : false,
-        "answer_1" : " Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, Scan Timer, za pomocą przycisków ▲, ▼, ◄, ►, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
-        "answer_2" : "ZaWciśnij przycisk MENU, wybierz ścieżkę: Configuration, UTC Offset, za pomocą przycisków ▲, ▼, ◄, ►, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
-        "answer_3" : "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Position Input, za pomocą przycisków ▲, ▼, ◄, ►, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+        "answer_1" : " Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, Scan Timer, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+        "answer_2" : "ZaWciśnij przycisk MENU, wybierz ścieżkę: Configuration, UTC Offset, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+        "answer_3" : "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Position Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
         "correct" : 3
         }, 
         {
@@ -2466,9 +2470,9 @@
         "question" : "Wprowadź do rejestru radiotelefonu numer MMSI duńskiej stacji brzegowej Lyngby.",
         "question_image" : "",
         "images" : false,
-        "answer_1" : "  Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, naciśnij przycisk funkcyjny ADD,  za pomocą  przycisków ▲,  ▼,  ◄,  ►, ENT wprowadź kolejno: ID stacji (002191000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
-        "answer_2" : "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, Manual Input, za pomocą przycisków ▲, ▼, ◄, ►, ENT wprowadź kolejno: ID stacji (002619000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
-        "answer_3" : "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, za pomocą przycisków ▲, ▼, ◄, ►, ENT wprowadź kolejno: ID stacji (002610100) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH.",
+        "answer_1" : "  Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, naciśnij przycisk funkcyjny ADD,  za pomocą  przycisków ▲,  ▼,  ◀︎,  ▶︎, ENT wprowadź kolejno: ID stacji (002191000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+        "answer_2" : "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, Manual Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002619000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+        "answer_3" : "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002610100) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH.",
         "correct" : 1
         },     
         {
