@@ -228,6 +228,586 @@
         "answer_2" : "I am having fire in superstructure.",
         "answer_3" : "Superstructure on fire.",
         "correct" : 3
+        },
+        {
+        "question_id" : 117,
+        "question" : "Nabieram wody.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am flooding.",
+        "answer_2" : "I am making water",
+        "answer_3" : "I am taking water.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 118,
+        "question" : "Czy możecie udzielić pomocy?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Are you helping me?",
+        "answer_2" : "Can you render assistance?",
+        "answer_3" : "Do you help me? ",
+        "correct" : 2
+        },
+        {
+        "question_id" : 119,
+        "question" : "Czy możesz podjąć rozbitków?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Can you receive survivors?",
+        "answer_2" : "Can you require survivors?",
+        "answer_3" : "Can you pick up survivors?",
+        "correct" : 3
+        },
+        {
+        "question_id" : 120,
+        "question" : "Widzialność jest zmniejszona z powodu mgły.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Visibility is getting foggy.",
+        "answer_2" : "Visibility is reduced by fog.",
+        "answer_3" : "Visibility is reduced by snow.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 121,
+        "question" : "Podaj liczbę rannych.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Say injured persons.",
+        "answer_2" : "Inform injured.",
+        "answer_3" : "Report injured persons.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 122,
+        "question" : "Stan rozbitków jest dobry.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Survivors in good condition.",
+        "answer_2" : "Survivors are good.",
+        "answer_3" : "Survivors in bad condition. ",
+        "correct" : 1
+        },
+        {
+        "question_id" : 123,
+        "question" : "Przechodzę na kanał … UKF.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am coming to canal ... VHF.",
+        "answer_2" : "I am going to channel ... UKF.",
+        "answer_3" : "Changing to channel ... VHF.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 124,
+        "question" : "Śruba statku jest uszkodzona.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Propeller damaged.",
+        "answer_2" : "Bolt damaged. ",
+        "answer_3" : "Propeller are damaged.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 125,
+        "question" : "Zalecam ci przejść na kanał UKF",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I recommend to come to channel VHF.",
+        "answer_2" : "I recommend to switch on to UKF channel.",
+        "answer_3" : "Advise go to VHF channel.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 126,
+        "question" : "Dryfuję z prędkością 2 węzłów.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am adrift.",
+        "answer_2" : "I am drifting at 2 knots.",
+        "answer_3" : "I am proceeding with drift.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 127,
+        "question" : "Brak zasilania.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "No current.",
+        "answer_2" : "No feedback.",
+        "answer_3" : "No power supply.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 128,
+        "question" : "Kiedy nadejdzie pomoc?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "When is assistance going?",
+        "answer_2" : "When help is to come?",
+        "answer_3" : "When will assistance arrive?",
+        "correct" : 3
+        },
+        {
+        "question_id" : 129,
+        "question" : "Mam kłopoty z silnikiem głównym.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I do not have main engine.",
+        "answer_2" : "I have difficulty with main engine",
+        "answer_3" : "I have problems with main engine.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 130,
+        "question" : "Mam niebezpieczny przechył na lewą burtę.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have dangerous list to port.",
+        "answer_2" : "I am having a heel to left side.",
+        "answer_3" : "I am heel dangerously to port.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 131,
+        "question" : "Mam problemy z urządzeniem sterowym.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have problems with steering gear.",
+        "answer_2" : "I have problems with rudder.",
+        "answer_3" : "I have problems with steering.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 132,
+        "question" : "I read you (dobrze).",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "fair",
+        "answer_2" : "good",
+        "answer_3" : "very well",
+        "correct" : 2
+        },
+        {
+        "question_id" : 133,
+        "question" : "Nie odpowiadam za swoje ruchy.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am not responsible for my movements.",
+        "answer_2" : "I do not have responsibility for my moving.",
+        "answer_3" : "I am not under command.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 134,
+        "question" : "How do you (odbierasz mnie)?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "listen to me",
+        "answer_2" : "read me",
+        "answer_3" : "receive me",
+        "correct" : 2
+        },
+        {
+        "question_id" : 135,
+        "question" : "I am sinking (po zalaniu).",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "after flowing.",
+        "answer_2" : "before flooding.",
+        "answer_3" : "after flooding.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 136,
+        "question" : "Odebrałem twój sygnał Mayday.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I can read your Mayday message.",
+        "answer_2" : "I have copied your Mayday signal.",
+        "answer_3" : "I have received your Mayday signal.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 137,
+        "question" : "Muszę opuścić statek po zderzeniu.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have to leave vessel before collision.",
+        "answer_2" : "I have to abandon ship after crash.",
+        "answer_3" : "I must abandon vessel after collision.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 138,
+        "question" : "Utrzymuj kontakt radiowy na kanale.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Stay in touch on radio on channel.",
+        "answer_2" : "Remain contact on radio channel.",
+        "answer_3" : "Stand by on radio channel.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 139,
+        "question" : "Jakie jest wasze obecne maksymalne zanurzenie?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "What is your present maximum freeboard?",
+        "answer_2" : "What is your present air draft?",
+        "answer_3" : "What is your present maximum draft? ",
+        "correct" : 3
+        },
+        {
+        "question_id" : 140,
+        "question" : "Nie mogę płynąć bez pomocy.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I do not have to sail without assistance.",
+        "answer_2" : "I cannot proceed without assistance.",
+        "answer_3" : "I can’t proceeded without assistance.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 141,
+        "question" : "Załoga opuściła statek.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Crew left ship.",
+        "answer_2" : "Crew are abandoning vessel.",
+        "answer_3" : "Crew has abandoned vessel.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 142,
+        "question" : "Mam poważne uszkodzenia przyrządów nawigacyjnych.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have major damage to navigational instruments.",
+        "answer_2" : "I have seriously damaged my navigational instruments.",
+        "answer_3" : "My navigational instruments have damaged seriously.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 143,
+        "question" : "Utrzymuj nasłuch na kanale UKF.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Stand by on channel VHF.",
+        "answer_2" : "Keep listening on channel UKF.",
+        "answer_3" : "Keep watch on channel UKF.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 144,
+        "question" : "Proszę o holownik i karetkę dla ofiar wypadku",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Give me tug and ambulance.",
+        "answer_2" : "Send tug and ambulance for survivors.",
+        "answer_3" : "Send tug and ambulance for casualties.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 145,
+        "question" : "Powiedz jeszcze raz proszę.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Tell me once more please.",
+        "answer_2" : "Say again please.",
+        "answer_3" : "Repeat please.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 146,
+        "question" : "Przewidywane jest pogorszenie widzialności.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Visibility is getting bad.",
+        "answer_2" : "Visibility is deteriorating.",
+        "answer_3" : "Visibility is expected to decrease.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 147,
+        "question" : "Stan rozbitków jest zły.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Condition of castaways is not bad.",
+        "answer_2" : "Survivors in bad condition.",
+        "answer_3" : "Survivors are bad.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 148,
+        "question" : "Mój radar jest uszkodzony.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "My radar is damaged.",
+        "answer_2" : "My radar has damaged.",
+        "answer_3" : "My radar brake down.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 149,
+        "question" : "Zderzyłem się z nieznanym obiektem.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have collided with unknown vessel.",
+        "answer_2" : "I have collided with unknown object.",
+        "answer_3" : "I have collided with unknown derelict.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 150,
+        "question" : "Jakie masz problemy?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "What problems do you have?",
+        "answer_2" : "What have you problems?",
+        "answer_3" : "What problems is been?",
+        "correct" : 1
+        },
+        {
+        "question_id" : 151,
+        "question" : "Widzialność jest zmniejszona z powodu rzadkiej mgły.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Visibility is smaller by hail.",
+        "answer_2" : "Visibility is reduced by mist.",
+        "answer_3" : "Visibility is limited by drizzle.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 152,
+        "question" : "Muszę zejść z toru wodnego.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I must get rid of fairway.",
+        "answer_2" : "I must leave fairway.",
+        "answer_3" : "I have to left fairway.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 153,
+        "question" : "Koniec przekazu.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Finished.",
+        "answer_2" : "Over and out.",
+        "answer_3" : "Out.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 154,
+        "question" : "Mam przeciek poniżej linii wodnej.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am leaking above water line.",
+        "answer_2" : "I have a leak below water line.",
+        "answer_3" : "I have a leak under water line.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 155,
+        "question" : "Pożar opanowany.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Fire been extinguished.",
+        "answer_2" : "Fire is putted out.",
+        "answer_3" : "Fire is under control.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 156,
+        "question" : "Kiedy przybędziesz na pozycję statku w niebezpieczeństwie?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "When will you run to position in danger?",
+        "answer_2" : "When will you go to ship in dangerous?",
+        "answer_3" : "When will you arrive at distress position?",
+        "correct" : 3
+        },
+        {
+        "question_id" : 157,
+        "question" : "Odbieram ciebie słabo.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I read you bad.",
+        "answer_2" : "I read you loud and clear.",
+        "answer_3" : "I read you poor.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 158,
+        "question" : "Osłońcie mnie od wiatru.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Make a lee for me. ",
+        "answer_2" : "Shelter me.",
+        "answer_3" : "IKeep wind away of me.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 159,
+        "question" : "Musicie utrzymywać ciszę radiową na tym obszarze.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Radio must be silent in this area.",
+        "answer_2" : "You must keep radio silence in this area.",
+        "answer_3" : "Be quiet in this area.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 160,
+        "question" : "Z mego statku wypadł człowiek za burtę.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I have lost person overboard.",
+        "answer_2" : "A person felt overboard.",
+        "answer_3" : "My vessel threw person overboard.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 161,
+        "question" : "Manewruję z trudnością.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am steering with problem.",
+        "answer_2" : "I am manoeuvring with difficulty.",
+        "answer_3" : "I was maneuvering with difficulty.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 162,
+        "question" : "Błąd, poprawka.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Mistake, advice.",
+        "answer_2" : "Error, improvement.",
+        "answer_3" : "Mistake, correction.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 163,
+        "question" : "Stanowicie przeszkodę dla ruchu.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "You are obstructing other traffic.",
+        "answer_2" : "You disturb other vessels.",
+        "answer_3" : "You hamper other ships.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 164,
+        "question" : "Próbuję płynąć bez pomocy.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I try proceed without help.",
+        "answer_2" : "I try to sail without attendance.",
+        "answer_3" : "I try to proceed without assistance.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 165,
+        "question" : "Jaka jest twoja wysokość nadwodna?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "What is your height over waterline?",
+        "answer_2" : "What is your height over water?",
+        "answer_3" : "What is your air draft?",
+        "correct" : 3
+        },
+        {
+        "question_id" : 166,
+        "question" : "Czy możesz zejść z mielizny w czasie przypływu?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Can you refloat in ebb tide?",
+        "answer_2" : "Can you aground during tide? ",
+        "answer_3" : "Can you refloat when tide rises?",
+        "correct" : 3
+        },
+        {
+        "question_id" : 167,
+        "question" : "Czy jesteś w drodze?",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Are you in a way?",
+        "answer_2" : "Are you under way?",
+        "answer_3" : "Have you on your way?",
+        "correct" : 2
+        },
+        {
+        "question_id" : 168,
+        "question" : "Pława świetlna nie świeci.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Lightbuoy not illuminated.",
+        "answer_2" : "Lightbeacon unlighted.",
+        "answer_3" : "Lightbuoy unlit.",
+        "correct" : 3
+        },
+        {
+        "question_id" : 169,
+        "question" : "Na torze wodnym znajdują się sieci rybackie.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Fairway in fishing gear.",
+        "answer_2" : "Fishing nets fouled fairway.",
+        "answer_3" : "Fishing nets in fairway.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 170,
+        "question" : "Ogień rozprzestrzenia się.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Fire is decreasing.",
+        "answer_2" : "Fire is increasing.",
+        "answer_3" : "Fire is spreading.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 171,
+        "question" : "Wasz sygnał zrozumiany, odbiór.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Your signal understand, over.",
+        "answer_2" : "Your signal understood, over.",
+        "answer_3" : "I get your message, over.",
+        "correct" : 2
+        },
+        {
+        "question_id" : 172,
+        "question" : "Jest odpływ.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Tide falling.",
+        "answer_2" : "Tide dropping.",
+        "answer_3" : "Tide reducing.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 173,
+        "question" : "Proszę o potwierdzenie odbioru wiadomości.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "Please acknowledge message.",
+        "answer_2" : "Message over.",
+        "answer_3" : "I got your message.",
+        "correct" : 1
+        },
+        {
+        "question_id" : 174,
+        "question" : "Mam niebezpieczny przechył na prawą burtę.",
+        "question_image" : "",
+        "images" : false,
+        "answer_1" : "I am on starboard.",
+        "answer_2" : "I have dangerous list to port.",
+        "answer_3" : "I have dangerous list to starboard.",
+        "correct" : 3
         }
     ]
 },
