@@ -57,6 +57,8 @@ struct CategoryView: View {
                             }
                             
                         }
+                        ADBanner()
+//                            .frame(width: 320, height: 100, alignment: .center)
                     }
                     .navigationTitle("Kategorie")
                     .navigationBarTitleDisplayMode(.large)

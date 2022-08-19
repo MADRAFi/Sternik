@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
+		8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
+		8036FE3D28B0204C00A94DBE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8036FE3C28B0204C00A94DBE /* GoogleMobileAds */; };
+		8036FE4028B0220500A94DBE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8036FE3F28B0220500A94DBE /* GoogleMobileAds */; };
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 80A6801528A6B69600C28473 /* Configuration_VHF.storekit */; };
@@ -44,6 +48,7 @@
 /* Begin PBXFileReference section */
 		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
 		80345982289FFF8400CBC0FA /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
+		8036FE3828B01FE100A94DBE /* ADBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBanner.swift; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
 		80A6801728A78D9D00C28473 /* questionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsList.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8036FE4028B0220500A94DBE /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8036FE3D28B0204C00A94DBE /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +107,13 @@
 			path = SRC;
 			sourceTree = "<group>";
 		};
+		8036FE3E28B0220500A94DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +123,13 @@
 				80CF62ED28A1057400C59CAD /* CategoryView.swift */,
 				80B0F10328A460E00056A911 /* MainView.swift */,
 				80D7D84A2884A12B009EB03A /* QuestionView.swift */,
+				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
 				8048F8BF28ACC82200A209BA /* StatsView.swift */,
 				80CF62F028A1473600C59CAD /* SettingsView.swift */,
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80A6801728A78D9D00C28473 /* questionsList.swift */,
 				80D7D8512884A132009EB03A /* Products */,
+				8036FE3E28B0220500A94DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,9 +156,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				8036FE4228B0224800A94DBE /* PBXTargetDependency */,
 				80CF62E428A07C0E00C59CAD /* PBXTargetDependency */,
 			);
 			name = "Radio Operator (iOS)";
+			packageProductDependencies = (
+				8036FE3F28B0220500A94DBE /* GoogleMobileAds */,
+			);
 			productName = "Sternik (iOS)";
 			productReference = 80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +180,9 @@
 			dependencies = (
 			);
 			name = "Sternik (iOS)";
+			packageProductDependencies = (
+				8036FE3C28B0204C00A94DBE /* GoogleMobileAds */,
+			);
 			productName = "Sternik (iOS)";
 			productReference = 80D7D8502884A132009EB03A /* Sternik.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 80D7D8432884A12A009EB03A;
+			packageReferences = (
+				8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 80D7D8512884A132009EB03A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +258,7 @@
 				80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */,
 				8048F8C128ACC82300A209BA /* StatsView.swift in Sources */,
 				80A6801928A78D9D00C28473 /* questionsList.swift in Sources */,
+				8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */,
 				80CF62D628A0756D00C59CAD /* question.swift in Sources */,
 				80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */,
 			);
@@ -247,6 +274,7 @@
 				80CF62F228A1473600C59CAD /* SettingsView.swift in Sources */,
 				8048F8C028ACC82300A209BA /* StatsView.swift in Sources */,
 				80A6801828A78D9D00C28473 /* questionsList.swift in Sources */,
+				8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */,
 				80C88BF12885F8A300059C2C /* question.swift in Sources */,
 				80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */,
 			);
@@ -255,6 +283,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8036FE4228B0224800A94DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8036FE4128B0224800A94DBE /* GoogleMobileAds */;
+		};
 		80CF62E428A07C0E00C59CAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 80D7D84F2884A132009EB03A /* Sternik (iOS) */;
@@ -554,6 +586,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8036FE3C28B0204C00A94DBE /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		8036FE3F28B0220500A94DBE /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		8036FE4128B0224800A94DBE /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80D7D8442884A12A009EB03A /* Project object */;
 }
