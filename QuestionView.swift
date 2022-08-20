@@ -141,7 +141,7 @@ struct QuestionView: View {
     }
     
     fileprivate func checkFinished() {
-        // show stats
+        // show stats view
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
@@ -150,34 +150,35 @@ struct QuestionView: View {
     }
     
     var body: some View {
-        
-        List {
 // ---------------------------------------------------------------------------
-                Section {
-                    VStack {
-                        HStack() {
-                            Text(String(questions[currentCategory].id) + ":")
-                            Text(questions[currentCategory].category_name)
-                            Spacer()
-                        }
-                        ProgressView(value: Float(questionNumber) / Float(questionTotal))
-                            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                            .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
-                        HStack {
-                            //                        Text(startTime, style: .relative)
-                            Spacer()
-                            Text(String(questionNumber))
-                            Text("/")
-                            Text(String(questionTotal))
+        Section {
+            VStack {
+                HStack() {
+                    Text(String(questions[currentCategory].id) + ":")
+                    Text(questions[currentCategory].category_name)
+                    Spacer()
+                }
+                ProgressView(value: Float(questionNumber) / Float(questionTotal))
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
+                HStack {
+                    //                        Text(startTime, style: .relative)
+                    Spacer()
+                    Text(String(questionNumber))
+                    Text("/")
+                    Text(String(questionTotal))
 
-                        }
-
-
-                        
-                    }
                 }
 
+
                 
+            }
+        }
+        .padding(.horizontal)
+// ---------------------------------------------------------------------------
+        
+        List {
+               
 // ---------------------------------------------------------------------------
                 Section(header: Text("Pytanie")) {
                     VStack {
@@ -190,14 +191,13 @@ struct QuestionView: View {
                         }
                     }
                 }
-//                .listStyle(GroupedListStyle())
                 
 // ---------------------------------------------------------------------------
                 Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
                             .padding(.horizontal)
-                            .padding(.vertical, 5)
+                            .padding(.trailing, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
                                 .resizable()
@@ -230,7 +230,7 @@ struct QuestionView: View {
                     HStack() {
                         Text("B")
                             .padding(.horizontal)
-                            .padding(.vertical, 5)
+                            .padding(.trailing, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
                                 .resizable()
@@ -263,7 +263,7 @@ struct QuestionView: View {
                     HStack {
                         Text("C")
                             .padding(.horizontal)
-                            .padding(.vertical, 5)
+                            .padding(.trailing, 5)
                         if (questions[currentCategory].questions[currentQuestion].images) {
                             Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
                                 .resizable()
