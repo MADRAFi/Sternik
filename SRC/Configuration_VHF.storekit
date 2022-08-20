@@ -7,18 +7,32 @@
       "internalID" : "B4E14E39",
       "localizations" : [
         {
-          "description" : "",
-          "displayName" : "",
+          "description" : "Pełna wersja aplikacji bez reklam",
+          "displayName" : "Pełna wersja",
           "locale" : "pl"
         }
       ],
-      "productID" : "com.temporary.id",
-      "referenceName" : null,
+      "productID" : "MADsoft.Radio-Operator.SRC",
+      "referenceName" : "SRC",
       "type" : "NonRenewingSubscription"
     }
   ],
   "products" : [
-
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "900CFA8B",
+      "localizations" : [
+        {
+          "description" : "Dodatkowy moduł z pytaniami LRC",
+          "displayName" : "Pytania LRC",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "MADsoft.Radio-Operator.LRC",
+      "referenceName" : "LRC",
+      "type" : "NonConsumable"
+    }
   ],
   "settings" : {
 
