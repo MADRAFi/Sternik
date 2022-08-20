@@ -13,6 +13,10 @@
 		8036FE4028B0220500A94DBE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8036FE3F28B0220500A94DBE /* GoogleMobileAds */; };
 		8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
+		8036FE5028B100D500A94DBE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4F28B100D500A94DBE /* Store.swift */; };
+		8036FE5128B100D500A94DBE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4F28B100D500A94DBE /* Store.swift */; };
+		8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
+		8036FE5428B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 80A6801528A6B69600C28473 /* Configuration_VHF.storekit */; };
@@ -41,6 +45,8 @@
 		80345982289FFF8400CBC0FA /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		8036FE3828B01FE100A94DBE /* ADBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBanner.swift; sourceTree = "<group>"; };
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
+		8036FE4F28B100D500A94DBE /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
 		80A6801728A78D9D00C28473 /* questionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsList.swift; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		8034597C289FE7B300CBC0FA /* JSM */ = {
 			isa = PBXGroup;
 			children = (
+				8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */,
 				80D7D84B2884A132009EB03A /* JSM.xcassets */,
 				80E67F8828860B9900247DDF /* questions_jsm.json */,
 				80CF62E928A0887A00C59CAD /* JSM.plist */,
@@ -122,6 +129,7 @@
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
+				8036FE4F28B100D500A94DBE /* Store.swift */,
 				8036FE4328B0D39300A94DBE /* Views */,
 				8034597D289FFA1300CBC0FA /* SRC */,
 				8034597C289FE7B300CBC0FA /* JSM */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8036FE5428B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
 				80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */,
@@ -230,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
 				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
 			);
@@ -248,6 +258,7 @@
 				80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */,
 				8048F8C128ACC82300A209BA /* StatsView.swift in Sources */,
 				80A6801928A78D9D00C28473 /* questionsList.swift in Sources */,
+				8036FE5128B100D500A94DBE /* Store.swift in Sources */,
 				8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */,
 				80CF62D628A0756D00C59CAD /* question.swift in Sources */,
 				8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */,
@@ -265,6 +276,7 @@
 				80CF62F228A1473600C59CAD /* SettingsView.swift in Sources */,
 				8048F8C028ACC82300A209BA /* StatsView.swift in Sources */,
 				80A6801828A78D9D00C28473 /* questionsList.swift in Sources */,
+				8036FE5028B100D500A94DBE /* Store.swift in Sources */,
 				8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */,
 				80C88BF12885F8A300059C2C /* question.swift in Sources */,
 				8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */,
