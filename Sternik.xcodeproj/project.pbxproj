@@ -46,7 +46,7 @@
 		80A6801728A78D9D00C28473 /* questionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionsList.swift; sourceTree = "<group>"; };
 		80B0F10328A460E00056A911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
-		80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Operator (iOS).app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Operator (iOS).app"; sourceTree = "<absolute>"; };
 		80CF62E728A0877E00C59CAD /* SRC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SRC.plist; sourceTree = "<group>"; };
 		80CF62E928A0887A00C59CAD /* JSM.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSM.plist; sourceTree = "<group>"; };
 		80CF62ED28A1057400C59CAD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* JSM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = JSM.xcassets; sourceTree = "<group>"; };
-		80D7D8502884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D7D8502884A132009EB03A /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
 		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,18 +129,8 @@
 				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80A6801728A78D9D00C28473 /* questionsList.swift */,
-				80D7D8512884A132009EB03A /* Products */,
 				8036FE3E28B0220500A94DBE /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		80D7D8512884A132009EB03A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				80D7D8502884A132009EB03A /* Sternik.app */,
-				80CF62E028A0756D00C59CAD /* Radio Operator (iOS).app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +205,7 @@
 			packageReferences = (
 				8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
-			productRefGroup = 80D7D8512884A132009EB03A /* Products */;
+			productRefGroup = 80D7D8432884A12A009EB03A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
