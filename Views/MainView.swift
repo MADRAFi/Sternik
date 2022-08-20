@@ -22,11 +22,11 @@ struct MainView: View {
                 }
                 .tag(0)
             
-//                ContentView()
-//                .tabItem {
-//                    Label("Moduły", systemImage: "questionmark.app.fill")
-//                }
-//                .tag(1)
+                ModuleView()
+                .tabItem {
+                    Label("Moduły", systemImage: "questionmark.app.fill")
+                }
+                .tag(1)
             
             
                 SettingsView()
