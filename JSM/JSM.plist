@@ -6,6 +6,8 @@
 	<string>Aplikacja zawiera zestaw pytań do egzaminu JSM (Jachtowy Sternik Morski) organizowanego przez PZŻ</string>
 	<key>Questions_File</key>
 	<string>questions_jsm</string>
+	<key>FullVersionProduct</key>
+	<string>sternik.full</string>
 	<key>ADBanner_UnitID</key>
 	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>GADApplicationIdentifier</key>

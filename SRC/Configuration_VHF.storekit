@@ -1,24 +1,69 @@
 {
   "identifier" : "31D51E00",
   "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "4.99",
       "familyShareable" : false,
-      "internalID" : "B4E14E39",
+      "internalID" : "49C40E3D",
       "localizations" : [
         {
-          "description" : "",
-          "displayName" : "",
+          "description" : "Wersja programu bez reklam",
+          "displayName" : "Pełna wersja",
           "locale" : "pl"
         }
       ],
-      "productID" : "com.temporary.id",
-      "referenceName" : null,
-      "type" : "NonRenewingSubscription"
+      "productID" : "radio-operator.full",
+      "referenceName" : "full",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "900CFA8B",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań operatora LRC",
+          "displayName" : "Pytania LRC",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio-operator.lrc",
+      "referenceName" : "lrc",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "21F393D1",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań operatora  VHF",
+          "displayName" : "Pytania VHF",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio-operator.vhf",
+      "referenceName" : "vhf",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "6441963A",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań operatora IWC",
+          "displayName" : "Pytania IWC",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio-operator.iwc",
+      "referenceName" : "iwc",
+      "type" : "NonConsumable"
     }
-  ],
-  "products" : [
-
   ],
   "settings" : {
 
