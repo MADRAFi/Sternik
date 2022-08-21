@@ -18,51 +18,40 @@ struct ModuleView: View {
     var body: some View {
         
         NavigationView {
-                List {
-                    Section {
-                        ForEach(store.products) { item in
-                            ProductView(product: item)
-                            
-                        }
                         VStack(alignment: .trailing) {
+                            ForEach(store.products) { item in
+                                ProductView(product: item)
+                                
+                            }
+
                             Button(action: {
                                 Task {
                                     try? await AppStore.sync()
                                 }
                             }) {
-                              HStack {
+                                HStack(alignment: .center ) {
                                 Text("Przywróć zakupy")
                                     .padding()
                               }
-        //                      .frame(maxWidth: .infinity)
+
                             }
                             .background(Color("AccentColor"))
                             .foregroundColor(Color.primary)
     //                        .clipShape(Capsule())
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
-        //                    .padding()
+                            .clipShape(RoundedRectangle(cornerRadius: 10)) 
+                    
+        //                    if !isFullVersion {
+                            if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
+                                ADBanner()
+                                    .frame(width: 320, height: 100, alignment: .center)
+                            }
+                            Spacer()
                         }
-                    }
-                    .listStyle(GroupedListStyle())
-                    
-                    
-                    
-                    if !isFullVersion {
-                        ADBanner()
-                            .frame(width: 320, height: 100, alignment: .center)
-                    }
-                }
-                .navigationTitle("Moduły")
-                .navigationBarTitleDisplayMode(.large)
-
+                        .padding()
+                        .navigationTitle("Moduły")
+                        .navigationBarTitleDisplayMode(.large)
         }
         .navigationViewStyle(.stack)
-
-//        .onAppear() {
-//            Task {
-//                try? await AppStore.sync()
-//            }
-//        }
     }
 }
 

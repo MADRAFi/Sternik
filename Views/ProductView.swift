@@ -28,7 +28,11 @@ struct ProductView: View {
    
     var body: some View {
         HStack {
-            Image("Icon_Learn")
+            Image(product.id)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(8)
+                .frame(width: 80, height: 80)
                 .padding(.vertical, 8)
                 .padding(.trailing)
             if purchasingEnabled {
@@ -52,7 +56,6 @@ struct ProductView: View {
     var productDetail: some View {
         VStack(alignment: .leading) {
             Text(product.displayName)
-//            Text(product.id)
                 .bold()
             Text(product.description)
                 .font(.caption)

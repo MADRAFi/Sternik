@@ -40,13 +40,28 @@
       "internalID" : "21F393D1",
       "localizations" : [
         {
-          "description" : "Zestaw pytań radiotelefonisty VHF",
+          "description" : "Zestaw pytań operatora  VHF",
           "displayName" : "Pytania VHF",
           "locale" : "pl"
         }
       ],
       "productID" : "radio-operator.vhf",
       "referenceName" : "vhf",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "6441963A",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań operatora IWC",
+          "displayName" : "Pytania IWC",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio-operator.iwc",
+      "referenceName" : "iwc",
       "type" : "NonConsumable"
     }
   ],

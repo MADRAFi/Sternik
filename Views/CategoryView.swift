@@ -13,15 +13,18 @@ struct CategoryView: View {
     @EnvironmentObject var store: Store
     @ObservedObject var data : QuestionsList
     @Binding var isFullVersion: Bool
+    
+    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
 
     var body: some View {
         
             NavigationView {
                     List {
                         Section {
-                            if !isFullVersion {
+//                            if !isFullVersion {
+                            if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
                                 ADBanner()
-//                                        .frame(width: 320, height: 100, alignment: .center)
+                                    .frame(width: 320, height: 50, alignment: .center)
                             }
                             ForEach(data.questions) { item in
                                 NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
