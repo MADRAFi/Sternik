@@ -6,28 +6,37 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct MainView: View {
     
     @State var selectedTab: Int = 0
-
+    @State var isFullVersion: Bool = false
+    @StateObject var store : Store = Store()
     @ObservedObject var data = QuestionsList()
-
+//    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+   
     
+    func checkFullVersion() {
+        let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+        Task {
+            isFullVersion = ((try? await store.isPurchased(fullVersionID!)) != nil)
+        }
+    }
     var body: some View {
         TabView(selection: $selectedTab) {
-                CategoryView(data: data)
+//                CategoryView(data: data, isFullVersion: $isFullVersion)
+                CategoryView(data: data, isFullVersion: $isFullVersion)
                 .tabItem {
                     Label("Pytania", systemImage: "filemenu.and.selection")
                 }
                 .tag(0)
             
-                ModuleView()
+                ModuleView(isFullVersion: $isFullVersion)
                 .tabItem {
                     Label("Moduły", systemImage: "questionmark.app.fill")
                 }
                 .tag(1)
-            
             
                 SettingsView()
                     .tabItem {
@@ -36,8 +45,10 @@ struct MainView: View {
                     .tag(2)
                 
         }
-        
-
+        .environmentObject(store)
+        .onAppear() {
+            checkFullVersion()
+        }
     }
 }
 

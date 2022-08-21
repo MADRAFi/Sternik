@@ -1,36 +1,52 @@
 {
   "identifier" : "31D51E00",
   "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "4.99",
       "familyShareable" : false,
-      "internalID" : "B4E14E39",
+      "internalID" : "49C40E3D",
       "localizations" : [
         {
-          "description" : "Pełna wersja aplikacji bez reklam",
+          "description" : "Wersja programu bez reklam",
           "displayName" : "Pełna wersja",
           "locale" : "pl"
         }
       ],
-      "productID" : "MADsoft.Radio-Operator.SRC",
-      "referenceName" : "SRC",
-      "type" : "NonRenewingSubscription"
-    }
-  ],
-  "products" : [
+      "productID" : "radio-operator.full",
+      "referenceName" : "full",
+      "type" : "NonConsumable"
+    },
     {
       "displayPrice" : "8.99",
       "familyShareable" : false,
       "internalID" : "900CFA8B",
       "localizations" : [
         {
-          "description" : "Dodatkowy moduł z pytaniami LRC",
+          "description" : "Zestaw pytań operatora LRC",
           "displayName" : "Pytania LRC",
           "locale" : "pl"
         }
       ],
-      "productID" : "MADsoft.Radio-Operator.LRC",
-      "referenceName" : "LRC",
+      "productID" : "radio-operator.lrc",
+      "referenceName" : "lrc",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "21F393D1",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań radiotelefonisty VHF",
+          "displayName" : "Pytania VHF",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio-operator.vhf",
+      "referenceName" : "vhf",
       "type" : "NonConsumable"
     }
   ],

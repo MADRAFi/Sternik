@@ -6,61 +6,70 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct ModuleView: View {
+    
+    @EnvironmentObject var store: Store
+    @Binding var isFullVersion: Bool
+    
+    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+
     var body: some View {
         
         NavigationView {
                 List {
                     Section {
-
-                        
-                        HStack {
-                            NavigationLink(destination: Text("Purachse 1")) {
-                                HStack {
-                                    Image("Icon_Learn")
-                                        .padding(.vertical, 8)
-                                        .padding(.horizontal)
-                                    Text("Nauka")
-                                    Spacer()
-                                }
-                            }
+                        ForEach(store.products) { item in
+                            ProductView(product: item)
                             
                         }
-                        
-                        HStack {
-                            NavigationLink(destination: Text("Purchase 2")) {
-                                HStack {
-                                    Image("Icon_Exam")
-                                        .padding(.vertical, 8)
-                                        .padding(.horizontal)
-                                    Text("Egzamin próbny")
-                                    Spacer()
+                        VStack(alignment: .trailing) {
+                            Button(action: {
+                                Task {
+                                    try? await AppStore.sync()
                                 }
-                                
+                            }) {
+                              HStack {
+                                Text("Przywróć zakupy")
+                                    .padding()
+                              }
+        //                      .frame(maxWidth: .infinity)
                             }
-                            
+                            .background(Color("AccentColor"))
+                            .foregroundColor(Color.primary)
+    //                        .clipShape(Capsule())
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+        //                    .padding()
                         }
-                        
                     }
-//                    ADBanner()
-//                            .frame(width: 320, height: 100, alignment: .center)
+                    .listStyle(GroupedListStyle())
+                    
+                    
+                    
+                    if !isFullVersion {
+                        ADBanner()
+                            .frame(width: 320, height: 100, alignment: .center)
+                    }
                 }
                 .navigationTitle("Moduły")
                 .navigationBarTitleDisplayMode(.large)
 
         }
         .navigationViewStyle(.stack)
-        
-        
-        
-        
-        
+
+//        .onAppear() {
+//            Task {
+//                try? await AppStore.sync()
+//            }
+//        }
     }
 }
 
 struct ModuleView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        ModuleView()
+
+        ModuleView(isFullVersion: .constant(true))
     }
 }

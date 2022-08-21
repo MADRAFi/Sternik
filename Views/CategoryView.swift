@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct CategoryView: View {
     
+    @EnvironmentObject var store: Store
     @ObservedObject var data : QuestionsList
-    
+    @Binding var isFullVersion: Bool
+
     var body: some View {
         
             NavigationView {
                     List {
                         Section {
+                            if !isFullVersion {
+                                ADBanner()
+//                                        .frame(width: 320, height: 100, alignment: .center)
+                            }
                             ForEach(data.questions) { item in
                                 NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                     HStack {
@@ -57,15 +64,12 @@ struct CategoryView: View {
                             }
                             
                         }
-                        ADBanner()
-//                            .frame(width: 320, height: 100, alignment: .center)
                     }
                     .navigationTitle("Kategorie")
                     .navigationBarTitleDisplayMode(.large)
 
             }
             .navigationViewStyle(.stack)
-
         
     }
 }
@@ -75,6 +79,6 @@ struct CategoryView: View {
         static var data = QuestionsList()
         
         static var previews: some View {
-            CategoryView(data: data)
+            CategoryView(data: data, isFullVersion: .constant(true))
         }
     }
