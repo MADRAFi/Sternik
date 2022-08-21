@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		802302F228B19B5F0008B41C /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products.plist */; };
-		802302F328B19B5F0008B41C /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products.plist */; };
+		802302F228B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
+		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
@@ -18,9 +18,9 @@
 		8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
-		8036FE5428B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
+		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
 		80A3525728B2E0DB0094ADC9 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */; };
 		80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525B28B2E1500094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
@@ -46,7 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		802302F128B19B5F0008B41C /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
 		80345982289FFF8400CBC0FA /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
@@ -54,6 +54,7 @@
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		80A3525328B2E0310094ADC9 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
 		80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A3525828B2E13D0094ADC9 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 				80D7D84B2884A132009EB03A /* JSM.xcassets */,
 				80E67F8828860B9900247DDF /* questions_jsm.json */,
 				80CF62E928A0887A00C59CAD /* JSM.plist */,
+				8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */,
 			);
 			path = JSM;
 			sourceTree = "<group>";
@@ -109,6 +111,7 @@
 				80345982289FFF8400CBC0FA /* questions_src.json */,
 				80345980289FFC0400CBC0FA /* SRC.xcassets */,
 				80CF62E728A0877E00C59CAD /* SRC.plist */,
+				802302F128B19B5F0008B41C /* Products_VHF.plist */,
 				80A6801528A6B69600C28473 /* Configuration_VHF.storekit */,
 			);
 			path = SRC;
@@ -124,7 +127,6 @@
 				80D7D84A2884A12B009EB03A /* QuestionView.swift */,
 				8048F8BF28ACC82200A209BA /* StatsView.swift */,
 				80CF62F028A1473600C59CAD /* SettingsView.swift */,
-				802302F128B19B5F0008B41C /* Products.plist */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,9 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8036FE5428B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
-				802302F328B19B5F0008B41C /* Products.plist in Resources */,
+				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
 				80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */,
 			);
@@ -245,10 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802302F228B19B5F0008B41C /* Products.plist in Resources */,
+				802302F228B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
 				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
+				8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

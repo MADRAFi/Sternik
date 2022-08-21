@@ -8,6 +8,8 @@
 	<string>questions_src</string>
 	<key>FullVersionProduct</key>
 	<string>radio-operator.full</string>
+	<key>productsList</key>
+	<string>Products_VHF</string>
 	<key>ADBanner_UnitID</key>
 	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>GADApplicationIdentifier</key>

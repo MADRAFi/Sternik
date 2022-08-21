@@ -1,6 +1,24 @@
 {
-  "products" : [
+  "identifier" : "84A979D5",
+  "nonRenewingSubscriptions" : [
 
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "9F9772E1",
+      "localizations" : [
+        {
+          "description" : "Wersja programu bez reklam",
+          "displayName" : "Pełna wersja",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "sternik.full",
+      "referenceName" : "full",
+      "type" : "NonConsumable"
+    }
   ],
   "settings" : {
 
@@ -10,6 +28,6 @@
   ],
   "version" : {
     "major" : 1,
-    "minor" : 0
+    "minor" : 2
   }
 }

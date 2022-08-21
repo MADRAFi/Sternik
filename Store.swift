@@ -27,8 +27,10 @@ class Store: ObservableObject {
     var updateListenerTask: Task<Void, Error>? = nil
     private let productID: [String: String]
     
+    let productsList = Bundle.main.infoDictionary?["ProductsList"] as? String
+    
     init() {
-        if let path = Bundle.main.path(forResource: "Products", ofType: "plist"),
+        if let path = Bundle.main.path(forResource: productsList, ofType: "plist"),
             let plist = FileManager.default.contents(atPath: path) {
             productID = (try? PropertyListSerialization.propertyList(from: plist, format: nil) as? [String: String]) ?? [:]
         } else {
