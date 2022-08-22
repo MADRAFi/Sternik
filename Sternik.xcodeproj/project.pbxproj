@@ -19,6 +19,11 @@
 		8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
+		807FF65F28B40E6D00AF2682 /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65A28B40E6D00AF2682 /* questions_src.json */; };
+		807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65B28B40E6D00AF2682 /* questions_vhf.json */; };
+		807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65C28B40E6D00AF2682 /* questions_iwc.json */; };
+		807FF66228B40E6D00AF2682 /* questions_lrc_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65D28B40E6D00AF2682 /* questions_lrc_test.json */; };
+		807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65E28B40E6D00AF2682 /* questions_lrc.json */; };
 		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
 		8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
 		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
@@ -53,10 +58,15 @@
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		807FF65828B40D8D00AF2682 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807FF65928B40D8D00AF2682 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807FF65A28B40E6D00AF2682 /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
+		807FF65B28B40E6D00AF2682 /* questions_vhf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_vhf.json; sourceTree = "<group>"; };
+		807FF65C28B40E6D00AF2682 /* questions_iwc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_iwc.json; sourceTree = "<group>"; };
+		807FF65D28B40E6D00AF2682 /* questions_lrc_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lrc_test.json; sourceTree = "<group>"; };
+		807FF65E28B40E6D00AF2682 /* questions_lrc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lrc.json; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
-		80A3525328B2E0310094ADC9 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
-		80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Operator (iOS).app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Operator (iOS).app"; sourceTree = "<absolute>"; };
 		80A3525828B2E13D0094ADC9 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
 		80A3525928B2E13E0094ADC9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
@@ -108,6 +118,11 @@
 		8034597D289FFA1300CBC0FA /* SRC */ = {
 			isa = PBXGroup;
 			children = (
+				807FF65C28B40E6D00AF2682 /* questions_iwc.json */,
+				807FF65D28B40E6D00AF2682 /* questions_lrc_test.json */,
+				807FF65E28B40E6D00AF2682 /* questions_lrc.json */,
+				807FF65A28B40E6D00AF2682 /* questions_src.json */,
+				807FF65B28B40E6D00AF2682 /* questions_vhf.json */,
 				80345980289FFC0400CBC0FA /* SRC.xcassets */,
 				80CF62E728A0877E00C59CAD /* SRC.plist */,
 				802302F128B19B5F0008B41C /* Products_VHF.plist */,
@@ -142,6 +157,8 @@
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
+				807FF65828B40D8D00AF2682 /* Sternik.app */,
+				807FF65928B40D8D00AF2682 /* Radio Operator (iOS).app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,7 +184,7 @@
 				80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
-			productReference = 80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */;
+			productReference = 807FF65928B40D8D00AF2682 /* Radio Operator (iOS).app */;
 			productType = "com.apple.product-type.application";
 		};
 		80D7D84F2884A132009EB03A /* Sternik (iOS) */ = {
@@ -188,7 +205,7 @@
 				8036FE3C28B0204C00A94DBE /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
-			productReference = 80A3525328B2E0310094ADC9 /* Sternik.app */;
+			productReference = 807FF65828B40D8D00AF2682 /* Sternik.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,9 +251,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807FF65F28B40E6D00AF2682 /* questions_src.json in Resources */,
+				807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
+				807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */,
+				807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */,
+				807FF66228B40E6D00AF2682 /* questions_lrc_test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
