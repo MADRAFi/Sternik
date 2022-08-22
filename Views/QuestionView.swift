@@ -9,6 +9,7 @@ import SwiftUI
 
 struct QuestionView: View {
 
+    @Environment(\.presentationMode) var presentationMode
     @State var questions : [categoryList]
     @State var title: String
 
@@ -30,7 +31,7 @@ struct QuestionView: View {
       
     
     func calculateQuestionsTotal() -> Int {
-    // calculates total number of all questions in a set (all categories)
+        // calculates total number of all questions in a set (all categories)
         
         var value: Int = 0
         for item in questions {
@@ -85,7 +86,7 @@ struct QuestionView: View {
                     rowColor = Color.clear
                 }
             }
-
+            
         } else {
             rowColor = Color.clear
         }
@@ -94,9 +95,9 @@ struct QuestionView: View {
     
     func advanceToNextQuestion() {
         if ShowNextQuestion && isAnswered {
-
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            // code to execute after 1 second
+                // code to execute after 1 second
                 nextQuestion()
             }
         }
@@ -145,12 +146,12 @@ struct QuestionView: View {
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
-
+            
         }
     }
     
     var body: some View {
-// ---------------------------------------------------------------------------
+        // ---------------------------------------------------------------------------
         Section {
             VStack {
                 HStack() {
@@ -167,10 +168,10 @@ struct QuestionView: View {
                     Text(String(questionNumber))
                     Text("/")
                     Text(String(questionTotal))
-
+                    
                 }
-
-
+                
+                
                 
             }
         }
@@ -178,173 +179,176 @@ struct QuestionView: View {
 // ---------------------------------------------------------------------------
         
         List {
-               
+            
 // ---------------------------------------------------------------------------
-                Section(header: Text("Pytanie")) {
-                    VStack {
-                        HStack {
-                            Text(String(questions[currentCategory].questions[currentQuestion].question_id))
-                            Text(questions[currentCategory].questions[currentQuestion].question)
-                                .lineLimit(nil)
-                                .fixedSize(horizontal: false, vertical: true)
-                                .padding(10)
-                        }
-                    }
-                }
-                
-// ---------------------------------------------------------------------------
-                Section(header: Text("Odpowiedzi")) {
+            Section(header: Text("Pytanie")) {
+                VStack {
                     HStack {
-                        Text("A")
-                            .padding(.horizontal)
-                            .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 128, height: 128)
-                        } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_1)
-                                .lineLimit(nil)
-                                .fixedSize(horizontal: false, vertical: true)
-                                .padding(.vertical, 5)
-                        }
-                        Spacer()
+                        Text(String(questions[currentCategory].questions[currentQuestion].question_id))
+                        Text(questions[currentCategory].questions[currentQuestion].question)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(10)
                     }
-                    .lineLimit(nil)
-                    .contentShape(Rectangle())
-                    .onTapGesture {
-                        selectedRow = 1
-                        questions[currentCategory].questions[currentQuestion].choice = 1
-                        isAnswered = true
-                        incrementAnswerCounters()
-                        checkFinished()
-                        advanceToNextQuestion()
-                    }
-                    .foregroundColor(.primary)
-                    .background(getRowColor(selected: selectedRow, current: 1))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .disabled(self.isAnswered)
-                    
-                    
-                    HStack() {
-                        Text("B")
-                            .padding(.horizontal)
-                            .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 128, height: 128)
-                        } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_2)
-                                .lineLimit(nil)
-                                .fixedSize(horizontal: false, vertical: true)
-                                .padding(.vertical, 5)
-
-                        }
-                        Spacer()
-                    }
-                    .lineLimit(nil)
-                    .contentShape(Rectangle())
-                    .onTapGesture {
-                        selectedRow = 2
-                        questions[currentCategory].questions[currentQuestion].choice = 2
-                        isAnswered = true
-                        incrementAnswerCounters()
-                        checkFinished()
-                        advanceToNextQuestion()
-                    }
-                    .foregroundColor(.primary)
-                    .background(getRowColor(selected: selectedRow, current: 2))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .disabled(self.isAnswered)
-                    
-                    HStack {
-                        Text("C")
-                            .padding(.horizontal)
-                            .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 128, height: 128)
-                        } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_3)
-                                .lineLimit(nil)
-                                .fixedSize(horizontal: false, vertical: true)
-                                .padding(.vertical, 5)
-
-                            
-                        }
-                        Spacer()
-                    }
-                    .lineLimit(nil)
-                    .contentShape(Rectangle())
-                    .onTapGesture {
-                        selectedRow = 3
-                        questions[currentCategory].questions[currentQuestion].choice = 3
-                        isAnswered = true
-                        incrementAnswerCounters()
-                        checkFinished()
-                        advanceToNextQuestion()
-                    }
-                    .foregroundColor(.primary)
-                    .background(getRowColor(selected: selectedRow, current: 3))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .disabled(self.isAnswered)
-                }
-//                .multilineTextAlignment(.leading)
-                .lineLimit(nil)
-            }
-            .navigationTitle(title)
-            .navigationBarTitleDisplayMode(.large)
-//            .listStyle(GroupedListStyle())
-            .onAppear {
-                questionTotal = self.calculateQuestionsTotal()
-                if questionTotal == answersCorrect + answersWrong && showStats == true {
-                    showStats = false
-//                    self.presentationMode.wrappedValue.dismiss()
-                } else {
-                    startTime = .now
-                }
-            }
-            .sheet(isPresented: $showStats) {
-                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
-            }
-
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        currentQuestion = 0
-                        currentCategory = 0
-                        questionNumber = 1
-                    },
-                        label: {
-                            Image(systemName: "1.square.fill")
-                                .imageScale(.large)
-                    })
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        previousQuestion()
-                    },
-                        label: {
-                            Image(systemName: "arrow.left.square.fill")
-                                .imageScale(.large)
-                    })
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        nextQuestion()
-                    },
-                        label: {
-                            Image(systemName: "arrow.right.square.fill")
-                                .imageScale(.large)
-                    })
                 }
             }
             
+            // ---------------------------------------------------------------------------
+            Section(header: Text("Odpowiedzi")) {
+                HStack {
+                    Text("A")
+                        .padding(.horizontal)
+                        .padding(.trailing, 5)
+                    if (questions[currentCategory].questions[currentQuestion].images) {
+                        Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 128, height: 128)
+                    } else {
+                        Text(questions[currentCategory].questions[currentQuestion].answer_1)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(.vertical, 5)
+                    }
+                    Spacer()
+                }
+                .lineLimit(nil)
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    selectedRow = 1
+                    questions[currentCategory].questions[currentQuestion].choice = 1
+                    isAnswered = true
+                    incrementAnswerCounters()
+                    checkFinished()
+                    advanceToNextQuestion()
+                }
+                .foregroundColor(.primary)
+                .background(getRowColor(selected: selectedRow, current: 1))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .disabled(self.isAnswered)
+                
+                
+                HStack() {
+                    Text("B")
+                        .padding(.horizontal)
+                        .padding(.trailing, 5)
+                    if (questions[currentCategory].questions[currentQuestion].images) {
+                        Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 128, height: 128)
+                    } else {
+                        Text(questions[currentCategory].questions[currentQuestion].answer_2)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(.vertical, 5)
+                        
+                    }
+                    Spacer()
+                }
+                .lineLimit(nil)
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    selectedRow = 2
+                    questions[currentCategory].questions[currentQuestion].choice = 2
+                    isAnswered = true
+                    incrementAnswerCounters()
+                    checkFinished()
+                    advanceToNextQuestion()
+                }
+                .foregroundColor(.primary)
+                .background(getRowColor(selected: selectedRow, current: 2))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .disabled(self.isAnswered)
+                
+                HStack {
+                    Text("C")
+                        .padding(.horizontal)
+                        .padding(.trailing, 5)
+                    if (questions[currentCategory].questions[currentQuestion].images) {
+                        Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 128, height: 128)
+                    } else {
+                        Text(questions[currentCategory].questions[currentQuestion].answer_3)
+                            .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(.vertical, 5)
+                        
+                        
+                    }
+                    Spacer()
+                }
+                .lineLimit(nil)
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    selectedRow = 3
+                    questions[currentCategory].questions[currentQuestion].choice = 3
+                    isAnswered = true
+                    incrementAnswerCounters()
+                    checkFinished()
+                    advanceToNextQuestion()
+                }
+                .foregroundColor(.primary)
+                .background(getRowColor(selected: selectedRow, current: 3))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .disabled(self.isAnswered)
+            }
+            //                .multilineTextAlignment(.leading)
+            .lineLimit(nil)
+        }
+        .navigationTitle(title)
+        .navigationBarTitleDisplayMode(.large)
+        //            .listStyle(GroupedListStyle())
+        .onAppear {
+            questionTotal = self.calculateQuestionsTotal()
+            if questionTotal == answersCorrect + answersWrong && showStats == true {
+                showStats = false
+                //                    self.presentationMode.wrappedValue.dismiss()
+            } else {
+                startTime = .now
+            }
+        }
+        .onDisappear() {
+            presentationMode.wrappedValue.dismiss()
+        }
+        .sheet(isPresented: $showStats) {
+            StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
+        }
+        
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    currentQuestion = 0
+                    currentCategory = 0
+                    questionNumber = 1
+                },
+                       label: {
+                    Image(systemName: "1.square.fill")
+                        .imageScale(.large)
+                })
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    previousQuestion()
+                },
+                       label: {
+                    Image(systemName: "arrow.left.square.fill")
+                        .imageScale(.large)
+                })
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    nextQuestion()
+                },
+                       label: {
+                    Image(systemName: "arrow.right.square.fill")
+                        .imageScale(.large)
+                })
+            }
+        }
+        
         
     }
 }

@@ -15,7 +15,7 @@ struct SwitchModuleView: View {
     
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
-    @AppStorage("Selected_Questions_Module") private var selectedModule: String = "radio-operator.src"
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
 
     
     var body: some View {
@@ -24,7 +24,7 @@ struct SwitchModuleView: View {
                 Text("Wybrany moduł")
                 Picker(selection: $selectedModule, label: Text("Wybierz zestaw pytań")) {
                     Text("Pytania SRC")
-                        .tag(builtInProduct)
+                        .tag(builtInProduct!)
                     ForEach(store.purchasedProducts) { product in
                         if product.id != fullVersionID {
                             Text(product.displayName)
@@ -37,8 +37,7 @@ struct SwitchModuleView: View {
                 .onChange(of: selectedModule) { newValue in
                     data.load(module: selectedModule)
                 }
-                //            .pickerStyle(.inline)
-//                            .pickerStyle(.wheel)
+//                .pickerStyle(.inline)
             }
 
                 

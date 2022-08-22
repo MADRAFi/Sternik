@@ -11,7 +11,7 @@ import StoreKit
 struct CategoryView: View {
     
     @EnvironmentObject var store: Store
-    @ObservedObject var data : QuestionsList
+    @EnvironmentObject var data : QuestionsList
     @Binding var isFullVersion: Bool
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
@@ -82,6 +82,6 @@ struct CategoryView: View {
         static var data = QuestionsList()
         
         static var previews: some View {
-            CategoryView(data: data, isFullVersion: .constant(true))
+            CategoryView(isFullVersion: .constant(true))
         }
     }

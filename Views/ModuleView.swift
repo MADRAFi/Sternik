@@ -10,6 +10,7 @@ import StoreKit
 
 struct ModuleView: View {
     
+
     @EnvironmentObject var store: Store
     @EnvironmentObject var data: QuestionsList
     @Binding var isFullVersion: Bool
@@ -92,7 +93,7 @@ struct ModuleView: View {
             }
         }
         .navigationViewStyle(.stack)
-//        .environmentObject(data)
+
     }
 }
 

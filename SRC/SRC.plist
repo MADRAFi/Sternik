@@ -7,7 +7,7 @@
 	<key>Questions_File</key>
 	<dict>
 		<key>radio-operator.iwc</key>
-		<string>questions_iwc</string>
+		<string>questions_iwc_test</string>
 		<key>radio-operator.vhf</key>
 		<string>questions_vhf</string>
 		<key>radio-operator.lrc</key>

@@ -21,7 +21,7 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-                CategoryView(data: data, isFullVersion: $isFullVersion)
+                CategoryView(isFullVersion: $isFullVersion)
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
                     }
