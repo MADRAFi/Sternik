@@ -8,5 +8,7 @@
 	<string></string>
 	<key>radio-operator.vhf</key>
 	<string></string>
+	<key>radio-operator.iwc</key>
+	<string></string>
 </dict>
 </plist>

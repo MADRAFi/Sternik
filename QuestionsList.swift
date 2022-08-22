@@ -13,29 +13,34 @@ class QuestionsList: ObservableObject {
     @Published var questions = [categoryList]()
 
     init() {
-        load()
+        let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+        load(module: builtInProduct!)
 //        sort()
     }
 
-    func load() {
+    func load(module: String) {
 
         // read plist file to get name of the json file
-        guard let questions_file = Bundle.main.infoDictionary?["Questions_File"] as? String
-        else {return print("Questions_File not found")}
+//        guard let questions_file = Bundle.main.infoDictionary?["Questions_File"] as? String
+        if let questions_file_modules = Bundle.main.infoDictionary?["Questions_File"] as? [String:String] {
+           
+            guard let questions_file = questions_file_modules[module]
+            else {return print("\(module) not found")}
 
-        if let fileLocation = Bundle.main.url(forResource: questions_file, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: fileLocation)
-                let jsonDecoder = JSONDecoder()
-                let JSONdata = try jsonDecoder.decode([categoryList].self, from: data)
+            if let fileLocation = Bundle.main.url(forResource: questions_file, withExtension: "json") {
+                do {
+                    let data = try Data(contentsOf: fileLocation)
+                    let jsonDecoder = JSONDecoder()
+                    let JSONdata = try jsonDecoder.decode([categoryList].self, from: data)
 
-                self.questions = JSONdata
+                    self.questions = JSONdata
 
-//                print(JSONdata)
-            } catch {
-                print(error)
+                } catch {
+                    print(error)
+                }
             }
         }
+        else { return print("Questions_File not found")}
 
     }
 

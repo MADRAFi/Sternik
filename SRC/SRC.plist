@@ -5,10 +5,25 @@
 	<key>About</key>
 	<string>Aplikacja zawiera zestaw pytań do egzaminu SRC (świadectwo operatora łączności bliskiego zasięgu) organizowanego przez UKE</string>
 	<key>Questions_File</key>
-	<string>questions_src</string>
+	<dict>
+		<key>radio-operator.iwc</key>
+		<string>questions_iwc</string>
+		<key>radio-operator.vhf</key>
+		<string>questions_vhf</string>
+		<key>radio-operator.lrc</key>
+		<string>questions_lrc_test</string>
+		<key>radio-operator.src</key>
+		<string>questions_src</string>
+	</dict>
 	<key>FullVersionProduct</key>
 	<string>radio-operator.full</string>
-	<key>productsList</key>
+	<key>BuiltInProduct</key>
+	<string>radio-operator.src</string>
+	<key>BuiltInProductName</key>
+	<string>Pytania SRC</string>
+	<key>BuiltInProductDescription</key>
+	<string>Zestaw pytań operatora SRC</string>
+	<key>ProductsList</key>
 	<string>Products_VHF</string>
 	<key>ADBanner_UnitID</key>
 	<string>ca-app-pub-3940256099942544/2934735716</string>

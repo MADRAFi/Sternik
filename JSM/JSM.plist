@@ -8,6 +8,8 @@
 	<string>questions_jsm</string>
 	<key>FullVersionProduct</key>
 	<string>sternik.full</string>
+	<key>ProductsList</key>
+	<string>Products_Sternik</string>
 	<key>ADBanner_UnitID</key>
 	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>GADApplicationIdentifier</key>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		802302F228B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
@@ -21,6 +20,9 @@
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
+		8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
+		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
+		8083DDB328B4067B00187B4D /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 8083DDB228B4067B00187B4D /* questions_src.json */; };
 		80A3525728B2E0DB0094ADC9 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */; };
 		80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525B28B2E1500094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
@@ -34,7 +36,6 @@
 		80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80CF62D628A0756D00C59CAD /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
 		80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* SRC.xcassets */; };
-		80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 80345982289FFF8400CBC0FA /* questions_src.json */; };
 		80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
@@ -49,14 +50,15 @@
 		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
-		80345982289FFF8400CBC0FA /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		8036FE3828B01FE100A94DBE /* ADBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBanner.swift; sourceTree = "<group>"; };
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
+		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
+		8083DDB228B4067B00187B4D /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		80A3525328B2E0310094ADC9 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
-		80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Operator (iOS).app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Operator (iOS).app"; sourceTree = "<absolute>"; };
 		80A3525828B2E13D0094ADC9 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
 		80A3525928B2E13E0094ADC9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
@@ -108,7 +110,7 @@
 		8034597D289FFA1300CBC0FA /* SRC */ = {
 			isa = PBXGroup;
 			children = (
-				80345982289FFF8400CBC0FA /* questions_src.json */,
+				8083DDB228B4067B00187B4D /* questions_src.json */,
 				80345980289FFC0400CBC0FA /* SRC.xcassets */,
 				80CF62E728A0877E00C59CAD /* SRC.plist */,
 				802302F128B19B5F0008B41C /* Products_VHF.plist */,
@@ -122,6 +124,7 @@
 			children = (
 				80CF62ED28A1057400C59CAD /* CategoryView.swift */,
 				8036FE4428B0D3E000A94DBE /* ModuleView.swift */,
+				8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */,
 				802302F428B21BCB0008B41C /* ProductView.swift */,
 				80B0F10328A460E00056A911 /* MainView.swift */,
 				80D7D84A2884A12B009EB03A /* QuestionView.swift */,
@@ -142,7 +145,6 @@
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
-				80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,10 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8083DDB328B4067B00187B4D /* questions_src.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
-				80CF62DA28A0756D00C59CAD /* questions_src.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802302F228B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
 				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
@@ -270,6 +271,7 @@
 				8048F8C128ACC82300A209BA /* StatsView.swift in Sources */,
 				80A3525B28B2E1500094ADC9 /* Store.swift in Sources */,
 				8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */,
+				8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */,
 				80CF62D628A0756D00C59CAD /* question.swift in Sources */,
 				8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */,
 				80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */,
@@ -289,6 +291,7 @@
 				8048F8C028ACC82300A209BA /* StatsView.swift in Sources */,
 				80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */,
 				8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */,
+				8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */,
 				80C88BF12885F8A300059C2C /* question.swift in Sources */,
 				8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */,
 				80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */,

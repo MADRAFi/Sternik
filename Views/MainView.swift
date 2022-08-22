@@ -14,8 +14,10 @@ struct MainView: View {
     @State var isFullVersion: Bool = false
     @StateObject var store : Store = Store()
     @ObservedObject var data = QuestionsList()
-    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
-   
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = "radio-operator.src"
+    
+//    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -27,7 +29,7 @@ struct MainView: View {
             
                 ModuleView(isFullVersion: $isFullVersion)
                     .tabItem {
-                        Label("Moduły", systemImage: "questionmark.app.fill")
+                        Label("Moduły", systemImage: "bag.fill.badge.plus")
                     }
                     .tag(1)
             
@@ -39,11 +41,13 @@ struct MainView: View {
                 
         }
         .environmentObject(store)
-//        .onAppear() {
-//            Task {
-//                isFullVersion = (try? await store.isPurchased(fullVersionID ?? "" )) ?? false
+        .environmentObject(data)
+        .onAppear() {
+//            if selectedModule.isEmpty {
+                selectedModule = builtInProduct!
 //            }
-//        }
+            data.load(module: selectedModule)
+        }
     }
 }
 
