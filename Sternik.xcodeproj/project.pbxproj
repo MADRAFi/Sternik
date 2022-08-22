@@ -22,7 +22,6 @@
 		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
 		8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
 		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
-		8083DDB328B4067B00187B4D /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 8083DDB228B4067B00187B4D /* questions_src.json */; };
 		80A3525728B2E0DB0094ADC9 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */; };
 		80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525B28B2E1500094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
@@ -56,7 +55,6 @@
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
-		8083DDB228B4067B00187B4D /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		80A3525328B2E0310094ADC9 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
 		80A3525428B2E0310094ADC9 /* Radio Operator (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Operator (iOS).app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Operator (iOS).app"; sourceTree = "<absolute>"; };
 		80A3525828B2E13D0094ADC9 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 		8034597D289FFA1300CBC0FA /* SRC */ = {
 			isa = PBXGroup;
 			children = (
-				8083DDB228B4067B00187B4D /* questions_src.json */,
 				80345980289FFC0400CBC0FA /* SRC.xcassets */,
 				80CF62E728A0877E00C59CAD /* SRC.plist */,
 				802302F128B19B5F0008B41C /* Products_VHF.plist */,
@@ -237,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8083DDB328B4067B00187B4D /* questions_src.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
