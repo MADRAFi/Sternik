@@ -28,7 +28,7 @@ struct ModuleView: View {
                         //                          if !isFullVersion {
                         if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
                             ADBanner()
-                                .frame(width: 320, height: 100, alignment: .center)
+//                                .frame(width: 320, height: 100, alignment: .center)
                         }
                         SwitchModuleView()
                         HStack {

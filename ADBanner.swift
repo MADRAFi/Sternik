@@ -6,25 +6,71 @@
 //  Copyright © 2022 MADsoft. All rights reserved.
 //
 
-import SwiftUI
+
 import GoogleMobileAds
+import SwiftUI
 import UIKit
 
-final class ADBanner: UIViewControllerRepresentable  {
 
-    func makeUIViewController(context: Context) -> UIViewController {
-        let view = GADBannerView(adSize: GADAdSizeBanner)
-        let viewController = UIViewController()
-        let banner_UnitID = Bundle.main.infoDictionary?["ADBanner_UnitID"] as? String
-
-        view.adUnitID = banner_UnitID
-        view.rootViewController = viewController
-        viewController.view.addSubview(view)
-        viewController.view.frame = CGRect(origin: .zero, size: GADAdSizeBanner.size)
-        view.load(GADRequest())
-
-        return viewController
+struct ADBanner: UIViewRepresentable {
+    func makeCoordinator() -> Coordinator {
+        
+        return Coordinator()
     }
+    
+    func makeUIView(context: Context) -> GADBannerView {
+        
+        
+        let adview = GADBannerView(adSize: GADAdSizeBanner)
+        let banner_UnitID = Bundle.main.infoDictionary?["ADBanner_UnitID"] as? String
+        adview.adUnitID = banner_UnitID
+        adview.rootViewController = UIApplication.shared.getRootViewController()
+        adview.load(GADRequest())
+        
+        return adview
+    }
+    func updateUIView(_ uiView: GADBannerView, context: Context) {
+        
+    }
+    
+    class Coordinator: NSObject,GADBannerViewDelegate {
+        func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
+          print("bannerViewDidReceiveAd")
+        }
 
-    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+        func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: Error) {
+          print("bannerView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        }
+
+        func bannerViewDidRecordImpression(_ bannerView: GADBannerView) {
+          print("bannerViewDidRecordImpression")
+        }
+
+        func bannerViewWillPresentScreen(_ bannerView: GADBannerView) {
+          print("bannerViewWillPresentScreen")
+        }
+
+        func bannerViewWillDismissScreen(_ bannerView: GADBannerView) {
+          print("bannerViewWillDIsmissScreen")
+        }
+
+        func bannerViewDidDismissScreen(_ bannerView: GADBannerView) {
+          print("bannerViewDidDismissScreen")
+        }
+    }
+}
+
+extension UIApplication {
+    func getRootViewController() -> UIViewController {
+        guard let screen = self.connectedScenes.first as? UIWindowScene else {
+            return .init()
+        }
+        
+        guard let root = screen.windows.first?.rootViewController else {
+            return .init()
+        }
+        
+        return root
+    }
+    
 }

@@ -24,7 +24,7 @@ struct CategoryView: View {
 //                            if !isFullVersion {
                             if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
                                 ADBanner()
-                                    .frame(width: 320, height: 50, alignment: .center)
+//                                    .frame(width: 320, height: 50, alignment: .center)
                             }
                             ForEach(data.questions) { item in
                                 NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {

@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ADBanner_UnitID</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>About</key>
 	<string>Aplikacja zawiera zestawy pytań do egzaminów żeglarskich i motorowodnych organizowanego przez PZŻ i PZMW</string>
 	<key>BuiltInProduct</key>
@@ -12,8 +14,6 @@
 	<string>Pytania JSM</string>
 	<key>FullVersionProduct</key>
 	<string>sternik.full</string>
-	<key>ADBanner_UnitID</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADIsAdManagerApp</key>
@@ -176,5 +176,10 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
 </dict>
 </plist>
