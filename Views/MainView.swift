@@ -14,7 +14,7 @@ struct MainView: View {
     @State var isFullVersion: Bool = false
     @StateObject var store : Store = Store()
     @ObservedObject var data = QuestionsList()
-    @AppStorage("Selected_Questions_Module") private var selectedModule: String = "radio-operator.src"
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
 //    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
@@ -30,12 +30,14 @@ struct MainView: View {
                 ModuleView(isFullVersion: $isFullVersion)
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")
+
                     }
                     .tag(1)
             
                 SettingsView()
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
+
                     }
                     .tag(2)
                 
@@ -43,9 +45,7 @@ struct MainView: View {
         .environmentObject(store)
         .environmentObject(data)
         .onAppear() {
-//            if selectedModule.isEmpty {
-                selectedModule = builtInProduct!
-//            }
+            selectedModule = builtInProduct!
             data.load(module: selectedModule)
         }
     }

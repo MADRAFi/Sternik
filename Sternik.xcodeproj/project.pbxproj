@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800B6EDF28B4587800FA583B /* VHF.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* VHF.xcassets */; };
 		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
@@ -41,7 +42,6 @@
 		80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80CF62D628A0756D00C59CAD /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
-		80CF62D928A0756D00C59CAD /* VHF.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* VHF.xcassets */; };
 		80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
@@ -252,12 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800B6EDF28B4587800FA583B /* VHF.xcassets in Resources */,
 				807FF65F28B40E6D00AF2682 /* questions_src.json in Resources */,
 				807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				807FF66528B4124E00AF2682 /* questions_iwc_test.json in Resources */,
-				80CF62D928A0756D00C59CAD /* VHF.xcassets in Resources */,
 				807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */,
 				807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */,
 				807FF66228B40E6D00AF2682 /* questions_lrc_test.json in Resources */,
@@ -341,7 +341,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xassets;
+				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -377,7 +377,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xassets;
+				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
