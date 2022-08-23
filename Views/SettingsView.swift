@@ -21,7 +21,6 @@ struct SettingsView: View {
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
     
     let about = Bundle.main.infoDictionary?["About"] as? String
-    //    else {return print("About not found")}
     
     var body: some View {
         NavigationView {

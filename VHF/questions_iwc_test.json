@@ -1,0 +1,580 @@
+[
+    {
+        "id": 1,
+        "category_name": "Regulaminy",
+        "exam": 4,
+        "questions": [
+            {
+                "question_id": 1,
+                "question": "Zgodnie z kolejnością pierwszeństwa łączności:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "łączność ostrzegawcza ma pierwszeństwo przed łącznością pilną",
+                "answer_2": "łączność ostrzegawcza ma pierwszeństwo przed łącznością publiczną",
+                "answer_3": "łączność pilna ma pierwszeństwo przed łącznością w niebezpieczeństwie",
+                "correct": 2
+            },
+            {
+                "question_id": 2,
+                "question": "Łączność publiczna to łączność:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "dla uzyskania porady medycznej",
+                "answer_2": "pomiędzy stacją statkową i stacją nadbrzeżną",
+                "answer_3": "do przekazywania ostrzeżeń",
+                "correct": 2
+            },
+            {
+                "question_id": 3,
+                "question": "Stacja nadbrzeżna to stacja:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "w służbie radiokomunikacyjnej lądowej, prowadząca łączność w rejonie wybrzeża morskiego",
+                "answer_2": "w służbie radiokomunikacyjnej lotniczej, prowadząca łączność w rejonie wybrzeża morskiego",
+                "answer_3": "w służbie radiokomunikacyjnej ruchomej morskiej, prowadząca łączność w relacji statek-brzeg, brzeg-statek",
+                "correct": 3
+            },
+            {
+                "question_id": 4,
+                "question": "Ratowniczy Ośrodek Koordynacyjny odpowiedzialny jest za:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "prowadzenie łączności na miejscu akcji ratowniczej",
+                "answer_2": "przygotowanie służb portowych",
+                "answer_3": "kierowanie akcją SAR",
+                "correct": 3
+            },
+            {
+                "question_id": 5,
+                "question": "Pasmo VHF obejmuje częstotliwości: ",
+                "question_image": "",
+                "images": false,
+                "answer_1": "3 ÷ 30 MHz",
+                "answer_2": "30 ÷ 300 MHz",
+                "answer_3": "10 ÷ 100 MHz",
+                "correct": 2
+            },
+            {
+                "question_id": 6,
+                "question": "Fale z pasma VHF to inaczej fale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "milimetrowe",
+                "answer_2": "centymetrowe",
+                "answer_3": "metrowe",
+                "correct": 3
+            },
+            {
+                "question_id": 7,
+                "question": "Morski zakres V obejmuje częstotliwości:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "10 ÷ 30 MHz",
+                "answer_2": "300 ÷ 3000 kHz",
+                "answer_3": "156 ÷ 174 MHz",
+                "correct": 3
+            },
+            {
+                "question_id": 8,
+                "question": "Radiotelefoniczna stacja statkowa może być identyfikowana przez:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "numer seryjny radiotelefonu VHF",
+                "answer_2": "znak wywoławczy lub nazwę stacji",
+                "answer_3": "nazwę armatora/właściciela",
+                "correct": 2
+            },
+            {
+                "question_id": 9,
+                "question": "Simpleks to sposób pracy w kanale radiowym przy którym:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
+                "answer_2": "obie stacje pracują simpleksem wykorzystując kanał dupleksowy",
+                "answer_3": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+                "correct": 3
+            },
+            {
+                "question_id": 10,
+                "question": "Semidupleks to sposób pracy w kanale radiowym przy którym:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
+                "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+                "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
+                "correct": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category_name": "Podstawowe terminy anglojęzyczne",
+        "exam": 4,
+        "questions": [
+            {
+                "question_id": 115,
+                "question": "Potrzebuję asysty.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I require assistance.",
+                "answer_2": "I require escort.",
+                "answer_3": "I need attention.",
+                "correct": 2
+            },
+            {
+                "question_id": 116,
+                "question": "Pożar w nadbudówce.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Superstructure is fireing.",
+                "answer_2": "I am having fire in superstructure.",
+                "answer_3": "Superstructure on fire.",
+                "correct": 3
+            },
+            {
+                "question_id": 117,
+                "question": "Nabieram wody.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am flooding.",
+                "answer_2": "I am making water",
+                "answer_3": "I am taking water.",
+                "correct": 3
+            },
+            {
+                "question_id": 118,
+                "question": "Czy możecie udzielić pomocy?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Are you helping me?",
+                "answer_2": "Can you render assistance?",
+                "answer_3": "Do you help me? ",
+                "correct": 2
+            },
+            {
+                "question_id": 119,
+                "question": "Czy możesz podjąć rozbitków?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can you receive survivors?",
+                "answer_2": "Can you require survivors?",
+                "answer_3": "Can you pick up survivors?",
+                "correct": 3
+            },
+            {
+                "question_id": 120,
+                "question": "Widzialność jest zmniejszona z powodu mgły.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Visibility is getting foggy.",
+                "answer_2": "Visibility is reduced by fog.",
+                "answer_3": "Visibility is reduced by snow.",
+                "correct": 2
+            },
+            {
+                "question_id": 121,
+                "question": "Podaj liczbę rannych.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Say injured persons.",
+                "answer_2": "Inform injured.",
+                "answer_3": "Report injured persons.",
+                "correct": 3
+            },
+            {
+                "question_id": 122,
+                "question": "Stan rozbitków jest dobry.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Survivors in good condition.",
+                "answer_2": "Survivors are good.",
+                "answer_3": "Survivors in bad condition. ",
+                "correct": 1
+            },
+            {
+                "question_id": 123,
+                "question": "Przechodzę na kanał … UKF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am coming to canal ... VHF.",
+                "answer_2": "I am going to channel ... UKF.",
+                "answer_3": "Changing to channel ... VHF.",
+                "correct": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category_name": "Ogólna wiedza w zegludze śródlądowej",
+        "exam": 4,
+        "questions": [
+            {
+                "question_id": 175,
+                "question": "Utworzony system GMDSS pozwala na:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "efektywne alarmowanie w relacji statek -  brzeg",
+                "answer_2": "automatyczne alarmowanie w relacji statek - samolot",
+                "answer_3": "automatyczne wykrywanie katastrof",
+                "correct": 1
+            },
+            {
+                "question_id": 176,
+                "question": "System GMDSS do alarmowania stosuje:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "radiotelegrafię na kanale 16",
+                "answer_2": "radiotelegrafię na kanale 70",
+                "answer_3": "cyfrowe selektywne wywołanie",
+                "correct": 3
+            },
+            {
+                "question_id": 177,
+                "question": "Koncepcja systemu GMDSS pozwala na organizację ratownictwa przez:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "statki będące w okolicy katastrofy",
+                "answer_2": "centrum poszukiwań SAR",
+                "answer_3": "statki w porozumieniu z RCC i SAR",
+                "correct": 3
+            },
+            {
+                "question_id": 178,
+                "question": "Definicja obszaru morza A1 to:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "A1- obszar w promieniu 20 mil morskich od nadbrzeżnej stacji VHF w którym statki mają możliwość pewnej i skutecznej łączności radiowej",
+                "answer_2": "Obszar A1 to obszar w otoczeniu radiotelegraficznej stacji VHF pracującej na częstotliwości 156,8 MHz (kanał 16)",
+                "answer_3": "Obszar radiotelefonicznego zasięgu co najmniej jednej stacji brzegowej VHF, w którym jest zapewniona ciągła łączność alarmowa za pomocą DSC i który jest określony przez administrację",
+                "correct": 3
+            },
+            {
+                "question_id": 179,
+                "question": "Średni zasięg łączności alarmowej za pomocą DSC w obszarze A1 wynosi około:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "5 NM",
+                "answer_2": "30 NM",
+                "answer_3": "100 NM",
+                "correct": 2
+            },
+            {
+                "question_id": 180,
+                "question": "Nadawanie sygnałów alarmowych w GMDSS w obszarze A1 jest możliwe za pomocą:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "NAVTEX",
+                "answer_2": "DSC",
+                "answer_3": "EGC ",
+                "correct": 2
+            },
+            {
+                "question_id": 181,
+                "question": "Do nadawania sygnałów alarmowych w obszarze A1 stosowane są:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "kanał 13",
+                "answer_2": "kanał 6",
+                "answer_3": "kanał 70",
+                "correct": 3
+            },
+            {
+                "question_id": 182,
+                "question": "Realizacja komunikacji dla celów pilnych jest możliwa z wykorzystaniem systemów:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "DSC",
+                "answer_2": "MSI",
+                "answer_3": "EGC",
+                "correct": 3
+            },
+            {
+                "question_id": 183,
+                "question": "Realizacja komunikacji dla celów bezpieczeństwa jest możliwa z wykorzystaniem systemów:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "DSC",
+                "answer_2": "WWNWS",
+                "answer_3": "MSI",
+                "correct": 1
+            },
+            {
+                "question_id": 184,
+                "question": "Informacje zawarte w sygnale alarmowym to:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "długość statku i wyporność",
+                "answer_2": "rodzaj zagrożenia i położenie geograficzne",
+                "answer_3": "rodzaj przewożonego ładunku",
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category_name": "Obsługa urządzeń radiowych",
+        "exam": 2,
+        "questions": [
+            {
+                "question_id": 325,
+                "question": "Włącz i przygotuj do pracy radiotelefon VHF dla łączności pokładowej.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 16, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 25 W na 1 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 15, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "correct": 1
+            },
+            {
+                "question_id": 326,
+                "question": "Włącz i przygotuj do pracy radiotelefon VHF dla łączności alarmowej.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo ",
+                "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 13, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "correct": 2
+            },
+            {
+                "question_id": 327,
+                "question": "Dokonaj redukcji mocy radiotelefonu VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 25 W na 1 W",
+                "answer_2": "Za pomocą pokrętła VOL zredukuj moc do żądanego poziomu, za pomocą przycisku ENT zatwierdź ustawienia",
+                "answer_3": "Za pomocą pokrętła SQL zredukuj moc do żądanego poziomu, za pomocą przycisku ENT zatwierdź ustawienia",
+                "correct": 1
+            },
+            {
+                "question_id": 328,
+                "question": "Ustaw podwójny nasłuch w radiotelefonie VHF na kanałach 14 i 16.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 14, naciśnij przycisk funkcyjny CHAN, za pomocą przycisków CH ustaw kanał 16",
+                "answer_2": "Za pomocą przycisków CH ustaw kanał 14, naciśnij przycisk funkcyjny DW",
+                "answer_3": "Naciśnij przycisk 16/C, naciśnij przycisk funkcyjny DW",
+                "correct": 2
+            },
+            {
+                "question_id": 329,
+                "question": "Ustaw intensywność podświetlenia wyświetlacza i przycisków w radiotelefonie VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie",
+                "answer_2": "ZaZa pomocą  przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie, za pomocą przycisku ENT zatwierdź ustawienia podświetlenia",
+                "answer_3": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą pokrętła VOL/SQL ustaw intensywność podświetlenia",
+                "correct": 3
+            },
+            {
+                "question_id": 330,
+                "question": "Sprawdź, które kanały są wpisane do pamięci skanowania radiotelefonu.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Wciśnij i przytrzymaj przez 3 sekundy przycisk funkcyjny *️⃣",
+                "answer_2": "ZaDo pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Naciśnij jednocześnie przyciski funkcyjne SCAN i *️⃣",
+                "answer_3": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Za pomocą przycisków CH sprawdź, który kanał oznaczony jest na wyświetlaczu symbolem ✽",
+                "correct": 1
+            },
+            {
+                "question_id": 331,
+                "question": "Dodaj kanały 6,13 i 16 do listy skaningowej w radiotelefonie VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 6, wciśnij przycisk funkcyjny *️⃣, powtórz to samo dla kanału 13 i kanału 16.",
+                "answer_2": "ZaWciśnij przycisk funkcyjny SCAN, w ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, wciśnij przycisk ENT.",
+                "answer_3": "W ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, naciśnij przycisk funkcyjny SCAN.",
+                "correct": 1
+            },
+            {
+                "question_id": 332,
+                "question": "Nadaj ostrzeżenie nawigacyjne przy użyciu radiotelefonu VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk funkcyjny AQUA, nadaj komunikat.",
+                "answer_2": "ZaWciśnij przycisk 16/C, nadaj zapowiedź komunikatu ostrzegawczego, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
+                "answer_3": "Za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
+                "correct": 2
+            },
+            {
+                "question_id": 333,
+                "question": "Nadaj komunikat alarmowy, przy użyciu radiotelefonu VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy.",
+                "answer_2": "ZaWciśnij przycisk 16/C, nadaj wywołanie alarmowe, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat alarmowy.",
+                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy. ",
+                "correct": 1
+            },
+            {
+                "question_id": 334,
+                "question": "Nadaj komunikat, w sytuacji wypadnięcia człowieka za burtę, przy użyciu radiotelefonu VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
+                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
+                "answer_3": "Za pomocą przycisków CH ustaw kanał 15, nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
+                "correct": 2
+            },
+            {
+                "question_id": 335,
+                "question": "Potwierdź odbiór alarmu przy użyciu radiotelefonu VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą  przycisków CH ustaw kanał 13, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_2": "ZaWciśnij przycisk 16/C, sprawdź moc, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_3": "Za pomocą przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, nadaj „MAYDAY, znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "correct": 2
+            },
+            {
+                "question_id": 336,
+                "question": "Wywołaj inny statek, przy użyciu radiotelefonu VHF i przeprowadź z nim zwykłą korespondencję publiczną.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
+                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 13, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
+                "answer_3": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 2x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji, uzgodnij kanał roboczy, ustaw go i prowadź rozmowę.",
+                "correct": 3
+            },
+            {
+                "question_id": 337,
+                "question": "Nadaj pośrednie alarmowanie za inny statek, będący w niebezpieczeństwie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 13, nadaj „MAYDAY RELAY, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
+                "answer_2": "ZaWciśnij przycisk 16/C, nadaj „PAN PAN, TU 3x znak własnej stacji, treść komunikatu, PAN PAN”.",
+                "answer_3": "Wciśnij przycisk 16/C, nadaj „3x MAYDAY RELAY, 3x nazwa wywoływanej stacji, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
+                "correct": 3
+            },
+            {
+                "question_id": 338,
+                "question": "Wprowadź pozycję geograficzną oraz aktualny czas.",
+                "question_image": "",
+                "images": false,
+                "answer_1": " Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, Scan Timer, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: Configuration, UTC Offset, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Position Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+                "correct": 3
+            },
+            {
+                "question_id": 339,
+                "question": "Wprowadź do rejestru radiotelefonu numer MMSI duńskiej stacji brzegowej Lyngby.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "  Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, naciśnij przycisk funkcyjny ADD,  za pomocą  przycisków ▲,  ▼,  ◀︎,  ▶︎, ENT wprowadź kolejno: ID stacji (002191000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, Manual Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002619000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002610100) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH.",
+                "correct": 1
+            },
+            {
+                "question_id": 340,
+                "question": "Usuń z rejestru radiotelefonu numer MMSI stacji brzegowej Lyngby.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, LYNGBY, naciśnij przycisk funkcyjny DEL, zatwierdź przyciskiem funkcyjnym OK,",
+                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, LYNGBY, zatwierdź przyciskiem funkcyjnym EXIT,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, LYNGBY, zatwierdź przyciskiem funkcyjnym EXIT.",
+                "correct": 1
+            },
+            {
+                "question_id": 341,
+                "question": "Nadaj wywołanie testujące DSC.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Transmitted Call Log, Test Call, naciśnij przycisk ENT,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Test Call, wybierz stację z listy zaprogramowanych stacji w rejestrze radiotelefonu lub wprowadź stację ręcznie, naciśnij przycisk funkcyjny CALL, oczekuj na potwierdzenie,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz  ścieżkę: DSC Settings, Test ACK, wybierz ustawienie Auto TX, naciśnij przycisk ENT.",
+                "correct": 2
+            },
+            {
+                "question_id": 342,
+                "question": "Nadaj regularne wywołanie alarmowe DSC.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Safety, naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Urgency, naciśnij przycisk ENT (2x), naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Distress Call, wybierz rodzaj zagrożenia z listy zaprogramowanych zagrożeń w rejestrze radiotelefonu, naciśnij przycisk ENT (2x), naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie.",
+                "correct": 3
+            },
+            {
+                "question_id": 343,
+                "question": "Nadaj wywołanie alarmowe DSC o zalaniu jednostki wodą.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Distress Call, Flooding, naciśnij przycisk ENT (2x), naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Distress Call, Grounding, naciśnij przycisk ENT (2x), naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Distress Call, Sinking, naciśnij przycisk ENT  (2x), naciśnij przez 3 sekundy przycisk DISTRESS, oczekuj na potwierdzenie.",
+                "correct": 1
+            },
+            {
+                "question_id": 344,
+                "question": "Nadaj w DSC zapowiedź prośby o pomoc medyczną do innych statków.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Safety, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Urgency, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Safety, naciśnij przycisk funkcyjny EXIT.",
+                "correct": 2
+            },
+            {
+                "question_id": 345,
+                "question": "Nadaj w DSC wywołanie zwykłe w korespondencji publicznej do innego statku.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Safety, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Urgency, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Indyvidual Call, wybierz stację statkową z listy zaprogramowanych stacji w rejestrze radiotelefonu lub wprowadź stację ręcznie, naciśnij przycisk ENT,  wskaż  numer kanału do korespondencji głosowej, naciśnij przycisk ENT.",
+                "correct": 3
+            },
+            {
+                "question_id": 346,
+                "question": "Nadaj w DSC wywołanie do stacji brzegowej w celu przeprowadzenia rozmowy z operatorem.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Indyvidual Call, wybierz stację brzegową z listy zaprogramowanych stacji w rejestrze radiotelefonu lub wprowadź stację ręcznie, naciśnij przycisk ENT, naciśnij przycisk funkcyjny CALL, oczekuj na wskazanie kanału do korespondencji głosowej,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, All Ships Call, wybierz na wyświetlaczu pozycję Safety, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT,",
+                "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Indyvidual Call, wybierz stację brzegową z listy zaprogramowanych stacji w rejestrze radiotelefonu lub wprowadź stację  ręcznie, naciśnij przycisk ENT, wskaż numer kanału do korespondencji głosowej, naciśnij przycisk ENT.",
+                "correct": 1
+            },
+            {
+                "question_id": 347,
+                "question": "Sposób postępowania z radiopławą EPIRB, będąc na tratwie ratunkowej.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Uruchom zabraną ze statku radiopławę, przywiąż ją do tratwy i wrzuć do wody.",
+                "answer_2": "Wciśnij przycisk ON na zabranej ze statku radiopławie i umieść ją możliwie wysoko na tratwie.",
+                "answer_3": "Wrzuć zabraną ze statku radiopławę natychmiast do wody",
+                "correct": 1
+            },
+            {
+                "question_id": 348,
+                "question": "Przetestuj radiopławę EPIRB.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Połącz wystające metalowe bolce na bokach radiopławy przewodem o długości około 20 cm, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie,",
+                "answer_2": "Zdejmij radiopławę z obudowy i umieść ją w naczyniu z wodą morską, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie,",
+                "answer_3": "Zdejmij radiopławę z obudowy, przesuń dźwignię w położenie TEST, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie,",
+                "correct": 3
+            },
+            {
+                "question_id": 349,
+                "question": "Uruchom transponder radarowy, będąc na tratwie ratunkowej.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Przywiąż zabrany ze statku transponder radarowy do tratwy i wrzuć go do wody,",
+                "answer_2": "Przywiąż  zabrany ze statku transponder radarowy do tratwy, wciśnij przycisk uruchomienia i umieść go możliwie wysoko,",
+                "answer_3": "Zabrany ze statku transponder radarowy uruchom za pomocą  odpowiedniego przycisku i połóż go na podłodze tratwy.",
+                "correct": 2
+            },
+            {
+                "question_id": 350,
+                "question": "Przetestuj transponder radarowy.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij na 5 sekund przycisk uruchomienia i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze, wyłącz transponder",
+                "answer_2": "Zbliż transponder do radaru pracującego w paśmie X i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze,",
+                "answer_3": "Zbliż transponder do radiopławy EPIRB 406, uruchom go i sprawdź czy spowoduje to uruchomienie automatyczne radiopławy.",
+                "correct": 1
+            }
+        ]
+    }
+]

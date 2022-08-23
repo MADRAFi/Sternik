@@ -2,18 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>About</key>
-	<string>Aplikacja zawiera zestaw pytań do egzaminu JSM (Jachtowy Sternik Morski) organizowanego przez PZŻ</string>
-	<key>Questions_File</key>
-	<string>questions_jsm</string>
-	<key>FullVersionProduct</key>
-	<string>sternik.full</string>
 	<key>ADBanner_UnitID</key>
 	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>About</key>
+	<string>Aplikacja zawiera zestawy pytań do egzaminów żeglarskich i motorowodnych organizowanego przez PZŻ i PZMW</string>
+	<key>BuiltInProduct</key>
+	<string>sternik.jsm</string>
+	<key>BuiltInProductDescription</key>
+	<string>Zestaw pytań JSM</string>
+	<key>BuiltInProductName</key>
+	<string>Pytania JSM</string>
+	<key>FullVersionProduct</key>
+	<string>sternik.full</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
+	<key>ProductsList</key>
+	<string>Products_Sternik</string>
+	<key>Questions_Files</key>
+	<dict>
+		<key>sternik.jsm</key>
+		<string>questions_jsm</string>
+	</dict>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -165,5 +176,10 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
 </dict>
 </plist>
