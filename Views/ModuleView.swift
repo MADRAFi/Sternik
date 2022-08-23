@@ -84,6 +84,7 @@ struct ModuleView: View {
                         .background(Color("AccentColor"))
                         .foregroundColor(Color.primary)
                         .clipShape(RoundedRectangle(cornerRadius: 10))
+                        
                     }
                     Spacer()
                 }

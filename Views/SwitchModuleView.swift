@@ -12,6 +12,7 @@ struct SwitchModuleView: View {
 
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+    let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String
     
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
@@ -23,7 +24,7 @@ struct SwitchModuleView: View {
             HStack {
                 Text("Wybrany moduł")
                 Picker(selection: $selectedModule, label: Text("Wybierz zestaw pytań")) {
-                    Text("Pytania SRC")
+                    Text(builtInProductName!)
                         .tag(builtInProduct!)
                     ForEach(store.purchasedProducts) { product in
                         if product.id != fullVersionID {

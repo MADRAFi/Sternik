@@ -2,7 +2,7 @@
 
 [{
     "id" : 1,
-    "category" : "Budowa Jachtów",
+    "category_name" : "Budowa Jachtów",
     "exam" : 5,
     "questions" : [{
         "question_id" : 1,
@@ -207,7 +207,7 @@
     ]
 },
 {   "id" : 2,
-    "category" : "Locja",
+    "category_name" : "Locja",
     "exam" : 1,
     "questions" : [{
         "question_id" : 41,

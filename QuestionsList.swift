@@ -2,7 +2,7 @@
 //  questionsList.swift
 //  Sternik
 //
-//  Created by MADRAFi on 13/08/2022.
+//  Created by MADRAFi on 13/08/20 22.
 //
 
 import Foundation
@@ -22,7 +22,7 @@ class QuestionsList: ObservableObject {
 
         // read plist file to get name of the json file
 //        guard let questions_file = Bundle.main.infoDictionary?["Questions_File"] as? String
-        if let questions_file_modules = Bundle.main.infoDictionary?["Questions_File"] as? [String:String] {
+        if let questions_file_modules = Bundle.main.infoDictionary?["Questions_Files"] as? [String:String] {
            
             guard let questions_file = questions_file_modules[module]
             else {return print("\(module) not found")}
@@ -40,7 +40,7 @@ class QuestionsList: ObservableObject {
                 }
             }
         }
-        else { return print("Questions_File not found")}
+        else { return print("Questions_Files not found")}
 
     }
 

@@ -10,10 +10,11 @@
 		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
+		8023F1E928B44136007601F1 /* Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80CF62E928A0887A00C59CAD /* Sternik.plist */; };
+		8023F1EA28B4414C007601F1 /* Sternik.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* Sternik.xcassets */; };
 		8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
 		8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
 		8036FE3D28B0204C00A94DBE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8036FE3C28B0204C00A94DBE /* GoogleMobileAds */; };
-		8036FE4028B0220500A94DBE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8036FE3F28B0220500A94DBE /* GoogleMobileAds */; };
 		8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
@@ -40,21 +41,20 @@
 		80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80CF62D628A0756D00C59CAD /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
-		80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* SRC.xcassets */; };
+		80CF62D928A0756D00C59CAD /* VHF.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* VHF.xcassets */; };
 		80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
 		80CF62F228A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
-		80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* JSM.xcassets */; };
 		80E67F8928860B9900247DDF /* questions_jsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions_jsm.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
-		80345980289FFC0400CBC0FA /* SRC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SRC.xcassets; sourceTree = "<group>"; };
+		80345980289FFC0400CBC0FA /* VHF.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VHF.xcassets; sourceTree = "<group>"; };
 		8036FE3828B01FE100A94DBE /* ADBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBanner.swift; sourceTree = "<group>"; };
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
@@ -74,13 +74,13 @@
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
 		80B0F10328A460E00056A911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
-		80CF62E728A0877E00C59CAD /* SRC.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SRC.plist; sourceTree = "<group>"; };
-		80CF62E928A0887A00C59CAD /* JSM.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSM.plist; sourceTree = "<group>"; };
+		80CF62E728A0877E00C59CAD /* VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VHF.plist; sourceTree = "<group>"; };
+		80CF62E928A0887A00C59CAD /* Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Sternik.plist; sourceTree = "<group>"; };
 		80CF62ED28A1057400C59CAD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		80CF62F028A1473600C59CAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		80D7D84B2884A132009EB03A /* JSM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = JSM.xcassets; sourceTree = "<group>"; };
+		80D7D84B2884A132009EB03A /* Sternik.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sternik.xcassets; sourceTree = "<group>"; };
 		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A3525728B2E0DB0094ADC9 /* GoogleMobileAds in Frameworks */,
-				8036FE4028B0220500A94DBE /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,19 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8034597C289FE7B300CBC0FA /* JSM */ = {
+		8034597C289FE7B300CBC0FA /* Sternik */ = {
 			isa = PBXGroup;
 			children = (
 				8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */,
-				80D7D84B2884A132009EB03A /* JSM.xcassets */,
+				80D7D84B2884A132009EB03A /* Sternik.xcassets */,
 				80E67F8828860B9900247DDF /* questions_jsm.json */,
-				80CF62E928A0887A00C59CAD /* JSM.plist */,
+				80CF62E928A0887A00C59CAD /* Sternik.plist */,
 				8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */,
 			);
-			path = JSM;
+			path = Sternik;
 			sourceTree = "<group>";
 		};
-		8034597D289FFA1300CBC0FA /* SRC */ = {
+		8034597D289FFA1300CBC0FA /* VHF */ = {
 			isa = PBXGroup;
 			children = (
 				807FF65C28B40E6D00AF2682 /* questions_iwc.json */,
@@ -126,12 +125,12 @@
 				807FF65E28B40E6D00AF2682 /* questions_lrc.json */,
 				807FF65A28B40E6D00AF2682 /* questions_src.json */,
 				807FF65B28B40E6D00AF2682 /* questions_vhf.json */,
-				80345980289FFC0400CBC0FA /* SRC.xcassets */,
-				80CF62E728A0877E00C59CAD /* SRC.plist */,
+				80345980289FFC0400CBC0FA /* VHF.xcassets */,
+				80CF62E728A0877E00C59CAD /* VHF.plist */,
 				802302F128B19B5F0008B41C /* Products_VHF.plist */,
 				80A6801528A6B69600C28473 /* Configuration_VHF.storekit */,
 			);
-			path = SRC;
+			path = VHF;
 			sourceTree = "<group>";
 		};
 		8036FE4328B0D39300A94DBE /* Views */ = {
@@ -153,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				8036FE4328B0D39300A94DBE /* Views */,
-				8034597D289FFA1300CBC0FA /* SRC */,
-				8034597C289FE7B300CBC0FA /* JSM */,
+				8034597D289FFA1300CBC0FA /* VHF */,
+				8034597C289FE7B300CBC0FA /* Sternik */,
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
 				80C88BF02885F8A200059C2C /* question.swift */,
@@ -183,7 +182,6 @@
 			);
 			name = "Radio Operator (iOS)";
 			packageProductDependencies = (
-				8036FE3F28B0220500A94DBE /* GoogleMobileAds */,
 				80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
@@ -259,7 +257,7 @@
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
 				807FF66528B4124E00AF2682 /* questions_iwc_test.json in Resources */,
-				80CF62D928A0756D00C59CAD /* SRC.xcassets in Resources */,
+				80CF62D928A0756D00C59CAD /* VHF.xcassets in Resources */,
 				807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */,
 				807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */,
 				807FF66228B40E6D00AF2682 /* questions_lrc_test.json in Resources */,
@@ -270,9 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8023F1EA28B4414C007601F1 /* Sternik.xcassets in Resources */,
+				8023F1E928B44136007601F1 /* Sternik.plist in Resources */,
 				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
-				80D7D85D2884A133009EB03A /* JSM.xcassets in Resources */,
 				8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,11 +341,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = SRC/SRC.xcassets;
+				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SRC/SRC.plist;
+				INFOPLIST_FILE = VHF/VHF.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Radio Operator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -378,11 +377,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = SRC/SRC.xcassets;
+				DEVELOPMENT_ASSET_PATHS = VHF/VHF.xassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SRC/SRC.plist;
+				INFOPLIST_FILE = VHF/VHF.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Radio Operator";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -530,11 +529,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = JSM/JSM.xcassets;
+				DEVELOPMENT_ASSET_PATHS = Sternik/Sternik.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JSM/JSM.plist;
+				INFOPLIST_FILE = Sternik/Sternik.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Sternik;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -565,11 +564,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = JSM/JSM.xcassets;
+				DEVELOPMENT_ASSET_PATHS = Sternik/Sternik.xcassets;
 				DEVELOPMENT_TEAM = ZBBD84W4M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JSM/JSM.plist;
+				INFOPLIST_FILE = Sternik/Sternik.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Sternik;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -647,11 +646,6 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		8036FE3C28B0204C00A94DBE /* GoogleMobileAds */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
-			productName = GoogleMobileAds;
-		};
-		8036FE3F28B0220500A94DBE /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
 			productName = GoogleMobileAds;
