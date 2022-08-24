@@ -26,13 +26,13 @@
             },
             {
                 "question_id": 3,
-                "question": "Stacja nadbrzeżna to stacja:",
+                "question": "W obszarach morskich, stacja nadbrzeżna to stacja prowadząca łączność:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "w służbie radiokomunikacyjnej lądowej, prowadząca łączność w rejonie wybrzeża morskiego",
-                "answer_2": "w służbie radiokomunikacyjnej lotniczej, prowadząca łączność w rejonie wybrzeża morskiego",
-                "answer_3": "w służbie radiokomunikacyjnej ruchomej morskiej, prowadząca łączność w relacji statek-brzeg, brzeg-statek",
-                "correct": 3
+                "answer_1": "tylko kontroli ruchu portowego",
+                "answer_2": "tylko ruchu statków",
+                "answer_3": "publiczną statek-ląd, ląd-statek",
+                "correct": 0
             },
             {
                 "question_id": 4,
@@ -40,33 +40,73 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "prowadzenie łączności na miejscu akcji ratowniczej",
-                "answer_2": "przygotowanie służb portowych",
-                "answer_3": "kierowanie akcją SAR",
+                "answer_2": "przygotowanie służb uczestniczących w akcjach SAR",
+                "answer_3": "kierowanie akcją ppoż. w porcie.",
                 "correct": 3
             },
             {
                 "question_id": 5,
-                "question": "Pasmo VHF obejmuje częstotliwości: ",
+                "question": "Fala radiowa o częstotliwości 6 MHz ma długość:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "3 ÷ 30 MHz",
-                "answer_2": "30 ÷ 300 MHz",
-                "answer_3": "10 ÷ 100 MHz",
+                "answer_1": "40 m",
+                "answer_2": "50 m",
+                "answer_3": "60 m",
                 "correct": 2
             },
             {
                 "question_id": 6,
-                "question": "Fale z pasma VHF to inaczej fale:",
+                "question": "Pasmo MF obejmuje częstotliwości:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "milimetrowe",
-                "answer_2": "centymetrowe",
-                "answer_3": "metrowe",
-                "correct": 3
+                "answer_1": "10 ÷ 30 MHz",
+                "answer_2": "300 ÷ 3000 kHz",
+                "answer_3": "10 ÷ 300 MHz",
+                "correct": 2
             },
             {
                 "question_id": 7,
-                "question": "Morski zakres V obejmuje częstotliwości:",
+                "question": "Pasmo HF obejmuje częstotliwości:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "10 ÷ 30 MHz",
+                "answer_2": "300 ÷ 3000 kHz",
+                "answer_3": "3 ÷ 30 MHz",
+                "correct": 3
+            },
+            {
+                "question_id": 8,
+                "question": "Pasmo VHF obejmuje częstotliwości:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "10 ÷ 30 kHz",
+                "answer_2": "30 ÷ 300 MHz",
+                "answer_3": "3 ÷ 30 MHz",
+                "correct": 2
+            },
+            {
+                "question_id": 9,
+                "question": "Morski zakres T obejmuje częstotliwości:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "10 ÷ 30 MHz",
+                "answer_2": "1606,5 ÷ 4000 kHz",
+                "answer_3": "10 ÷ 300 kHz",
+                "correct": 2
+            },
+            {
+                "question_id": 10,
+                "question": "Morski zakres U obejmuje częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "4 ÷ 27,5 MHz",
+                "answer_2": "300 ÷ 3000 kHz",
+                "answer_3": "6 ÷ 30 MHz",
+                "correct": 3
+            },
+            {
+                "question_id": 11,
+                "question": "Morski zakres V obejmuje częstotliwości",
                 "question_image": "",
                 "images": false,
                 "answer_1": "10 ÷ 30 MHz",
@@ -75,18 +115,108 @@
                 "correct": 3
             },
             {
-                "question_id": 8,
-                "question": "Radiotelefoniczna stacja statkowa może być identyfikowana przez:",
+                "question_id": 12,
+                "question": "Dla emisji J3E częstotliwość fali nośnej jest mniejsza od częstotliwości przydzielonej o",
                 "question_image": "",
                 "images": false,
-                "answer_1": "numer seryjny radiotelefonu VHF",
-                "answer_2": "znak wywoławczy lub nazwę stacji",
-                "answer_3": "nazwę armatora/właściciela",
-                "correct": 2
+                "answer_1": "1,5 kHz",
+                "answer_2": "2 kHz",
+                "answer_3": "2,5 kHz",
+                "correct": 3
             },
             {
-                "question_id": 9,
-                "question": "Simpleks to sposób pracy w kanale radiowym przy którym:",
+                "question_id": 13,
+                "question": "Dla emisji J3E niezbędna szerokość pasma wynosi",
+                "question_image": "",
+                "images": false,
+                "answer_1": "2 kHz",
+                "answer_2": "2,7 kHz",
+                "answer_3": "3 kHz",
+                "correct": 1
+            },
+            {
+                "question_id": 14,
+                "question": "Emisja J3E to emisja",
+                "question_image": "",
+                "images": false,
+                "answer_1": "z dwuwstęgową modulacją amplitudy",
+                "answer_2": "analogowa",
+                "answer_3": "z jednowstęgową modulacją częstotliwości",
+                "correct": 3
+            },
+            {
+                "question_id": 15,
+                "question": "Emisja G3E to emisja",
+                "question_image": "",
+                "images": false,
+                "answer_1": "z modulacją fazy",
+                "answer_2": "cyfrowa",
+                "answer_3": "z jednowstęgową modulacją amplitudy",
+                "correct": 1
+            },
+            {
+                "question_id": 16,
+                "question": "Emisja SSB to emisja",
+                "question_image": "",
+                "images": false,
+                "answer_1": "z dwuwstęgową modulacją amplitudy",
+                "answer_2": "analogowa",
+                "answer_3": "cyfrowa",
+                "correct": 1
+            },
+            {
+                "question_id": 17,
+                "question": "Emisję J3E należy stosować w zakresie częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "VHF",
+                "answer_2": "HF",
+                "answer_3": "UHF",
+                "correct": 3
+            },
+            {
+                "question_id": 18,
+                "question": "Emisję G3E należy stosować w zakresie częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "LF",
+                "answer_2": "HF",
+                "answer_3": "VHF",
+                "correct": 3
+            },
+            {
+                "question_id": 19,
+                "question": "Emisję J3E należy stosować w zakresie częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "T",
+                "answer_2": "X",
+                "answer_3": "V",
+                "correct": 3
+            },
+            {
+                "question_id": 20,
+                "question": "W morskim zakresie częstotliwości T można stosować emisje",
+                "question_image": "",
+                "images": false,
+                "answer_1": "G3E",
+                "answer_2": "J3E",
+                "answer_3": "F1B",
+                "correct": 3
+            },
+            {
+                "question_id": 21,
+                "question": "W morskim zakresie częstotliwości U można stosować emisje",
+                "question_image": "",
+                "images": false,
+                "answer_1": "J3E",
+                "answer_2": "H3E",
+                "answer_3": "G3B",
+                "correct": 3
+            },
+            {
+                "question_id": 22,
+                "question": "Simpleks to sposób pracy w kanale radiowym przy którym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
@@ -95,8 +225,8 @@
                 "correct": 3
             },
             {
-                "question_id": 10,
-                "question": "Semidupleks to sposób pracy w kanale radiowym przy którym:",
+                "question_id": 23,
+                "question": "Semidupleks to sposób pracy w kanale radiowym przy którym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
@@ -105,128 +235,138 @@
                 "correct": 3
             },
             {
-                "question_id": 11,
-                "question": "Dupleks to sposób pracy w kanale radiowym przy którym:",
+                "question_id": 24,
+                "question": "Dupleks to sposób pracy w kanale radiowym przy którym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
                 "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
                 "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 1
+                "correct": 3
             },
             {
-                "question_id": 12,
-                "question": "Kanał simpleksowy to kanał w którym:",
+                "question_id": 25,
+                "question": "Kanał simpleksowy to kanał w którym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
                 "answer_3": "tylko odbieramy na określonej częstotliwości",
-                "correct": 1
+                "correct": 3
             },
             {
-                "question_id": 13,
-                "question": "Kanał dupleksowy to kanał w którym:",
+                "question_id": 26,
+                "question": "Kanał dupleksowy to kanał w którym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
-                "answer_3": "nadajemy i odbieramy na różnych częstotliwościach ",
+                "answer_3": "nadajemy i odbieramy na różnych częstotliwościach",
                 "correct": 3
             },
             {
-                "question_id": 14,
-                "question": "Kanał 16 VHF jest kanałem:",
+                "question_id": 27,
+                "question": "Częstotliwość 2182 kHz przeznaczona jest",
                 "question_image": "",
                 "images": false,
-                "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "dwuczęstotliwościowym",
-                "correct": 2
+                "answer_1": "tylko do korespondencji w niebezpieczeństwie",
+                "answer_2": "tylko do korespondencji bezpieczeństwa",
+                "answer_3": "do korespondencji w niebezpieczeństwie i bezpieczeństwa",
+                "correct": 3
             },
             {
-                "question_id": 15,
-                "question": "Kanał 6 VHF jest kanałem:",
+                "question_id": 28,
+                "question": "Kanał 16 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "dupleksowym",
+                "answer_1": "simpleksowym",
                 "answer_2": "dwuczęstotliwościowym",
-                "answer_3": "simpleksowym",
+                "answer_3": "dupleksowym",
                 "correct": 3
             },
             {
-                "question_id": 16,
-                "question": "Kanał 15 VHF jest kanałem:",
+                "question_id": 29,
+                "question": "Kanał 6 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "semidupleksowym",
-                "correct": 2
-            },
-            {
-                "question_id": 17,
-                "question": "Kanał 13 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "dupleksowym",
-                "answer_2": "duosimpleksowym",
-                "answer_3": "simpleksowym",
+                "answer_1": "simpleksowym",
+                "answer_2": "dwuczęstotliwościowym",
+                "answer_3": "dupleksowym",
                 "correct": 3
             },
             {
-                "question_id": 18,
-                "question": "Kanał 70 VHF jest kanałem:",
+                "question_id": 30,
+                "question": "Kanał 15 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "semidupleksowym",
-                "correct": 2
-            },
-            {
-                "question_id": 19,
-                "question": "W zakresie VHF, do wywołań ogólnych DSC można stosować kanał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "26",
-                "answer_2": "6",
-                "answer_3": "70",
+                "answer_1": "simpleksowym",
+                "answer_2": "dwuczęstotliwościowym",
+                "answer_3": "dupleksowym",
                 "correct": 3
             },
             {
-                "question_id": 20,
-                "question": "W zakresie VHF, do wywołań międzystatkowych DSC można stosować kanał:",
+                "question_id": 31,
+                "question": "Kanał 13 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "15",
-                "answer_2": "27",
-                "answer_3": "70",
+                "answer_1": "jednoczęstotliwościowym",
+                "answer_2": "dwuczęstotliwościowym",
+                "answer_3": "dupleksowym",
                 "correct": 3
             },
             {
-                "question_id": 21,
-                "question": "Znak wywoławczy stacji statkowej to identyfikacja stosowana w łączności:",
+                "question_id": 32,
+                "question": "Kanał 70 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "jedynie publicznej",
+                "answer_1": "simpleksowym",
+                "answer_2": "dupleksowym",
+                "answer_3": "dwuczęstotliwościowym",
+                "correct": 3
+            },
+            {
+                "question_id": 33,
+                "question": "Do wywołań ogólnych DSC można stosować",
+                "question_image": "",
+                "images": false,
+                "answer_1": "częstotliwość 2182 kHz",
+                "answer_2": "częstotliwość 8414,5 kHz",
+                "answer_3": "kanał 70 VHF",
+                "correct": 3
+            },
+            {
+                "question_id": 34,
+                "question": "Do wywołań międzystatkowych DSC można stosować",
+                "question_image": "",
+                "images": false,
+                "answer_1": "częstotliwość 2177 kHz",
+                "answer_2": "częstotliwość 8414,5 kHz",
+                "answer_3": "kanał 26 VHF",
+                "correct": 3
+            },
+            {
+                "question_id": 35,
+                "question": "Znak wywoławczy stacji statkowej to identyfikacja stosowana w łączności",
+                "question_image": "",
+                "images": false,
+                "answer_1": "między stacjami nadbrzeżnymi",
                 "answer_2": "radiotelefonicznej",
                 "answer_3": "DSC",
                 "correct": 3
             },
             {
-                "question_id": 22,
-                "question": "MMSI to identyfikacja stosowana w łączności:",
+                "question_id": 36,
+                "question": "MMSI to identyfikacja stosowana w łączności",
                 "question_image": "",
                 "images": false,
-                "answer_1": "międzystatkowej i ze stacją nadbrzeżną",
-                "answer_2": "radiotelefonicznej",
-                "answer_3": "jedynie międzystatkowej",
+                "answer_1": "międzystatkowej",
+                "answer_2": "radiotelefonicznej wyłącznie w paśmie VHF",
+                "answer_3": "wyłącznie w niebezpieczeństwie",
                 "correct": 3
             },
             {
-                "question_id": 23,
-                "question": "Znak wywoławczy stacji statkowej to identyfikacja przyznawana:",
+                "question_id": 37,
+                "question": "Znak wywoławczy stacji statkowej to identyfikacja przyznawana",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przez właściciela jednostki",
@@ -235,8 +375,18 @@
                 "correct": 3
             },
             {
-                "question_id": 24,
-                "question": "Obszar morza w którym zapewniona jest pewna łączność DSC i radiotelefoniczna przynajmniej z jedną stacją brzegową VHF to obszar:",
+                "question_id": 38,
+                "question": "Obszar morza A4 to obszar",
+                "question_image": "",
+                "images": false,
+                "answer_1": "obejmujący europejskie wody morskie",
+                "answer_2": "obejmujący wody oceaniczne",
+                "answer_3": "obejmujący wody morskie poza obszarami A1, A2 i A3",
+                "correct": 3
+            },
+            {
+                "question_id": 39,
+                "question": "Obszar morza w którym zapewniona jest pewna łączność DSC i radiotelefoniczna przynajmniej z jedną stacją brzegową VHF to obszar",
                 "question_image": "",
                 "images": false,
                 "answer_1": "AOR",
@@ -245,8 +395,28 @@
                 "correct": 3
             },
             {
-                "question_id": 25,
-                "question": "Ratowniczy Ośrodek Koordynacyjny oznacza się skrótem:",
+                "question_id": 40,
+                "question": "Obszar morza w którym zapewniona jest pewna łączność DSC i radiotelefoniczna przynajmniej z jedną stacją brzegową MF to obszar",
+                "question_image": "",
+                "images": false,
+                "answer_1": "AOR",
+                "answer_2": "A3",
+                "answer_3": "A2",
+                "correct": 3
+            },
+            {
+                "question_id": 41,
+                "question": "Obszar morza w którym zapewniona jest pewna łączność w systemie INMARSAT to obszar",
+                "question_image": "",
+                "images": false,
+                "answer_1": "AOR",
+                "answer_2": "A3",
+                "answer_3": "A1",
+                "correct": 3
+            },
+            {
+                "question_id": 42,
+                "question": "Ratowniczy Ośrodek Koordynacyjny oznacza się skrótem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "RSC",
@@ -255,8 +425,8 @@
                 "correct": 3
             },
             {
-                "question_id": 26,
-                "question": "Podcentrum Ratownicze oznacza się skrótem:",
+                "question_id": 43,
+                "question": "Podcentrum Ratownicze oznacza się skrótem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "RSC",
@@ -265,8 +435,8 @@
                 "correct": 3
             },
             {
-                "question_id": 27,
-                "question": "Stację nadbrzeżną zaangażowaną w akcję SAR oznacza się skrótem:",
+                "question_id": 44,
+                "question": "Stację nadbrzeżną zaangażowaną w akcję SAR oznacza się skrótem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "RSC",
@@ -275,8 +445,8 @@
                 "correct": 3
             },
             {
-                "question_id": 28,
-                "question": "Jednostkę koordynującą poszukiwanie i ratowanie na miejscu akcji oznacza się skrótem:",
+                "question_id": 45,
+                "question": "Jednostkę koordynującą poszukiwanie i ratowanie na miejscu akcji oznacza się skrótem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "RSC",
@@ -285,28 +455,28 @@
                 "correct": 3
             },
             {
-                "question_id": 29,
-                "question": "Zalecanym kanałem VHF do łączności w akcjach SAR jest kanał:",
+                "question_id": 46,
+                "question": "Zalecanymi częstotliwościami/kanałami do łączności w akcjach SAR są",
                 "question_image": "",
                 "images": false,
-                "answer_1": "26",
-                "answer_2": "69",
-                "answer_3": "6",
+                "answer_1": "2187,5 kHz",
+                "answer_2": "kanał 16 VHF",
+                "answer_3": "kanał 26 VHF",
                 "correct": 3
             },
             {
-                "question_id": 30,
-                "question": "Znak wywoławczy polskiej stacji statkowej może rozpoczynać się od jednego z prefiksów:",
+                "question_id": 47,
+                "question": "Alarmowanie w niebezpieczeństwie to",
                 "question_image": "",
                 "images": false,
-                "answer_1": "GD, SZ, KO, PL, EU",
-                "answer_2": "PL1 – PL9",
-                "answer_3": "HF, SN, SO, SP, SQ, SR, 3Z",
+                "answer_1": "krótkie zawiadomienie nadane przez stację zagrożoną na kanale 16 VHF",
+                "answer_2": "krótkie zawiadomienie nadane przez stację zagrożoną na kanale 70 VHF",
+                "answer_3": "krótkie zawiadomienie nadane przez stację zagrożoną na częstotliwości 2182 kHz",
                 "correct": 3
             },
             {
-                "question_id": 31,
-                "question": "Alarmowanie w niebezpieczeństwie zawiera:",
+                "question_id": 48,
+                "question": "Alarmowanie w niebezpieczeństwie zawiera",
                 "question_image": "",
                 "images": false,
                 "answer_1": "identyfikację i pozycję jednostki zagrożonej",
@@ -315,18 +485,18 @@
                 "correct": 3
             },
             {
-                "question_id": 32,
-                "question": "W zakresie VHF, do radiotelefonicznych wywołań ogólnych można stosować kanał:",
+                "question_id": 49,
+                "question": "Alarmowanie w niebezpieczeństwie w obszarze morza A2 może być nadane za pomocą",
                 "question_image": "",
                 "images": false,
-                "answer_1": "6",
-                "answer_2": "16",
-                "answer_3": "66",
+                "answer_1": "radiotelefonii na kanale 16 VHF",
+                "answer_2": "DSC",
+                "answer_3": "radiotelefonii na kanale 6 VHF",
                 "correct": 3
             },
             {
-                "question_id": 33,
-                "question": "Alarmowanie w niebezpieczeństwie DSC adresowane jest:",
+                "question_id": 50,
+                "question": "Alarmowanie w niebezpieczeństwie DSC adresowane jest",
                 "question_image": "",
                 "images": false,
                 "answer_1": "jedynie do najbliższej stacji nadbrzeżnej",
@@ -335,38 +505,58 @@
                 "correct": 3
             },
             {
-                "question_id": 34,
-                "question": "Operator stacji statkowej po odbiorze pośredniego alarmowania DSC nadanego przez stację nadbrzeżną powinien:",
+                "question_id": 51,
+                "question": "Operator stacji statkowej po odbiorze pośredniego alarmowania DSC nadanego przez stację nadbrzeżną powinien",
                 "question_image": "",
                 "images": false,
-                "answer_1": "natychmiast potwierdzić odbiór za pomocą DSC",
+                "answer_1": "potwierdzić odbiór za pomocą DSC",
                 "answer_2": "potwierdzić odbiór za pomocą radiotelefonii",
                 "answer_3": "tylko dokonać zapisu w dzienniku radiowym",
                 "correct": 3
             },
             {
-                "question_id": 35,
-                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie w niebezpieczeństwie w sytuacji gdy:",
+                "question_id": 52,
+                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie w niebezpieczeństwie w sytuacji gdy",
                 "question_image": "",
                 "images": false,
                 "answer_1": "jednostka zagrożona sama nie jest w stanie nadać alarmowania",
                 "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "tylko na polecenie RCC",
+                "answer_3": "jest wstanie sam udzielić pomocy",
                 "correct": 3
             },
             {
-                "question_id": 36,
-                "question": "W zakresie VHF, operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC:",
+                "question_id": 53,
+                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC w zakresie VHF",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nie wolno mu tego uczynić",
+                "answer_1": "gdy osoba odpowiedzialna za jego jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
                 "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "tylko na prośbę RCC",
+                "answer_3": "natychmiast po odbiorze alarmowania",
                 "correct": 3
             },
             {
-                "question_id": 37,
-                "question": "W zakresie VHF,  operator stacji statkowej może nadać  potwierdzenie odbioru alarmowania DSC:",
+                "question_id": 54,
+                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC w zakresie MF",
+                "question_image": "",
+                "images": false,
+                "answer_1": "gdy osoba odpowiedzialna za jego jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
+                "answer_2": "tylko na prośbę stacji zagrożonej",
+                "answer_3": "natychmiast po odbiorze alarmowania",
+                "correct": 3
+            },
+            {
+                "question_id": 55,
+                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC w zakresie HF",
+                "question_image": "",
+                "images": false,
+                "answer_1": "nigdy nie wolno mu tego uczynić",
+                "answer_2": "tylko na prośbę stacji zagrożonej",
+                "answer_3": "ale kierując je do wybranej stacji nadbrzeżnej",
+                "correct": 3
+            },
+            {
+                "question_id": 56,
+                "question": "W zakresie VHF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą DSC",
                 "question_image": "",
                 "images": false,
                 "answer_1": "po 3 minutach od odebrania alarmowania",
@@ -375,8 +565,28 @@
                 "correct": 3
             },
             {
-                "question_id": 38,
-                "question": "W zakresie VHF,  operator stacji statkowej może nadać  potwierdzenie odbioru alarmowania DSC za pomocą:",
+                "question_id": 57,
+                "question": "W zakresie MF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą DSC",
+                "question_image": "",
+                "images": false,
+                "answer_1": "po 3 minutach od odebrania alarmowania",
+                "answer_2": "po 5 minutach od odebrania alarmowania i powiadomieniu o tym stacji nadbrzeżnej",
+                "answer_3": "po 4 minutach od odebrania alarmowania",
+                "correct": 3
+            },
+            {
+                "question_id": 58,
+                "question": "W zakresie HF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą DSC",
+                "question_image": "",
+                "images": false,
+                "answer_1": "po 3 minutach od odebrania alarmowania",
+                "answer_2": "po 5 minutach od odebrania alarmowania i powiadomieniu o tym stacji nadbrzeżnej",
+                "answer_3": "nigdy nie wolno mu tego uczynić",
+                "correct": 3
+            },
+            {
+                "question_id": 59,
+                "question": "W zakresie VHF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą",
                 "question_image": "",
                 "images": false,
                 "answer_1": "tylko DSC",
@@ -385,8 +595,28 @@
                 "correct": 3
             },
             {
-                "question_id": 39,
-                "question": "Operator stacji nadbrzeżnej może nadać  potwierdzenie odbioru alarmowania DSC za pomocą:",
+                "question_id": 60,
+                "question": "W zakresie MF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą",
+                "question_image": "",
+                "images": false,
+                "answer_1": "tylko DSC",
+                "answer_2": "radiotelefonii lub DSC",
+                "answer_3": "tylko radiotelefonii",
+                "correct": 3
+            },
+            {
+                "question_id": 61,
+                "question": "W zakresie HF, operator stacji statkowej może nadać potwierdzenie odbioru alarmowania DSC za pomocą",
+                "question_image": "",
+                "images": false,
+                "answer_1": "tylko DSC",
+                "answer_2": "nigdy nie wolno mu tego uczynić",
+                "answer_3": "radiotelefonii",
+                "correct": 3
+            },
+            {
+                "question_id": 62,
+                "question": "Operator stacji nadbrzeżnej może nadać potwierdzenie odbioru alarmowania DSC za pomocą",
                 "question_image": "",
                 "images": false,
                 "answer_1": "radiotelefonii lub DSC",
@@ -395,18 +625,18 @@
                 "correct": 3
             },
             {
-                "question_id": 40,
-                "question": "Przed każdym wywołaniem poprzedzającym korespondencję  w niebezpieczeństwie należy użyć sygnału niebezpieczeństwa:",
+                "question_id": 63,
+                "question": "Przed każdym wywołaniem poprzedzającym korespondencje w niebezpieczeństwie należy użyć sygnału niebezpieczeństwa",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PAN PAN",
                 "answer_2": "MAYDAY",
-                "answer_3": "DISTRESS",
+                "answer_3": "MAYDAY MAYDAY MAYDAY",
                 "correct": 3
             },
             {
-                "question_id": 41,
-                "question": "Stację zakłócającą korespondencję w niebezpieczeństwie może uciszać:",
+                "question_id": 64,
+                "question": "Stację zakłócającą korespondencję w niebezpieczeństwie może uciszać",
                 "question_image": "",
                 "images": false,
                 "answer_1": "tylko RCC",
@@ -415,8 +645,8 @@
                 "correct": 3
             },
             {
-                "question_id": 42,
-                "question": "Sygnałem uciszania stacji zakłócającej korespondencje w niebezpieczeństwie jest sygnał:",
+                "question_id": 65,
+                "question": "Sygnałem uciszania stacji zakłócającej korespondencje w niebezpieczeństwie jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PAN PAN",
@@ -425,7 +655,7 @@
                 "correct": 3
             },
             {
-                "question_id": 43,
+                "question_id": 66,
                 "question": "Informację o zakończeniu korespondencji w niebezpieczeństwie może nadać:",
                 "question_image": "",
                 "images": false,
@@ -435,8 +665,8 @@
                 "correct": 3
             },
             {
-                "question_id": 44,
-                "question": "Sygnałem zakończenia korespondencji w niebezpieczeństwie jest sygnał:",
+                "question_id": 67,
+                "question": "Sygnałem zakończenia korespondencji w niebezpieczeństwie jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PAN PAN",
@@ -445,48 +675,48 @@
                 "correct": 3
             },
             {
-                "question_id": 45,
-                "question": "Korespondencją na miejscu akcji ratunkowej kieruje:",
+                "question_id": 68,
+                "question": "Korespondencją na miejscu akcji ratunkowej kieruje",
                 "question_image": "",
                 "images": false,
-                "answer_1": "RCC",
+                "answer_1": "zawsze RCC",
                 "answer_2": "wyłącznie stacja nadbrzeżna",
                 "answer_3": "OSC",
                 "correct": 3
             },
             {
-                "question_id": 46,
-                "question": "Korespondencją koordynacyjną SAR kieruje:",
+                "question_id": 69,
+                "question": "Korespondencją koordynacyjną SAR kieruje",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wyłącznie stacja zagrożona",
+                "answer_1": "tylko RCC",
                 "answer_2": "OSC",
-                "answer_3": "wyłącznie stacja nadbrzeżna",
+                "answer_3": "jedynie stacja nadbrzeżna",
                 "correct": 3
             },
             {
-                "question_id": 47,
-                "question": "Łączność pilną stosuje się dla uzyskania:",
+                "question_id": 70,
+                "question": "Łączność pilną stosuje się dla uzyskania",
                 "question_image": "",
                 "images": false,
                 "answer_1": "porady i pomocy medycznej",
-                "answer_2": "pomocy nawigacyjnej",
+                "answer_2": "jedynie pomocy medycznej",
                 "answer_3": "ostrzeżeń meteorologicznych",
                 "correct": 3
             },
             {
-                "question_id": 48,
-                "question": "W zakresie VHF, wywołanie pilne DSC można nadać na kanale:",
+                "question_id": 71,
+                "question": "Wywołanie pilne DSC można nadać na częstotliwości/kanale",
                 "question_image": "",
                 "images": false,
-                "answer_1": "26",
-                "answer_2": "13",
-                "answer_3": "70",
+                "answer_1": "2182 kHz",
+                "answer_2": "2187,5 kHz",
+                "answer_3": "kanale 16 VHF",
                 "correct": 3
             },
             {
-                "question_id": 49,
-                "question": "Wywołanie pilne DSC powinno zawierać kategorię:",
+                "question_id": 72,
+                "question": "Wywołanie pilne DSC powinno zawierać kategorię",
                 "question_image": "",
                 "images": false,
                 "answer_1": "URGENCY",
@@ -495,8 +725,8 @@
                 "correct": 3
             },
             {
-                "question_id": 50,
-                "question": "Przy braku potwierdzenia odbioru wywołania pilnego DSC do jednej stacji, może być ono powtórzone po:",
+                "question_id": 73,
+                "question": "Przy braku potwierdzenia odbioru wywołania pilnego DSC do jednej stacji, może być ono powtórzone po",
                 "question_image": "",
                 "images": false,
                 "answer_1": "3 a następnie 10 minutach",
@@ -505,8 +735,8 @@
                 "correct": 3
             },
             {
-                "question_id": 51,
-                "question": "Radiotelefonicznym sygnałem pilności jest sygnał:",
+                "question_id": 74,
+                "question": "Radiotelefonicznym sygnałem pilności jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "URGENCY",
@@ -515,8 +745,8 @@
                 "correct": 3
             },
             {
-                "question_id": 52,
-                "question": "W radiotelefonii sygnał pilności wymawia się:",
+                "question_id": 75,
+                "question": "W radiotelefonii sygnał pilności wymawia się",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 raz",
@@ -525,28 +755,28 @@
                 "correct": 3
             },
             {
-                "question_id": 53,
-                "question": "Łączność ostrzegawczą stosuje się dla:",
+                "question_id": 76,
+                "question": "Łączność ostrzegawczą stosuje się dla nadania",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nadania porady medycznej",
-                "answer_2": "odbioru ostrzeżeń pogodowych",
-                "answer_3": "nadania alarmowania w niebezpieczeństwie",
+                "answer_1": "porady medycznej",
+                "answer_2": "pomocy medycznej",
+                "answer_3": "ostrzeżeń",
                 "correct": 3
             },
             {
-                "question_id": 54,
-                "question": "W zakresie VHF, wywołanie ostrzegawcze DSC można nadać na kanale:",
+                "question_id": 77,
+                "question": "Wywołanie ostrzegawcze DSC można nadać na częstotliwości/kanale",
                 "question_image": "",
                 "images": false,
-                "answer_1": "12",
-                "answer_2": "6",
-                "answer_3": "70",
+                "answer_1": "2182 kHz",
+                "answer_2": "2187,5 kHz",
+                "answer_3": "kanale 16 VHF",
                 "correct": 3
             },
             {
-                "question_id": 55,
-                "question": "Wywołanie ostrzegawcze DSC powinno zawierać kategorie:",
+                "question_id": 78,
+                "question": "Wywołanie ostrzegawcze DSC powinno zawierać kategorie",
                 "question_image": "",
                 "images": false,
                 "answer_1": "URGENCY",
@@ -555,8 +785,8 @@
                 "correct": 3
             },
             {
-                "question_id": 56,
-                "question": "Radiotelefonicznym sygnałem ostrzegawczym jest sygnał:",
+                "question_id": 79,
+                "question": "Radiotelefonicznym sygnałem ostrzegawczy jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "URGENCY",
@@ -565,8 +795,8 @@
                 "correct": 3
             },
             {
-                "question_id": 57,
-                "question": "W radiotelefonii sygnał ostrzegawczy wymawia się:",
+                "question_id": 80,
+                "question": "W radiotelefonii sygnał ostrzegawczy wymawia się",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 raz",
@@ -575,8 +805,8 @@
                 "correct": 3
             },
             {
-                "question_id": 58,
-                "question": "Jeżeli urządzenie DSC nie jest podłączone do urządzeń  nawigacyjnych,  operator powinien wprowadzać do niego aktualną pozycję statku co najmniej:",
+                "question_id": 81,
+                "question": "Jeżeli terminal systemu Inmarsat-C nie jest podłączony do urządzeń nawigacyjnych, operator powinien wprowadzać do SES aktualną pozycję statku co najmniej",
                 "question_image": "",
                 "images": false,
                 "answer_1": "co 1 godzinę",
@@ -585,8 +815,18 @@
                 "correct": 3
             },
             {
-                "question_id": 59,
-                "question": "W zakresie VHF, radiotelefoniczne wezwanie w niebezpieczeństwie powinno być nadane na kanale:",
+                "question_id": 82,
+                "question": "Alarmowanie nadane za pomocą SES systemu Inmarsat-C zawiera informację o",
+                "question_image": "",
+                "images": false,
+                "answer_1": "pozycji jednostki, rodzaju niebezpieczeństwa i liczbie członków załogi",
+                "answer_2": "identyfikacji i pozycji jednostki oraz rodzaju niebezpieczeństwa",
+                "answer_3": "stanie pogody i morza oraz pozycji jednostki",
+                "correct": 3
+            },
+            {
+                "question_id": 83,
+                "question": "W zakresie VHF, radiotelefoniczne wezwanie w niebezpieczeństwie powinno być nadane na kanale",
                 "question_image": "",
                 "images": false,
                 "answer_1": "13",
@@ -595,8 +835,8 @@
                 "correct": 3
             },
             {
-                "question_id": 60,
-                "question": "Wezwanie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od wywołania zawierającego sygnał niebezpieczeństwa MAYDAY wymówiony:",
+                "question_id": 84,
+                "question": "Wezwanie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od wywołania zawierającego sygnał niebezpieczeństwa MAYDAY wymówiony",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 raz",
@@ -605,8 +845,8 @@
                 "correct": 3
             },
             {
-                "question_id": 61,
-                "question": "Korespondencja w niebezpieczeństwie nadana na kanale 16 VHF powinna rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
+                "question_id": 85,
+                "question": "Zawiadomienie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 raz",
@@ -615,8 +855,8 @@
                 "correct": 3
             },
             {
-                "question_id": 62,
-                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadanego na kanale 16 VHF powinno być nadane na kanale:",
+                "question_id": 86,
+                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadanego na kanale 16 VHF powinno być nadane na kanale",
                 "question_image": "",
                 "images": false,
                 "answer_1": "13",
@@ -625,8 +865,8 @@
                 "correct": 3
             },
             {
-                "question_id": 63,
-                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
+                "question_id": 87,
+                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 raz",
@@ -635,28 +875,28 @@
                 "correct": 3
             },
             {
-                "question_id": 64,
-                "question": "Nadanie radiotelefonicznego zawiadomienia o niebezpieczeństwie przez stację w nim nie będącą powinno być poprzedzone sygnałem:",
+                "question_id": 88,
+                "question": "Nadanie radiotelefonicznego zawiadomienia o niebezpieczeństwie przez stację w nim nie będącą powinno być poprzedzone sygnałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "MAYDAY",
-                "answer_2": "MAYDAY, MAYDAY, MAYDAY",
-                "answer_3": "C. MAYDAY RELAY, MAYDAY RELAY, MAYDAY RELAY",
+                "answer_2": "MAYDAY MAYDAY MAYDAY",
+                "answer_3": "MAYDAY RELAY",
                 "correct": 3
             },
             {
-                "question_id": 65,
-                "question": "Sygnał pilności PAN PAN należy stosować przed wywołaniem dotyczącym:",
+                "question_id": 89,
+                "question": "Sygnał pilności PAN PAN należy stosować przed wywołaniem dotyczącym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wypadnięcia człowieka za burtę",
                 "answer_2": "uzyskania porady medycznej",
-                "answer_3": "uzyskania ostrzeżenia nawigacyjnego",
+                "answer_3": "uzyskania informacji o pogodzie",
                 "correct": 3
             },
             {
-                "question_id": 66,
-                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC, wywołanie pilne (PAN PAN) powinno być nadane na kanale:",
+                "question_id": 90,
+                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC, wywołanie pilne (PAN PAN) powinno być nadane na kanale",
                 "question_image": "",
                 "images": false,
                 "answer_1": "12",
@@ -665,8 +905,8 @@
                 "correct": 3
             },
             {
-                "question_id": 67,
-                "question": "Sygnał ostrzegawczy SECURITE należy stosować przed wywołaniem dotyczącym:",
+                "question_id": 91,
+                "question": "Sygnał ostrzegawczy SECURITE należy stosować przed wywołaniem dotyczącym",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wypadnięcia człowieka za burtę",
@@ -675,8 +915,8 @@
                 "correct": 3
             },
             {
-                "question_id": 68,
-                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC,  wywołanie ostrzegawcze (SECURITE) powinno być nadane na kanale:",
+                "question_id": 92,
+                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC, wywołanie ostrzegawcze (SECURITE) powinno być nadane na kanale",
                 "question_image": "",
                 "images": false,
                 "answer_1": "12",
@@ -685,8 +925,8 @@
                 "correct": 3
             },
             {
-                "question_id": 69,
-                "question": "Kanał 75 VHF jest kanałem:",
+                "question_id": 93,
+                "question": "Kanał 75 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności w niebezpieczeństwie",
@@ -695,7 +935,7 @@
                 "correct": 3
             },
             {
-                "question_id": 70,
+                "question_id": 94,
                 "question": "Kanał 76 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
@@ -705,8 +945,8 @@
                 "correct": 3
             },
             {
-                "question_id": 71,
-                "question": "Kanał 15 VHF jest kanałem:",
+                "question_id": 95,
+                "question": "Kanał 15 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności w niebezpieczeństwie",
@@ -715,8 +955,8 @@
                 "correct": 3
             },
             {
-                "question_id": 72,
-                "question": "Kanał 17 VHF jest kanałem:",
+                "question_id": 96,
+                "question": "Kanał 17 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
@@ -725,8 +965,8 @@
                 "correct": 3
             },
             {
-                "question_id": 73,
-                "question": "Kanał 13 VHF w pierwszej kolejności jest kanałem:",
+                "question_id": 97,
+                "question": "Kanał 13 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
@@ -735,18 +975,18 @@
                 "correct": 3
             },
             {
-                "question_id": 74,
-                "question": "Kanał 6 VHF w pierwszej kolejności jest kanałem:",
+                "question_id": 98,
+                "question": "Kanał 6 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
+                "answer_1": "do łączności związanej z ruchem w porcie",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności SAR z samolotami",
                 "correct": 3
             },
             {
-                "question_id": 75,
-                "question": "Kanał 16 VHF w pierwszej kolejności jest kanałem:",
+                "question_id": 99,
+                "question": "Kanał 16 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności w niebezpieczeństwie",
@@ -755,48 +995,38 @@
                 "correct": 3
             },
             {
-                "question_id": 76,
-                "question": "Kanał 70 VHF jest kanałem:",
+                "question_id": 100,
+                "question": "Kanał 70 VHF w pierwszej kolejności jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "do łączności radiotelefonicznej",
+                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do alarmowania w niebezpieczeństwie",
                 "correct": 3
             },
             {
-                "question_id": 77,
-                "question": "Kanały „amerykańskie” (US):",
-                "question_image": "",
-                "images": false,
-                "answer_1": "można wykorzystywać tylko do łączności związanej z bezpieczeństwem żeglugi",
-                "answer_2": "są zabronione na Bałtyku",
-                "answer_3": "nie są zabronione na wodach Unii Europejskiej",
-                "correct": 3
-            },
-            {
-                "question_id": 78,
-                "question": "Gdy jednostka jest w morzu, testowanie wewnętrzne urządzenia VHF DSC powinno być przeprowadzone:",
+                "question_id": 101,
+                "question": "Gdy jednostka jest w morzu, test „wewnętrzny” urządzenia VHF DSC powinien być przeprowadzony",
                 "question_image": "",
                 "images": false,
                 "answer_1": "codziennie",
-                "answer_2": "dwa razy w tygodniu",
+                "answer_2": "raz w tygodniu",
                 "answer_3": "raz w miesiącu",
                 "correct": 3
             },
             {
-                "question_id": 79,
-                "question": "W zakresie VHF, testowanie urządzenia DSC polega na przeprowadzeniu testu:",
+                "question_id": 102,
+                "question": "Testowanie „zewnętrzne” urządzenia DSC powinno być przeprowadzane w zakresie",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wewnętrznego i zewnętrznego",
-                "answer_2": "tylko wewnętrznego",
-                "answer_3": "wewnętrznego albo zewnętrznego",
+                "answer_1": "LF",
+                "answer_2": "HF",
+                "answer_3": "UHF",
                 "correct": 3
             },
             {
-                "question_id": 80,
-                "question": "Testowanie  „zewnętrzne”  urządzenia DSC w zakresie VHF powinno być przeprowadzane:",
+                "question_id": 103,
+                "question": "Testowanie „zewnętrzne” urządzenia DSC w zakresie VHF powinno być przeprowadzane",
                 "question_image": "",
                 "images": false,
                 "answer_1": "codziennie",
@@ -805,8 +1035,28 @@
                 "correct": 3
             },
             {
-                "question_id": 81,
-                "question": "W zakresie VHF, radiotelefoniczne odwołanie fałszywego alarmowania DSC powinno być nadane na kanale:",
+                "question_id": 104,
+                "question": "Testowanie „zewnętrzne” urządzenia DSC w zakresie MF powinno być przeprowadzane",
+                "question_image": "",
+                "images": false,
+                "answer_1": "codziennie",
+                "answer_2": "raz w tygodniu",
+                "answer_3": "zabronione jest takie testowanie",
+                "correct": 3
+            },
+            {
+                "question_id": 105,
+                "question": "Testowanie „zewnętrzne” urządzenia DSC w zakresie HF powinno być przeprowadzane",
+                "question_image": "",
+                "images": false,
+                "answer_1": "codziennie",
+                "answer_2": "co dwa tygodnie",
+                "answer_3": "raz w tygodniu",
+                "correct": 3
+            },
+            {
+                "question_id": 106,
+                "question": "W zakresie VHF, radiotelefoniczne odwołanie fałszywego alarmowania DSC powinno być nadane na kanale",
                 "question_image": "",
                 "images": false,
                 "answer_1": "13",
@@ -815,8 +1065,28 @@
                 "correct": 3
             },
             {
-                "question_id": 82,
-                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą DSC powinno być skierowane:",
+                "question_id": 107,
+                "question": "W zakresie MF, radiotelefoniczne odwołanie fałszywego alarmowania DSC powinno być nadane na częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "2187,5 kHz",
+                "answer_2": "kanale 16 VHF",
+                "answer_3": "2182 kHz",
+                "correct": 3
+            },
+            {
+                "question_id": 108,
+                "question": "W zakresie HF, odwołanie fałszywego alarmowania DSC powinno być nadane na częstotliwości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "radiotelefonicznej, skojarzonej z częstotliwością na której nadano fałszywe alarmowanie",
+                "answer_2": "kanale 16 VHF",
+                "answer_3": "2174,5 kHz",
+                "correct": 3
+            },
+            {
+                "question_id": 109,
+                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą DSC powinno być skierowane",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do najbliższej stacji nadbrzeżnej",
@@ -825,8 +1095,8 @@
                 "correct": 3
             },
             {
-                "question_id": 83,
-                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą  EPIRB powinno być skierowane do:",
+                "question_id": 110,
+                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą EPIRB powinno być skierowane do",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacji nadbrzeżnej",
@@ -835,28 +1105,48 @@
                 "correct": 3
             },
             {
-                "question_id": 84,
-                "question": "Odwołując fałszywe alarmowanie należy podać następujące informacje:",
+                "question_id": 111,
+                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą Inmarsat-C powinno być nadane przez",
                 "question_image": "",
                 "images": false,
-                "answer_1": "pozycję  jednostki,  rodzaj odwoływanego alarmowania,  godzinę  nadania i odwołania fałszywego alarmowania",
-                "answer_2": "rodzaj odwoływanego alarmowania,  godzinę  nadania i ostatni port postoju jednostki",
-                "answer_3": "tylko godzinę nadania fałszywego alarmowania i ostatni port postoju jednostki",
+                "answer_1": "naziemną stację nadbrzeżną (CES) przez którą nadano fałszywe alarmowanie",
+                "answer_2": "najbliższą stację statkową",
+                "answer_3": "OSC",
                 "correct": 3
             },
             {
-                "question_id": 85,
-                "question": "Dla radiotelefonów osobistych  (przenośnych),  wykorzystywanych w służbie radiokomunikacyjnej morskiej, posiadających DSC, nadaje się numer identyfikacyjny:",
+                "question_id": 112,
+                "question": "Odwołując fałszywe alarmowanie nadane za pomocą Inmarsat-C należy użyć priorytetu",
                 "question_image": "",
                 "images": false,
-                "answer_1": "taki sam jak MMSI jednostki pływającej, na której aktualnie jest wykorzystywany",
-                "answer_2": "dziewięciocyfrowy o postaci: 8MIDXXXXX, gdzie MID to trzycyfrowy kod kraju, X to cyfra od 0 do 9",
-                "answer_3": "dziewięciocyfrowy, określany przez producenta urządzenia",
+                "answer_1": "URGENCY",
+                "answer_2": "SAFETY",
+                "answer_3": "DISTRESS",
                 "correct": 3
             },
             {
-                "question_id": 86,
-                "question": "Nadając wywołanie publiczne DSC należy wybrać priorytet (kategorie):",
+                "question_id": 113,
+                "question": "Kanał 70 VHF może być wykorzystany do nadania",
+                "question_image": "",
+                "images": false,
+                "answer_1": "alarmowania w niebezpieczeństwie",
+                "answer_2": "wywołania radiotelefonicznego",
+                "answer_3": "wyłącznie wywołania pilnego",
+                "correct": 3
+            },
+            {
+                "question_id": 114,
+                "question": "Częstotliwość DSC 2187,5 kHz może być wykorzystana do nadania",
+                "question_image": "",
+                "images": false,
+                "answer_1": "alarmowania w niebezpieczeństwie",
+                "answer_2": "wywołania radiotelefonicznego stacji nadbrzeżnej",
+                "answer_3": "wyłącznie wywołania pilnego",
+                "correct": 3
+            },
+            {
+                "question_id": 115,
+                "question": "Nadając wywołanie publiczne DSC należy wybrać priorytet (kategorie)",
                 "question_image": "",
                 "images": false,
                 "answer_1": "DISTRESS",
@@ -865,38 +1155,38 @@
                 "correct": 3
             },
             {
-                "question_id": 87,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne DSC do innej stacji statkowej powinna użyć kanału:",
+                "question_id": 116,
+                "question": "Stacja statkowa nadając wywołanie publiczne DSC do innej stacji statkowej powinna użyć częstotliwości/kanału",
                 "question_image": "",
                 "images": false,
-                "answer_1": "70",
-                "answer_2": "67",
-                "answer_3": "26",
+                "answer_1": "70 VHF",
+                "answer_2": "2182 kHz",
+                "answer_3": "2187,5 kHz",
                 "correct": 3
             },
             {
-                "question_id": 88,
-                "question": "Stacja statkowa nadając wywołanie publiczne DSC do innej stacji statkowej:",
+                "question_id": 117,
+                "question": "Stacja statkowa nadając wywołanie publiczne DSC do innej stacji statkowej",
                 "question_image": "",
                 "images": false,
-                "answer_1": "może podać kanał roboczy",
-                "answer_2": "nie powinna podawać kanału roboczego",
-                "answer_3": "musi podać kanał roboczy",
+                "answer_1": "może podać częstotliwość/kanał roboczy",
+                "answer_2": "nie powinna podawać częstotliwości/kanału roboczego",
+                "answer_3": "musi podać częstotliwość/kanał roboczy",
                 "correct": 3
             },
             {
-                "question_id": 89,
-                "question": "Stacja statkowa nadając wywołanie publiczne DSC do stacji nadbrzeżnej:",
+                "question_id": 118,
+                "question": "Stacja statkowa nadając wywołanie publiczne DSC do stacji nadbrzeżnej",
                 "question_image": "",
                 "images": false,
-                "answer_1": "powinna podać kanał roboczy",
-                "answer_2": "nie powinna podawać kanału roboczego",
-                "answer_3": "może podać kanał roboczy",
+                "answer_1": "powinna podać częstotliwość/kanał roboczy",
+                "answer_2": "nie powinna podawać częstotliwości/kanału roboczego",
+                "answer_3": "może podać częstotliwość/kanał roboczy",
                 "correct": 3
             },
             {
-                "question_id": 90,
-                "question": "Po przejściu na kanał roboczy, łączność publiczną inicjuje:",
+                "question_id": 119,
+                "question": "Po przejściu na kanał roboczy, łączność inicjuje",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacja wywołująca za pomocą DSC",
@@ -905,48 +1195,58 @@
                 "correct": 3
             },
             {
-                "question_id": 91,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne do innej stacji statkowej może użyć kanału:",
+                "question_id": 120,
+                "question": "Stacja statkowa nadając wywołanie publiczne do innej stacji statkowej może użyć częstotliwości/kanału",
                 "question_image": "",
                 "images": false,
-                "answer_1": "25",
-                "answer_2": "16",
-                "answer_3": "26",
+                "answer_1": "2187,5 kHz",
+                "answer_2": "70 VHF",
+                "answer_3": "26 VHF",
                 "correct": 3
             },
             {
-                "question_id": 92,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne do stacji nadbrzeżnej może użyć kanału:",
+                "question_id": 121,
+                "question": "Stacja statkowa nadając wywołanie publiczne do stacji nadbrzeżnej może użyć częstotliwości/kanału:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "15",
-                "answer_2": "16",
-                "answer_3": "6",
+                "answer_1": "2187,5 kHz",
+                "answer_2": "70 VHF",
+                "answer_3": "17 VHF",
                 "correct": 3
             },
             {
-                "question_id": 93,
-                "question": "Radiotelefoniczne wywołanie publiczne w zakresie VHF powinno mieć formę:",
+                "question_id": 122,
+                "question": "Radiotelefoniczne wywołanie publiczne w zakresie VHF powinno mieć formę",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (2x)",
-                "answer_2": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (3x)",
-                "answer_3": "nazwa stacji wywoływanej (2x) This is nazwa stacji wywołującej (2x)",
+                "answer_1": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
+                "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /3x",
+                "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /2x",
                 "correct": 3
             },
             {
-                "question_id": 94,
-                "question": "Radiotelefoniczna odpowiedź na wywołanie publiczne w zakresie VHF powinna mieć formę:",
+                "question_id": 123,
+                "question": "Radiotelefoniczne wywołanie publiczne w zakresie MF może mieć formę",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywołującej (1x) This is nazwa stacji wywoływanej (2x)",
-                "answer_2": "nazwa stacji wywoływanej (4x) This is nazwa stacji wywołującej (4x)",
-                "answer_3": "nazwa stacji wywołującej (2x) This is nazwa stacji wywoływanej (2x)",
+                "answer_1": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
+                "answer_2": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
+                "answer_3": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /2x",
                 "correct": 3
             },
             {
-                "question_id": 95,
-                "question": "Wywołanie i odpowiedź na wywołanie na kanale 16 VHF nie powinny przekraczać:",
+                "question_id": 124,
+                "question": "Radiotelefoniczne wywołanie publiczne w zakresie HF może mieć formę",
+                "question_image": "",
+                "images": false,
+                "answer_1": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
+                "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
+                "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /4x",
+                "correct": 3
+            },
+            {
+                "question_id": 125,
+                "question": "Wywołanie i odpowiedź na wywołanie publiczne na kanale 16 VHF nie powinny przekraczać",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 minuty",
@@ -955,8 +1255,8 @@
                 "correct": 3
             },
             {
-                "question_id": 96,
-                "question": "Stacja statkowa VHF z DSC,  gdy znajduje się  w morzu,  utrzymuje ciągły nasłuch radiowy na kanale:",
+                "question_id": 126,
+                "question": "Stacja statkowa VHF, gdy znajduje się w morzu, powinna utrzymywać ciągły nasłuch radiowy na kanałach",
                 "question_image": "",
                 "images": false,
                 "answer_1": "26",
@@ -965,8 +1265,28 @@
                 "correct": 3
             },
             {
-                "question_id": 97,
-                "question": "W łączności stacji statkowej ze stacją nadbrzeżną, o przebiegu korespondencji decyduje:",
+                "question_id": 127,
+                "question": "Stacja statkowa VHF/MF, gdy znajduje się w morzu, powinna utrzymywać ciągły nasłuch radiowy na kanałach/częstotliwościach",
+                "question_image": "",
+                "images": false,
+                "answer_1": "16 VHF",
+                "answer_2": "17 VHF",
+                "answer_3": "6 VHF",
+                "correct": 3
+            },
+            {
+                "question_id": 128,
+                "question": "Stacja statkowa VHF/MF/HF, gdy znajduje się w morzu, powinna utrzymywać ciągły nasłuch radiowy na kanałach/częstotliwościach",
+                "question_image": "",
+                "images": false,
+                "answer_1": "16 VHF",
+                "answer_2": "8291 kHz",
+                "answer_3": "6 VHF",
+                "correct": 3
+            },
+            {
+                "question_id": 129,
+                "question": "W łączności stacji statkowej ze stacją nadbrzeżną, o przebiegu korespondencji decyduje",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacja statkowa",
@@ -975,7 +1295,7 @@
                 "correct": 3
             },
             {
-                "question_id": 98,
+                "question_id": 130,
                 "question": "Wykaz korespondencji (traffic list) nadawany jest przez:",
                 "question_image": "",
                 "images": false,
@@ -985,8 +1305,8 @@
                 "correct": 3
             },
             {
-                "question_id": 99,
-                "question": "Jeżeli wywoływana stacja nie odpowiada na wywołanie publiczne DSC, kolejne można powtórzyć po:",
+                "question_id": 131,
+                "question": "Jeżeli wywoływana stacja nie odpowiada na wywołanie publiczne DSC, kolejne można powtórzyć po",
                 "question_image": "",
                 "images": false,
                 "answer_1": "3 minutach",
@@ -995,8 +1315,8 @@
                 "correct": 3
             },
             {
-                "question_id": 100,
-                "question": "Jeżeli wywoływana stacja nie odpowiada na radiotelefoniczne wywołanie publiczne, kolejne można powtórzyć po:",
+                "question_id": 132,
+                "question": "Jeżeli wywoływana stacja nie odpowiada na radiotelefoniczne wywołanie publiczne, kolejne można powtórzyć po",
                 "question_image": "",
                 "images": false,
                 "answer_1": "4 minutach, a następne po 1 minucie",
@@ -1005,8 +1325,8 @@
                 "correct": 3
             },
             {
-                "question_id": 101,
-                "question": "Jednostka pływająca może zrealizować radiotelefoniczną łączność publiczną z abonentem telekomunikacyjnej sieci lądowej:",
+                "question_id": 133,
+                "question": "Radiotelefoniczną łączność publiczną z telekomunikacyjną siecią lądową, jednostka może zrealizować",
                 "question_image": "",
                 "images": false,
                 "answer_1": "bezpośrednio przez telekomunikacyjną sieć lądową",
@@ -1015,18 +1335,18 @@
                 "correct": 3
             },
             {
-                "question_id": 102,
-                "question": "Radiotelefoniczną łączność publiczną z telekomunikacyjną siecią lądową, prowadzi się na kanale:",
+                "question_id": 134,
+                "question": "Radiotelefoniczną łączność publiczną z telekomunikacyjną siecią lądową, prowadzić się na kanale/częstotliwości",
                 "question_image": "",
                 "images": false,
-                "answer_1": "16",
-                "answer_2": "13",
-                "answer_3": "wskazanym przez stację nadbrzeżną",
+                "answer_1": "16 VHF",
+                "answer_2": "2182 kHz",
+                "answer_3": "wskazanej przez stację nadbrzeżną",
                 "correct": 3
             },
             {
-                "question_id": 103,
-                "question": "Prowadząc łączność radiotelefoniczną, sygnałem zakończenia wypowiedzi jest sygnał:",
+                "question_id": 135,
+                "question": "Prowadząc rozmowę radiotelefoniczną ze stacją nadbrzeżną, sygnałem zakończenia wypowiedzi jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PAN PAN",
@@ -1035,8 +1355,8 @@
                 "correct": 3
             },
             {
-                "question_id": 104,
-                "question": "Prowadząc łączność radiotelefoniczną, sygnałem zakończenia łączności jest sygnał:",
+                "question_id": 136,
+                "question": "Prowadząc rozmowę radiotelefoniczną z inną stacją statkową, sygnałem zakończenia łączności jest sygnał",
                 "question_image": "",
                 "images": false,
                 "answer_1": "OVER AND OUT",
@@ -1045,18 +1365,18 @@
                 "correct": 3
             },
             {
-                "question_id": 105,
-                "question": "Po przejściu na kanał  roboczy, radiotelefoniczne wywołanie publiczne powinno mieć formę:",
+                "question_id": 137,
+                "question": "Po przejściu na kanał/częstotliwość roboczą, radiotelefoniczne wywołanie publiczne powinno mieć formę",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywoływanej (4x) This is nazwa stacji wywołującej (4x)",
-                "answer_2": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (1x)",
-                "answer_3": "nazwa stacji wywoływanej (2x) This is nazwa stacji wywołującej (2x)",
+                "answer_1": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
+                "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /1x",
+                "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /2x",
                 "correct": 3
             },
             {
-                "question_id": 106,
-                "question": "Stacja nadbrzeżna pytając stację statkową o jej położenie może użyć skrótu:",
+                "question_id": 138,
+                "question": "Stacja nadbrzeżna pytając stację statkową o przedsiębiorstwo rozliczające jej rachunki radiokomunikacyjne, może użyć skrótu",
                 "question_image": "",
                 "images": false,
                 "answer_1": "QRJ",
@@ -1065,8 +1385,28 @@
                 "correct": 3
             },
             {
-                "question_id": 107,
-                "question": "Publikacja ITU „Spis stacji nadbrzeżnych” zawiera podstawowe dane o:",
+                "question_id": 139,
+                "question": "Stacja nadbrzeżna pytając stację statkową o jej położenie może użyć skrótu",
+                "question_image": "",
+                "images": false,
+                "answer_1": "QRJ",
+                "answer_2": "AAIC",
+                "answer_3": "QTH",
+                "correct": 3
+            },
+            {
+                "question_id": 140,
+                "question": "Publikacja ITU „Spis stacji statkowych i przyznanych identyfikacji morskiej służby ruchomej” zawiera podstawowe dane o",
+                "question_image": "",
+                "images": false,
+                "answer_1": "stacjach statkowych otwartych dla korespondencji publicznej",
+                "answer_2": "jedynie stacjach statkowych służby SAR",
+                "answer_3": "statkowych stacjach hydrograficznych",
+                "correct": 3
+            },
+            {
+                "question_id": 141,
+                "question": "Publikacja ITU „Spis stacji nadbrzeżnych i służb specjalnych” zawiera podstawowe dane o",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
@@ -1075,18 +1415,28 @@
                 "correct": 3
             },
             {
-                "question_id": 108,
-                "question": "Publikacja ITU „Spis stacji nadbrzeżnych” zawiera podstawowe dane o:",
+                "question_id": 142,
+                "question": "Publikacja ITU „Spis stacji nadbrzeżnych i służb specjalnych” zawiera podstawowe dane o",
                 "question_image": "",
                 "images": false,
                 "answer_1": "tylko stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
                 "answer_2": "stacjach nadbrzeżnych nadających MSI",
-                "answer_3": "RSC",
+                "answer_3": "stacjach RSC",
                 "correct": 3
             },
             {
-                "question_id": 109,
-                "question": "W Polsce, dokument „Pozwolenie radiowe na stację statkową” wydaje:",
+                "question_id": 143,
+                "question": "Publikacja Biura Hydrograficznego Marynarki Wojennej „Spis radiostacji nautycznych zawiera podstawowe dane o",
+                "question_image": "",
+                "images": false,
+                "answer_1": "stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
+                "answer_2": "stacjach statkowych SAR",
+                "answer_3": "stacjach statkowych",
+                "correct": 3
+            },
+            {
+                "question_id": 144,
+                "question": "W Polsce, dokument Pozwolenie radiowe na stację statkową przyznaje",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PRS",
@@ -1095,8 +1445,8 @@
                 "correct": 3
             },
             {
-                "question_id": 110,
-                "question": "Dokument  „Pozwolenie radiowe na stację  statkową”  poświadcza o zgodności zainstalowanych na jednostce urządzeń radiowych z",
+                "question_id": 145,
+                "question": "Dokument Pozwolenie radiowe na stację statkową poświadcza o zgodności zainstalowanych na statku urządzeń radiowych z",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przepisami PRS",
@@ -1105,8 +1455,8 @@
                 "correct": 3
             },
             {
-                "question_id": 111,
-                "question": "W Polsce, dokument „Karta bezpieczeństwa” jest przyznawany przez",
+                "question_id": 146,
+                "question": "W Polsce, dokument Karta bezpieczeństwa jest przyznawany przez",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PRS",
@@ -1115,33 +1465,43 @@
                 "correct": 3
             },
             {
-                "question_id": 112,
-                "question": "„Świadectwo operatora  łączności bliskiego zasięgu  (SRC)”  upoważnia do obsługi urządzeń radiowych wykorzystujących częstotliwości i techniki stosowane w GMDSS na statkach morskich niepodlegających Konwencji SOLAS:",
+                "question_id": 147,
+                "question": "Świadectwo operatora łączności dalekiego zasięgu (LRC) upoważnia do obsługi urządzeń radiowych stosowanych w GMDSS na statkach morskich niepodlegających Konwencji SOLAS",
                 "question_image": "",
                 "images": false,
-                "answer_1": "w pasmach częstotliwości VHF, MF i HF",
-                "answer_2": "na obszarze morza A1",
-                "answer_3": "tylko w paśmie częstotliwości VHF",
+                "answer_1": "na obszarach morza A1 i A2",
+                "answer_2": "na obszarach morza A1, A2, A3 i A4",
+                "answer_3": "na obszarach morza A1, A2 i A3",
                 "correct": 3
             },
             {
-                "question_id": 113,
-                "question": "W „Dzienniku radiowym” należy odnotowywać",
+                "question_id": 148,
+                "question": "W Dzienniku radiowym należy odnotowywać",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przynajmniej raz dziennie pozycję jednostki",
                 "answer_2": "liczbę członków załogi",
-                "answer_3": "pozycję jednostki minimum trzy razy na dobę",
+                "answer_3": "jedynie potwierdzone alarmowania w niebezpieczeństwie",
                 "correct": 3
             },
             {
-                "question_id": 114,
-                "question": "Zapewnienie tajemnicy korespondencji polega na tym, że:",
+                "question_id": 149,
+                "question": "Stację statkową, która może prowadzić komercyjną łączność publiczną nazywa się",
                 "question_image": "",
                 "images": false,
-                "answer_1": "tylko informacja wychodząca ze stacji nie może trafić do osób trzecich",
-                "answer_2": "tylko informacja przychodząca do stacji nie może trafić do osób trzecich",
-                "answer_3": "informacja przychodząca i wychodząca ze stacji nie może trafić do osób trzecich",
+                "answer_1": "komercyjną stacją statkową (KP)",
+                "answer_2": "usługową stacją statkową",
+                "answer_3": "stacją statkową otwartą dla korespondencji publicznej (CP)",
+                "correct": 3
+            },
+            {
+                "question_id": 150,
+                "question": "Opłaty radiokomunikacyjne stacji statkowej za przeprowadzone łączności z telekomunikacyjną siecią lądową, regulowane są przez",
+                "question_image": "",
+                "images": false,
+                "answer_1": "właściciela jednostki",
+                "answer_2": "QRC",
+                "answer_3": "operatora radiowego",
                 "correct": 3
             }
         ]
@@ -1152,7 +1512,7 @@
         "exam": 8,
         "questions": [
             {
-                "question_id": 115,
+                "question_id": 151,
                 "question": "Potrzebuję asysty.",
                 "question_image": "",
                 "images": false,
@@ -1162,7 +1522,28 @@
                 "correct": 2
             },
             {
-                "question_id": 116,
+                "question_id": 152,
+                "question": "Nie ma wystarczającej głębokości wody na pozycji",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Water is not depth in position",
+                "answer_2": "Too deep water in position.",
+                "answer_3": "No sufficient depth of water in position.",
+                "correct": 3
+            },
+ 
+            {
+                "question_id": 153,
+                "question": "Jaki jest stan morza na twojej pozycji?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "What is sea in your position?",
+                "answer_2": "What is sea level in your position?",
+                "answer_3": "What is sea state in your position?",
+                "correct": 3
+            },
+            {
+                "question_id": 154,
                 "question": "Pożar w nadbudówce.",
                 "question_image": "",
                 "images": false,
@@ -1172,27 +1553,158 @@
                 "correct": 3
             },
             {
-                "question_id": 117,
-                "question": "Nabieram wody.",
+                "question_id": 155,
+                "question": "Jestem atakowany przez piratów.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "I am over attack of pirates.", 
+                "answer_2": "Pirates is attacking me.", 
+                "answer_3": "I am under attack of pirates.",
+                "correct": 3
+            },  
+            {
+                "question_id": 156,
+                "question": "Mogę podążać tylko z małą prędkością.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I am flooding.",
-                "answer_2": "I am making water",
-                "answer_3": "I am taking water.",
+                "answer_1": "I can proceed at reduced speed.",
+                "answer_2": "I proceeding at restricted speed.", 
+                "answer_3": "I can swim at limited speed.",
+                "correct": 1
+            },  
+            {
+                "question_id": 157,
+                "question": "Ofiary wypadku odleciały helikopterem",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Casualties flown off by helicopter.", 
+                "answer_2": "Survivals flew by chopper.", 
+                "answer_3": "Helicopter flown by casualties",
+                "correct": 2
+            }, 
+            {
+                "question_id": 158,
+                "question": "What (jest uszkodzenie)?",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "are damage", 
+                "answer_2": "is damage?", 
+                "answer_3": "have you damaged",
                 "correct": 3
             },
             {
-                "question_id": 118,
+                "question_id": 159,
+                "question": "Spodziewam się zejść z mielizny, gdy zmniejszy się zanurzenie.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "I expect to leave the ground when draft decreases.",
+                "answer_2": "I expect to refloat when draft increases.",
+                "answer_3": "I expect to refloat when draft decreases.",
+                "correct": 2
+            },
+            {
+                "question_id": 160,
+                "question": "Nabieram wody.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am taking water.",
+                "answer_2": "I am flooding.",
+                "answer_3": "I am going below.",
+                "correct": 1
+            },
+            {
+                "question_id": 161,
+                "question": "Jestem na mieliźnie o skalistym dnie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I have ground on rock bottom.",
+                "answer_2": "I went aground on rocky seabed.",
+                "answer_3": "I am aground on rocky bottom",
+                "correct": 1
+            },
+            {
+                "question_id": 162,
+                "question": "Jest przypływ.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is tide.",
+                "answer_2": "Tide rising.",
+                "answer_3": "Tide extending.",
+                "correct": 2
+            },
+             
+            {
+                "question_id": 163,
+                "question": "Trzymaj się z dala ode mnie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Keep clear of me.",
+                "answer_2": "Stay far away from me.",
+                "answer_3": "Gave me wide berth.",
+                "correct": 2
+            },
+            {
+                "question_id": 164,
+                "question": "Czy pali się ładunek?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is cargo on fire?",
+                "answer_2": "Does cargo is on fire?",
+                "answer_3": "Does cargo fire?",
+                "correct": 1
+            },
+            {
+                "question_id": 165,
+                "question": "Bądź gotowy do udzielenia pomocy.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Be ready for assist.",
+                "answer_2": "Stand by to render assistance.",
+                "answer_3": "Stand by to take help.",
+                "correct": 2
+            },
+            {
+                "question_id": 166,
+                "question": "Gdzie zauważyliście plamę ropy?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Where do you locate oil slick?",
+                "answer_2": "When have you found oil?",
+                "answer_3": "Where have you sighted oil slick?",
+                "correct": 3
+            },
+            {
+                "question_id": 167,
+                "question": "Łódź ratownicza musi podejść do lewej burty od rufy.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Rescue boat must approach on starboard quarter.",
+                "answer_2": "Rescue boat must approach on port quarter.",
+                "answer_3": "Rescue boat approached us on port quarter.",
+                "correct": 2
+            },
+            {
+                "question_id": 168,
                 "question": "Czy możecie udzielić pomocy?",
                 "question_image": "",
                 "images": false,
                 "answer_1": "Are you helping me?",
                 "answer_2": "Can you render assistance?",
-                "answer_3": "Do you help me? ",
+                "answer_3": "Do you help me?",
                 "correct": 2
             },
             {
-                "question_id": 119,
+                "question_id": 169,
+                "question": "Wszedłem na mieliznę przy średnim stanie pływu.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I went aground at high water.",
+                "answer_2": "I went aground at half water.",
+                "answer_3": "I run aground at mid water.",
+                "correct": 2
+            },
+            {
+                "question_id": 170,
                 "question": "Czy możesz podjąć rozbitków?",
                 "question_image": "",
                 "images": false,
@@ -1202,7 +1714,61 @@
                 "correct": 3
             },
             {
-                "question_id": 120,
+                "question_id": 171,
+                "question": "Prowadź baczną obserwację poszukując tratew ratunkowych.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Keep sharp lookout for life rafts.",
+                "answer_2": "Look for inflatable rafts.",
+                "answer_3": "Keep lookout for boats with caution.",
+                "correct": 3
+            }, 
+ 
+            {
+                "question_id": 172,
+                "question": "Ile osób pozostanie na burcie?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "How many men stay on ship?",
+                "answer_2": "How many persons will stay on board?",
+                "answer_3": "Who will stay on board?",
+                "correct": 2
+            }, 
+ 
+            {
+                "question_id": 173,
+                "question": "Czy możesz płynąć bez pomocy?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can you head without escort?",
+                "answer_2": "Can you proceed without assistance?",
+                "answer_3": "Can you steer without attendance?",
+                "correct": 2
+            }, 
+ 
+{
+    "question_id": 174,
+                "question": "Czy przewiduje się, że siła wiatru wzrośnie?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is wind expected to increase?",
+                "answer_2": "Is wind strength bigger?",
+                "answer_3": "Is wind force to decrease?",
+                "correct": 1
+            }, 
+ 
+{
+    "question_id": 175,
+                "question": "Widzialność maleje",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Visibility is decreasing.",
+                "answer_2": "Visibility is droping",
+                "answer_3": "Visibility is falling.",
+                "correct": 1
+            }, 
+            {
+                "question_id": 176,
                 "question": "Widzialność jest zmniejszona z powodu mgły.",
                 "question_image": "",
                 "images": false,
@@ -1212,7 +1778,7 @@
                 "correct": 2
             },
             {
-                "question_id": 121,
+                "question_id": 177,
                 "question": "Podaj liczbę rannych.",
                 "question_image": "",
                 "images": false,
@@ -1222,47 +1788,134 @@
                 "correct": 3
             },
             {
-                "question_id": 122,
+                "question_id": 178,
                 "question": "Stan rozbitków jest dobry.",
                 "question_image": "",
                 "images": false,
                 "answer_1": "Survivors in good condition.",
                 "answer_2": "Survivors are good.",
-                "answer_3": "Survivors in bad condition. ",
+                "answer_3": "Survivors in bad condition.",
                 "correct": 1
             },
             {
-                "question_id": 123,
+                "question_id": 179,
+                "question": "Widzialność jest zmienna.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Visibility is changing.",
+                "answer_2": "Visibility is various.",
+                "answer_3": "Visibility is variable.",
+                "correct": 3
+            }, 
+{
+    "question_id": 180,
+                "question": "Przewidywana jest poprawa widzialności.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Visibility is expected to increase.",
+                "answer_2": "Visibility is predicted to grow.",
+                "answer_3": "Visibility is hoped to get better.",
+                "correct": 1
+            }, 
+            {
+                "question_id": 181,
                 "question": "Przechodzę na kanał … UKF.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I am coming to canal ... VHF.",
-                "answer_2": "I am going to channel ... UKF.",
-                "answer_3": "Changing to channel ... VHF.",
+                "answer_1": "I am coming to canal … VHF.",
+                "answer_2": "I am going to channel … UKF.",
+                "answer_3": "Changing to channel … VHF.",
                 "correct": 3
             },
             {
-                "question_id": 124,
-                "question": "Śruba statku jest uszkodzona.",
+                "question_id": 182,
+                "question": "Płetwa sterowa jest uszkodzona.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Steering gear damaged.",
+                "answer_2": "Rudder damaged.",
+                "answer_3": "Helm damaged.",
+                "correct": 2
+            }, 
+ 
+{
+    "question_id": 183,
+                "question": "Jakie jest najnowsze ostrzeżenie przed wichurami?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "What is latest gale warning?",
+                "answer_2": "What is wind warning?",
+                "answer_3": "What is your gale warning?",
+                "correct": 1
+            }, 
+ 
+{
+    "question_id": 184,
+                "question": "Spodziewam się odzyskać pływalność, kiedy poprawi się widzialność.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I expect to refloat when visibility increases.",
+                "answer_2": "I expect to proceed when visibility decreases.",
+                "answer_3": "I await to regain buoyancy when visibility improves.",
+                "correct": 1
+            }, 
+ 
+{
+    "question_id": 185,
+                "question": "Nie opuszczę statku.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am not staying.",
+                "answer_2": "I am leaving.",
+                "answer_3": "I will not abandon ship.",
+                "correct": 3
+            }, 
+ 
+{
+    "question_id": 186,
+                "question": "Czy pożar jest opanowany?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Have you calmed the fire?",
+                "answer_2": "Is fire under command?",
+                "answer_3": "Is fire under control?",
+                "correct": 3
+            }, 
+ 
+{
+    "question_id": 187,
+    "question": "Śruba napędowa jest uszkodzona", 
                 "question_image": "",
                 "images": false,
                 "answer_1": "Propeller damaged.",
-                "answer_2": "Bolt damaged. ",
-                "answer_3": "Propeller are damaged.",
-                "correct": 3
-            },
-            {
-                "question_id": 125,
-                "question": "Zalecam ci przejść na kanał UKF",
+                "answer_2": "Bolt damaged.",
+                "answer_3": "Screw is being damaged.",
+                "correct": 1
+            }, 
+ 
+{
+    "question_id": 188,
+                "question": "Czy możecie płynąć na pozycję wołającego o pomoc?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I recommend to come to channel VHF.",
-                "answer_2": "I recommend to switch on to UKF channel.",
-                "answer_3": "Advise go to VHF channel.",
+                "answer_1": "Can you sail to help?",
+                "answer_2": "Can you proceed to shouting for help position?",
+                "answer_3": "Can you proceed to distress position?",
                 "correct": 3
-            },
+            }, 
+ 
+{
+    "question_id": 189,
+                "question": "Wskazania barometru bez zmian.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Barometer continuous.",
+                "answer_2": "Barometer indications without difference.",
+                "answer_3": "Barometer steady.",
+                "correct": 2
+            }, 
             {
-                "question_id": 126,
+                "question_id": 190,
                 "question": "Dryfuję z prędkością 2 węzłów.",
                 "question_image": "",
                 "images": false,
@@ -1272,7 +1925,28 @@
                 "correct": 2
             },
             {
-                "question_id": 127,
+                "question_id": 191,
+                "question": "Wysoka fala martwa.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Swell is tall.",
+                "answer_2": "Dead wave is high.",
+                "answer_3": "High swell.",
+                "correct": 2
+            }, 
+ 
+{
+    "question_id": 192,
+                "question": "Przekaż chorego na mój statek.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Send sick person to my ship.",
+                "answer_2": "Ship casualty to my vessel.",
+                "answer_3": "Transform person to my vessel.",
+                "correct": 1
+            }, 
+            {
+                "question_id": 193,
                 "question": "Brak zasilania.",
                 "question_image": "",
                 "images": false,
@@ -1282,7 +1956,17 @@
                 "correct": 3
             },
             {
-                "question_id": 128,
+                "question_id": 194,
+                "question": "Mijamy się prawymi burtami.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "We are passing green to green.",
+                "answer_2": "We have passed starboard to starboard.",
+                "answer_3": "We are passing port to port.",
+                "correct": 1
+            }, 
+            {
+                "question_id": 195,
                 "question": "Kiedy nadejdzie pomoc?",
                 "question_image": "",
                 "images": false,
@@ -1292,7 +1976,7 @@
                 "correct": 3
             },
             {
-                "question_id": 129,
+                "question_id": 196,
                 "question": "Mam kłopoty z silnikiem głównym.",
                 "question_image": "",
                 "images": false,
@@ -1302,7 +1986,28 @@
                 "correct": 3
             },
             {
-                "question_id": 130,
+                "question_id": 197,
+                "question": "Czy możesz osadzić statek na mieliźnie?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can you ran the vessel aground?",
+                "answer_2": "Can you beach?",
+                "answer_3": "Can you grounded?",
+                "correct": 1
+            },
+ 
+{
+    "question_id": 198,
+                "question": "Wyłóż ster lewo na burtę.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "To portside.",
+                "answer_2": "Put helm hard to port.",
+                "answer_3": "Rudder to port.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 199,
                 "question": "Mam niebezpieczny przechył na lewą burtę.",
                 "question_image": "",
                 "images": false,
@@ -1312,7 +2017,17 @@
                 "correct": 1
             },
             {
-                "question_id": 131,
+                "question_id": 200,
+                "question": "Płynę by udzielić ci pomocy.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am swimming to help you.",
+                "answer_2": "I am proceeding to your assistance.",
+                "answer_3": "I am proceeding with assistance.",
+                "correct": 3
+            },
+            {
+                "question_id": 201,
                 "question": "Mam problemy z urządzeniem sterowym.",
                 "question_image": "",
                 "images": false,
@@ -1322,7 +2037,28 @@
                 "correct": 1
             },
             {
-                "question_id": 132,
+                "question_id": 202,
+                "question": "Mam przypadkowy wyciek ropy",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am leaking oil.",
+                "answer_2": "I have poured oil.",
+                "answer_3": "I have accidental oil spillage.",
+                "correct": 1
+            },
+ 
+{
+    "question_id": 203,
+                "question": "Zlokalizowałem statek wyrzucający do wody chemikalia.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Saw vessel throwing up chemicals.",
+                "answer_2": "Sighted ship polluting chemicals.",
+                "answer_3": "Located vessel dumping chemicals.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 204,
                 "question": "I read you (dobrze).",
                 "question_image": "",
                 "images": false,
@@ -1332,7 +2068,39 @@
                 "correct": 2
             },
             {
-                "question_id": 133,
+                "question_id": 205,
+                "question": "Czy wiatr skręca w lewo?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is wind backing?",
+                "answer_2": "Is wind turning to port?",
+                "answer_3": "Is wind turning anticlockwise?",
+                "correct": 2
+            }, 
+ 
+{
+    "question_id": 206,
+                "question": "Czy możemy zakotwiczyć na tymczasowym kotwicowisku?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can we drop anchor at temporary anchorage?",
+                "answer_2": "Shall we anchorage?",
+                "answer_3": "Can we heave anchor at temporary anchorage?",
+                "correct": 1
+            }, 
+ 
+{
+    "question_id": 207,
+                "question": "Zdołałem usunąć przeciek",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I can remove leak",
+                "answer_2": "Leak was stopping.",
+                "answer_3": "I stopped leak.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 208,
                 "question": "Nie odpowiadam za swoje ruchy.",
                 "question_image": "",
                 "images": false,
@@ -1342,7 +2110,28 @@
                 "correct": 3
             },
             {
-                "question_id": 134,
+                "question_id": 209,
+                "question": "Kierujesz się wprost na sprzęt połowowy.",
+                            "question_image": "",
+                "images": false,
+                "answer_1": "You are going to fishing equipment.",
+                            "answer_2": "You coming straight into fishing gear.",
+                            "answer_3": "You are heading towards fishing gear.",
+                            "correct": 1
+                        }, 
+             
+            {
+                "question_id": 210,
+                "question": "Statek na kursie przeciwnym przejdzie po waszej lewej burcie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "The vessel on contrary course passing on starboardside",
+                "answer_2": "The vessel ahead of you will pass on your portside.",
+                "answer_3": "The vessel on opposite course will pass on your portside.",
+                "correct": 3
+            },
+            {
+                "question_id": 211,
                 "question": "How do you (odbierasz mnie)?",
                 "question_image": "",
                 "images": false,
@@ -1352,7 +2141,17 @@
                 "correct": 2
             },
             {
-                "question_id": 135,
+                "question_id": 212,
+                "question": "Zlokalizowałem statek spalający odpady.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Located vessel incinerating waste.",
+                "answer_2": "Find vessel burning rubbish.",
+                "answer_3": "Detected vessel igniting residue.",
+                "correct": 1
+            },
+            {
+                "question_id": 213,
                 "question": "I am sinking (po zalaniu).",
                 "question_image": "",
                 "images": false,
@@ -1362,7 +2161,28 @@
                 "correct": 3
             },
             {
-                "question_id": 136,
+                "question_id": 214,
+                "question": "Rozmiar uszkodzenia nieznany.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Extent of damage known.",
+                "answer_2": "Extent of damage unknown.",
+                "answer_3": "Damage knew.",
+                "correct": 2
+            },
+ 
+{
+    "question_id": 215,
+                "question": "Czy możesz powstrzymać wyciek ropy?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Could you stop oil?",
+                "answer_2": "Can you stop oil spillage?",
+                "answer_3": "Can you complete spill?",
+                "correct": 2
+            },
+            {
+                "question_id": 216,
                 "question": "Odebrałem twój sygnał Mayday.",
                 "question_image": "",
                 "images": false,
@@ -1372,7 +2192,7 @@
                 "correct": 3
             },
             {
-                "question_id": 137,
+                "question_id": 217,
                 "question": "Muszę opuścić statek po zderzeniu.",
                 "question_image": "",
                 "images": false,
@@ -1382,7 +2202,7 @@
                 "correct": 3
             },
             {
-                "question_id": 138,
+                "question_id": 218,
                 "question": "Utrzymuj kontakt radiowy na kanale.",
                 "question_image": "",
                 "images": false,
@@ -1392,27 +2212,82 @@
                 "correct": 3
             },
             {
-                "question_id": 139,
-                "question": "Jakie jest wasze obecne maksymalne zanurzenie?",
+                "question_id":219,
+                "question": "Zderzyłem się z latarniowcem.",
                 "question_image": "",
-                "images": false,
-                "answer_1": "What is your present maximum freeboard?",
-                "answer_2": "What is your present air draft?",
-                "answer_3": "What is your present maximum draft? ",
-                "correct": 3
-            },
-            {
-                "question_id": 140,
-                "question": "Nie mogę płynąć bez pomocy.",
-                "question_image": "",
-                "images": false,
-                "answer_1": "I do not have to sail without assistance.",
-                "answer_2": "I cannot proceed without assistance.",
-                "answer_3": "I can’t proceeded without assistance.",
+                "images": false, 
+                "answer_1": "I have collision with a lighthouse.", 
+                "answer_2": "I have collided with a lightship.", 
+                "answer_3": "A light vessel has collided.",
                 "correct": 2
-            },
+            }, 
             {
-                "question_id": 141,
+                "question_id":220,
+                "question": "Czy potrzebujesz pomocy medycznej?",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Do you require medical assistance?", 
+                "answer_2": "Did you require medical assistance?",
+                "answer_3": "Do you must have medical assistance?",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":221,
+                "question": "Pława świetlna na pozycji … nie na miejscu.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Light buoy in position … off station.", 
+                "answer_2": "Light beacon in position … off station.", 
+                "answer_3": "Light buoy in position … out of order",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":222,
+                "question": "Prowadzić poszukiwanie radarowe.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Give radar searching.", 
+                "answer_2": "Find by radar.", 
+                "answer_3": "Carry out radar search.",
+                "correct": 3
+            }, 
+ 
+            {
+                "question_id":223,
+                "question": "Rurociąg ma wyciek gazu",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Pipeline spilling oil.", 
+                "answer_2": "Pipeline leaking gas.", 
+                "answer_3": "Gas leaking.",
+                "correct": 2
+            }, 
+ 
+            {
+                "question_id":224,
+                "question": "Zalewanie jest opanowane.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Flooding is under command.", 
+                "answer_2": "Sinking is controlled.",
+                "answer_3": "Flooding is under control.",
+                "correct": 3
+            }, 
+ 
+            {
+                "question_id":225,
+                "question": "I require (gaśnic śniegowych).",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "foam extinguishers", 
+                "answer_2": "CO2 extinguishers", 
+                "answer_3": "snow extinguishers",
+                "correct": 1
+            }, 
+            {
+                "question_id": 226,
                 "question": "Załoga opuściła statek.",
                 "question_image": "",
                 "images": false,
@@ -1422,7 +2297,7 @@
                 "correct": 3
             },
             {
-                "question_id": 142,
+                "question_id": 227,
                 "question": "Mam poważne uszkodzenia przyrządów nawigacyjnych.",
                 "question_image": "",
                 "images": false,
@@ -1432,17 +2307,51 @@
                 "correct": 1
             },
             {
-                "question_id": 143,
-                "question": "Utrzymuj nasłuch na kanale UKF.",
+                "question_id":228,
+                "question": "Jakie światła będziecie pokazywać?",
                 "question_image": "",
-                "images": false,
-                "answer_1": "Stand by on channel VHF.",
-                "answer_2": "Keep listening on channel UKF.",
-                "answer_3": "Keep watch on channel UKF.",
-                "correct": 1
-            },
+                "images": false, 
+                "answer_1": "What lights are you exposing?", 
+                "answer_2": "What lights will you show?", 
+                "answer_3": "What lights have you showed?",
+                "correct": 2
+            }, 
+ 
             {
-                "question_id": 144,
+                "question_id":229,
+                "question": "Musisz zaczekać, aż statek MV… przetnie tor wodny przed tobą.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "You must wait for MV… to cross ahead of you.", 
+                "answer_2": "You must wait for MV… to cross astern of you.", 
+                "answer_3": "You must wait on MV … to cross the traffic lane.",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":230,
+                "question": "Istnieje niebezpieczeństwo przechylenia się statku.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "I am in danger of capsizing.", 
+                "answer_2": "Vessel may heave.",
+                "answer_3": "Vessel can turn.",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":231,
+                "question": "(Nie mogę) locate you on my radar.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "I cannot",
+                "answer_2": "I might not", 
+                "answer_3": "I needn’t",
+                "correct": 1
+            },    
+ 
+            {
+                "question_id": 232,
                 "question": "Proszę o holownik i karetkę dla ofiar wypadku",
                 "question_image": "",
                 "images": false,
@@ -1452,7 +2361,17 @@
                 "correct": 3
             },
             {
-                "question_id": 145,
+                "question_id": 233,
+                "question": "Na twojej pozycji przewidywany jest wiatr zmienny.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wind expected to increase in your position.",
+                "answer_2": "Wind expected variable in your position.",
+                "answer_3": "Wind expected to change in your position.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 234,
                 "question": "Powiedz jeszcze raz proszę.",
                 "question_image": "",
                 "images": false,
@@ -1462,7 +2381,7 @@
                 "correct": 2
             },
             {
-                "question_id": 146,
+                "question_id": 235,
                 "question": "Przewidywane jest pogorszenie widzialności.",
                 "question_image": "",
                 "images": false,
@@ -1472,7 +2391,17 @@
                 "correct": 3
             },
             {
-                "question_id": 147,
+                "question_id": 236,
+                "question": "Nie będę wyprzedzał statku przede mną",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am overtaking vessel in front of me.",
+                "answer_2": "I do not intend to overtake vessel abaft.",
+                "answer_3": "I will not overtake vessel ahead of me.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 237,
                 "question": "Stan rozbitków jest zły.",
                 "question_image": "",
                 "images": false,
@@ -1482,7 +2411,7 @@
                 "correct": 2
             },
             {
-                "question_id": 148,
+                "question_id": 238,
                 "question": "Mój radar jest uszkodzony.",
                 "question_image": "",
                 "images": false,
@@ -1492,7 +2421,17 @@
                 "correct": 1
             },
             {
-                "question_id": 149,
+                "question_id": 239,
+                "question": "Nawiguj zachowując ostrożność.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Navigate carefreely.",
+                "answer_2": "Navigate carelessly.",
+                "answer_3": "Navigate with caution.",
+                "correct": 3
+            }, 
+            {
+                "question_id": 240,
                 "question": "Zderzyłem się z nieznanym obiektem.",
                 "question_image": "",
                 "images": false,
@@ -1502,17 +2441,94 @@
                 "correct": 2
             },
             {
-                "question_id": 150,
-                "question": "Jakie masz problemy?",
+                "question_id": 241,
+                "question": "Czy przewiduje się, że siła wiatru osłabnie?",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Is wind power expected to decrease?", 
+                "answer_2": "Is wind force expected to decrease?", 
+                "answer_3": "Is wind force expected to increase?",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":242,
+                "question": "Dziób na mieliźnie.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Bow on the ground.", 
+                "answer_2": "Aground forward.", 
+                "answer_3": "Aground aft.",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":243,
+                "question": "Ile łodzi ratunkowych opuścicie na wodę?",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "How many rescue boats will you launch?", 
+                "answer_2": "How many life boat will you throw?", 
+                "answer_3": "How many lifeboats will you launch?",
+                "correct": 3
+            }, 
+ 
+            {
+                "question_id":244,
+                "question": "I require (gaśnic pianowych).",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "powder extinguisher", 
+                "answer_2": "foam extinguishers", 
+                "answer_3": "CO2 extinguishers",
+                "correct": 2
+            }, 
+ 
+            {
+                "question_id":245,
+                "question": "Potrzebuję pomocy w nawigacji.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "I want to help with navigation.", 
+                "answer_2": "I require navigational assistance.", 
+                "answer_3": "I need navigational advise.",
+                "correct": 2
+            }, 
+ 
+            {
+                "question_id":246,
+                "question": "W wyniku eksplozji nie ma szkód.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "No damages after explosion.", 
+                "answer_2": "We do not have malfunction before explosion.", 
+                "answer_3": "Due to explosion there is some damage.",
+                "correct": 1
+            }, 
+ 
+            {
+                "question_id":247,
+                "question": "Wskazania barometru spadają.",
+                "question_image": "",
+                "images": false, 
+                "answer_1": "Barometer felling.",
+                "answer_2": "Barometer rising.",
+                "answer_3": "Barometer dropping.",
+                "correct": 3
+            }, 
+ 
+            {
+                "question_id": 248,
+                "question": "Nie mijaj punktu zgłoszenia … aż do godziny … UTC",
                 "question_image": "",
                 "images": false,
-                "answer_1": "What problems do you have?",
-                "answer_2": "What have you problems?",
-                "answer_3": "What problems is been?",
-                "correct": 1
+                "answer_1": "Do not overtake the reporting point … until … hours UTC",
+                "answer_2": "Do not pass the reporting point … until … hours UTC",
+                "answer_3": "Do not miss the waypoint … until … hours UTC",
+                "correct": 2
             },
             {
-                "question_id": 151,
+                "question_id": 299,
                 "question": "Widzialność jest zmniejszona z powodu rzadkiej mgły.",
                 "question_image": "",
                 "images": false,
@@ -1522,7 +2538,7 @@
                 "correct": 2
             },
             {
-                "question_id": 152,
+                "question_id": 300,
                 "question": "Muszę zejść z toru wodnego.",
                 "question_image": "",
                 "images": false,
@@ -1532,7 +2548,7 @@
                 "correct": 2
             },
             {
-                "question_id": 153,
+                "question_id": 301,
                 "question": "Koniec przekazu.",
                 "question_image": "",
                 "images": false,
@@ -1542,7 +2558,7 @@
                 "correct": 2
             },
             {
-                "question_id": 154,
+                "question_id": 302,
                 "question": "Mam przeciek poniżej linii wodnej.",
                 "question_image": "",
                 "images": false,
@@ -1552,17 +2568,47 @@
                 "correct": 2
             },
             {
-                "question_id": 155,
-                "question": "Pożar opanowany.",
+                "question_id": 303,
+                "question": "Zauważono pasy ratunkowe na pozycji.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Fire been extinguished.",
-                "answer_2": "Fire is putted out.",
-                "answer_3": "Fire is under control.",
-                "correct": 3
+                "answer_1": "We have saw lifejackets in position.",
+                "answer_2": "Lifejackets sighted in position.",
+                "answer_3": "I have watched lifejackets in position.",
+                "correct": 2
             },
             {
-                "question_id": 156,
+                "question_id": 304,
+                "question": "Rufa na mieliźnie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Aground aft.",
+                "answer_2": "Stern in the shallow.",
+                "answer_3": "Aground forward.",
+                "correct": 2
+            },
+            {
+                "question_id": 305,
+                "question": "Śluza jest uszkodzona.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Bridge defective",
+                "answer_2": "Lock defective.",
+                "answer_3": "Sluice crack.",
+                "correct": 2
+            },
+            {
+                "question_id": 306,
+                "question": "Przyślę łódź aby zabrać lekarza.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I will send boat to receive doctor.",
+                "answer_2": "I will send boat to pick up doctor.",
+                "answer_3": "I will send raft to take doctor.",
+                "correct": 2
+            },
+            {
+                "question_id": 307,
                 "question": "Kiedy przybędziesz na pozycję statku w niebezpieczeństwie?",
                 "question_image": "",
                 "images": false,
@@ -1572,7 +2618,7 @@
                 "correct": 3
             },
             {
-                "question_id": 157,
+                "question_id": 308,
                 "question": "Odbieram ciebie słabo.",
                 "question_image": "",
                 "images": false,
@@ -1582,17 +2628,87 @@
                 "correct": 3
             },
             {
-                "question_id": 158,
-                "question": "Osłońcie mnie od wiatru.",
+                "question_id": 309,
+                "question": "Zauważono ślady ropy na twoim kilwaterze.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Make a lee for me. ",
-                "answer_2": "Shelter me.",
-                "answer_3": "IKeep wind away of me.",
+                "answer_1": "Oil noticed in your wake.",
+                "answer_2": "Oil sighted in your keelwater.",
+                "answer_3": "Crude oil observed in killwater.",
+                "correct": 2
+            },
+            {
+                "question_id": 310,
+                "question": "Nie mogę ustąpić z drogi, mam zablokowany ster",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I cannot give way, my rudder blocked.",
+                "answer_2": "I can stand on, my steering stopped.",
+                "answer_3": "I cannot give way, my steer blocked.",
                 "correct": 1
             },
             {
-                "question_id": 159,
+                "question_id": 311,
+                "question": "Czy zauważyliście łodzie ratunkowe w pobliżu pozycji?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Have you saw rescue boats in vicinity of position?",
+                "answer_2": "Have you sighted lifeboats in vicinity of position?",
+                "answer_3": "Did you see rescue boats near position?",
+                "correct": 3
+            },
+            {
+                "question_id": 312,
+                "question": "Osłońcie mnie od wiatru.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Make a lee for me.",
+                "answer_2": "Shelter me.",
+                "answer_3": "Keep wind away of me.",
+                "correct": 1
+            },
+            {
+                "question_id": 313,
+                "question": "Wyrzuciłem już paliwo aby powstrzymać przechył.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I threw fuel to stop loll.",
+                "answer_2": "I jettisoned bunkers to stop list.",
+                "answer_3": "I got rid of fuel to stop heel.",
+                "correct": 2
+            },
+            {
+                "question_id": 314,
+                "question": "Nie jestem gotowy do odbioru twojej wiadomości",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am standby to receive your message.",
+                "answer_2": "I am not ready to receive your message",
+                "answer_3": "I am ready to get your message",
+                "correct": 2
+            },
+            {
+                "question_id": 315,
+                "question": "Czy wiatr skręca w prawo?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is wind turning to starboard?",
+                "answer_2": "Is wind turning right?",
+                "answer_3": "Is wind veering?",
+                "correct": 1
+            },
+            {
+                "question_id": 316,
+                "question": "Czy można bezpiecznie wystrzelić rakietę?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is it safe to fire a rocket?",
+                "answer_2": "Is it safety to shoot a rocket?",
+                "answer_3": "Is it safe to rocket?",
+                "correct": 1
+            },
+            {
+                "question_id": 317,
                 "question": "Musicie utrzymywać ciszę radiową na tym obszarze.",
                 "question_image": "",
                 "images": false,
@@ -1602,7 +2718,7 @@
                 "correct": 2
             },
             {
-                "question_id": 160,
+                "question_id": 318,
                 "question": "Z mego statku wypadł człowiek za burtę.",
                 "question_image": "",
                 "images": false,
@@ -1612,7 +2728,37 @@
                 "correct": 1
             },
             {
-                "question_id": 161,
+                "question_id": 319,
+                "question": "Czy możesz się spotkać na pozycji?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can you make rendes-vous in position?",
+                "answer_2": "I will meet you in position?",
+                "answer_3": "Am I having a meeting with you in position?",
+                "correct": 1
+            },
+            {
+                "question_id": 320,
+                "question": "Czy dym jest toksyczny?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Does smoke toxic?",
+                "answer_2": "Does smoke is toxic?",
+                "answer_3": "Is smoke toxic?",
+                "correct": 3
+            },
+            {
+                "question_id": 321,
+                "question": "Ile przedziałów jest zalanych?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "How many bulkheads are flooded?",
+                "answer_2": "How many compartments are flooded?",
+                "answer_3": "How many compartments is flooded?",
+                "correct": 2
+            },
+            {
+                "question_id": 322,
                 "question": "Manewruję z trudnością.",
                 "question_image": "",
                 "images": false,
@@ -1622,7 +2768,47 @@
                 "correct": 2
             },
             {
-                "question_id": 162,
+                "question_id": 323,
+                "question": "Manewruję z trudnością.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I am steering with problem.",
+                "answer_2": "I am manoeuvring with difficulty.",
+                "answer_3": "I was maneuvering with difficulty.",
+                "correct": 2
+            },
+            {
+                "question_id": 324,
+                "question": "Czy potrafisz zidentyfikować statek zanieczyszczający?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Can you indicate polluted vessel?",
+                "answer_2": "Can you identify polluter?",
+                "answer_3": "Can you point pollution?",
+                "correct": 2
+            },
+            {
+                "question_id": 325,
+                "question": "Skały niezaznaczone na mapie.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Rocks are not on map",
+                "answer_2": "Uncharted rocks.",
+                "answer_3": "Rocky charts.",
+                "correct": 1
+            },
+            {
+                "question_id": 326,
+                "question": "Czy przewidywana jest zmiana stanu morza?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Is sea state expected to change?",
+                "answer_2": "Is sea condition estimated to change?",
+                "answer_3": "Do you predict change of sea?",
+                "correct": 1
+            },
+            {
+                "question_id": 327,
                 "question": "Błąd, poprawka.",
                 "question_image": "",
                 "images": false,
@@ -1632,7 +2818,7 @@
                 "correct": 3
             },
             {
-                "question_id": 163,
+                "question_id": 328,
                 "question": "Stanowicie przeszkodę dla ruchu.",
                 "question_image": "",
                 "images": false,
@@ -1642,37 +2828,67 @@
                 "correct": 1
             },
             {
-                "question_id": 164,
+                "question_id": 329,
+                "question": "Jaka jest widzialność na twojej pozycji?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "What can you see in your position?",
+                "answer_2": "What can be observed in your position?",
+                "answer_3": "What is visibility in your position?",
+                "correct": 3
+            },
+            {
+                "question_id": 330,
                 "question": "Próbuję płynąć bez pomocy.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I try proceed without help.",
-                "answer_2": "I try to sail without attendance.",
+                "answer_1": "I proceed without help.",
+                "answer_2": "I am able to go without assistance.",
                 "answer_3": "I try to proceed without assistance.",
                 "correct": 3
             },
             {
-                "question_id": 165,
-                "question": "Jaka jest twoja wysokość nadwodna?",
+                "question_id": 331,
+                "question": "Pompy nie są potrzebne.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "What is your height over waterline?",
-                "answer_2": "What is your height over water?",
-                "answer_3": "What is your air draft?",
-                "correct": 3
+                "answer_1": "Pumps needed.",
+                "answer_2": "Pumps are not requested.",
+                "answer_3": "Pump wanted.",
+                "correct": 2
             },
             {
-                "question_id": 166,
+                "question_id": 332,
+                "question": "Zauważono opuszczony statek na pozycji.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Sighted derelict in position.",
+                "answer_2": "Watched abandon ship in position.",
+                "answer_3": "Seen abandoning vessel in position.",
+                "correct": 2
+            },
+            {
+                "question_id": 333,
+                "question": "Nie trzymasz się właściwego pasa ruchu.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "You are not staying in the correct route.",
+                "answer_2": "You are proceeding in the wrong fairway.",
+                "answer_3": "You are not keeping to the correct traffic lane.",
+                "correct": 1
+            },
+            {
+                "question_id": 334,
                 "question": "Czy możesz zejść z mielizny w czasie przypływu?",
                 "question_image": "",
                 "images": false,
                 "answer_1": "Can you refloat in ebb tide?",
-                "answer_2": "Can you aground during tide? ",
+                "answer_2": "Can you aground during tide?",
                 "answer_3": "Can you refloat when tide rises?",
                 "correct": 3
             },
             {
-                "question_id": 167,
+                "question_id": 335,
                 "question": "Czy jesteś w drodze?",
                 "question_image": "",
                 "images": false,
@@ -1682,7 +2898,7 @@
                 "correct": 2
             },
             {
-                "question_id": 168,
+                "question_id": 336,
                 "question": "Pława świetlna nie świeci.",
                 "question_image": "",
                 "images": false,
@@ -1692,7 +2908,7 @@
                 "correct": 3
             },
             {
-                "question_id": 169,
+                "question_id": 337,
                 "question": "Na torze wodnym znajdują się sieci rybackie.",
                 "question_image": "",
                 "images": false,
@@ -1702,17 +2918,47 @@
                 "correct": 2
             },
             {
-                "question_id": 170,
+                "question_id": 338,
+                "question": "Czy możesz kontynuować poszukiwania?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Must you continue search?",
+                "answer_2": "Can search go on? ",
+                "answer_3": "Can you continue search?",
+                "correct": 3
+            },
+            {
+                "question_id": 339,
+                "question": "Załatwię poradę medyczną na kanale VHF.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I will arrange for medical advice on VHF channel.",
+                "answer_2": "I will settle medical advise on VHF channel.",
+                "answer_3": "I am finding medical advice on VHF canal.",
+                "correct": 1
+            },
+            {
+                "question_id": 340,
+                "question": "Nie mogę przemieścić paliwa.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "I cannot transfer fuel.",
+                "answer_2": "I may not take fuel.",
+                "answer_3": "I can transfer fuel.",
+                "correct": 1
+            },
+            {
+                "question_id": 341,
                 "question": "Ogień rozprzestrzenia się.",
                 "question_image": "",
                 "images": false,
                 "answer_1": "Fire is decreasing.",
                 "answer_2": "Fire is increasing.",
                 "answer_3": "Fire is spreading.",
-                "correct": 2
+                "correct": 3
             },
             {
-                "question_id": 171,
+                "question_id": 342,
                 "question": "Wasz sygnał zrozumiany, odbiór.",
                 "question_image": "",
                 "images": false,
@@ -1722,7 +2968,17 @@
                 "correct": 2
             },
             {
-                "question_id": 172,
+                "question_id": 343,
+                "question": "Podjąłem ofiary w pasach ratunkowych na pozycji.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Pick up survivals in lifejackets in position.",
+                "answer_2": "Picked up casualties in lifejackets in position.",
+                "answer_3": "Hoisted survivors in lifebelts in position.",
+                "correct": 2
+            },
+            {
+                "question_id": 344,
                 "question": "Jest odpływ.",
                 "question_image": "",
                 "images": false,
@@ -1732,7 +2988,7 @@
                 "correct": 1
             },
             {
-                "question_id": 173,
+                "question_id": 345,
                 "question": "Proszę o potwierdzenie odbioru wiadomości.",
                 "question_image": "",
                 "images": false,
@@ -1742,7 +2998,27 @@
                 "correct": 1
             },
             {
-                "question_id": 174,
+                "question_id": 346,
+                "question": "Jakie jest ciśnienie atmosferyczne na twojej pozycji?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "How much pressure do you have in position?",
+                "answer_2": "What is your pressure in position?",
+                "answer_3": "What is atmospheric pressure in position?",
+                "correct": 3
+            },
+            {
+                "question_id": 347,
+                "question": "Widzialność wzrasta.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Visibility is developing.",
+                "answer_2": "Visibility is increasing.",
+                "answer_3": "Visibility is extending.",
+                "correct": 2
+            }
+            {
+                "question_id": 348,
                 "question": "Mam niebezpieczny przechył na prawą burtę.",
                 "question_image": "",
                 "images": false,
@@ -1750,6 +3026,26 @@
                 "answer_2": "I have dangerous list to port.",
                 "answer_3": "I have dangerous list to starboard.",
                 "correct": 3
+            },
+            {
+                "question_id": 349,
+                "question": "Czy przewiduje się oblodzenia na akwenie wokół …?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Do you expect ice circle …?",
+                "answer_2": "Is icing expected to form in area around …?",
+                "answer_3": "Is ice in position nearby …?",
+                "correct": 2
+            },
+            {
+                "question_id": 350,
+                "question": "Czy masz pożar na statku?",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Are you on fire?",
+                "answer_2": "Gotta fire on your ship?",
+                "answer_3": "Is your vessel fireing?",
+                "correct": 1
             }
         ]
     },
@@ -1815,7 +3111,7 @@
                 "images": false,
                 "answer_1": "NAVTEX",
                 "answer_2": "DSC",
-                "answer_3": "EGC ",
+                "answer_3": "EGC",
                 "correct": 2
             },
             {
@@ -1865,7 +3161,7 @@
                 "images": false,
                 "answer_1": "zapewnienia koordynacji działań statków i lotnictwa",
                 "answer_2": "koordynacji ruchu statku",
-                "answer_3": "koordynacji kolejności działań środków radiokomunikacyjnych ",
+                "answer_3": "koordynacji kolejności działań środków radiokomunikacyjnych",
                 "correct": 1
             },
             {
@@ -2113,7 +3409,7 @@
                 "question": "W jaki sposób dokonuje się w odbiorniku NAVTEX ustawienia rodzaju odbieranych informacji:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "przez wpisanie numeru informacji ",
+                "answer_1": "przez wpisanie numeru informacji",
                 "answer_2": "przez ustawienie litery odpowiadającej typowi informacji",
                 "answer_3": "w odbiorniku nie ma możliwości wyboru odbieranych informacji",
                 "correct": 2
@@ -2164,7 +3460,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "dwa razy na dobę",
-                "answer_2": "o godz. 0700 i 2300 UTC ",
+                "answer_2": "o godz. 0700 i 2300 UTC",
                 "answer_3": "nie częściej niż co cztery godziny",
                 "correct": 3
             },
@@ -2333,7 +3629,7 @@
                 "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów poruszających siępo orbitach polarnych. Które z poniższych stwierdzeń jest prawdziwe:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wysokość orbit polarnych wynosi około 3000 km ",
+                "answer_1": "wysokość orbit polarnych wynosi około 3000 km",
                 "answer_2": "wysokość orbit polarnych wynosi 850 - 1000 km",
                 "answer_3": "wysokość orbit polarnych wynosi około 240 km",
                 "correct": 2
@@ -2540,7 +3836,7 @@
             },
             {
                 "question_id": 253,
-                "question": "Testowanie radiopławy polega na: ",
+                "question": "Testowanie radiopławy polega na:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wykonaniu raz w miesiącu testu zgodnie z instrukcją na obudowie radiopławy",
@@ -2643,7 +3939,7 @@
                 "question": "Maksymalny zasięg transpondera radarowego przy wykrywaniu z helikoptera wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "15 mil ",
+                "answer_1": "15 mil",
                 "answer_2": "30-40 mil",
                 "answer_3": "60 mil",
                 "correct": 2
@@ -2773,7 +4069,7 @@
                 "question": "W radiotelefonii używana jest fala nośna:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "prostokątna ",
+                "answer_1": "prostokątna",
                 "answer_2": "trójkątna",
                 "answer_3": "sinusoidalna",
                 "correct": 3
@@ -3083,7 +4379,7 @@
                 "question": "Które ze zdań jest prawdziwe?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Transponder AIS SART nie ma nadanego numeru identyfikacyjnego. ",
+                "answer_1": "Transponder AIS SART nie ma nadanego numeru identyfikacyjnego.",
                 "answer_2": "Numer identyfikacyjny transpondera jest taki sam jak numer MMSI statku,  na którym się znajduje transponder.",
                 "answer_3": "Numer identyfikacyjny transpondera AIS SART zawsze rozpoczyna się ciągiem cyfr 970.",
                 "correct": 3
@@ -3183,7 +4479,7 @@
                 "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów to zasięg stacji wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "10 km ",
+                "answer_1": "10 km",
                 "answer_2": "40 km",
                 "answer_3": "100 km",
                 "correct": 2
@@ -3203,7 +4499,7 @@
                 "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów, zaś antena odbiornika usytuowana jest na wysokości 25 m to zasięg odbioru wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "30 km ",
+                "answer_1": "30 km",
                 "answer_2": "60 km",
                 "answer_3": "90 km",
                 "correct": 2
@@ -3281,7 +4577,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo ",
+                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo",
                 "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 13, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
                 "correct": 2
             },
@@ -3352,7 +4648,7 @@
                 "images": false,
                 "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy.",
                 "answer_2": "ZaWciśnij przycisk 16/C, nadaj wywołanie alarmowe, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat alarmowy.",
-                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy. ",
+                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy.",
                 "correct": 1
             },
             {
@@ -3360,9 +4656,9 @@
                 "question": "Nadaj komunikat, w sytuacji wypadnięcia człowieka za burtę, przy użyciu radiotelefonu VHF.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "answer_3": "Za pomocą przycisków CH ustaw kanał 15, nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
+                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position………”",
+                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position………”",
+                "answer_3": "Za pomocą przycisków CH ustaw kanał 15, nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position………”",
                 "correct": 2
             },
             {

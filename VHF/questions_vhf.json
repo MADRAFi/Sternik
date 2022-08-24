@@ -14,1136 +14,967 @@
                 "answer_3": "łączność pilna ma pierwszeństwo przed łącznością w niebezpieczeństwie",
                 "correct": 2
             },
+           
             {
                 "question_id": 2,
                 "question": "Łączność publiczna to łączność:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "dla uzyskania porady medycznej",
-                "answer_2": "pomiędzy stacją statkową i stacją nadbrzeżną",
-                "answer_3": "do przekazywania ostrzeżeń",
-                "correct": 2
-            },
-            {
-                "question_id": 3,
-                "question": "Stacja nadbrzeżna to stacja:",
+"answer_2": "pomiędzy stacją statkową i stacją nadbrzeżną",
+"answer_3": "do przekazywania ostrzeżeń",
+            "correct": 0
+        },
+        {
+            "question_id": 3,
+                "question": "Stacja nadbrzeżna to stacja prowadząca łączność:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "w służbie radiokomunikacyjnej lądowej, prowadząca łączność w rejonie wybrzeża morskiego",
-                "answer_2": "w służbie radiokomunikacyjnej lotniczej, prowadząca łączność w rejonie wybrzeża morskiego",
-                "answer_3": "w służbie radiokomunikacyjnej ruchomej morskiej, prowadząca łączność w relacji statek-brzeg, brzeg-statek",
-                "correct": 3
-            },
-            {
-                "question_id": 4,
+                "answer_1": "ruchu portowego",
+"answer_2": "ruchu statków",
+"answer_3": "służbową z telekomunikacyjną siecią lądową",
+            "correct": 0
+        },
+        {
+            "question_id": 4,
                 "question": "Ratowniczy Ośrodek Koordynacyjny odpowiedzialny jest za:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "prowadzenie łączności na miejscu akcji ratowniczej",
-                "answer_2": "przygotowanie służb portowych",
-                "answer_3": "kierowanie akcją SAR",
-                "correct": 3
-            },
-            {
-                "question_id": 5,
-                "question": "Pasmo VHF obejmuje częstotliwości: ",
+"answer_2": "przygotowanie służb uczestniczących w akcjach ppoż w porcie",
+"answer_3": "kierowanie akcją SAR",
+            "correct": 0
+        },
+        {
+            "question_id": 6,
+                "question": "Zakres VHF obejmuje częstotliwości:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "3 ÷ 30 MHz",
-                "answer_2": "30 ÷ 300 MHz",
-                "answer_3": "10 ÷ 100 MHz",
-                "correct": 2
-            },
-            {
-                "question_id": 6,
-                "question": "Fale z pasma VHF to inaczej fale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "milimetrowe",
-                "answer_2": "centymetrowe",
-                "answer_3": "metrowe",
-                "correct": 3
-            },
-            {
-                "question_id": 7,
+"answer_2": "30 ÷ 300 MHz",
+"answer_3": "10 ÷ 100 MHz",
+            "correct": 0
+        },
+        {
+            "question_id": 7,
                 "question": "Morski zakres V obejmuje częstotliwości:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "10 ÷ 30 MHz",
-                "answer_2": "300 ÷ 3000 kHz",
-                "answer_3": "156 ÷ 174 MHz",
-                "correct": 3
-            },
-            {
-                "question_id": 8,
-                "question": "Radiotelefoniczna stacja statkowa może być identyfikowana przez:",
+"answer_2": "300 ÷ 3000 kHz",
+"answer_3": "156 ÷ 174 MHz",
+            "correct": 0
+        },
+        {
+            "question_id": 8,
+                "question": "Emisja G3E to emisja:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "numer seryjny radiotelefonu VHF",
-                "answer_2": "znak wywoławczy lub nazwę stacji",
-                "answer_3": "nazwę armatora/właściciela",
-                "correct": 2
-            },
-            {
-                "question_id": 9,
+                "answer_1": "z modulacją fazy",
+"answer_2": "amplitudowa",
+"answer_3": "cyfrowa",
+            "correct": 0
+        },
+        {
+            "question_id": 9,
                 "question": "Simpleks to sposób pracy w kanale radiowym przy którym:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
-                "answer_2": "obie stacje pracują simpleksem wykorzystując kanał dupleksowy",
-                "answer_3": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
-                "correct": 3
-            },
-            {
-                "question_id": 10,
+"answer_2": "obie stacje pracują simpleksem wykorzystując kanał dupleksowy",
+"answer_3": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+            "correct": 0
+        },
+        {
+            "question_id": 10,
                 "question": "Semidupleks to sposób pracy w kanale radiowym przy którym:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
-                "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
-                "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 3
-            },
-            {
-                "question_id": 11,
+"answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+"answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
+            "correct": 0
+        },
+        {
+            "question_id": 11,
                 "question": "Dupleks to sposób pracy w kanale radiowym przy którym:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
-                "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
-                "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 1
-            },
-            {
-                "question_id": 12,
+"answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
+"answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
+            "correct": 0
+        },
+        {
+            "question_id": 12,
                 "question": "Kanał simpleksowy to kanał w którym:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
-                "answer_2": "tylko nadajemy na określonej częstotliwości",
-                "answer_3": "tylko odbieramy na określonej częstotliwości",
-                "correct": 1
-            },
-            {
-                "question_id": 13,
+"answer_2": "tylko nadajemy na określonej częstotliwości",
+"answer_3": "tylko odbieramy na określonej częstotliwości",
+            "correct": 0
+        },
+        {
+            "question_id": 13,
                 "question": "Kanał dupleksowy to kanał w którym:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
-                "answer_2": "tylko nadajemy na określonej częstotliwości",
-                "answer_3": "nadajemy i odbieramy na różnych częstotliwościach ",
-                "correct": 3
-            },
-            {
-                "question_id": 14,
+"answer_2": "tylko nadajemy na określonej częstotliwości",
+"answer_3": "nadajemy i odbieramy na różnych częstotliwościach",
+            "correct": 0
+        },
+        {
+            "question_id": 14,
                 "question": "Kanał 16 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "dwuczęstotliwościowym",
-                "correct": 2
-            },
-            {
-                "question_id": 15,
+"answer_2": "jednoczęstotliwościowym",
+"answer_3": "semidupleksowym",
+            "correct": 0
+        },
+        {
+            "question_id": 15,
                 "question": "Kanał 6 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "dupleksowym",
-                "answer_2": "dwuczęstotliwościowym",
-                "answer_3": "simpleksowym",
-                "correct": 3
-            },
-            {
-                "question_id": 16,
+"answer_2": "dwuczęstotliwościowym",
+"answer_3": "simpleksowym",
+            "correct": 0
+        },
+        {
+            "question_id": 16,
                 "question": "Kanał 15 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "semidupleksowym",
-                "correct": 2
-            },
-            {
-                "question_id": 17,
+"answer_2": "jednoczęstotliwościowym",
+"answer_3": "duosimpleksowym",
+            "correct": 0
+        },
+        {
+            "question_id": 17,
                 "question": "Kanał 13 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "dupleksowym",
-                "answer_2": "duosimpleksowym",
-                "answer_3": "simpleksowym",
-                "correct": 3
-            },
-            {
-                "question_id": 18,
-                "question": "Kanał 70 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "dupleksowym",
-                "answer_2": "jednoczęstotliwościowym",
-                "answer_3": "semidupleksowym",
-                "correct": 2
-            },
-            {
-                "question_id": 19,
-                "question": "W zakresie VHF, do wywołań ogólnych DSC można stosować kanał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "26",
-                "answer_2": "6",
-                "answer_3": "70",
-                "correct": 3
-            },
-            {
-                "question_id": 20,
-                "question": "W zakresie VHF, do wywołań międzystatkowych DSC można stosować kanał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "15",
-                "answer_2": "27",
-                "answer_3": "70",
-                "correct": 3
-            },
-            {
-                "question_id": 21,
-                "question": "Znak wywoławczy stacji statkowej to identyfikacja stosowana w łączności:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "jedynie publicznej",
-                "answer_2": "radiotelefonicznej",
-                "answer_3": "DSC",
-                "correct": 3
-            },
-            {
-                "question_id": 22,
-                "question": "MMSI to identyfikacja stosowana w łączności:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "międzystatkowej i ze stacją nadbrzeżną",
-                "answer_2": "radiotelefonicznej",
-                "answer_3": "jedynie międzystatkowej",
-                "correct": 3
-            },
-            {
-                "question_id": 23,
-                "question": "Znak wywoławczy stacji statkowej to identyfikacja przyznawana:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "przez właściciela jednostki",
-                "answer_2": "tylko do łączności bezpieczeństwa",
-                "answer_3": "przez administrację krajową z międzynarodowej serii znaków wywoławczych",
-                "correct": 3
-            },
-            {
-                "question_id": 24,
-                "question": "Obszar morza w którym zapewniona jest pewna łączność DSC i radiotelefoniczna przynajmniej z jedną stacją brzegową VHF to obszar:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "AOR",
-                "answer_2": "A3",
-                "answer_3": "A1",
-                "correct": 3
-            },
-            {
-                "question_id": 25,
-                "question": "Ratowniczy Ośrodek Koordynacyjny oznacza się skrótem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "RSC",
-                "answer_2": "OSC",
-                "answer_3": "RCC",
-                "correct": 3
-            },
-            {
-                "question_id": 26,
-                "question": "Podcentrum Ratownicze oznacza się skrótem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "RSC",
-                "answer_2": "OSC",
-                "answer_3": "RCC",
-                "correct": 3
-            },
-            {
-                "question_id": 27,
-                "question": "Stację nadbrzeżną zaangażowaną w akcję SAR oznacza się skrótem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "RSC",
-                "answer_2": "OSC",
-                "answer_3": "CRS",
-                "correct": 3
-            },
-            {
-                "question_id": 28,
-                "question": "Jednostkę koordynującą poszukiwanie i ratowanie na miejscu akcji oznacza się skrótem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "RSC",
-                "answer_2": "OSC",
-                "answer_3": "RCC",
-                "correct": 3
-            },
-            {
-                "question_id": 29,
-                "question": "Zalecanym kanałem VHF do łączności w akcjach SAR jest kanał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "26",
-                "answer_2": "69",
-                "answer_3": "6",
-                "correct": 3
-            },
-            {
-                "question_id": 30,
-                "question": "Znak wywoławczy polskiej stacji statkowej może rozpoczynać się od jednego z prefiksów:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "GD, SZ, KO, PL, EU",
-                "answer_2": "PL1 – PL9",
-                "answer_3": "HF, SN, SO, SP, SQ, SR, 3Z",
-                "correct": 3
-            },
-            {
-                "question_id": 31,
-                "question": "Alarmowanie w niebezpieczeństwie zawiera:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "identyfikację i pozycję jednostki zagrożonej",
-                "answer_2": "identyfikację, pozycję jednostki zagrożonej i liczbę osób na pokładzie jednostki",
-                "answer_3": "znak wywoławczy, pozycję jednostki zagrożonej i liczbę rannych",
-                "correct": 3
-            },
-            {
-                "question_id": 32,
-                "question": "W zakresie VHF, do radiotelefonicznych wywołań ogólnych można stosować kanał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "6",
-                "answer_2": "16",
-                "answer_3": "66",
-                "correct": 3
-            },
-            {
-                "question_id": 33,
-                "question": "Alarmowanie w niebezpieczeństwie DSC adresowane jest:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "jedynie do najbliższej stacji nadbrzeżnej",
-                "answer_2": "do wszystkich stacji",
-                "answer_3": "jedynie do najbliższej stacji statkowej",
-                "correct": 3
-            },
-            {
-                "question_id": 34,
-                "question": "Operator stacji statkowej po odbiorze pośredniego alarmowania DSC nadanego przez stację nadbrzeżną powinien:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "natychmiast potwierdzić odbiór za pomocą DSC",
-                "answer_2": "potwierdzić odbiór za pomocą radiotelefonii",
-                "answer_3": "tylko dokonać zapisu w dzienniku radiowym",
-                "correct": 3
-            },
-            {
-                "question_id": 35,
-                "question": "Operator stacji statkowej może nadać pośrednie alarmowanie w niebezpieczeństwie w sytuacji gdy:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "jednostka zagrożona sama nie jest w stanie nadać alarmowania",
-                "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "tylko na polecenie RCC",
-                "correct": 3
-            },
-            {
-                "question_id": 36,
-                "question": "W zakresie VHF, operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "nie wolno mu tego uczynić",
-                "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "tylko na prośbę RCC",
-                "correct": 3
-            },
-            {
-                "question_id": 37,
-                "question": "W zakresie VHF,  operator stacji statkowej może nadać  potwierdzenie odbioru alarmowania DSC:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "po 3 minutach od odebrania alarmowania",
-                "answer_2": "po 4 minutach od odebrania alarmowania",
-                "answer_3": "po 5 minutach od odebrania alarmowania i powiadomieniu o tym stacji nadbrzeżnej",
-                "correct": 3
-            },
-            {
-                "question_id": 38,
-                "question": "W zakresie VHF,  operator stacji statkowej może nadać  potwierdzenie odbioru alarmowania DSC za pomocą:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tylko DSC",
-                "answer_2": "radiotelefonii lub DSC",
-                "answer_3": "tylko radiotelefonii",
-                "correct": 3
-            },
-            {
-                "question_id": 39,
-                "question": "Operator stacji nadbrzeżnej może nadać  potwierdzenie odbioru alarmowania DSC za pomocą:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "radiotelefonii lub DSC",
-                "answer_2": "tylko DSC",
-                "answer_3": "tylko radiotelefonii",
-                "correct": 3
-            },
-            {
-                "question_id": 40,
-                "question": "Przed każdym wywołaniem poprzedzającym korespondencję  w niebezpieczeństwie należy użyć sygnału niebezpieczeństwa:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "PAN PAN",
-                "answer_2": "MAYDAY",
-                "answer_3": "DISTRESS",
-                "correct": 3
-            },
-            {
-                "question_id": 41,
-                "question": "Stację zakłócającą korespondencję w niebezpieczeństwie może uciszać:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tylko RCC",
-                "answer_2": "każda stacja statkowa i nadbrzeżna",
-                "answer_3": "OSC",
-                "correct": 3
-            },
-            {
-                "question_id": 42,
-                "question": "Sygnałem uciszania stacji zakłócającej korespondencje w niebezpieczeństwie jest sygnał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "PAN PAN",
-                "answer_2": "SEELONCE MAYDAY",
-                "answer_3": "MAYDAY",
-                "correct": 3
-            },
-            {
-                "question_id": 43,
-                "question": "Informację o zakończeniu korespondencji w niebezpieczeństwie może nadać:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tylko RCC",
-                "answer_2": "każda stacja statkowa i nadbrzeżna",
-                "answer_3": "OSC",
-                "correct": 3
-            },
-            {
-                "question_id": 44,
-                "question": "Sygnałem zakończenia korespondencji w niebezpieczeństwie jest sygnał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "PAN PAN",
-                "answer_2": "SEELONCE MAYDAY",
-                "answer_3": "SEELONCE FEENEE",
-                "correct": 3
-            },
-            {
-                "question_id": 45,
-                "question": "Korespondencją na miejscu akcji ratunkowej kieruje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "RCC",
-                "answer_2": "wyłącznie stacja nadbrzeżna",
-                "answer_3": "OSC",
-                "correct": 3
-            },
-            {
-                "question_id": 46,
-                "question": "Korespondencją koordynacyjną SAR kieruje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wyłącznie stacja zagrożona",
-                "answer_2": "OSC",
-                "answer_3": "wyłącznie stacja nadbrzeżna",
-                "correct": 3
-            },
-            {
-                "question_id": 47,
-                "question": "Łączność pilną stosuje się dla uzyskania:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "porady i pomocy medycznej",
-                "answer_2": "pomocy nawigacyjnej",
-                "answer_3": "ostrzeżeń meteorologicznych",
-                "correct": 3
-            },
-            {
-                "question_id": 48,
-                "question": "W zakresie VHF, wywołanie pilne DSC można nadać na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "26",
-                "answer_2": "13",
-                "answer_3": "70",
-                "correct": 3
-            },
-            {
-                "question_id": 49,
-                "question": "Wywołanie pilne DSC powinno zawierać kategorię:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "URGENCY",
-                "answer_2": "SAFETY",
-                "answer_3": "DISTRESS",
-                "correct": 3
-            },
-            {
-                "question_id": 50,
-                "question": "Przy braku potwierdzenia odbioru wywołania pilnego DSC do jednej stacji, może być ono powtórzone po:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "3 a następnie 10 minutach",
-                "answer_2": "5 a następnie 10 minutach",
-                "answer_3": "5 a następnie 15 minutach",
-                "correct": 3
-            },
-            {
-                "question_id": 51,
-                "question": "Radiotelefonicznym sygnałem pilności jest sygnał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "URGENCY",
-                "answer_2": "PAN PAN",
-                "answer_3": "DISTRESS",
-                "correct": 3
-            },
-            {
-                "question_id": 52,
-                "question": "W radiotelefonii sygnał pilności wymawia się:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "1 raz",
-                "answer_2": "2 razy",
-                "answer_3": "3 razy",
-                "correct": 3
-            },
-            {
-                "question_id": 53,
-                "question": "Łączność ostrzegawczą stosuje się dla:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "nadania porady medycznej",
-                "answer_2": "odbioru ostrzeżeń pogodowych",
-                "answer_3": "nadania alarmowania w niebezpieczeństwie",
-                "correct": 3
-            },
-            {
-                "question_id": 54,
-                "question": "W zakresie VHF, wywołanie ostrzegawcze DSC można nadać na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "12",
-                "answer_2": "6",
-                "answer_3": "70",
-                "correct": 3
-            },
-            {
-                "question_id": 55,
-                "question": "Wywołanie ostrzegawcze DSC powinno zawierać kategorie:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "URGENCY",
-                "answer_2": "SAFETY",
-                "answer_3": "DISTRESS",
-                "correct": 3
-            },
-            {
-                "question_id": 56,
-                "question": "Radiotelefonicznym sygnałem ostrzegawczym jest sygnał:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "URGENCY",
-                "answer_2": "PAN PAN",
-                "answer_3": "SECURITE",
-                "correct": 3
-            },
-            {
-                "question_id": 57,
-                "question": "W radiotelefonii sygnał ostrzegawczy wymawia się:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "1 raz",
-                "answer_2": "2 razy",
-                "answer_3": "3 razy",
-                "correct": 3
-            },
-            {
-                "question_id": 58,
-                "question": "Jeżeli urządzenie DSC nie jest podłączone do urządzeń  nawigacyjnych,  operator powinien wprowadzać do niego aktualną pozycję statku co najmniej:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "co 1 godzinę",
-                "answer_2": "2 razy na dobę",
-                "answer_3": "co 4 godziny",
-                "correct": 3
-            },
-            {
-                "question_id": 59,
-                "question": "W zakresie VHF, radiotelefoniczne wezwanie w niebezpieczeństwie powinno być nadane na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "13",
-                "answer_2": "16",
-                "answer_3": "6",
-                "correct": 3
-            },
-            {
-                "question_id": 60,
-                "question": "Wezwanie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od wywołania zawierającego sygnał niebezpieczeństwa MAYDAY wymówiony:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "1 raz",
-                "answer_2": "2 razy",
-                "answer_3": "3 razy",
-                "correct": 3
-            },
-            {
-                "question_id": 61,
-                "question": "Korespondencja w niebezpieczeństwie nadana na kanale 16 VHF powinna rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "1 raz",
-                "answer_2": "2 razy",
-                "answer_3": "3 razy",
-                "correct": 3
-            },
-            {
-                "question_id": 62,
-                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadanego na kanale 16 VHF powinno być nadane na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "13",
-                "answer_2": "26",
-                "answer_3": "16",
-                "correct": 3
-            },
-            {
-                "question_id": 63,
-                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "1 raz",
-                "answer_2": "2 razy",
-                "answer_3": "3 razy",
-                "correct": 3
-            },
-            {
-                "question_id": 64,
-                "question": "Nadanie radiotelefonicznego zawiadomienia o niebezpieczeństwie przez stację w nim nie będącą powinno być poprzedzone sygnałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "MAYDAY",
-                "answer_2": "MAYDAY, MAYDAY, MAYDAY",
-                "answer_3": "C. MAYDAY RELAY, MAYDAY RELAY, MAYDAY RELAY",
-                "correct": 3
-            },
-            {
-                "question_id": 65,
-                "question": "Sygnał pilności PAN PAN należy stosować przed wywołaniem dotyczącym:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wypadnięcia człowieka za burtę",
-                "answer_2": "uzyskania porady medycznej",
-                "answer_3": "uzyskania ostrzeżenia nawigacyjnego",
-                "correct": 3
-            },
-            {
-                "question_id": 66,
-                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC, wywołanie pilne (PAN PAN) powinno być nadane na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "12",
-                "answer_2": "6",
-                "answer_3": "16",
-                "correct": 3
-            },
-            {
-                "question_id": 67,
-                "question": "Sygnał ostrzegawczy SECURITE należy stosować przed wywołaniem dotyczącym:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wypadnięcia człowieka za burtę",
-                "answer_2": "uzyskania porady medycznej",
-                "answer_3": "nadania ostrzeżenia",
-                "correct": 3
-            },
-            {
-                "question_id": 68,
-                "question": "Jeżeli stacja statkowa VHF nie posiada urządzenia DSC,  wywołanie ostrzegawcze (SECURITE) powinno być nadane na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "12",
-                "answer_2": "6",
-                "answer_3": "16",
-                "correct": 3
-            },
-            {
-                "question_id": 69,
-                "question": "Kanał 75 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności w niebezpieczeństwie",
-                "answer_2": "zabronionym dla zwykłej łączności publicznej",
-                "answer_3": "bezpieczeństwa",
-                "correct": 3
-            },
-            {
-                "question_id": 70,
-                "question": "Kanał 76 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności w niebezpieczeństwie",
-                "answer_2": "zabronionym dla zwykłej łączności publicznej",
-                "answer_3": "bezpieczeństwa",
-                "correct": 3
-            },
-            {
-                "question_id": 71,
-                "question": "Kanał 15 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności w niebezpieczeństwie",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
-                "correct": 3
-            },
-            {
-                "question_id": 72,
-                "question": "Kanał 17 VHF jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "do łączności w niebezpieczeństwie",
-                "correct": 3
-            },
-            {
-                "question_id": 73,
-                "question": "Kanał 13 VHF w pierwszej kolejności jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "wyłącznie do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 3
-            },
-            {
-                "question_id": 74,
-                "question": "Kanał 6 VHF w pierwszej kolejności jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "do łączności SAR z samolotami",
-                "correct": 3
-            },
-            {
-                "question_id": 75,
-                "question": "Kanał 16 VHF w pierwszej kolejności jest kanałem:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do łączności w niebezpieczeństwie",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 3
-            },
-            {
-                "question_id": 76,
+"answer_2": "dwuczęstotliwościowym",
+"answer_3": "simpleksowym",
+            "correct": 0
+        },
+        {
+            "question_id": 18,
                 "question": "Kanał 70 VHF jest kanałem:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "do łączności radiotelefonicznej",
-                "answer_2": "zabronionym dla łączności publicznej",
-                "answer_3": "do alarmowania w niebezpieczeństwie",
-                "correct": 3
-            },
-            {
-                "question_id": 77,
+"answer_2": "wyłącznie do wywołań DSC",
+"answer_3": "do łączności radiotelefonicznej i wywołań DSC",
+            "correct": 0
+        },
+        {
+            "question_id": 19,
+                "question": "W zakresie VHF, do radiotelefonicznych wywołań ogólnych można stosować kanał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "66",
+"answer_2": "6",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 20,
+                "question": "W zakresie VHF, do radiotelefonicznych wywołań międzystatkowych można stosować kanał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "15",
+"answer_2": "27",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 21,
+                "question": "Radiotelefoniczna stacja statkowa może być identyfikowana przez:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "numer seryjny radiotelefonu VHF",
+"answer_2": "znak wywoławczy",
+"answer_3": "nazwę armatora/właściciela",
+            "correct": 0
+        },
+        {
+            "question_id": 22,
+                "question": "Znak wywoławczy stacji statkowej to identyfikacja stosowana w łączności:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "międzystatkowej",
+"answer_2": "jedynie radiotelefonicznej wewnątrzstatkowej",
+"answer_3": "DSC",
+            "correct": 0
+        },
+        {
+            "question_id": 23,
+                "question": "MMSI to identyfikacja stosowana w:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "radiotelefonicznej łączności międzystatkowej",
+"answer_2": "radiotelefonicznej",
+"answer_3": "EPIRB",
+            "correct": 0
+        },
+        {
+            "question_id": 24,
+                "question": "Znak wywoławczy stacji statkowej to identyfikacja przyznawana:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "przez właściciela jednostki",
+"answer_2": "tylko do łączności bezpieczeństwa",
+"answer_3": "przez administrację krajową z międzynarodowej serii znaków wywoławczych",
+            "correct": 0
+        },
+        {
+            "question_id": 25,
+                "question": "W zakresie VHF, radiotelefoniczne wezwanie w niebezpieczeństwie powinno być nadane na kanale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "13",
+"answer_2": "16",
+"answer_3": "6",
+            "correct": 0
+        },
+        {
+            "question_id": 26,
+                "question": "Wezwanie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od wywołania zawierającego sygnał niebezpieczeństwa MAYDAY wymówiony:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "1 raz",
+"answer_2": "2 razy",
+"answer_3": "3 razy",
+            "correct": 0
+        },
+        {
+            "question_id": 27,
+                "question": "Zawiadomienie w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "1 raz",
+"answer_2": "2 razy",
+"answer_3": "3 razy",
+            "correct": 0
+        },
+        {
+            "question_id": 28,
+                "question": "Zawiadomienie w niebezpieczeństwie nadane na kanale 16 VHF powinno zawierać:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "pozycję jednostki",
+"answer_2": "ostatni port zawinięcia",
+"answer_3": "sygnał niebezpieczeństwa PAN PAN",
+            "correct": 0
+        },
+        {
+            "question_id": 29,
+                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadanego na kanale 16 VHF powinno być nadane na kanale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "13",
+"answer_2": "26",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 30,
+                "question": "Potwierdzenie odbioru zawiadomienia w niebezpieczeństwie nadane na kanale 16 VHF powinno rozpoczynać się od sygnału niebezpieczeństwa MAYDAY wymówionego:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "1 raz",
+"answer_2": "2 razy",
+"answer_3": "3 razy",
+            "correct": 0
+        },
+        {
+            "question_id": 31,
+                "question": "Nadanie radiotelefonicznego zawiadomienia o niebezpieczeństwie przez jednostkę w nim nie będącą może nastąpić gdy:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "osoba odpowiedzialna za jednostkę uzna dalszą pomoc za niezbędną",
+"answer_2": "nakaże to osoba odpowiedzialna za jednostkę zagrożoną",
+"answer_3": "nakaże to osoba odpowiedzialna za stację nadbrzeżną",
+            "correct": 0
+        },
+        {
+            "question_id": 32,
+                "question": "Nadanie radiotelefonicznego zawiadomienia o niebezpieczeństwie przez stację w nim nie będącą powinno być poprzedzone sygnałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "MAYDAY",
+"answer_2": "MAYDAY MAYDAY MAYDAY",
+"answer_3": "MAYDAY RELAY MAYDAY RELAY MAYDAY RELAY",
+            "correct": 0
+        },
+        {
+            "question_id": 33,
+                "question": "Radiotelefoniczne zawiadomienie o niebezpieczeństwie przez stację w nim nie będącą powinno być nadane na kanale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "70",
+"answer_2": "13",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 34,
+                "question": "Przed każdym wywołaniem poprzedzającym korespondencje w niebezpieczeństwie należy użyć sygnału niebezpieczeństwa:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "PAN PAN",
+"answer_2": "MAYDAY",
+"answer_3": "MAYDAY MAYDAY MAYDAY",
+            "correct": 0
+        },
+        {
+            "question_id": 35,
+                "question": "Zalecanymi kanałami VHF do łączności w akcjach SAR są:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "26",
+"answer_2": "16",
+"answer_3": "70",
+            "correct": 0
+        },
+        {
+            "question_id": 36,
+                "question": "Korespondencją na miejscu akcji ratunkowej kieruje:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Ratowniczy Ośrodek Koordynacyjny (ROK)",
+"answer_2": "wyłącznie stacja nadbrzeżna zaangażowana w akcję (CRS)",
+"answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
+            "correct": 0
+        },
+        {
+            "question_id": 37,
+                "question": "Korespondencją koordynacyjną SAR kieruje:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Ratowniczy Ośrodek Koordynacyjny (ROK)",
+"answer_2": "wyłącznie jednostka zagrożona",
+"answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
+            "correct": 0
+        },
+        {
+            "question_id": 38,
+                "question": "Stację zakłócającą korespondencję w niebezpieczeństwie może uciszać:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "tylko ROK",
+"answer_2": "każda stacja statkowa i nadbrzeżna",
+"answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
+            "correct": 0
+        },
+        {
+            "question_id": 39,
+                "question": "Sygnałem uciszania stacji zakłócającej korespondencje w niebezpieczeństwie jest sygnał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "PAN PAN",
+"answer_2": "SEELONCE MAYDAY",
+"answer_3": "MAYDAY",
+            "correct": 0
+        },
+        {
+            "question_id": 40,
+                "question": "Informację o zakończeniu korespondencji w niebezpieczeństwie może nadać:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "tylko ROK",
+"answer_2": "każda stacja statkowa i nadbrzeżna",
+"answer_3": "jednostka koordynująca SAR",
+            "correct": 0
+        },
+        {
+            "question_id": 41,
+                "question": "Sygnałem zakończenia korespondencji w niebezpieczeństwie jest sygnał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "PAN PAN",
+"answer_2": "SEELONCE MAYDAY",
+"answer_3": "SEELONCE FEENEE",
+            "correct": 0
+        },
+        {
+            "question_id": 42,
+                "question": "Łączność pilną stosuje się dla uzyskania:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "porady i pomocy medycznej",
+"answer_2": "jedynie pomocy medycznej",
+"answer_3": "ostrzeżeń meteorologicznych",
+            "correct": 0
+        },
+        {
+            "question_id": 43,
+                "question": "Dla uzyskania pomocy medycznej należy stosować łączność:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "rutynową",
+"answer_2": "Distress",
+"answer_3": "pilną",
+            "correct": 0
+        },
+        {
+            "question_id": 44,
+                "question": "Dla uzyskania porady medycznej należy stosować łączność:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "rutynową",
+"answer_2": "pilną",
+"answer_3": "distress",
+            "correct": 0
+        },
+        {
+            "question_id": 45,
+                "question": "Radiotelefonicznym sygnałem pilności jest sygnał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "URGENCY",
+"answer_2": "PAN PAN",
+"answer_3": "DISTRESS",
+            "correct": 0
+        },
+        {
+            "question_id": 46,
+                "question": "Sygnał pilności PAN PAN należy stosować przed wywołaniem dotyczącym:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "wypadnięcia człowieka za burtę",
+"answer_2": "uzyskania porady medycznej",
+"answer_3": "uzyskania ostrzeżenia",
+            "correct": 0
+        },
+        {
+            "question_id": 47,
+                "question": "W radiotelefonii sygnał pilności wymawia się:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "1 raz",
+"answer_2": "2 razy",
+"answer_3": "3 razy",
+            "correct": 0
+        },
+        {
+            "question_id": 48,
+                "question": "Wywołanie pilne (PAN PAN) powinno być nadane na kanale VHF:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "12",
+"answer_2": "6",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 49,
+                "question": "Sygnał ostrzegawczy SECURITE należy stosować przed wywołaniem dotyczącym:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "wypadnięcia człowieka za burtę",
+"answer_2": "uzyskania porady medycznej",
+"answer_3": "nadania ostrzeżenia",
+            "correct": 0
+        },
+        {
+            "question_id": 50,
+                "question": "Łączność ostrzegawczą stosuje się dla:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "nadania porady medycznej",
+"answer_2": "odbioru ostrzeżeń pogodowych",
+"answer_3": "nadania alarmowania",
+            "correct": 0
+        },
+        {
+            "question_id": 51,
+                "question": "Radiotelefonicznym sygnałem ostrzegawczy jest sygnał:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "URGENCY",
+"answer_2": "PAN PAN",
+"answer_3": "SECURITE",
+            "correct": 0
+        },
+        {
+            "question_id": 52,
+                "question": "W radiotelefonii sygnał ostrzegawczy wymawia się:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "1 raz",
+"answer_2": "2 razy",
+"answer_3": "3 razy",
+            "correct": 0
+        },
+        {
+            "question_id": 53,
+                "question": "Wywołanie ostrzegawcze (SECURITE) powinno być nadane na kanale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "12",
+"answer_2": "6",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 54,
+                "question": "Kanał 75 VHF jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności w niebezpieczeństwie",
+"answer_2": "zabronionym dla zwykłej łączności publicznej",
+"answer_3": "bezpieczeństwa",
+            "correct": 0
+        },
+        {
+            "question_id": 55,
+                "question": "Kanał 76 VHF jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności w niebezpieczeństwie",
+"answer_2": "zabronionym dla zwykłej łączności publicznej",
+"answer_3": "bezpieczeństwa",
+            "correct": 0
+        },
+        {
+            "question_id": 56,
+                "question": "Kanał 15 VHF w pierwszej kolejności jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności w niebezpieczeństwie",
+"answer_2": "zabronionym dla łączności publicznej",
+"answer_3": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
+            "correct": 0
+        },
+        {
+            "question_id": 57,
+                "question": "Kanał 17 VHF w pierwszej kolejności jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
+"answer_2": "zabronionym dla łączności publicznej",
+"answer_3": "do łączności w niebezpieczeństwie",
+            "correct": 0
+        },
+        {
+            "question_id": 58,
+                "question": "Kanał 13 VHF w pierwszej kolejności jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
+"answer_2": "zabronionym dla łączności publicznej",
+"answer_3": "wyłącznie do łączności międzystatkowej z mocą zredukowaną do 1 W",
+            "correct": 0
+        },
+        {
+            "question_id": 59,
+                "question": "Kanał 6 VHF w pierwszej kolejności jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
+"answer_2": "zabronionym dla łączności publicznej",
+"answer_3": "do łączności SAR z samolotami",
+            "correct": 0
+        },
+        {
+            "question_id": 60,
+                "question": "Kanał 16 VHF w pierwszej kolejności jest kanałem:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "do łączności w niebezpieczeństwie",
+"answer_2": "zabronionym dla łączności publicznej",
+"answer_3": "do łączności międzystatkowej z mocą zredukowaną do 1 W",
+            "correct": 0
+        },
+        {
+            "question_id": 61,
                 "question": "Kanały „amerykańskie” (US):",
                 "question_image": "",
                 "images": false,
                 "answer_1": "można wykorzystywać tylko do łączności związanej z bezpieczeństwem żeglugi",
-                "answer_2": "są zabronione na Bałtyku",
-                "answer_3": "nie są zabronione na wodach Unii Europejskiej",
-                "correct": 3
-            },
-            {
-                "question_id": 78,
-                "question": "Gdy jednostka jest w morzu, testowanie wewnętrzne urządzenia VHF DSC powinno być przeprowadzone:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "codziennie",
-                "answer_2": "dwa razy w tygodniu",
-                "answer_3": "raz w miesiącu",
-                "correct": 3
-            },
-            {
-                "question_id": 79,
-                "question": "W zakresie VHF, testowanie urządzenia DSC polega na przeprowadzeniu testu:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wewnętrznego i zewnętrznego",
-                "answer_2": "tylko wewnętrznego",
-                "answer_3": "wewnętrznego albo zewnętrznego",
-                "correct": 3
-            },
-            {
-                "question_id": 80,
-                "question": "Testowanie  „zewnętrzne”  urządzenia DSC w zakresie VHF powinno być przeprowadzane:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "codziennie",
-                "answer_2": "zabronione jest takie testowanie",
-                "answer_3": "raz w tygodniu",
-                "correct": 3
-            },
-            {
-                "question_id": 81,
-                "question": "W zakresie VHF, radiotelefoniczne odwołanie fałszywego alarmowania DSC powinno być nadane na kanale:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "13",
-                "answer_2": "70",
-                "answer_3": "16",
-                "correct": 3
-            },
-            {
-                "question_id": 82,
-                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą DSC powinno być skierowane:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do najbliższej stacji nadbrzeżnej",
-                "answer_2": "do najbliższej stacji statkowej",
-                "answer_3": "do wszystkich stacji",
-                "correct": 3
-            },
-            {
-                "question_id": 83,
-                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą  EPIRB powinno być skierowane do:",
+"answer_2": "są zabronione na Bałtyku",
+"answer_3": "nie są zabronione na wodach Unii Europejskiej",
+            "correct": 0
+        },
+        {
+            "question_id": 62,
+                "question": "Odwołanie fałszywego alarmowania nadanego za pomocą EPIRB powinno być skierowane do:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacji nadbrzeżnej",
-                "answer_2": "najbliższej stacji statkowej",
-                "answer_3": "wszystkich stacji",
-                "correct": 3
-            },
-            {
-                "question_id": 84,
-                "question": "Odwołując fałszywe alarmowanie należy podać następujące informacje:",
+"answer_2": "najbliższej stacji statkowej",
+"answer_3": "wszystkich stacji",
+            "correct": 0
+        },
+        {
+            "question_id": 63,
+                "question": "Odwołując fałszywe alarmowanie należy podać nastepujace informacje:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "pozycję  jednostki,  rodzaj odwoływanego alarmowania,  godzinę  nadania i odwołania fałszywego alarmowania",
-                "answer_2": "rodzaj odwoływanego alarmowania,  godzinę  nadania i ostatni port postoju jednostki",
-                "answer_3": "tylko godzinę nadania fałszywego alarmowania i ostatni port postoju jednostki",
-                "correct": 3
-            },
-            {
-                "question_id": 85,
-                "question": "Dla radiotelefonów osobistych  (przenośnych),  wykorzystywanych w służbie radiokomunikacyjnej morskiej, posiadających DSC, nadaje się numer identyfikacyjny:",
+                "answer_1": "pozycję jednostki, rodzaj odwoływanego alarmowania, godzinę nadania i odwołania fałszywego alarmowania",
+"answer_2": "rodzaj odwoływanego alarmowania, godzinę nadania i ostatni port postoju jednostki",
+"answer_3": "tylko godzinę nadania fałszywego alarmowania i ostatni port postoju jednostki",
+            "correct": 0
+        },
+        {
+            "question_id": 64,
+                "question": "Testowanie radiopławy awaryjnej (EPIRB) polega na przeprowadzeniu:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "taki sam jak MMSI jednostki pływającej, na której aktualnie jest wykorzystywany",
-                "answer_2": "dziewięciocyfrowy o postaci: 8MIDXXXXX, gdzie MID to trzycyfrowy kod kraju, X to cyfra od 0 do 9",
-                "answer_3": "dziewięciocyfrowy, określany przez producenta urządzenia",
-                "correct": 3
-            },
-            {
-                "question_id": 86,
-                "question": "Nadając wywołanie publiczne DSC należy wybrać priorytet (kategorie):",
-                "question_image": "",
-                "images": false,
-                "answer_1": "DISTRESS",
-                "answer_2": "URGENCY",
-                "answer_3": "ROUTINE",
-                "correct": 3
-            },
-            {
-                "question_id": 87,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne DSC do innej stacji statkowej powinna użyć kanału:",
+                "answer_1": "comiesięcznego testu „wewnętrznego” (bez nadawania)",
+"answer_2": "comiesięcznej próby z nadaniem sygnału alarmowego",
+"answer_3": "corocznego testu „wewnętrznego”",
+            "correct": 0
+        },
+        {
+            "question_id": 65,
+                "question": "Stacja statkowa VHF nadając wywołanie publiczne do innej stacji statkowej powinna użyć kanału:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "70",
-                "answer_2": "67",
-                "answer_3": "26",
-                "correct": 3
-            },
-            {
-                "question_id": 88,
-                "question": "Stacja statkowa nadając wywołanie publiczne DSC do innej stacji statkowej:",
+"answer_2": "67",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 66,
+                "question": "Stacja statkowa nadając wywołanie publiczne do innej stacji statkowej na kanale 16 VHF",
                 "question_image": "",
                 "images": false,
-                "answer_1": "może podać kanał roboczy",
-                "answer_2": "nie powinna podawać kanału roboczego",
-                "answer_3": "musi podać kanał roboczy",
-                "correct": 3
-            },
-            {
-                "question_id": 89,
-                "question": "Stacja statkowa nadając wywołanie publiczne DSC do stacji nadbrzeżnej:",
+                "answer_1": "zawsze powinna podać kanał roboczy",
+"answer_2": "nie powinna podawać kanału roboczego",
+"answer_3": "może podać kanał roboczy",
+            "correct": 0
+        },
+        {
+            "question_id": 68,
+                "question": "Stacja statkowa nadając wywołanie publiczne do stacji nadbrzeżnej:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "powinna podać kanał roboczy",
-                "answer_2": "nie powinna podawać kanału roboczego",
-                "answer_3": "może podać kanał roboczy",
-                "correct": 3
-            },
-            {
-                "question_id": 90,
-                "question": "Po przejściu na kanał roboczy, łączność publiczną inicjuje:",
+"answer_2": "nie powinna podawać kanału roboczego",
+"answer_3": "może podać kanał roboczy",
+            "correct": 0
+        },
+        {
+            "question_id": 69,
+                "question": "Po wywołaniu i przejściu na kanał roboczy, łączność publiczną inicjuje:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "stacja wywołująca za pomocą DSC",
-                "answer_2": "zawsze stacja wywoływana za pomocą DSC",
-                "answer_3": "stacja wywoływana za pomocą DSC jeżeli tak podano w wywołaniu DSC",
-                "correct": 3
-            },
-            {
-                "question_id": 91,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne do innej stacji statkowej może użyć kanału:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "25",
-                "answer_2": "16",
-                "answer_3": "26",
-                "correct": 3
-            },
-            {
-                "question_id": 92,
-                "question": "Stacja statkowa VHF nadając wywołanie publiczne do stacji nadbrzeżnej może użyć kanału:",
+                "answer_1": "stacja wywołująca",
+"answer_2": "zawsze stacja wywoływana",
+"answer_3": "stacja, która pierwsza przejdzie na kanał roboczy",
+            "correct": 0
+        },
+        {
+            "question_id": 71,
+                "question": "Stacja statkowa VHF nadając radiotelefoniczne wywołanie publiczne do stacji nadbrzeżnej może użyć kanału:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "15",
-                "answer_2": "16",
-                "answer_3": "6",
-                "correct": 3
-            },
-            {
-                "question_id": 93,
+"answer_2": "70",
+"answer_3": "16",
+            "correct": 0
+        },
+        {
+            "question_id": 72,
                 "question": "Radiotelefoniczne wywołanie publiczne w zakresie VHF powinno mieć formę:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (2x)",
-                "answer_2": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (3x)",
-                "answer_3": "nazwa stacji wywoływanej (2x) This is nazwa stacji wywołującej (2x)",
-                "correct": 3
-            },
-            {
-                "question_id": 94,
+                "answer_1": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /2x",
+"answer_2": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /3x",
+"answer_3": "nazwa stacji wywoływanej /2x Tu nazwa stacji wywołującej /2x",
+            "correct": 0
+        },
+        {
+            "question_id": 73,
                 "question": "Radiotelefoniczna odpowiedź na wywołanie publiczne w zakresie VHF powinna mieć formę:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywołującej (1x) This is nazwa stacji wywoływanej (2x)",
-                "answer_2": "nazwa stacji wywoływanej (4x) This is nazwa stacji wywołującej (4x)",
-                "answer_3": "nazwa stacji wywołującej (2x) This is nazwa stacji wywoływanej (2x)",
-                "correct": 3
-            },
-            {
-                "question_id": 95,
-                "question": "Wywołanie i odpowiedź na wywołanie na kanale 16 VHF nie powinny przekraczać:",
+                "answer_1": "nazwa stacji wywołującej /1x Tu nazwa stacji wywoływanej /2x",
+"answer_2": "nazwa stacji wywoływanej /4x Tu nazwa stacji wywołującej /4x",
+"answer_3": "nazwa stacji wywołującej /2x Tu nazwa stacji wywoływanej /2x",
+            "correct": 0
+        },
+        {
+            "question_id": 74,
+                "question": "Wywołanie i odpowiedź na wywołanie publiczne na kanale 16 VHF nie powinny przekraczać:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1 minuty",
-                "answer_2": "2 minut",
-                "answer_3": "3 minut",
-                "correct": 3
-            },
-            {
-                "question_id": 96,
-                "question": "Stacja statkowa VHF z DSC,  gdy znajduje się  w morzu,  utrzymuje ciągły nasłuch radiowy na kanale:",
+"answer_2": "2 minut",
+"answer_3": "3 minut",
+            "correct": 0
+        },
+        {
+            "question_id": 75,
+                "question": "Łączność ruchu portowego prowadzona jest według zasad obowiązujących dla łączności:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "26",
-                "answer_2": "70",
-                "answer_3": "6",
-                "correct": 3
-            },
-            {
-                "question_id": 97,
+                "answer_1": "w niebezpieczeństwie",
+"answer_2": "bezpieczeństwa",
+"answer_3": "ogólnej",
+            "correct": 0
+        },
+        {
+            "question_id": 76,
+                "question": "Łączność ruchu statków prowadzona jest według zasad obowiązujących dla łączności:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "w niebezpieczeństwie",
+"answer_2": "bezpieczeństwa",
+"answer_3": "ogólnej",
+            "correct": 0
+        },
+        {
+            "question_id": 77,
+                "question": "Radiotelefoniczna stacja statkowa VHF, gdy znajduje się w morzu, powinna utrzymywać ciągły nasłuch radiowy na kanałach:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "16",
+"answer_2": "70",
+"answer_3": "6",
+            "correct": 0
+        },
+        {
+            "question_id": 78,
                 "question": "W łączności stacji statkowej ze stacją nadbrzeżną, o przebiegu korespondencji decyduje:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacja statkowa",
-                "answer_2": "RCC",
-                "answer_3": "stacja nadbrzeżna",
-                "correct": 3
-            },
-            {
-                "question_id": 98,
+"answer_2": "stacja wywoływana",
+"answer_3": "stacja nadbrzeżna",
+            "correct": 0
+        },
+        {
+            "question_id": 79,
                 "question": "Wykaz korespondencji (traffic list) nadawany jest przez:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stację statkową",
-                "answer_2": "RCC",
-                "answer_3": "stację nadbrzeżną",
-                "correct": 3
-            },
-            {
-                "question_id": 99,
-                "question": "Jeżeli wywoływana stacja nie odpowiada na wywołanie publiczne DSC, kolejne można powtórzyć po:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "3 minutach",
-                "answer_2": "5 minutach",
-                "answer_3": "8 minutach",
-                "correct": 3
-            },
-            {
-                "question_id": 100,
+"answer_2": "stację nadbrzeżną",
+"answer_3": "stację pilotową",
+            "correct": 0
+        },
+        {
+            "question_id": 80,
                 "question": "Jeżeli wywoływana stacja nie odpowiada na radiotelefoniczne wywołanie publiczne, kolejne można powtórzyć po:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "4 minutach, a następne po 1 minucie",
-                "answer_2": "5 minutach, a następne po 10 minutach",
-                "answer_3": "2 minutach, a następne po 3 minutach",
-                "correct": 3
-            },
-            {
-                "question_id": 101,
+                "answer_1": "3 minutach",
+"answer_2": "5 minutach",
+"answer_3": "2 minutach",
+            "correct": 0
+        },
+        {
+            "question_id": 81,
                 "question": "Jednostka pływająca może zrealizować radiotelefoniczną łączność publiczną z abonentem telekomunikacyjnej sieci lądowej:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "bezpośrednio przez telekomunikacyjną sieć lądową",
-                "answer_2": "za pośrednictwem innej, większej stacji statkowej",
-                "answer_3": "za pośrednictwem stacji nadbrzeżnej",
-                "correct": 3
-            },
-            {
-                "question_id": 102,
+"answer_2": "za pośrednictwem innej, większej stacji statkowej",
+"answer_3": "za pośrednictwem stacji nadbrzeżnej",
+            "correct": 0
+        },
+        {
+            "question_id": 82,
                 "question": "Radiotelefoniczną łączność publiczną z telekomunikacyjną siecią lądową, prowadzi się na kanale:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "16",
-                "answer_2": "13",
-                "answer_3": "wskazanym przez stację nadbrzeżną",
-                "correct": 3
-            },
-            {
-                "question_id": 103,
+"answer_2": "13",
+"answer_3": "wskazanym przez stację nadbrzeżną",
+            "correct": 0
+        },
+        {
+            "question_id": 83,
                 "question": "Prowadząc łączność radiotelefoniczną, sygnałem zakończenia wypowiedzi jest sygnał:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PAN PAN",
-                "answer_2": "OVER",
-                "answer_3": "STOP",
-                "correct": 3
-            },
-            {
-                "question_id": 104,
+"answer_2": "SECURITE",
+"answer_3": "ODBIÓR",
+            "correct": 0
+        },
+        {
+            "question_id": 84,
                 "question": "Prowadząc łączność radiotelefoniczną, sygnałem zakończenia łączności jest sygnał:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "OVER AND OUT",
-                "answer_2": "OVER",
-                "answer_3": "STOP",
-                "correct": 3
-            },
-            {
-                "question_id": 105,
-                "question": "Po przejściu na kanał  roboczy, radiotelefoniczne wywołanie publiczne powinno mieć formę:",
+                "answer_1": "KONIEC",
+"answer_2": "SECURITE",
+"answer_3": "BEZ ODBIORU",
+            "correct": 0
+        },
+        {
+            "question_id": 85,
+                "question": "Po przejściu na kanał roboczy, radiotelefoniczne wywołanie publiczne powinno mieć formę:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nazwa stacji wywoływanej (4x) This is nazwa stacji wywołującej (4x)",
-                "answer_2": "nazwa stacji wywoływanej (1x) This is nazwa stacji wywołującej (1x)",
-                "answer_3": "nazwa stacji wywoływanej (2x) This is nazwa stacji wywołującej (2x)",
-                "correct": 3
-            },
-            {
-                "question_id": 106,
+                "answer_1": "nazwa stacji wywoływanej /4x Tu nazwa stacji wywołującej /4x",
+"answer_2": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /1x",
+"answer_3": "nazwa stacji wywoływanej /2x Tu nazwa stacji wywołującej /2x",
+            "correct": 0
+        },
+        {
+            "question_id": 86,
+                "question": "Stacja nadbrzeżna pytając stację statkową o przedsiębiorstwo rozliczające jej rachunki radiokomunikacyjne, może użyć skrótu:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "QRJ",
+"answer_2": "QTH",
+"answer_3": "QRC",
+            "correct": 0
+        },
+        {
+            "question_id": 87,
                 "question": "Stacja nadbrzeżna pytając stację statkową o jej położenie może użyć skrótu:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "QRJ",
-                "answer_2": "AAIC",
-                "answer_3": "QTH",
-                "correct": 3
-            },
-            {
-                "question_id": 107,
-                "question": "Publikacja ITU „Spis stacji nadbrzeżnych” zawiera podstawowe dane o:",
+"answer_2": "AAIC",
+"answer_3": "QTH",
+            "correct": 0
+        },
+        {
+            "question_id": 88,
+                "question": "Publikacja Biura Hydrograficznego Marynarki Wojennej „Spis radiostacji nautycznych” zawiera podstawowe dane o:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
-                "answer_2": "tylko stacjach nadbrzeżnych nadających MSI",
-                "answer_3": "tylko stacjach nadbrzeżnych nadających prognozy pogody",
-                "correct": 3
-            },
-            {
-                "question_id": 108,
-                "question": "Publikacja ITU „Spis stacji nadbrzeżnych” zawiera podstawowe dane o:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tylko stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
-                "answer_2": "stacjach nadbrzeżnych nadających MSI",
-                "answer_3": "RSC",
-                "correct": 3
-            },
-            {
-                "question_id": 109,
+"answer_2": "portowych stacjach ppoż",
+"answer_3": "stacjach statkowych",
+            "correct": 0
+        },
+        {
+            "question_id": 89,
                 "question": "W Polsce, dokument „Pozwolenie radiowe na stację statkową” wydaje:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PRS",
-                "answer_2": "Urząd Morski (UM)",
-                "answer_3": "Urząd Komunikacji Elektronicznej (UKE)",
-                "correct": 3
-            },
-            {
-                "question_id": 110,
-                "question": "Dokument  „Pozwolenie radiowe na stację  statkową”  poświadcza o zgodności zainstalowanych na jednostce urządzeń radiowych z",
+"answer_2": "ITU",
+"answer_3": "Urząd Komunikacji Elektronicznej (UKE)",
+            "correct": 0
+        },
+        {
+            "question_id": 90,
+                "question": "W Polsce, dokument „Pozwolenie radiowe na stację statkową” wydaje się na:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "okres 1 roku",
+"answer_2": "czas określony w „Pozwoleniu…”",
+"answer_3": "czas nieokreślony",
+            "correct": 0
+        },
+        {
+            "question_id": 91,
+                "question": "Dokument „Pozwolenie radiowe na stację statkową” poświadcza o zgodności zainstalowanych na jednostce urządzeń radiowych z:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przepisami PRS",
-                "answer_2": "postanowieniami Regulaminu Radiokomunikacyjnego ITU",
-                "answer_3": "prawidłami Konwencji SOLAS",
-                "correct": 3
-            },
-            {
-                "question_id": 111,
-                "question": "W Polsce, dokument „Karta bezpieczeństwa” jest przyznawany przez",
+"answer_2": "postanowieniami Regulaminu Radiokomunikacyjnego",
+"answer_3": "prawidłami Konwencji SOLAS",
+            "correct": 0
+        },
+        {
+            "question_id": 92,
+                "question": "W Polsce, dokument „Karta bezpieczeństwa” jest przyznawany przez:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "PRS",
-                "answer_2": "Urząd Komunikacji Elektronicznej (UKE)",
-                "answer_3": "Urząd Morski (UM)",
-                "correct": 3
-            },
-            {
-                "question_id": 112,
-                "question": "„Świadectwo operatora  łączności bliskiego zasięgu  (SRC)”  upoważnia do obsługi urządzeń radiowych wykorzystujących częstotliwości i techniki stosowane w GMDSS na statkach morskich niepodlegających Konwencji SOLAS:",
+"answer_2": "ITU",
+"answer_3": "Urząd Morski (UM)",
+            "correct": 0
+        },
+        {
+            "question_id": 93,
+                "question": "„Świadectwo operatora radiotelefonisty VHF” upoważnia do obsługi urządzeń radiowych zainstalowanych na jednostkach nie podlegających Konwencji SOLAS, pracujących w zakresie częstotliwości:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "w pasmach częstotliwości VHF, MF i HF",
-                "answer_2": "na obszarze morza A1",
-                "answer_3": "tylko w paśmie częstotliwości VHF",
-                "correct": 3
-            },
-            {
-                "question_id": 113,
-                "question": "W „Dzienniku radiowym” należy odnotowywać",
+                "answer_1": "VHF, MF i HF",
+"answer_2": "tylko VHF",
+"answer_3": "tylko MF",
+            "correct": 0
+        },
+        {
+            "question_id": 94,
+                "question": "„Świadectwo operatora radiotelefonisty VHF” upoważnia do obsługi następujących urządzeń radiowych zainstalowanych na jednostkach nie podlegających Konwencji SOLAS:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "radiotelefonicznych VHF, MF i HF",
+"answer_2": "tylko radiotelefonicznych VHF",
+"answer_3": "radiotelefonicznych i DSC VHF",
+            "correct": 0
+        },
+        {
+            "question_id": 95,
+                "question": "W „Dzienniku radiowym” lub dokumencie równorzędnym należy odnotowywać:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przynajmniej raz dziennie pozycję jednostki",
-                "answer_2": "liczbę członków załogi",
-                "answer_3": "pozycję jednostki minimum trzy razy na dobę",
-                "correct": 3
-            },
-            {
-                "question_id": 114,
+"answer_2": "liczbę członków załogi",
+"answer_3": "mijane jednostki",
+            "correct": 0
+        },
+        {
+            "question_id": 96,
+                "question": "Stację statkową, która może prowadzić komercyjną łączność publiczną nazywa się:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "komercyjną stacją statkową",
+"answer_2": "usługową stacją statkową",
+"answer_3": "stacją statkową otwartą dla korespondencji publicznej",
+            "correct": 0
+        },
+        {
+            "question_id": 97,
+                "question": "Opłaty radiokomunikacyjne stacji statkowej za przeprowadzone łączności z telekomunikacyjną siecią lądową, regulowane są przez:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "bezpośrednio właściciela jednostki",
+"answer_2": "QRC",
+"answer_3": "RCC",
+            "correct": 0
+        },
+        {
+            "question_id": 98,
+                "question": "Opłata za przeprowadzoną łączności radiotelefoniczną zawiera stawkę:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "pilotową (PC)",
+"answer_2": "nadbrzeżną (CC) i lądową (LL)",
+"answer_3": "portową (CP)",
+            "correct": 0
+        },
+        {
+            "question_id": 99,
+                "question": "Opłata za przeprowadzoną rozmowę radiotelefoniczną zależy od:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "czasu trwania rozmowy",
+"answer_2": "QRC",
+"answer_3": "rodzaju jednostki",
+            "correct": 0
+        },
+        {
+            "question_id": 100,
                 "question": "Zapewnienie tajemnicy korespondencji polega na tym, że:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "tylko informacja wychodząca ze stacji nie może trafić do osób trzecich",
-                "answer_2": "tylko informacja przychodząca do stacji nie może trafić do osób trzecich",
-                "answer_3": "informacja przychodząca i wychodząca ze stacji nie może trafić do osób trzecich",
-                "correct": 3
-            }
+"answer_2": "tylko informacja przychodząca do stacji nie może trafić do osób trzecich",
+"answer_3": "informacja przychodząca i wychodząca ze stacji nie może trafić do osób trzecich",
+            "correct": 0
+        }
         ]
     },
     {
@@ -1152,1505 +983,687 @@
         "exam": 8,
         "questions": [
             {
-                "question_id": 175,
-                "question": "Utworzony system GMDSS pozwala na:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "efektywne alarmowanie w relacji statek -  brzeg",
-                "answer_2": "automatyczne alarmowanie w relacji statek - samolot",
-                "answer_3": "automatyczne wykrywanie katastrof",
-                "correct": 1
-            },
-            {
-                "question_id": 176,
-                "question": "System GMDSS do alarmowania stosuje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "radiotelegrafię na kanale 16",
-                "answer_2": "radiotelegrafię na kanale 70",
-                "answer_3": "cyfrowe selektywne wywołanie",
-                "correct": 3
-            },
-            {
-                "question_id": 177,
-                "question": "Koncepcja systemu GMDSS pozwala na organizację ratownictwa przez:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "statki będące w okolicy katastrofy",
-                "answer_2": "centrum poszukiwań SAR",
-                "answer_3": "statki w porozumieniu z RCC i SAR",
-                "correct": 3
-            },
-            {
-                "question_id": 178,
-                "question": "Definicja obszaru morza A1 to:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "A1- obszar w promieniu 20 mil morskich od nadbrzeżnej stacji VHF w którym statki mają możliwość pewnej i skutecznej łączności radiowej",
-                "answer_2": "Obszar A1 to obszar w otoczeniu radiotelegraficznej stacji VHF pracującej na częstotliwości 156,8 MHz (kanał 16)",
-                "answer_3": "Obszar radiotelefonicznego zasięgu co najmniej jednej stacji brzegowej VHF, w którym jest zapewniona ciągła łączność alarmowa za pomocą DSC i który jest określony przez administrację",
-                "correct": 3
-            },
-            {
-                "question_id": 179,
-                "question": "Średni zasięg łączności alarmowej za pomocą DSC w obszarze A1 wynosi około:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "5 NM",
-                "answer_2": "30 NM",
-                "answer_3": "100 NM",
-                "correct": 2
-            },
-            {
-                "question_id": 180,
-                "question": "Nadawanie sygnałów alarmowych w GMDSS w obszarze A1 jest możliwe za pomocą:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "NAVTEX",
-                "answer_2": "DSC",
-                "answer_3": "EGC ",
-                "correct": 2
-            },
-            {
-                "question_id": 181,
-                "question": "Do nadawania sygnałów alarmowych w obszarze A1 stosowane są:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "kanał 13",
-                "answer_2": "kanał 6",
-                "answer_3": "kanał 70",
-                "correct": 3
-            },
-            {
-                "question_id": 182,
-                "question": "Realizacja komunikacji dla celów pilnych jest możliwa z wykorzystaniem systemów:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "DSC",
-                "answer_2": "MSI",
-                "answer_3": "EGC",
-                "correct": 3
-            },
-            {
-                "question_id": 183,
-                "question": "Realizacja komunikacji dla celów bezpieczeństwa jest możliwa z wykorzystaniem systemów:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "DSC",
-                "answer_2": "WWNWS",
-                "answer_3": "MSI",
-                "correct": 1
-            },
-            {
-                "question_id": 184,
-                "question": "Informacje zawarte w sygnale alarmowym to:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "długość statku i wyporność",
-                "answer_2": "rodzaj zagrożenia i położenie geograficzne",
-                "answer_3": "rodzaj przewożonego ładunku",
-                "correct": 2
-            },
-            {
-                "question_id": 185,
-                "question": "Łączność koordynacyjna to łączność do:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "zapewnienia koordynacji działań statków i lotnictwa",
-                "answer_2": "koordynacji ruchu statku",
-                "answer_3": "koordynacji kolejności działań środków radiokomunikacyjnych ",
-                "correct": 1
-            },
-            {
-                "question_id": 186,
-                "question": "Łączność na miejscu akcji jest utrzymywana z wykorzystaniem częstotliwości:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "8414 kHz",
-                "answer_2": "156,8 MHz",
-                "answer_3": "9 GHz",
-                "correct": 2
-            },
-            {
-                "question_id": 187,
-                "question": "Lokalizacja rozbitków jest dokonywana za pomocą:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "systemów namiarowych",
-                "answer_2": "DSC kanał 70",
-                "answer_3": "transpondera radarowego",
-                "correct": 3
-            },
-            {
-                "question_id": 188,
-                "question": "Uzyskanie namiaru na transponder radarowy SART uzyskuje się  za pomocą  radaru pracującego na częstotliwościach pasma:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "9 GHz",
-                "answer_2": "3 GHz",
-                "answer_3": "12 GHz",
-                "correct": 1
-            },
-            {
-                "question_id": 189,
-                "question": "Rozpowszechnianie morskich informacji bezpieczeństwa dotyczy:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "informacji komercyjnych",
-                "answer_2": "pilnych informacji nawigacyjnych i meteorologicznych",
-                "answer_3": "prognoz optymalnych częstotliwości propagacyjnych",
-                "correct": 2
-            },
-            {
-                "question_id": 190,
-                "question": "Realizacja łączności pomiędzy dwoma mostkami statków jest możliwa za pomocą:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "radiotelefonii na częstotliwości 2182 kHz",
-                "answer_2": "radiotelefonii na kanale 6 i 13",
-                "answer_3": "radiotelefonii na kanale 70",
-                "correct": 2
-            },
-            {
-                "question_id": 191,
-                "question": "W skład wyposażenia statku pływającego w obszarze A1 wchodzi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "urządzenie nadawczo-odbiorcze na kanale 70",
-                "answer_2": "urządzenie nadawczo-odbiorcze na częstotliwości 2187,5 kHz",
-                "answer_3": "urządzenie nadawczo-odbiorcze na częstotliwości 406 MHz",
-                "correct": 1
-            },
-            {
-                "question_id": 192,
-                "question": "System cyfrowego selektywnego wywołania to system:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "do transmisji ostrzeżeń pogodowych",
-                "answer_2": "do transmisji ostrzeżeń nawigacyjnych",
-                "answer_3": "do automatycznego ustanawiania połączeń radiowych i alarmowania",
-                "correct": 3
-            },
-            {
-                "question_id": 193,
-                "question": "W DSC stosowana jest transmisja:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "cyfrowa",
-                "answer_2": "analogowa",
-                "answer_3": "impulsowa",
-                "correct": 1
-            },
-            {
-                "question_id": 194,
-                "question": "Do transmisji radiowej sygnału DSC w paśmie VHF stosuje się częstotliwość kanału:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "16-go",
-                "answer_2": "70-go",
-                "answer_3": "6-go",
-                "correct": 2
-            },
-            {
-                "question_id": 195,
-                "question": "Do transmisji radiowej sygnału DSC w paśmie VHF stosuje się:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "modulację amplitudy",
-                "answer_2": "modulację impulsową",
-                "answer_3": "modulację fazy",
-                "correct": 3
-            },
-            {
-                "question_id": 196,
-                "question": "Czas trwania całkowitego pojedynczego wywołania DSC w paśmie VHF wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "6,2 s - 7,2 s",
-                "answer_2": "0,45 s - 0,63 s",
-                "answer_3": "3 s - 4 s",
-                "correct": 2
-            },
-            {
-                "question_id": 197,
-                "question": "Pole „kategorii” definiuje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "priorytet sekwencji wywoławczej",
-                "answer_2": "adres sekwencji wywoławczej",
-                "answer_3": "zastosowany rodzaj adresu",
-                "correct": 1
-            },
-            {
-                "question_id": 198,
-                "question": "Wywołania alarmowe DSC nadawane na kanale 70 zawierają  następujące dane/informacje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "numer MMSI, pozycja, czas aktualności pozycji",
-                "answer_2": "pozycja, czas aktualności pozycji, posiadane środki ratunkowe",
-                "answer_3": "rodzaj zagrożenia, pozycja, czas aktualności pozycji, rodzaj oczekiwanej pomocy",
-                "correct": 1
-            },
-            {
-                "question_id": 199,
-                "question": "Nadanie przez statek sygnału alarmowego w paśmie VHF fonicznie lub w DSC może być realizowane na:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "jednej częstotliwości",
-                "answer_2": "dwóch częstotliwościach",
-                "answer_3": "trzech częstotliwościach",
-                "correct": 1
-            },
-            {
-                "question_id": 200,
-                "question": "Zasady potwierdzania odbioru wywołania w niebezpieczeństwie w paśmie VHF przez stację nadbrzeżną to:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "potwierdzenie odbioru wywołania w niebezpieczeństwie powinno być zainicjowane ręcznie - na tej samej częstotliwości na której odebrano to wywołanie z opóźnieniem co najmniej jednominutowym",
-                "answer_2": "potwierdzenie odbioru wywołania w niebezpieczeństwie powinno być zainicjowane ręcznie na częstotliwości kanału 70",
-                "answer_3": "potwierdzenie odbioru wywołania w niebezpieczeństwie powinno być zainicjowane ręcznie - na tej samej częstotliwości na której odebrano to wywołanie z opóźnieniem- nie większym jednak niż 2,75 min",
-                "correct": 3
-            },
-            {
-                "question_id": 201,
-                "question": "Nadanie korespondencji typu pośrednictwo w niebezpieczeństwie przez statek w paśmie VHF polega na:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "nadaniu typu pośrednictwo w niebezpieczeństwie do wszystkich statków lub wybranej stacji",
-                "answer_2": "nadaniu typu pośrednictwo w niebezpieczeństwie do właściwej stacji nadbrzeżnej",
-                "answer_3": "nadaniu typu pośrednictwo w niebezpieczeństwie do wszystkich stacji nadbrzeżnych",
-                "correct": 1
-            },
-            {
-                "question_id": 202,
-                "question": "Przedstaw możliwości stosowania kanałów DSC w korespondencji publicznej w paśmie VHF.",
-                "question_image": "",
-                "images": false,
-                "answer_1": "w paśmie VHF kanał  70 stosowany jest zarówno do wywołań  DSC w niebezpieczeństwie jak i do celów zapewnienia bezpieczeństw. Jest również stosowany do wywołań DSC w celu zrealizowania korespondencji publicznej",
-                "answer_2": "w paśmie VHF kanał  70 nie może być  stosowany w celu zrealizowania korespondencji publicznej",
-                "answer_3": "w paśmie VHF kanał  70 nie może być  stosowany do celów zapewnienia bezpieczeństwa",
-                "correct": 1
-            },
-            {
-                "question_id": 203,
-                "question": "Testowanie zewnętrzne aparatury DSC w paśmie VHF, zgodnie z przepisami ITU oraz Konwencji STCW, ma być realizowane:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tak często jak to jest niezbędne",
-                "answer_2": "testowanie jest zabronione",
-                "answer_3": "raz na tydzień",
-                "correct": 2
-            },
-            {
-                "question_id": 204,
-                "question": "System NAVTEX służy do:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "transmisji map synoptycznych",
-                "answer_2": "transmisji ostrzeżeń nawigacyjnych",
-                "answer_3": "łączności z publiczną siecią telefoniczną",
-                "correct": 2
-            },
-            {
-                "question_id": 205,
-                "question": "Stacje systemu NAVTEX pracują na częstotliwości:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "2177 kHz",
-                "answer_2": "490 kHz",
-                "answer_3": "156,8 MHz",
-                "correct": 2
-            },
-            {
-                "question_id": 206,
-                "question": "Podstawową częstotliwością transmisji w systemie NAVTEX jest:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "518 kHz",
-                "answer_2": "4125 kHz",
-                "answer_3": "500 kHz",
-                "correct": 1
-            },
-            {
-                "question_id": 207,
-                "question": "Zasięg stacji systemu NAVTEX wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "50-100 Mm",
-                "answer_2": "350 – 1000 Mm",
-                "answer_3": "200 – 400 Mm",
-                "correct": 3
-            },
-            {
-                "question_id": 208,
-                "question": "Zasięg stacji systemu NAVTEX jest największy:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "w dzień",
-                "answer_2": "w nocy",
-                "answer_3": "rano",
-                "correct": 2
-            },
-            {
-                "question_id": 209,
-                "question": "W jaki sposób dokonuje się w odbiorniku NAVTEX ustawienia stacji:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "przez wpisanie nazwy stacji",
-                "answer_2": "przez podanie pozycji geograficznej odbiornika",
-                "answer_3": "przez ustawienie litery odpowiadającej nazwie stacji",
-                "correct": 3
-            },
-            {
-                "question_id": 210,
-                "question": "W jaki sposób dokonuje się w odbiorniku NAVTEX ustawienia rodzaju odbieranych informacji:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "przez wpisanie numeru informacji ",
-                "answer_2": "przez ustawienie litery odpowiadającej typowi informacji",
-                "answer_3": "w odbiorniku nie ma możliwości wyboru odbieranych informacji",
-                "correct": 2
-            },
-            {
-                "question_id": 211,
-                "question": "„ZCZC JA23” w nagłówku komunikatu odebranego ze stacji NAVTEX oznacza że:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "komunikat nadany został przez stację „A”",
-                "answer_2": "komunikat nadany został przez stację „J”",
-                "answer_3": "komunikat dotyczy ostrzeżenia meteorologicznego",
-                "correct": 2
-            },
-            {
-                "question_id": 212,
-                "question": "„ZCZC UB66” w nagłówku komunikatu odebranego ze stacji NAVTEX oznacza że:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "komunikat nadany został przez stację „U”",
-                "answer_2": "komunikat nadany został przez stację „J”",
-                "answer_3": "komunikat dotyczy ostrzeżenia nawigacyjnego",
-                "correct": 1
-            },
-            {
-                "question_id": 213,
-                "question": "Jakie komunikaty będą  zawsze wyświetlane/drukowane przez odbiornik systemu NAVTEX:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "ostrzeżenia meteorologiczne",
-                "answer_2": "prognozy pogody",
-                "answer_3": "raporty lodowe",
-                "correct": 3
-            },
-            {
-                "question_id": 214,
-                "question": "Druga litera B w nagłówku komunikatu stacji NAVTEX (np. LB47) oznacza, że jest to:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "ostrzeżenie meteorologiczne",
-                "answer_2": "informacja dotycząca ataku piratów",
-                "answer_3": "prognoza pogody",
-                "correct": 1
-            },
-            {
-                "question_id": 215,
-                "question": "Stacje systemu NAVTEX nadają komunikaty:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "dwa razy na dobę",
-                "answer_2": "o godz. 0700 i 2300 UTC ",
-                "answer_3": "nie częściej niż co cztery godziny",
-                "correct": 3
-            },
-            {
-                "question_id": 216,
-                "question": "Sekwencja „NNN” w wydruku komunikatu odbiornika NAVTEX oznacza:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "komunikat pilny",
-                "answer_2": "komunikat odebrany poprawnie",
-                "answer_3": "komunikat odebrany niepoprawnie",
-                "correct": 3
-            },
-            {
-                "question_id": 217,
-                "question": "Sekwencja „NNNN” w wydruku komunikatu odbiornika NAVTEX oznacza:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "komunikat pilny",
-                "answer_2": "komunikat który odebrany został ze stopą błędu mniejszą od 4%",
-                "answer_3": "komunikat odebrany niepoprawnie",
-                "correct": 2
-            },
-            {
-                "question_id": 218,
-                "question": "Komunikaty transmitowane na częstotliwości 518 kHz nadawane są w języku:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "angielskim",
-                "answer_2": "angielskim i francuskim",
-                "answer_3": "w języku państwa, z terenu którego nadaje stacja NAVTEX",
-                "correct": 1
-            },
-            {
-                "question_id": 219,
-                "question": "„ZCZC BB01” w nagłówku komunikatu odebranego ze stacji NAVTEX oznacza:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "ostrzeżenie nawigacyjne",
-                "answer_2": "ostrzeżenie meteorologiczne",
-                "answer_3": "komunikat nadany został dla obszaru morza A1",
-                "correct": 2
-            },
-            {
-                "question_id": 220,
-                "question": "Odbiornik systemu NAVTEX wyświetla/drukuje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wszystkie komunikaty z zaprogramowanych stacji",
-                "answer_2": "wszystkie komunikaty dotyczące ostrzeżeń nawigacyjnych,  meteorologicznych i informacji o akcjach SAR z wszystkich stacji w zasięgu odbioru",
-                "answer_3": "wszystkie komunikaty dotyczące ostrzeżeń  nawigacyjne,  meteorologicznych i informacji o akcjach SAR z zaprogramowanych stacji",
-                "correct": 3
-            },
-            {
-                "question_id": 221,
-                "question": "Częstotliwość 490 kHz jest stosowana w systemie NAVTEX do:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "transmisji komunikatów w obszarach tropikalnych",
-                "answer_2": "transmisji komunikatów w rejonach polarnych",
-                "answer_3": "transmisji komunikatów w języku lokalnym",
-                "correct": 3
-            },
-            {
-                "question_id": 222,
-                "question": "W systemie NAVTEX sygnały transmitowane są:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "w trybie teleksowym FEC",
-                "answer_2": "z zastosowaniem modulacji G2B",
-                "answer_3": "głosowo",
-                "correct": 1
-            },
-            {
-                "question_id": 223,
-                "question": "W nocy zasięg odbioru sygnałów w systemie NAVTEX jest:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "większy niż w dzień",
-                "answer_2": "taki sam jak w dzień",
-                "answer_3": "mniejszy niż w dzień",
-                "correct": 1
-            },
-            {
-                "question_id": 224,
-                "question": "W rejonach tropikalnych zasięg odbioru sygnałów transmitowanych na częstotliwości 518 kHz:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "zależy od pory doby",
-                "answer_2": "wynosi 75 Mm",
-                "answer_3": "nie zależy od pory doby",
-                "correct": 1
-            },
-            {
-                "question_id": 225,
-                "question": "Nadanie komunikatowi NAVTEX numeru 00 (np. JD00) spowoduje:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "że komunikat o tym numerze zostanie zignorowany",
-                "answer_2": "że wszystkie odbiorniki NAVTEX znajdujące się  w zasięgu stacji nadającej wydrukują  tak oznaczony komunikat,  niezależnie od dokonanego przez użytkownika ustawienia stacji",
-                "answer_3": "że komunikat nadany został o godz. 00:00",
-                "correct": 2
-            },
-            {
-                "question_id": 226,
-                "question": "Stacje NAVTEX powtarzają w kolejnych transmisjach komunikaty:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "tak długo, dopóki nie ustanie powód z którego dany komunikat jest nadawany",
-                "answer_2": "przez 7 dni",
-                "answer_3": "dwa razy",
-                "correct": 1
-            },
-            {
-                "question_id": 227,
-                "question": "Informacje o rozmieszczeniu, zasięgach i czasach nadawania stacji NAVTEX można znaleźć w:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "List of Coast Stations and Special Service Stations - ITU",
-                "answer_2": "Admirality List of Radio Signals Vol. 1",
-                "answer_3": "List of Ship Stations - ITU",
-                "correct": 1
-            },
-            {
-                "question_id": 228,
-                "question": "Zainstalowanie na statku odbiornika systemu NAVTEX wymaga zgody:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Urzędu Komunikacji Elektronicznej",
-                "answer_2": "Urzędu Morskiego",
-                "answer_3": "żadnego z powyższych",
-                "correct": 3
-            },
-            {
-                "question_id": 229,
-                "question": "Koordynatorem odpowiedzialnym za gromadzenie i dystrybucję morskich informacji bezpieczeństwa w obszarze polskiej strefy ekonomicznej jest:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Urząd Morski w Gdyni",
-                "answer_2": "Urząd Morski w Szczecinie",
-                "answer_3": "Biuro Hydrograficzne Marynarki Wojennej",
-                "correct": 3
-            },
-            {
-                "question_id": 230,
-                "question": "Informacje o transmisjach morskich informacji bezpieczeństwa za pomocą  innych systemów niż NAVTEX znaleźć można w:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "List of Cost Stations and Special Service Stations - ITU",
-                "answer_2": "Admirality List of Radio Signals Vol. 1",
-                "answer_3": "Admirality List of Radio Signals Vol. 5",
-                "correct": 3
-            },
-            {
-                "question_id": 231,
-                "question": "W systemie GMDSS stosuje się radiopławy:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "systemu COSPAS-SARSAT nadające sygnały na częstotliwości 406 MHz i 121,5 MHz",
-                "answer_2": "systemu INMARSAT-E pracujące w paśmie 1,6 GHz",
-                "answer_3": "systemu COSPAS-SARSAT nadające sygnały na częstotliwości 406 MHz i 243 MHz",
-                "correct": 1
-            },
-            {
-                "question_id": 232,
-                "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów poruszających siępo orbitach polarnych. Które z poniższych stwierdzeń jest prawdziwe:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wysokość orbit polarnych wynosi około 3000 km ",
-                "answer_2": "wysokość orbit polarnych wynosi 850 - 1000 km",
-                "answer_3": "wysokość orbit polarnych wynosi około 240 km",
-                "correct": 2
-            },
-            {
-                "question_id": 233,
-                "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów poruszających się po orbitach polarnych. Czas obiegu Ziemi przez satelitę  poruszającego się  po orbicie polarnej wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "około 105 minut",
-                "answer_2": "około 12 godzin",
-                "answer_3": "około 24 godziny",
-                "correct": 1
-            },
-            {
-                "question_id": 234,
-                "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów poruszających się po orbitach polarnych. Przelatujący satelita „widzi” z orbity radiopławę przez:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "około 12-16 minut",
-                "answer_2": "około 3 minuty",
-                "answer_3": "około 30 minut",
-                "correct": 1
-            },
-            {
-                "question_id": 235,
-                "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów geostacjonarnych składający się z:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "3 satelitów",
-                "answer_2": "12 – 15 satelitów",
-                "answer_3": "4 – 6 satelitów",
-                "correct": 3
-            },
-            {
-                "question_id": 236,
-                "question": "Do określenia położenia radiopławy w systemie COSPAS-SARSAT wykorzystujemy:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "pomiar czasu przelotu sygnałów na trasie radiopława - satelita",
-                "answer_2": "pomiar czasu przelotu sygnałów na trasie radiopława - satelita - stacja LUT",
-                "answer_3": "zjawisko Dopplera",
-                "correct": 3
-            },
-            {
-                "question_id": 237,
+                "question_id": 101,
                 "question": "Bateria litowa zasilająca radiopławę powinna zapewnić:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nieprzerwaną pracę radiopławy przez 96 godzin",
-                "answer_2": "nieprzerwaną pracę radiopławy przez 48 godzin",
-                "answer_3": "nieprzerwaną pracę radiopławy do momentu odbioru sygnałów przez satelitę",
-                "correct": 2
-            },
+                "answer_1": "nieprzerwaną pracę radioławy przez 96 godzin",
+"answer_2": "nieprzerwaną pracę radioławy przez 48 godzin",
+"answer_3": "nieprzerwaną pracę radioławy do momentu wykrycia przez jednostki SAR",
+"correct": 0
+},
             {
-                "question_id": 238,
-                "question": "Sygnał  o częstotliwość  121,5 MHz nadawany przez radiopławę  systemu COSPAS-SARSAT służy do:",
+                "question_id": 102,
+                "question": "Sygnał o częstotliwość 121,5 MHz nadawany przez radiopławę systemu COSPAS-SARSAT służy do:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "końcowego naprowadzania jednostek SAR na rozbitków (na radiopławę)",
-                "answer_2": "do rozwiązania problemu niejednoznaczności określanej pozycji",
-                "answer_3": "do lokalizacji położenia radiopław w obszarze pokrycia satelitów geostacjonarnych",
-                "correct": 1
-            },
+"answer_2": "do lokalizacji położenia radiopław w dowolnym rejonie globu",
+"answer_3": "do lokalizacji położenia radiopław w obszarze pokrycia satelitów geostacjonarnych",
+"correct": 0
+},
             {
-                "question_id": 239,
-                "question": "Dokładność lokalizacji radiopławy w systemie COSPAS-SARSAT wynosi:",
+                "question_id": 103,
+                "question": "Dokładność lokalizacji radioławy w systemie COSPAS-SARSAT wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "około 5 km w przypadku wykorzystania sygnałów o częstotliwości 406 MHz",
-                "answer_2": "około 1 km w przypadku wykorzystania sygnałów o częstotliwości 406 MHz i 121,5 MHz",
-                "answer_3": "około 2 km w przypadku wykorzystania sygnałów o częstotliwości 121,5 MHz",
-                "correct": 1
-            },
+                "answer_1": "około 5 km w przypadku wykorzystania sygnałów o częstotliwości 406MHz",
+"answer_2": "około 1 km w przypadku wykorzystania sygnałów o częstotliwości 406 MHz i 121,5 MHz",
+"answer_3": "około 100 m w przypadku gdy radiopława ma wbudowany odbiornik GPS",
+"correct": 0
+},
             {
-                "question_id": 240,
+                "question_id": 104,
                 "question": "Które z poniższych zdań jest prawdziwe?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Zasięg wykrywania radiopław 121,5 MHz jest globalny.",
-                "answer_2": "Częstotliwość 121,5 MHz nie jest śledzona przez segment satelitarny.",
-                "answer_3": "Częstotliwość 121,5 MHz jest śledzona przez satelity geostacjonarne.",
-                "correct": 2
-            },
+                "answer_1": "zasięg wykrywania radiopław 121,5 MHz jest globalny",
+"answer_2": "częstotliwość 121,5 MHz jest śledzona przez satelity geostacjonarne",
+"answer_3": "częstotliwość 121,5 MHz służy do wykrywania radiopław przez lotnicze i morskie jednostki SAR",
+"correct": 0
+},
             {
-                "question_id": 241,
-                "question": "Sygnały nadawane przez radiopławę na częstotliwości 406 MHz:",
+                "question_id": 105,
+                "question": "Sygnały nadawane przez radiopławę na częstotliwości 406 MHz pozwalają na identyfikację statku z którego pochodzi radiopława na podstawie zakodowanego:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nadawane są przez około 0,5 sekundy i powtarzane co 2 minuty",
-                "answer_2": "nadawane są przez około 0,5 sekundy i powtarzane co 50 +/- 2,5 sekundy",
-                "answer_3": "zawierają dane armatora",
-                "correct": 3
-            },
+                "answer_1": "sygnału wywoławczego (call sign)",
+"answer_2": "MID (Maritime Identification Digits) - kodu kraju",
+"answer_3": "oznaczenia armatora",
+"correct": 0
+},
             {
-                "question_id": 242,
-                "question": "Sygnały nadawane przez radiopławę na częstotliwości 406 MHz zawierają:",
+                "question_id": 106,
+                "question": "Radiopława systemu COSPAS-SARSAT powinna:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "informacje o producencie radioławy",
-                "answer_2": "MID (Maritime Identification Digits) kod kraju",
-                "answer_3": "datę i czas uruchomienia radiopławy",
-                "correct": 2
-            },
+                "answer_1": "mieć wbudowany odbiornik GPS",
+"answer_2": "mieć wbudowane źródło światła błyskowego",
+"answer_3": "mieć wbudowane źródło światła ciagłego",
+"correct": 0
+},
             {
-                "question_id": 243,
-                "question": "Sygnały nadawane przez radiopławę  na częstotliwości 406 MHz pozwalają  na identyfikację statku z którego pochodzi radiopława na podstawie zakodowanego:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "numeru MMSI",
-                "answer_2": "MID (Maritime Identification Digits) - kodu kraju",
-                "answer_3": "kodu armatora",
-                "correct": 1
-            },
-            {
-                "question_id": 244,
-                "question": "Radiopława systemu COSPAS-SARSAT ma:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "wbudowany sygnalizator dźwiękowy",
-                "answer_2": "wbudowane źródło światła ciągłego",
-                "answer_3": "wbudowany nadajnik do lokalizacji końcowego miejsca katastrofy  (do naprowadzania jednostek SAR)",
-                "correct": 3
-            },
-            {
-                "question_id": 245,
+                "question_id": 107,
                 "question": "Radiopławy systemu COSPAS-SARSAT mogą być uruchomione:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "automatycznie za pomocą zwalniaka hydrostatycznego, gdy statek tonie",
-                "answer_2": "przez wpisanie właściwego kodu",
-                "answer_3": "zdalnie z RCC",
-                "correct": 1
-            },
+                "answer_1": "ręcznie przez operatora",
+"answer_2": "przez wpisanie właściwego kodu",
+"answer_3": "zdalnie z RCC",
+"correct": 0
+},
             {
-                "question_id": 246,
+                "question_id": 108,
                 "question": "W przypadku uruchomienia radiopławy systemu COSPAS-SARSAT, czas jaki upływa od jej uruchomienia do powiadomienia RCC wynosi:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "około 5 minut jeżeli radiopława znajduje się w zasięgu satelitów geostacjonarnych",
-                "answer_2": "około 15 minut jeżeli radiopława została uruchomiona w dzień",
-                "answer_3": "około 25 minut jeżeli radiopława została uruchomiona w nocy",
-                "correct": 1
-            },
+"answer_2": "około 15 minut jeżeli radiopława została uruchomiona w dzień",
+"answer_3": "około 25 minut jeżeli radiopława została uruchomiona w nocy",
+"correct": 0
+},
             {
-                "question_id": 247,
-                "question": "Obieg informacji o alarmowaniu w systemie COSPAS-SARSAT przebiega wg schematu:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "radiopława → satelita biegunowy→LUT→MCC→RCC→jednostki SAR",
-                "answer_2": "radiopława → satelita biegunowy→LUT→RCC→jednostki SAR",
-                "answer_3": "radiopława→ satelita geostacjonarny→LUT→MCC→RCC→jednostki SAR",
-                "correct": 1
-            },
-            {
-                "question_id": 248,
+                "question_id": 109,
                 "question": "W celu dokonania rejestracji radiopławy należy:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "zgłosić się do Urzędu Lotnictwa Cywilnego w Warszawie",
-                "answer_2": "zgłosić się do Urzędu Komunikacji Elektronicznej",
-                "answer_3": "zgłosić się do MRCC Gdynia",
-                "correct": 2
-            },
+                "answer_1": "zgłosić się do lokalnego oddziału Urzędu Komunikacji Elektronicznej",
+"answer_2": "zgłosić się do właściwego terytorialnie Urzędu Morskiego",
+"answer_3": "zgłosić się do MRCC Gdynia",
+"correct": 0
+},
             {
-                "question_id": 249,
-                "question": "Satelita biegunowy po odebraniu sygnałów z radiopławy 121,5 MHz:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "określa pozycję radiopławy i przekazuje tę informację do RCC",
-                "answer_2": "określa pozycję radiopławy i przekazuje tę informację do stacji LUT",
-                "answer_3": "satelita biegunowy nie odbiera sygnału 121,5 MHz",
-                "correct": 3
-            },
-            {
-                "question_id": 250,
+                "question_id": 110,
                 "question": "Satelita biegunowy po odebraniu sygnałów z radiopławy 406 MHz:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "określa pozycję radiopławy i przekazuje tę informację do LUT",
-                "answer_2": "retransmituje odebrane z radiopławy sygnały do satelity geostacjonarnego",
-                "answer_3": "retransmituje odebrane z radiopławy sygnały do stacji LUT",
-                "correct": 3
-            },
+                "answer_1": "określa pozycję radiopławy i przekazuje tę informację do RCC",
+"answer_2": "określa pozycję radiopławy i przekazuje tę informację do LUT",
+"answer_3": "retransmituje odebrane z radiopławy sygnały do stacji LUT",
+"correct": 0
+},
             {
-                "question_id": 251,
-                "question": "Określenie pozycji radiopławy w systemie COSPAS-SARSAT następuje w:",
+                "question_id": 111,
+                "question": "Określenie pozycji radiopławy nadającej sygnały na częstotliwości 406 MHZ możliwe jest w systemie COSPAS-SARSAT:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "RCC",
-                "answer_2": "LUT",
-                "answer_3": "na pokładzie satelity biegunowego",
-                "correct": 2
-            },
+                "answer_1": "tylko w przypadku, gdy satelita widzi jednocześnie radiopławę i stację LUT",
+"answer_2": "zawsze",
+"answer_3": "w przypadku, gdy satelita widzi jednocześnie radiopławę i stację GEOLUT",
+"correct": 0
+},
             {
-                "question_id": 252,
-                "question": "Określenie pozycji radiopławy w oparciu o sygnały nadawane na częstotliwości 121,5 MHz jest możliwe w systemie COSPAS-SARSAT:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "nie jest możliwe",
-                "answer_2": "zawsze",
-                "answer_3": "tylko w obszarze A1",
-                "correct": 1
-            },
-            {
-                "question_id": 253,
-                "question": "Testowanie radiopławy polega na: ",
+                "question_id": 112,
+                "question": "Testowanie radiopławy polega na:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wykonaniu raz w miesiącu testu zgodnie z instrukcją na obudowie radiopławy",
-                "answer_2": "ręcznym uruchomieniu radiopławy i sprawdzeniu, czy zareagowały RCC",
-                "answer_3": "wrzuceniu radiopławy do wody i sprawdzeniu,  czy zacznie działać  światło błyskowe",
-                "correct": 1
-            },
+"answer_2": "ręcznym uruchomieniu radiopławy i sprawdzeniu czy zareagowały RCC",
+"answer_3": "wrzuceniu radiopławy do wody i sprawdzeniu czy zacznie działać światło błyskowe",
+"correct": 0
+},
             {
-                "question_id": 254,
-                "question": "Które z poniższych zdań jest prawdziwe?",
+                "question_id": 113,
+                "question": "Sygnały alarmowe nadawane przez radiopławy VHF DSC CH 70 odbierane są:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Na obudowie satelitarnej pławy awaryjnej powinna być umieszczona tabliczka z kodem identyfikacyjnym zaprogramowanym w nadajniku.",
-                "answer_2": "Radiopława powinna być wyposażona w lampę o światłości 0,5 cd.",
-                "answer_3": "Radiopława powinna mieć wbudowany transponder radarowy.",
-                "correct": 1
-            },
+                "answer_1": "przez wszystkie statki wyposażone w VHF DSC jeżeli radiopława znajdzie się w zasięgu ich odbioru",
+"answer_2": "przez wszystkie RCC",
+"answer_3": "przez jednostki SAR",
+"correct": 0
+},
             {
-                "question_id": 255,
-                "question": "Które z poniższych zdań jest prawdziwe?",
+                "question_id": 114,
+                "question": "Końcowa lokalizacja radiopławy VHF DSC CH 70 możliwa jest dzięki:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Częstotliwość  121,5 MHz transmitowana przez radiopławę  systemu COSPAS  - SARSAT może być wykorzystana do namierzania przez jednostki SAR.",
-                "answer_2": "Częstotliwość  121,5 MHz transmitowana przez radiopławę  systemu COSPAS  - SARSAT będzie śledzona przez satelity zainstalowane na orbitach MEO.",
-                "answer_3": "Częstotliwość  121,5 MHz transmitowana przez radiopławę  systemu COSPAS  - SARSAT używana jest do transmisji pozycji radiopławy.",
-                "correct": 1
-            },
+                "answer_1": "namiarom radiowym dokonywanym przez jednostki SAR na częstotliwości kanału 70",
+"answer_2": "wbudowanemu w radiopławę transponderowi radarowemu (SART)",
+"answer_3": "nadawaniu przez radiopławę sygnału na częstotliwości kanału 16",
+"correct": 0
+},
             {
-                "question_id": 256,
-                "question": "Numer identyfikacyjny w postaci 974XXYYYY zarezerwowany jest dla:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "przeznaczonego na środki ratunkowe AIS SART.",
-                "answer_2": "wbudowanego w radiopławę COSPAS - SARSAT transpondera AIS.",
-                "answer_3": "urządzeń AIS przeznaczonych dla lokalizacji człowieka za burtą (MOB).",
-                "correct": 2
-            },
-            {
-                "question_id": 257,
-                "question": "W przypadku uruchomienia radiopławy w sytuacji, gdy nie ma zagrożenia, należy:",
+                "question_id": 115,
+                "question": "W przypadku uruchomienia radiopławy w sytuacji gdy nie ma zagrożenia należy:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "natychmiast wyłączyć radiopławę",
-                "answer_2": "natychmiast wyłączyć  radiopławę  i powiadomić  o zaistniałym fakcie najbliższe RCC",
-                "answer_3": "natychmiast wyłączyć radiopławę i powiadomić o zaistniałym fakcie znajdujące się w pobliżu statki",
-                "correct": 2
-            },
+"answer_2": "natychmiast wyłączyć radiopławę i powiadomić o zaistniałym fakcie najbliższe RCC",
+"answer_3": "wyłączyć radiopławę i czekać na rozwój sytuacji",
+"correct": 0
+},
             {
-                "question_id": 258,
+                "question_id": 116,
                 "question": "Transponder radarowy służy do:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "lokalizacji rozbitków na miejscu katastrofy",
-                "answer_2": "szybkiego powiadamiania RCC o katastrofie",
-                "answer_3": "wykrywania jednostek znajdujących się w pobliżu",
-                "correct": 1
-            },
+"answer_2": "szybkiego powiadamiania RCC o katastrofie",
+"answer_3": "wykrywania jednostek znajdujących się w pobliżu",
+"correct": 0
+},
             {
-                "question_id": 259,
+                "question_id": 117,
                 "question": "Transponder radarowy współpracuje z radarami:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "w paśmie S",
-                "answer_2": "w paśmie X",
-                "answer_3": "pracującymi w paśmie 3 GHz",
-                "correct": 2
-            },
+"answer_2": "w paśmie X",
+"answer_3": "pracującymi w paśmie 3 GHz",
+"correct": 0
+},
             {
-                "question_id": 260,
+                "question_id": 118,
                 "question": "Transponder radarowy nadaje swój sygnał:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "natychmiast po włączeniu",
-                "answer_2": "po włączeniu i pobudzeniu przez radar pracujący w paśmie 9 GHz",
-                "answer_3": "po zanurzeniu w wodzie morskiej",
-                "correct": 2
-            },
+"answer_2": "po włączeniu i pobudzeniu przez radar pracujący w paśmie 9 GHz",
+"answer_3": "po zanurzeniu w wodzie morskiej",
+"correct": 0
+},
             {
-                "question_id": 261,
+                "question_id": 119,
                 "question": "Zasięg transpondera radarowego zależy:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wysokości umieszczenia transpondera na tratwie ratunkowej",
-                "answer_2": "od tego czy nadaje w paśmie X czy S",
-                "answer_3": "od temperatury otoczenia",
-                "correct": 1
-            },
+"answer_2": "od tego czy nadaje w paśmie X czy S",
+"answer_3": "od temperatury otoczenia",
+"correct": 0
+},
             {
-                "question_id": 262,
-                "question": "Przy wysokości umieszczenia transpondera radarowego 1 m i antenie radaru statku wykrywającego na wysokości 10-15 m, zasięg będzie wynosił:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "około 12 mil",
-                "answer_2": "poniżej 2 mil",
-                "answer_3": "5 do 7 mil",
-                "correct": 3
-            },
-            {
-                "question_id": 263,
-                "question": "Maksymalny zasięg transpondera radarowego przy wykrywaniu z helikoptera wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "15 mil ",
-                "answer_2": "30-40 mil",
-                "answer_3": "60 mil",
-                "correct": 2
-            },
-            {
-                "question_id": 264,
+                "question_id": 120,
                 "question": "Pojemność baterii transpondera radarowego powinna zapewnić pracę:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "minimum 96 godz. w stanie gotowości plus 8 godz. nadawania",
-                "answer_2": "minimum 48 godz. w stanie gotowości plus 8 godz. nadawania",
-                "answer_3": "minimum 24 godz. w stanie gotowości plus 8 godz. nadawania",
-                "correct": 1
-            },
+                "answer_1": "minimum 96 godz w stanie gotowości plus 8 godz nadawania",
+"answer_2": "minimum 48 godz w stanie gotowości plus 8 godz nadawania",
+"answer_3": "minimum 24 godz w stanie gotowości plus 8 godz nadawania",
+"correct": 0
+},
             {
-                "question_id": 265,
+                "question_id": 121,
+                "question": "Transponder radarowy powinien być testowany:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "codziennie",
+"answer_2": "raz na miesiąc",
+"answer_3": "raz na rok",
+"correct": 0
+},
+            {
+                "question_id": 122,
                 "question": "Sygnał z transpondera radarowego widziany jest na ekranie radaru w postaci:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "jasnego kółka w pozycji transpondera",
-                "answer_2": "serii równo oddalonych od siebie kropek",
-                "answer_3": "jasnego trójkąta w pozycji transpondera",
-                "correct": 2
-            },
+"answer_2": "serii równo oddalonych od siebie kropek",
+"answer_3": "jasnego trójkąta w pozycji transpondera",
+"correct": 0
+},
             {
-                "question_id": 266,
+                "question_id": 123,
                 "question": "Transponder radarowy nadaje po pobudzeniu sygnał:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "na stałej częstotliwości 9,5 GHz",
-                "answer_2": "w paśmie 9,2 – 9,5 GHz",
-                "answer_3": "w paśmie 9,0 – 9,4 GHz",
-                "correct": 2
-            },
-            {
-                "question_id": 267,
+"answer_2": "w paśmie 9,2 – 9,5 GHz",
+"answer_3": "w paśmie 9,0 – 9,4 GHz",
+"correct": 0
+},
+{
+    "question_id": 124,
                 "question": "Sygnał z transpondera radarowego widziany jest na ekranie radaru:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "w postaci łuków przy odległości do rozbitków poniżej 1 mili",
-                "answer_2": "w postaci łuków przy odległości do rozbitków poniżej 3 mil",
-                "answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 5 mil",
-                "correct": 1
-            },
+"answer_2": "w postaci łuków przy odległości do rozbitków poniżej 3 mil",
+"answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 5 mil",
+"correct": 0
+},
             {
-                "question_id": 268,
+                "question_id": 125,
                 "question": "Sygnał z transpondera radarowego widziany jest na ekranie radaru:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 1 mili",
-                "answer_2": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 0,1 mili",
-                "answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 2 mil",
-                "correct": 2
-            },
+"answer_2": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 0,1 mili",
+"answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 1,5 mili",
+"correct": 0
+},
             {
-                "question_id": 269,
+                "question_id": 126,
                 "question": "Pozycję rozbitków na ekranie radaru wyznacza:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "najdalsza kropka",
-                "answer_2": "najbliższy łuk",
-                "answer_3": "najdalszy łuk",
-                "correct": 2
-            },
+"answer_2": "najbliższy łuk",
+"answer_3": "najdalszy łuk",
+"correct": 0
+},
             {
-                "question_id": 270,
+                "question_id": 127,
                 "question": "Pozycję rozbitków na ekranie radaru wyznacza:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "najdalsza kropka",
-                "answer_2": "najdalszy łuk",
-                "answer_3": "najbliższa kropka",
-                "correct": 3
-            },
+"answer_2": "najdalszy łuk",
+"answer_3": "najbliższa kropka",
+"correct": 0
+},
             {
-                "question_id": 271,
+                "question_id": 128,
                 "question": "Transponder radarowy nadaje swój sygnał w paśmie 9,2 – 9,5 GHz:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "aby uzyskać większą odległość wykrywania",
-                "answer_2": "ponieważ trudno jest utrzymać stałą częstotliwość",
-                "answer_3": "by umożliwić współpracę z wszystkimi radarami w paśmie X",
-                "correct": 3
-            },
+"answer_2": "ponieważ trudno jest utrzymać stałą częstotliwość",
+"answer_3": "by umożliwić współpracę z wszystkimi radarami w paśmie X",
+"correct": 0
+},
             {
-                "question_id": 272,
+                "question_id": 129,
                 "question": "Rozbitkowie mogą poznać, że sygnał z transpondera radarowego został wykryty:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "przez sygnalizację świetlną lub akustyczną na transponderze",
-                "answer_2": "ponieważ zostaną powiadomieni przez przenośny radiotelefon VHF",
-                "answer_3": "nie wiedzą czy zostali wykryci",
-                "correct": 1
-            },
+"answer_2": "ponieważ zostaną powiadomieni przez przenośny radiotelefon VHF",
+"answer_3": "nie wiedzą czy zostali wykryci",
+"correct": 0
+},
             {
-                "question_id": 273,
+                "question_id": 130,
                 "question": "Rozbitkowie mogą zwiększyć zasięg transpondera radarowego przez:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "podgrzanie transpondera własnym ciałem",
-                "answer_2": "umieszczenie go jak najwyżej",
-                "answer_3": "załączanie transpondera w cyklu: minuta pracy, minuta przerwy",
-                "correct": 2
-            },
-            {
-                "question_id": 274,
-                "question": "Przy wykrywaniu transpondera można wyeliminować zakłócenia od opadów przez:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "zmianę zakresu radaru",
-                "answer_2": "zmianę jasności zobrazowania radaru",
-                "answer_3": "odstrojenie odbiornika radaru",
-                "correct": 3
-            },
-            {
-                "question_id": 275,
-                "question": "W sytuacji, gdy na ekranie radaru widoczne są łuki, można przywrócić kropki przez:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "zmianę jasności zobrazowania",
-                "answer_2": "odstrojenie radaru",
-                "answer_3": "zmniejszenie wzmocnienia radaru",
-                "correct": 3
-            },
-            {
-                "question_id": 276,
+"answer_2": "umieszczenie go jak najwyżej",
+"answer_3": "załączanie transpondera w cyklu minuta pracy, minuta przerwy 31",
+"correct": 0
+},
+{               "question_id": 131,
                 "question": "W radiotelefonii używana jest fala nośna:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "prostokątna ",
-                "answer_2": "trójkątna",
-                "answer_3": "sinusoidalna",
-                "correct": 3
-            },
+                "answer_1": "prostokątna",
+"answer_2": "trójkątna",
+"answer_3": "sinusoidalna",
+"correct": 0
+},
             {
-                "question_id": 277,
+                "question_id": 132,
                 "question": "Amplituda fali nośnej to:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "maksymalna wartość napięcia wyrażona w woltach",
-                "answer_2": "skuteczna wartość napięcia wyrażona w woltach",
-                "answer_3": "średnia wartość napięcia wyrażona w woltach",
-                "correct": 1
-            },
+"answer_2": "skuteczna wartość napięcia wyrażona w woltach",
+"answer_3": "średnia wartość napięcia wyrażona w woltach",
+"correct": 0
+},
             {
-                "question_id": 278,
+                "question_id": 133,
                 "question": "Częstotliwość fali nośnej zależy od jej:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "amplitudy",
-                "answer_2": "fazy",
-                "answer_3": "długości",
-                "correct": 3
-            },
+"answer_2": "fazy",
+"answer_3": "długości",
+"correct": 0
+},
             {
-                "question_id": 279,
+                "question_id": 134,
                 "question": "Fala radiowa o częstotliwości 156 MHz ma długość:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "około 20 metrów",
-                "answer_2": "około 15 metrów",
-                "answer_3": "około 2 metrów",
-                "correct": 3
-            },
+"answer_2": "około 15 metrów",
+"answer_3": "około 2 metrów",
+"correct": 0
+},
             {
-                "question_id": 280,
+                "question_id": 135,
                 "question": "Fala radiowa o długości 2 metrów ma częstotliwość:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "150 MHz",
-                "answer_2": "1500 MHz",
-                "answer_3": "1500 kHz",
-                "correct": 1
-            },
+"answer_2": "1500 MHz",
+"answer_3": "1500 kHz",
+"correct": 0
+},
             {
-                "question_id": 281,
+                "question_id": 136,
+                "question": "Fale z zakresu VHF to inaczej fale:",
+                "question_image": "",
+                "images": false,
+                "answer_1": "pośrednie",
+"answer_2": "średnie",
+"answer_3": "ultrakrótkie",
+"correct": 0
+},
+            {
+                "question_id": 137,
                 "question": "Prędkość rozchodzenia się fal to:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "300 000 km/s",
-                "answer_2": "300 000 m/s",
-                "answer_3": "300 000 km/godz",
-                "correct": 1
-            },
+                "answer_1": "300 000 km/sec",
+"answer_2": "300 000 m/sec",
+"answer_3": "300 000 km/godz",
+"correct": 0
+},
             {
-                "question_id": 282,
+                "question_id": 138,
                 "question": "W nadajnikach VHF radiotelefonów morskich stosowana jest modulacja:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "amplitudy",
-                "answer_2": "impulsowa",
-                "answer_3": "częstotliwości / fazy",
-                "correct": 3
-            },
+                "answer_1": "tylko częstotliwości",
+"answer_2": "tylko fazy",
+"answer_3": "częstotliwości lub fazy",
+"correct": 0
+},
             {
-                "question_id": 283,
-                "question": "Emisja G3E to emisja:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "amplitudowa",
-                "answer_2": "z modulacją fazy",
-                "answer_3": "cyfrowa",
-                "correct": 2
-            },
-            {
-                "question_id": 284,
+                "question_id": 139,
                 "question": "Maksymalna moc statkowych radiotelefonów VHF wynosi:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "200 W",
-                "answer_2": "5W",
-                "answer_3": "25 W",
-                "correct": 3
-            },
+"answer_2": "5W",
+"answer_3": "25 W",
+"correct": 0
+},
             {
-                "question_id": 285,
+                "question_id": 140,
                 "question": "Zmiana mocy radiotelefonu ma wpływ na:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "słyszalność dalekich stacji",
-                "answer_2": "poziom szumów",
-                "answer_3": "jego zasięg",
-                "correct": 3
-            },
+"answer_2": "poziom szumów",
+"answer_3": "jego zasięg",
+"correct": 0
+},
             {
-                "question_id": 286,
+                "question_id": 141,
                 "question": "Funkcja podwójnego nasłuchu w radiotelefonie VHF pozwala na:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "jednoczesny nasłuch dwóch dowolnych kanałów",
-                "answer_2": "jednoczesny nasłuch kanału 16 i 70",
-                "answer_3": "jednoczesny nasłuch kanału 16 i dowolnego roboczego",
-                "correct": 3
-            },
+"answer_2": "jednoczesny nasłuch kanału 16 i 70",
+"answer_3": "jednoczesny nasłuch kanału 16 i dowolnego roboczego",
+"correct": 0
+},
             {
-                "question_id": 287,
+                "question_id": 142,
                 "question": "Przełączenie kanałów międzynarodowych na amerykańskie:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "zmienia moc nadawania we wszystkich kanałach",
-                "answer_2": "zmienia niektóre kanały z simpleksowych na dupleksowe",
-                "answer_3": "zmienia niektóre kanały z dupleksowych na simpleksowe",
-                "correct": 3
-            },
+"answer_2": "zmienia niektóre kanały z simpleksowych na dupleksowe",
+"answer_3": "C zmienia niektóre kanały z dupleksowych na simpleksowe",
+"correct": 0
+},
             {
-                "question_id": 288,
-                "question": "Funkcja blokady szumów odcina szumy i zakłócenia od głośnika poprzez:",
+                "question_id": 143,
+                "question": "Morskie pasmo VHF to częstotliwości w paśmie:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "blokadę wzmacniacza wysokiej częstotliwości dla słabych sygnałów",
-                "answer_2": "blokadę wzmacniacza częstotliwości akustycznej dla słabych sygnałów",
-                "answer_3": "blokadę wzmacniacza wysokiej częstotliwości dla silnych sygnałów",
-                "correct": 2
-            },
-            {
-                "question_id": 289,
-                "question": "Długość anteny prętowej nadajnika jest przede wszystkim uzależniona od:",
+                "answer_1": "156 – 174 MHz",
+"answer_2": "121,5 – 156 MHz",
+"answer_3": "156 – 162 kHz",
+"correct": 0
+},
+            
+
+
+{
+    "question_id": 144,
+                "question": "Długość anteny nadajnika jest przede wszystkim uzależniona od:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "mocy nadajnika",
-                "answer_2": "częstotliwości nadajnika",
-                "answer_3": "amplitudy napięcia",
-                "correct": 2
-            },
+"answer_2": "częstotliwości nadajnika",
+"answer_3": "amplitudy napięcia",
+"correct": 0
+},
             {
-                "question_id": 290,
+                "question_id": 145,
                 "question": "Regulacja głośności odbiornika VHF odbywa się przez:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "zmianę wzmocnienia wzmacniacza akustycznego",
-                "answer_2": "zastosowanie blokady szumów",
-                "answer_3": "zmianę wzmocnienia wzmacniacza pośredniej częstotliwości",
-                "correct": 1
-            },
+"answer_2": "zastosowanie blokady szumów",
+"answer_3": "zmianę wzmocnienia wzmacniacza pośredniej częstotliwości",
+"correct": 0
+},
             {
-                "question_id": 291,
+                "question_id": 146,
                 "question": "W akumulatorach kwasowych elektrolitem jest:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "kwas siarkowy",
-                "answer_2": "wodny roztwór kwasu siarkowego",
-                "answer_3": "wodny roztwór kwasu solnego",
-                "correct": 2
-            },
+"answer_2": "wodny roztwór kwasu siarkowego",
+"answer_3": "wodny roztwór kwasu solnego",
+"correct": 0
+},
             {
-                "question_id": 292,
+                "question_id": 147,
                 "question": "W trakcie ładowania akumulatorów kwasowych wydzielane są gazy. Jest to:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wodór",
-                "answer_2": "chlor",
-                "answer_3": "azot",
-                "correct": 1
-            },
+"answer_2": "chlor",
+"answer_3": "azot",
+"correct": 0
+},
             {
-                "question_id": 293,
+                "question_id": 148,
                 "question": "Na zaciskach kwasowego akumulatora statkowego o napięciu znamionowym 24 V zmierzone napięcie wynosi 21 V. Oznacza to, że:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "akumulator jest całkowicie rozładowany",
-                "answer_2": "akumulator jest częściowo rozładowany",
-                "answer_3": "akumulator jest naładowany",
-                "correct": 1
-            },
+"answer_2": "akumulator jest częściowo rozładowany",
+"answer_3": "akumulator jest naładowany",
+"correct": 0
+},
             {
-                "question_id": 294,
-                "question": "Akumulatorów kwasowych nie wolno wyładowywać poniżej dopuszczalnego napięcia końcowego które wynosi:",
+                "question_id": 149,
+                "question": "Akumulatorów kwasowych nie wolno wyładowywać poniżej dopuszczalnego napięcia końcowego, które wynosi:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "1,75 V/ogniwo",
-                "answer_2": "1,95 V/ogniwo",
-                "answer_3": "1,6 V/ogniwo",
-                "correct": 1
-            },
+"answer_2": "1,95 V/ogniwo",
+"answer_3": "1,6 V/ogniwo",
+"correct": 0
+},
             {
-                "question_id": 295,
-                "question": "Gęstość elektrolitu w akumulatorach kwasowych jest miarą naładowania akumulatora. Zmierzona gęstość elektrolitu zwykłego akumulatora kwasowego w temperaturze 20º C wynosi 1,28 g/cm³. Oznacza to, że:",
+                "question_id": 150,
+                "question": "Akumulatory kwasowe powinny być ładowane prądem dziesięciogodzinnym. Oznacza to że:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "akumulator jest całkowicie rozładowany",
-                "answer_2": "akumulator jest częściowo rozładowany",
-                "answer_3": "akumulator jest całkowicie naładowany",
-                "correct": 3
-            },
+                "answer_1": "nie wolno ładować akumulatora przez czas dłuższy niż 10 godzin",
+"answer_2": "akumulator powinien być ładowany prądem wynoszącym 0,1 Q przez 10 godzin (Q – pojemność znamionowa akumulatora)",
+"answer_3": "co 10 godzin należy robić przerwy w ładowaniu akumulatora",
+"correct": 0
+},
             {
-                "question_id": 296,
-                "question": "Gęstość elektrolitu w akumulatorach kwasowych jest miarą naładowania akumulatora. Zmierzona gęstość elektrolitu zwykłego akumulatora kwasowego w temperaturze 20º C wynosi 1,10 g/cm³. Oznacza to, że:",
+                "question_id": 151,
+                "question": "Maksymalny prąd ładowania akumulatora kwasowego nie powinien przekroczyć:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "akumulator jest całkowicie rozładowany",
-                "answer_2": "akumulator jest częściowo rozładowany",
-                "answer_3": "akumulator jest całkowicie naładowany",
-                "correct": 1
-            },
+                "answer_1": "1,0 Q (Q – pojemność znamionowa akumulatora)",
+"answer_2": "0,8 Q (Q – pojemność znamionowa akumulatora)",
+"answer_3": "0,5 Q (Q – pojemność znamionowa akumulatora)",
+"correct": 0
+},
             {
-                "question_id": 297,
+                "question_id": 152,
                 "question": "Wraz ze spadkiem temperatury pojemność akumulatorów kwasowych:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "nie zmienia się",
-                "answer_2": "spada o 0,5-1,0 % na stopień C",
-                "answer_3": "wzrasta o około 1 % na stopień C",
-                "correct": 2
-            },
+"answer_2": "spada o 0,5-1,0 % na stopień C",
+"answer_3": "wzrasta o około 1 % na stopień C",
+"correct": 0
+},
             {
-                "question_id": 298,
-                "question": "Gęstość elektrolitu całkowicie naładowanego akumulatora kwasowego w tropiku jest:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "mniejsza niż gęstość elektrolitu w temperaturze 20º C i wynosi 1,23 g/cm³",
-                "answer_2": "mniejsza niż gęstość elektrolitu w temperaturze 20º C i wynosi 1,15 g/cm³",
-                "answer_3": "taka sama jak w strefie umiarkowanej",
-                "correct": 1
-            },
-            {
-                "question_id": 299,
+                "question_id": 153,
                 "question": "Akumulatory kwasowe w przypadku wyłączenia z eksploatacji powinny być przechowywane w stanie:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "naładowanym",
-                "answer_2": "całkowicie rozładowanym",
-                "answer_3": "naładowanym do 50 % pojemności znamionowej",
-                "correct": 1
-            },
+"answer_2": "całkowicie rozładowanym",
+"answer_3": "naładowanym do 50 % pojemności znamionowej",
+"correct": 0
+},
             {
-                "question_id": 300,
-                "question": " W trakcie eksploatacji akumulatorów kwasowych zachodzi konieczność uzupełniania elektrolitu. Uzupełnianie elektrolitu polega na dolewaniu do poszczególnych cel akumulatora:",
+                "question_id": 154,
+                "question": "W trakcie eksploatacji akumulatorów kwasowych zachodzi konieczność uzupełniania elektrolitu. Uzupełnianie elektrolitu polega na dolewaniu do poszczególnych cel akumulatora:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "kwasu siarkowego",
-                "answer_2": "wody destylowanej",
-                "answer_3": "wody",
-                "correct": 2
-            },
+"answer_2": "wody destylowanej",
+"answer_3": "wody",
+"correct": 0
+},
             {
-                "question_id": 301,
-                "question": "W trakcie niewłaściwej eksploatacji akumulatorów kwasowych następuje ich zasiarczenie. Które z poniższych zjawisk świadczą o zasiarczeniu akumulatora:",
+                "question_id": 155,
+                "question": "W trakcie niewłaściwej eksploatacji akumulatorów kwasowych następuje ich zasiarczenie. Które z poniższych zjawisk świadczy o zasiarczeniu akumulatora:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "niski poziom elektrolitu",
-                "answer_2": "silne grzanie elektrolitu w trakcie ładowania",
-                "answer_3": "nalot na zaciskach akumulatora",
-                "correct": 2
-            },
+"answer_2": "silne grzanie elektrolitu w trakcie ładowania",
+"answer_3": "nalot na zaciskach akumulatora",
+"correct": 0
+},
             {
-                "question_id": 302,
-                "question": "Transponder AIS SART współpracuje z:",
+                "question_id": 156,
+                "question": "Napięcie znamionowe w używanych do zasilania urządzeń radiowych akumulatorach niklowo-kadmowych wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wszystkimi radarami pracującymi w paśmie X",
-                "answer_2": "transponderami AIS znajdującymi się na statkach",
-                "answer_3": "wszystkimi radarami w paśmie S",
-                "correct": 1
-            },
+                "answer_1": "1,2 V / ogniwo",
+"answer_2": "1,05 V / ogniwo",
+"answer_3": "1,85 V / ogniwo",
+"correct": 0
+},
             {
-                "question_id": 303,
-                "question": "Jak jest minimalny zasięg wykrycia transpondera AIS SART?",
+                "question_id": 157,
+                "question": "Końcowe napięcie ładowania w używanych do zasilania urządzeń radiowych akumulatorach niklowo-kadmowych wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Minimum 15 NM przez jednostkę w której antena jest zamontowana 15 m npm.",
-                "answer_2": "Minimum 5 NM przez jednostkę w której antena jest zamontowana 15 m npm.",
-                "answer_3": "Minimum 10 NM przez jednostkę w której antena jest zamontowana 15 m npm.",
-                "correct": 2
-            },
+                "answer_1": "2,3 V / ogniwo",
+"answer_2": "1,8 V / ogniwo",
+"answer_3": "1,9 V / ogniwo",
+"correct": 0
+},
             {
-                "question_id": 304,
-                "question": "Co oznaczają  cyfry 09 w numerze identyfikacyjnym transpondera    AIS SART 970091129?",
+                "question_id": 158,
+                "question": "Znamionow natężenie prądu ładowania używanych do zasilania urządzeń radiowych akumulatorów niklowo-kadmowych wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Kod identyfikacyjny producenta transpondera.",
-                "answer_2": "Przynależność do danego rejonu geograficznego.",
-                "answer_3": "Numer identyfikacyjny państwa bandery.",
-                "correct": 1
-            },
+                "answer_1": "0,1 Q (Q – pojemność znamionowa akumulatora)",
+"answer_2": "0,5 Q (Q – pojemność znamionowa akumulatora)",
+"answer_3": "0,25 Q (Q – pojemność znamionowa akumulatora)",
+"correct": 0
+},
             {
-                "question_id": 305,
-                "question": "Jak jest minimalny zasięg wykrycia transpondera AIS SART przez samolot na wysokości 1000 m?",
+                "question_id": 159,
+                "question": "Elektrolit w używanych do zasilania urządzeń radiowych akumulatorach niklowo-kadmowych wymienia się co:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "50 NM",
-                "answer_2": "powyżej 100 NM",
-                "answer_3": "30 NM",
-                "correct": 3
-            },
+                "answer_1": "sezon",
+"answer_2": "rok",
+"answer_3": "2-3 lata",
+"correct": 0
+},
             {
-                "question_id": 306,
-                "question": "Które z poniższych informacji są zakodowane w transponderze AIS SART?",
+                "question_id": 160,
+                "question": "Akumulatory kwasowe charakteryzują się:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "MMSI statku",
-                "answer_2": "CALL SIGN i MMSI statku",
-                "answer_3": "9-cio cyfrowy numer identyfikacyjny transpondera",
-                "correct": 3
-            },
+                "answer_1": "wyższą rezystancją wewnętrzną niż akumulatory zasadowe",
+"answer_2": "wyższą sprawnością energetyczną niż akumulatory zasadowe",
+"answer_3": "są mniej wrażliwe na niewłaściwą eksploatację niż akumulatory zasadowe",
+"correct": 0
+},
             {
-                "question_id": 307,
-                "question": "Które ze zdań jest prawdziwe?",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Transponder AIS SART nie ma nadanego numeru identyfikacyjnego. ",
-                "answer_2": "Numer identyfikacyjny transpondera jest taki sam jak numer MMSI statku,  na którym się znajduje transponder.",
-                "answer_3": "Numer identyfikacyjny transpondera AIS SART zawsze rozpoczyna się ciągiem cyfr 970.",
-                "correct": 3
-            },
-            {
-                "question_id": 308,
-                "question": "Jaki symbol został ustalony przez IMO dla wskazania transpondera AIS SART na mapie elektronicznej?",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Migający statek w kolorze czerwonym.",
-                "answer_2": "Okrąg ze skrzyżowanymi w środku liniami ciągłymi w kolorze czerwonym.",
-                "answer_3": "Kwadrat ze skrzyżowanymi w środku liniami ciągłymi w kolorze czerwonym.",
-                "correct": 2
-            },
-            {
-                "question_id": 309,
+                "question_id": 161,
                 "question": "Baterie przeznaczone do zasilania przenośnych radiotelefonów awaryjnych VHF:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "powinny posiadać  pojemność  zapewniającą  co najmniej 8 godzin pracy radiotelefonu z pełną  mocą  w cyklu pracy 1:9  (6 sekund nadawanie,  6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
-                "answer_2": "powinny posiadać  pojemność  zapewniającą  co najmniej 48 godzin pracy radiotelefonu z pełną  mocą  w cyklu pracy 1:9  (6 sekund nadawanie,  6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
-                "answer_3": "powinny posiadać  pojemność  zapewniającą  co najmniej 8 godzin pracy radiotelefonu z pełną mocą",
-                "correct": 1
-            },
+                "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 8 godzin pracy radiotelefonu z pełną mocą w cyklu pracy 1:9 (6 sekund nadawanie, 6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
+"answer_2": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy radiotelefonu z pełną mocą w cyklu pracy 1:9 (6 sekund nadawanie, 6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
+"answer_3": "powinny posiadać pojemność zapewniającą co najmniej 8 godzin pracy radiotelefonu z pełną mocą",
+"correct": 0
+},
             {
-                "question_id": 310,
+                "question_id": 162,
                 "question": "Baterie przeznaczone do zasilania awaryjnych transponderów radarowych (SART):",
                 "question_image": "",
                 "images": false,
                 "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy w stanie czuwania i następnie umożliwiać nadawanie sygnałów przez 8 godzin",
-                "answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy",
-                "answer_3": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy w stanie czuwania i następnie umożliwiać nadawanie sygnałów przez 8 godzin",
-                "correct": 2
-            },
+"answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy",
+"answer_3": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy w stanie czuwania i następnie umożliwiać nadawanie sygnałów przez 8 godzin",
+"correct": 0
+},
             {
-                "question_id": 311,
-                "question": " Baterie przeznaczone do zasilania radiopław awaryjnych:",
-                "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
+                "question_id": 163,
+                "question": "Baterie przeznaczone do zasilania radiopław awaryjnych:",
                 "question_image": "",
                 "images": false,
-                "answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
-                "answer_3": "powinny posiadać pojemność zapewniającą co najmniej 12 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
-                "correct": 1
-            },
+                "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
+"answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
+"answer_3": "powinny posiadać pojemność zapewniającą co najmniej 12 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
+"correct": 0
+},
             {
-                "question_id": 312,
+                "question_id": 164,
                 "question": "Który z wymienionych wzorów określa zależność pomiędzy prędkością propagacji fali (c [m/s]), jej częstotliwością (f [Hz]) i długością (λ [m]):",
                 "question_image": "",
                 "images": false,
                 "answer_1": "f = c · λ",
-                "answer_2": "f = λ / c",
-                "answer_3": "f = c / λ",
-                "correct": 3
-            },
+"answer_2": "f = λ / c",
+"answer_3": "f = c / λ",
+"correct": 0
+},
             {
-                "question_id": 313,
+                "question_id": 165,
                 "question": "Prędkość rozchodzenia się fali elektromagnetycznej w wolnej przestrzeni wynosi:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "340 m/s",
-                "answer_2": "300 km/s",
-                "answer_3": "300 000 000 m/s",
-                "correct": 3
-            },
+"answer_2": "300 km/s",
+"answer_3": "300 000 000 m/s",
+"correct": 0
+},
             {
-                "question_id": 314,
-                "question": "W czasie 5 µs fala elektromagnetyczna przebywa dystans:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "3 km",
-                "answer_2": "1,5 km",
-                "answer_3": "750 m",
-                "correct": 2
-            },
-            {
-                "question_id": 315,
-                "question": "Jaka jest długość fali w wolnej przestrzeni, jeżeli jej częstotliwość wynosi 150 MHz:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "2 m",
-                "answer_2": "20 m",
-                "answer_3": "200 m",
-                "correct": 2
-            },
-            {
-                "question_id": 316,
+                "question_id": 166,
                 "question": "Od jakich czynników zależy zasięg łączności na falach VHF:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "od wysokości anteny nadawczej i odbiorczej",
-                "answer_2": "od pory doby",
-                "answer_3": "od szerokości geograficznej",
-                "correct": 1
-            },
+"answer_2": "od pory doby",
+"answer_3": "od szerokości geograficznej",
+"correct": 0
+},
             {
-                "question_id": 317,
-                "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów to zasięg stacji wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "10 km ",
-                "answer_2": "40 km",
-                "answer_3": "100 km",
-                "correct": 2
-            },
-            {
-                "question_id": 318,
-                "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się  na maszcie o wysokości 64 metrów to zasięg stacji wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "16 km",
-                "answer_2": "32 km",
-                "answer_3": "64 km",
-                "correct": 3
-            },
-            {
-                "question_id": 319,
-                "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów, zaś antena odbiornika usytuowana jest na wysokości 25 m to zasięg odbioru wynosi:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "30 km ",
-                "answer_2": "60 km",
-                "answer_3": "90 km",
-                "correct": 2
-            },
-            {
-                "question_id": 320,
-                "question": "W statkowych radiotelefonach VHF stosowane są:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "pionowe dipole o długości 0,25λ",
-                "answer_2": "anteny w postaci pionowej linki o długości kilku metrów",
-                "answer_3": "anteny typu Yagi",
-                "correct": 3
-            },
-            {
-                "question_id": 321,
-                "question": "Antenę radiotelefonu VHF należy zamontować:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "możliwie najbliżej radiotelefonu",
-                "answer_2": "w miejscu osłoniętym od wiatru i wody",
-                "answer_3": "możliwie najwyżej z dala od innych anten",
-                "correct": 1
-            },
-            {
-                "question_id": 322,
+                "question_id": 167,
                 "question": "Zbyt bliskie ustawienie anteny radiotelefonu VHF w pobliżu metalowych konstrukcji może spowodować:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "zmianę charakterystyki promieniowania anteny",
-                "answer_2": "uszkodzenie anteny",
-                "answer_3": "zmianę polaryzacji promieniowanej fali",
-                "correct": 1
-            },
+"answer_2": "uszkodzenie anteny",
+"answer_3": "zmianę polaryzacji promieniowanej fali",
+"correct": 0
+},
             {
-                "question_id": 323,
-                "question": "W odbiornikach NAVTEX są stosowane:",
+                "question_id": 168,
+                "question": "Jakiego typu anteny są stosowane w odbiornikach NAVTEX:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "2-4 metrowe anteny prętowe (pionowe)",
-                "answer_2": "anteny linkowe typu „Γ” lub „Τ”",
-                "answer_3": "anteny w postaci kilku lub kilkunastometrowego masztu",
-                "correct": 1
-            },
-            {
-                "question_id": 324,
-                "question": "Dookólną charakterystykę promieniowania (w płaszczyźnie poziomej) mają anteny:",
-                "question_image": "",
-                "images": false,
-                "answer_1": "prętowe (pionowe)",
-                "answer_2": "linkowe typu „Γ” lub „Τ”",
-                "answer_3": "typu Yagi",
-                "correct": 1
-            }
+                "answer_1": "4-6 metrowe anteny prętowe (pionowe)",
+"answer_2": "anteny linkowe typu „Γ” lub „Τ”",
+"answer_3": "anteny w postaci kilku lub kilkunastometrowego masztu",
+"correct": 0
+}
         ]
     },
     {
@@ -2659,134 +1672,154 @@
         "exam": 2,
         "questions": [
             {
-                "question_id": 325,
-                "question": "Włącz i przygotuj do pracy radiotelefon VHF dla łączności pokładowej.",
-                "question_image": "",
+                "question_id": 169,
+                "question": "Włącz i przygotuj do pracy, dla łączności alarmowej radiotelefon VHF.",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 16, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 25 W na 1 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 15, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "correct": 1
-            },
-            {
-                "question_id": 326,
-                "question": "Włącz i przygotuj do pracy radiotelefon VHF dla łączności alarmowej.",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo ",
-                "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 13, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
+                "answer_1": "Obróć i ustaw [P1], wciśnij [1], wciśnij [6], ustaw [P2] maksymalnie w prawo.",
+                "answer_2": "Obróć i ustaw [P1], wciśnij [16], ustaw [P2] maksymalnie w lewo.",
+                "answer_3": " Obróć i ustaw [P1], wciśnij [1], wciśnij [3], ustaw [P2] maksymalnie w położeniu środkowym.",
                 "correct": 2
             },
             {
-                "question_id": 327,
+                "question_id": 170,
                 "question": "Dokonaj redukcji mocy radiotelefonu VHF.",
-                "question_image": "",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 25 W na 1 W",
-                "answer_2": "Za pomocą pokrętła VOL zredukuj moc do żądanego poziomu, za pomocą przycisku ENT zatwierdź ustawienia",
-                "answer_3": "Za pomocą pokrętła SQL zredukuj moc do żądanego poziomu, za pomocą przycisku ENT zatwierdź ustawienia",
+                "answer_1": "Obróć i ustaw [P1], wciśnij [SHIFT], wciśnij [9].",
+                "answer_2": "Obróć i ustaw [P1], wciśnij [9].",
+                "answer_3": "Obróć i ustaw [P1], wciśnij [SHIFT], wciśnij [2].",
                 "correct": 1
             },
             {
-                "question_id": 328,
+                "question_id": 171,
                 "question": "Ustaw podwójny nasłuch w radiotelefonie VHF na kanałach 14 i 16.",
-                "question_image": "",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 14, naciśnij przycisk funkcyjny CHAN, za pomocą przycisków CH ustaw kanał 16",
-                "answer_2": "Za pomocą przycisków CH ustaw kanał 14, naciśnij przycisk funkcyjny DW",
-                "answer_3": "Naciśnij przycisk 16/C, naciśnij przycisk funkcyjny DW",
+                "answer_1": "Obróć i ustaw [P1], wciśnij [SHIFT], wciśnij [6].",
+                "answer_2": "Obróć i ustaw [P1], wciśnij [1], wciśnij [4], wciśnij [SHIFT], wciśnij [6].",
+                "answer_3": "Obróć i ustaw [P1], wciśnij [16], wciśnij [SHIFT], wciśnij [6].",
                 "correct": 2
             },
             {
-                "question_id": 329,
-                "question": "Ustaw intensywność podświetlenia wyświetlacza i przycisków w radiotelefonie VHF.",
-                "question_image": "",
+                "question_id": 172,
+                "question": "Ustaw podświetlenie wskaźników w radiotelefonie VHF dla warunków dziennych i nocnych.",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie",
-                "answer_2": "ZaZa pomocą  przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie, za pomocą przycisku ENT zatwierdź ustawienia podświetlenia",
-                "answer_3": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą pokrętła VOL/SQL ustaw intensywność podświetlenia",
+                "answer_1": "Wciśnij [7], wciśnij [5].",
+                "answer_2": "Wciśnij [9], wciśnij [16].",
+                "answer_3": "Wciśnij [SHIFT], wciśnij [7].",
                 "correct": 3
             },
             {
-                "question_id": 330,
-                "question": "Sprawdź, które kanały są wpisane do pamięci skanowania radiotelefonu.",
-                "question_image": "",
+                "question_id": 173,
+                "question": "Sprawdź, które kanały są wpisane do pamięci skanowania radiotelefonu RT 2048.",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Wciśnij i przytrzymaj przez 3 sekundy przycisk funkcyjny *️⃣",
-                "answer_2": "ZaDo pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Naciśnij jednocześnie przyciski funkcyjne SCAN i *️⃣",
-                "answer_3": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Za pomocą przycisków CH sprawdź, który kanał oznaczony jest na wyświetlaczu symbolem ✽",
+                "answer_1": "Wciśnij [SHIFT], wciśnij [5].",
+                "answer_2": "Wciśnij [SHIFT], wciśnij [2].",
+                "answer_3": "Wciśnij [SHIFT], wciśnij [1] i przytrzymaj.",
+                "correct": 3
+            },
+            {
+                "question_id": 174,
+                "question": "Ustaw skanowanie kanałów 6,13 i 16 w radiotelefonie VHF.",
+                "question_image": "vhf_q169-180.png",
+                "images": false,
+                "answer_1": "Obróć [P1], wciśnij [6], wciśnij [SHIFT], wciśnij [2], wciśnij [1], wciśnij [3], wciśnij [SHIFT], wciśnij [2].",
+                "answer_2": "Obróć [P1], wciśnij [6], wciśnij [SHIFT], wciśnij [1], wciśnij [3], wciśnij [SHIFT], wciśnij [16].",
+                "answer_3": "Obróć [P1], wciśnij [6], wciśnij [SHIFT], wciśnij [1], wciśnij [1], wciśnij [3], wciśnij [SHIFT], wciśnij [1].",
                 "correct": 1
             },
             {
-                "question_id": 331,
-                "question": "Dodaj kanały 6,13 i 16 do listy skaningowej w radiotelefonie VHF.",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 6, wciśnij przycisk funkcyjny *️⃣, powtórz to samo dla kanału 13 i kanału 16.",
-                "answer_2": "ZaWciśnij przycisk funkcyjny SCAN, w ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, wciśnij przycisk ENT.",
-                "answer_3": "W ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, naciśnij przycisk funkcyjny SCAN.",
-                "correct": 1
-            },
-            {
-                "question_id": 332,
+                "question_id": 175,
                 "question": "Nadaj ostrzeżenie nawigacyjne przy użyciu radiotelefonu VHF.",
-                "question_image": "",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Wciśnij przycisk funkcyjny AQUA, nadaj komunikat.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj zapowiedź komunikatu ostrzegawczego, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
-                "answer_3": "Za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
+                "answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [8], nadaj komunikat.",
+                "answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj zapowiedź komunikatu ostrzegawczego, wciśnij [1], wciśnij [3], nadaj komunikat.",
+                "answer_3": "Obróć [P1], wciśnij [1], wciśnij [3], nadaj komunikat.",
                 "correct": 2
             },
             {
-                "question_id": 333,
-                "question": "Nadaj komunikat alarmowy, przy użyciu radiotelefonu VHF.",
-                "question_image": "",
+                "question_id": 176,
+                "question": "Ustaw pracę na kanałach amerykańskich w radiotelefonie VHF",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj wywołanie alarmowe, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat alarmowy.",
-                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy. ",
+                "answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [5].",
+                "answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [8].",
+                "answer_3": "Obróć [P1], wciśnij [8], wciśnij [SHIFT].",
+                "correct": 2
+            },
+            {
+                "question_id": 177,
+                "question": "Nadaj komunikat alarmowy, przy użyciu radiotelefonu VHF.",
+                "question_image": "vhf_q169-180.png",
+                "images": false,
+                "answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy.",
+                "answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj wywołanie alarmowe, wciśnij [1], wciśnij [3], nadaj komunikat alarmowy.",
+                "answer_3": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [1], wciśnij [3], nadaj wywołanie alarmowe, i komunikat alarmowy.",
                 "correct": 1
             },
             {
-                "question_id": 334,
-                "question": "Nadaj komunikat, w sytuacji wypadnięcia człowieka za burtę, przy użyciu radiotelefonu VHF.",
-                "question_image": "",
-                "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "answer_3": "Za pomocą przycisków CH ustaw kanał 15, nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "correct": 2
-            },
-            {
-                "question_id": 335,
+                "question_id": 178,
                 "question": "Potwierdź odbiór alarmu przy użyciu radiotelefonu VHF.",
-                "question_image": "",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Za pomocą  przycisków CH ustaw kanał 13, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
-                "answer_2": "ZaWciśnij przycisk 16/C, sprawdź moc, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
-                "answer_3": "Za pomocą przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, nadaj „MAYDAY, znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_1": "Obróć [P1], wciśnij [1], wciśnij [3], nadaj „Mayday 3x znak stacji zagrożonej, tu 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_2": "Obróć [P1], wciśnij [16], sprawdź moc, nadaj „Mayday 3x znak stacji zagrożonej, tu 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_3": "Obróć [P1], wciśnij [SHIFT], wciśnij [8], nadaj „Mayday 3x znak stacji zagrożonej, tu 3x znak własnej stacji, RECEIVED MAYDAY”.",
                 "correct": 2
             },
             {
-                "question_id": 336,
-                "question": "Wywołaj inny statek, przy użyciu radiotelefonu VHF i przeprowadź z nim zwykłą korespondencję publiczną.",
-                "question_image": "",
+                "question_id": 179,
+                "question": "Wywołaj inny statek, przy użyciu radiotelefonu VHF i przeprowadź z nim rozmowę rutynową.",
+                "question_image": "vhf_q169-180.png",
                 "images": false,
-                "answer_1": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
-                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 13, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
-                "answer_3": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 2x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji, uzgodnij kanał roboczy, ustaw go i prowadź rozmowę.",
+                "answer_1": "Obróć [P1], wciśnij [16], nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
+                "answer_2": "Obróć [P1], wciśnij [1], wciśnij [3], nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
+                "answer_3": "Obróć [P1], wciśnij [16], nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji uzgodnij kanał roboczy, ustaw go i prowadź rozmowę.",
                 "correct": 3
             },
             {
-                "question_id": 337,
-                "question": "Nadaj pośrednie alarmowanie za inny statek, będący w niebezpieczeństwie.",
+                "question_id": 180,
+                "question": "Nadaj wywołanie alarmowe za inny statek.",
+                "question_image": "vhf_q169-180.png",
+                "images": false,
+                "answer_1": "Obróć [P1], wciśnij [1], wciśnij  [3], nadaj „Mayday relay, tu 3x znak własnej stacji, treść komunikatu, Mayday”.",
+                "answer_2": "Obróć [P1], wciśnij [16], nadaj „Pan pan, tu 3x znak własnej stacji, treść komunikatu, pan pan”.",
+                "answer_3": "Obróć [P1], wciśnij [16], nadaj„Mayday relay, tu 3x znak własnej stacji, treść komunikatu, Mayday”.",
+                "correct": 3
+            },
+            {
+                "question_id": 181,
+                "question": "Przetestuj radiopławę EPIRB 406 MHz.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Za pomocą przycisków CH ustaw kanał 13, nadaj „MAYDAY RELAY, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj „PAN PAN, TU 3x znak własnej stacji, treść komunikatu, PAN PAN”.",
-                "answer_3": "Wciśnij przycisk 16/C, nadaj „3x MAYDAY RELAY, 3x nazwa wywoływanej stacji, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
+                "answer_1": "Połącz wystające metalowe bolce na bokach radiopławy przewodem o długości około 20 cm, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie.",
+                "answer_2": "Zdejmij radiopławę z obudowy i umieść ją w naczyniu z wodą morską, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie.",
+                "answer_3": "Zdejmij radiopławę z obudowy, przesuń dźwignię w położenie TEST, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie.",
                 "correct": 3
+            },
+            {
+                "question_id": 182,
+                "question": "Uruchom transponder radarowy, będąc na tratwie ratunkowej.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Przywiąż zabrany ze statku transponder radarowy do szalupy i wrzuć go do wody.",
+                "answer_2": "Przywiąż zabrany ze statku transponder radarowy do szalupy, wciśnij przycisk uruchomienia i umieść go możliwie wysoko na tratwie.",
+                "answer_3": "Uruchom zabrany ze statku transponder radarowy za pomocą odpowiedniego przycisku i umieść go możliwie wysoko na tratwie.",
+                "correct": 2
+            },
+            {
+                "question_id": 183,
+                "question": "Przetestuj transponder radarowy.",
+                "question_image": "",
+                "images": false,
+                "answer_1": "Wciśnij na 5 sekund przycisk uruchomienia i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze, wyłącz transponder.",
+                "answer_2": "Zbliż transponder do radaru pracującego w paśmie X i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze.",
+                "answer_3": "Zbliż transponder do radiopławy EPIRB 406, uruchom go i sprawdź czy spowoduje to uruchomienie automatyczne radiopławy.",
+                "correct": 1
             }
         ]
     }
