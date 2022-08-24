@@ -1531,7 +1531,7 @@
                 "answer_3": "No sufficient depth of water in position.",
                 "correct": 3
             },
- 
+            
             {
                 "question_id": 153,
                 "question": "Jaki jest stan morza na twojej pozycji?",
@@ -1632,7 +1632,7 @@
                 "answer_3": "Tide extending.",
                 "correct": 2
             },
-             
+            
             {
                 "question_id": 163,
                 "question": "Trzymaj się z dala ode mnie.",
@@ -1723,7 +1723,7 @@
                 "answer_3": "Keep lookout for boats with caution.",
                 "correct": 3
             }, 
- 
+            
             {
                 "question_id": 172,
                 "question": "Ile osób pozostanie na burcie?",
@@ -1734,7 +1734,7 @@
                 "answer_3": "Who will stay on board?",
                 "correct": 2
             }, 
- 
+            
             {
                 "question_id": 173,
                 "question": "Czy możesz płynąć bez pomocy?",
@@ -1745,9 +1745,9 @@
                 "answer_3": "Can you steer without attendance?",
                 "correct": 2
             }, 
- 
-{
-    "question_id": 174,
+            
+            {
+                "question_id": 174,
                 "question": "Czy przewiduje się, że siła wiatru wzrośnie?",
                 "question_image": "",
                 "images": false,
@@ -1756,9 +1756,9 @@
                 "answer_3": "Is wind force to decrease?",
                 "correct": 1
             }, 
- 
-{
-    "question_id": 175,
+            
+            {
+                "question_id": 175,
                 "question": "Widzialność maleje",
                 "question_image": "",
                 "images": false,
@@ -1807,8 +1807,8 @@
                 "answer_3": "Visibility is variable.",
                 "correct": 3
             }, 
-{
-    "question_id": 180,
+            {
+                "question_id": 180,
                 "question": "Przewidywana jest poprawa widzialności.",
                 "question_image": "",
                 "images": false,
@@ -1837,9 +1837,9 @@
                 "answer_3": "Helm damaged.",
                 "correct": 2
             }, 
- 
-{
-    "question_id": 183,
+            
+            {
+                "question_id": 183,
                 "question": "Jakie jest najnowsze ostrzeżenie przed wichurami?",
                 "question_image": "",
                 "images": false,
@@ -1848,9 +1848,9 @@
                 "answer_3": "What is your gale warning?",
                 "correct": 1
             }, 
- 
-{
-    "question_id": 184,
+            
+            {
+                "question_id": 184,
                 "question": "Spodziewam się odzyskać pływalność, kiedy poprawi się widzialność.",
                 "question_image": "",
                 "images": false,
@@ -1859,9 +1859,9 @@
                 "answer_3": "I await to regain buoyancy when visibility improves.",
                 "correct": 1
             }, 
- 
-{
-    "question_id": 185,
+            
+            {
+                "question_id": 185,
                 "question": "Nie opuszczę statku.",
                 "question_image": "",
                 "images": false,
@@ -1870,9 +1870,9 @@
                 "answer_3": "I will not abandon ship.",
                 "correct": 3
             }, 
- 
-{
-    "question_id": 186,
+            
+            {
+                "question_id": 186,
                 "question": "Czy pożar jest opanowany?",
                 "question_image": "",
                 "images": false,
@@ -1881,10 +1881,10 @@
                 "answer_3": "Is fire under control?",
                 "correct": 3
             }, 
- 
-{
-    "question_id": 187,
-    "question": "Śruba napędowa jest uszkodzona", 
+            
+            {
+                "question_id": 187,
+                "question": "Śruba napędowa jest uszkodzona", 
                 "question_image": "",
                 "images": false,
                 "answer_1": "Propeller damaged.",
@@ -1892,9 +1892,9 @@
                 "answer_3": "Screw is being damaged.",
                 "correct": 1
             }, 
- 
-{
-    "question_id": 188,
+            
+            {
+                "question_id": 188,
                 "question": "Czy możecie płynąć na pozycję wołającego o pomoc?",
                 "question_image": "",
                 "images": false,
@@ -1903,9 +1903,9 @@
                 "answer_3": "Can you proceed to distress position?",
                 "correct": 3
             }, 
- 
-{
-    "question_id": 189,
+            
+            {
+                "question_id": 189,
                 "question": "Wskazania barometru bez zmian.",
                 "question_image": "",
                 "images": false,
@@ -1934,9 +1934,9 @@
                 "answer_3": "High swell.",
                 "correct": 2
             }, 
- 
-{
-    "question_id": 192,
+            
+            {
+                "question_id": 192,
                 "question": "Przekaż chorego na mój statek.",
                 "question_image": "",
                 "images": false,
@@ -1995,9 +1995,9 @@
                 "answer_3": "Can you grounded?",
                 "correct": 1
             },
- 
-{
-    "question_id": 198,
+            
+            {
+                "question_id": 198,
                 "question": "Wyłóż ster lewo na burtę.",
                 "question_image": "",
                 "images": false,
@@ -2046,9 +2046,9 @@
                 "answer_3": "I have accidental oil spillage.",
                 "correct": 1
             },
- 
-{
-    "question_id": 203,
+            
+            {
+                "question_id": 203,
                 "question": "Zlokalizowałem statek wyrzucający do wody chemikalia.",
                 "question_image": "",
                 "images": false,
@@ -2077,9 +2077,9 @@
                 "answer_3": "Is wind turning anticlockwise?",
                 "correct": 2
             }, 
- 
-{
-    "question_id": 206,
+            
+            {
+                "question_id": 206,
                 "question": "Czy możemy zakotwiczyć na tymczasowym kotwicowisku?",
                 "question_image": "",
                 "images": false,
@@ -2088,9 +2088,9 @@
                 "answer_3": "Can we heave anchor at temporary anchorage?",
                 "correct": 1
             }, 
- 
-{
-    "question_id": 207,
+            
+            {
+                "question_id": 207,
                 "question": "Zdołałem usunąć przeciek",
                 "question_image": "",
                 "images": false,
@@ -2112,14 +2112,14 @@
             {
                 "question_id": 209,
                 "question": "Kierujesz się wprost na sprzęt połowowy.",
-                            "question_image": "",
+                "question_image": "",
                 "images": false,
                 "answer_1": "You are going to fishing equipment.",
-                            "answer_2": "You coming straight into fishing gear.",
-                            "answer_3": "You are heading towards fishing gear.",
-                            "correct": 1
-                        }, 
-             
+                "answer_2": "You coming straight into fishing gear.",
+                "answer_3": "You are heading towards fishing gear.",
+                "correct": 1
+            }, 
+            
             {
                 "question_id": 210,
                 "question": "Statek na kursie przeciwnym przejdzie po waszej lewej burcie.",
@@ -2170,9 +2170,9 @@
                 "answer_3": "Damage knew.",
                 "correct": 2
             },
- 
-{
-    "question_id": 215,
+            
+            {
+                "question_id": 215,
                 "question": "Czy możesz powstrzymać wyciek ropy?",
                 "question_image": "",
                 "images": false,
@@ -2231,7 +2231,7 @@
                 "answer_3": "Do you must have medical assistance?",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":221,
                 "question": "Pława świetlna na pozycji … nie na miejscu.",
@@ -2242,7 +2242,7 @@
                 "answer_3": "Light buoy in position … out of order",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":222,
                 "question": "Prowadzić poszukiwanie radarowe.",
@@ -2253,7 +2253,7 @@
                 "answer_3": "Carry out radar search.",
                 "correct": 3
             }, 
- 
+            
             {
                 "question_id":223,
                 "question": "Rurociąg ma wyciek gazu",
@@ -2264,7 +2264,7 @@
                 "answer_3": "Gas leaking.",
                 "correct": 2
             }, 
- 
+            
             {
                 "question_id":224,
                 "question": "Zalewanie jest opanowane.",
@@ -2275,7 +2275,7 @@
                 "answer_3": "Flooding is under control.",
                 "correct": 3
             }, 
- 
+            
             {
                 "question_id":225,
                 "question": "I require (gaśnic śniegowych).",
@@ -2316,7 +2316,7 @@
                 "answer_3": "What lights have you showed?",
                 "correct": 2
             }, 
- 
+            
             {
                 "question_id":229,
                 "question": "Musisz zaczekać, aż statek MV… przetnie tor wodny przed tobą.",
@@ -2327,7 +2327,7 @@
                 "answer_3": "You must wait on MV … to cross the traffic lane.",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":230,
                 "question": "Istnieje niebezpieczeństwo przechylenia się statku.",
@@ -2338,7 +2338,7 @@
                 "answer_3": "Vessel can turn.",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":231,
                 "question": "(Nie mogę) locate you on my radar.",
@@ -2349,7 +2349,7 @@
                 "answer_3": "I needn’t",
                 "correct": 1
             },    
- 
+            
             {
                 "question_id": 232,
                 "question": "Proszę o holownik i karetkę dla ofiar wypadku",
@@ -2450,7 +2450,7 @@
                 "answer_3": "Is wind force expected to increase?",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":242,
                 "question": "Dziób na mieliźnie.",
@@ -2461,7 +2461,7 @@
                 "answer_3": "Aground aft.",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":243,
                 "question": "Ile łodzi ratunkowych opuścicie na wodę?",
@@ -2472,7 +2472,7 @@
                 "answer_3": "How many lifeboats will you launch?",
                 "correct": 3
             }, 
- 
+            
             {
                 "question_id":244,
                 "question": "I require (gaśnic pianowych).",
@@ -2483,7 +2483,7 @@
                 "answer_3": "CO2 extinguishers",
                 "correct": 2
             }, 
- 
+            
             {
                 "question_id":245,
                 "question": "Potrzebuję pomocy w nawigacji.",
@@ -2494,7 +2494,7 @@
                 "answer_3": "I need navigational advise.",
                 "correct": 2
             }, 
- 
+            
             {
                 "question_id":246,
                 "question": "W wyniku eksplozji nie ma szkód.",
@@ -2505,7 +2505,7 @@
                 "answer_3": "Due to explosion there is some damage.",
                 "correct": 1
             }, 
- 
+            
             {
                 "question_id":247,
                 "question": "Wskazania barometru spadają.",
@@ -2516,7 +2516,7 @@
                 "answer_3": "Barometer dropping.",
                 "correct": 3
             }, 
- 
+            
             {
                 "question_id": 248,
                 "question": "Nie mijaj punktu zgłoszenia … aż do godziny … UTC",

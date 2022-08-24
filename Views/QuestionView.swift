@@ -28,7 +28,7 @@ struct QuestionView: View {
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
-      
+//    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     func calculateQuestionsTotal() -> Int {
         // calculates total number of all questions in a set (all categories)
@@ -164,6 +164,7 @@ struct QuestionView: View {
                     .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
                 HStack {
                     //                        Text(startTime, style: .relative)
+//                    Text(selectedModule)
                     Spacer()
                     Text(String(questionNumber))
                     Text("/")
@@ -182,7 +183,7 @@ struct QuestionView: View {
             
 // ---------------------------------------------------------------------------
             Section(header: Text("Pytanie")) {
-                VStack {
+                VStack(alignment: .center) {
                     HStack {
                         Text(String(questions[currentCategory].questions[currentQuestion].question_id))
                         Text(questions[currentCategory].questions[currentQuestion].question)
@@ -190,6 +191,15 @@ struct QuestionView: View {
                             .fixedSize(horizontal: false, vertical: true)
                             .padding(10)
                     }
+                    if !(questions[currentCategory].questions[currentQuestion].question_image.isEmpty) {
+                        Image((questions[currentCategory].questions[currentQuestion].question_image))
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                            .frame(maxWidth: 300)
+                            .padding(5)
+                    }
+
                 }
             }
             
@@ -299,7 +309,7 @@ struct QuestionView: View {
             .lineLimit(nil)
         }
         .navigationTitle(title)
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
         //            .listStyle(GroupedListStyle())
         .onAppear {
             questionTotal = self.calculateQuestionsTotal()

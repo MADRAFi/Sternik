@@ -13,6 +13,7 @@ struct CategoryView: View {
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
     @Binding var isFullVersion: Bool
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
 
