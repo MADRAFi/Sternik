@@ -164,10 +164,11 @@ struct QuestionView: View {
                     .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
                 HStack {
                     //                        Text(startTime, style: .relative)
-                    let module_name = selectedModule.components(separatedBy: ".")[1].uppercased()
-//                    let module_name = prefixarray[1].uppercased()
-                    Text(module_name)
-                        .bold()
+                    if !selectedModule.isEmpty {
+                        let module_name = selectedModule.components(separatedBy: ".")[1].uppercased()
+                        Text(module_name)
+                            .bold()
+                    }
                     Spacer()
                     Text(String(questionNumber))
                     Text("/")

@@ -27,21 +27,21 @@ struct CategoryView: View {
                                 ADBanner()
 //                                    .frame(width: 320, height: 50, alignment: .center)
                             }
-                            let prefixarray = selectedModule.components(separatedBy: ".")
-                            let prefix = prefixarray[1]
-                            ForEach(data.questions) { item in
-                                NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
-                                    HStack {
-                                        Image("Icon_\(prefix)_\(item.id)")
-                                            .padding(.vertical, 8)
-                                            .padding(.horizontal)
-                                        Text(item.category_name)
-                                        Spacer()
+                            if !selectedModule.isEmpty {
+                                let prefix = selectedModule.components(separatedBy: ".")[1]
+                                ForEach(data.questions) { item in
+                                    NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                        HStack {
+                                            Image("Icon_\(prefix)_\(item.id)")
+                                                .padding(.vertical, 8)
+                                                .padding(.horizontal)
+                                            Text(item.category_name)
+                                            Spacer()
+                                        }
+                                        
                                     }
-                                    
                                 }
                             }
-                            
                             HStack {
                                 NavigationLink(destination: QuestionView(questions: data.questions, title: "Nauka")) {
                                     HStack {
