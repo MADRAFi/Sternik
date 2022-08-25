@@ -34,7 +34,7 @@ struct CategoryView: View {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
                                                 .padding(.vertical, 8)
-                                                .padding(.horizontal)
+                                                .padding(.horizontal, 5)
                                             Text(item.category_name)
                                             Spacer()
                                         }
@@ -47,7 +47,7 @@ struct CategoryView: View {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
-                                            .padding(.horizontal)
+                                            .padding(.horizontal, 5)
                                         Text("Nauka")
                                         Spacer()
                                     }
@@ -60,7 +60,7 @@ struct CategoryView: View {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
-                                            .padding(.horizontal)
+                                            .padding(.horizontal, 5)
                                         Text("Egzamin próbny")
                                         Spacer()
                                     }
