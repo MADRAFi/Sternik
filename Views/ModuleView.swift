@@ -22,75 +22,80 @@ struct ModuleView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            VStack {
                 VStack {
-                    VStack(alignment: .leading) {
-                        //                          if !isFullVersion {
-                        if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
-                            ADBanner()
-//                                .frame(width: 320, height: 100, alignment: .center)
-                        }
-                        SwitchModuleView()
-                        HStack {
-                            Image("About")
-                                .resizable()
-                                .scaledToFit()
-                                .cornerRadius(8)
-                                .frame(width: 80, height: 80)
-                                .padding(.vertical, 8)
-                                .padding(.trailing)
-                            
-                            VStack(alignment: .leading) {
-                                Text(builtInProductName!)
-                                    .bold()
-                                Text(builtInProductDescription!)
-                                    .font(.caption)
+    //                          if !isFullVersion {
+                    if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
+                        ADBanner()
+                            .frame(width: 320, height: 100, alignment: .center)
+                    }
+                    SwitchModuleView()
+                }
+                ScrollView {
+                    VStack {
+                        VStack(alignment: .leading) {
+
+                            HStack {
+                                Image("About")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .cornerRadius(8)
+                                    .frame(width: 80, height: 80)
+                                    .padding(.vertical, 8)
+                                    .padding(.trailing)
+                                
+                                VStack(alignment: .leading) {
+                                    Text(builtInProductName!)
+                                        .bold()
+                                    Text(builtInProductDescription!)
+                                        .font(.caption)
+                                }
+                                Spacer()
+                                Button(action: {
+                                }) {
+                                    
+                                    Text(Image(systemName: "checkmark"))
+                                        .bold()
+                                        .foregroundColor(Color.primary)
+                                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                                        .padding()
+                                        .background(Color("Positive"))
+                                    
+                                }
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .disabled(true)
+                                
                             }
+                            ForEach(store.products) { item in
+                                ProductView(product: item)
+                                
+                            }
+
+                        }
+                        VStack(alignment: .trailing) {
                             Spacer()
                             Button(action: {
+                                Task {
+                                    try? await AppStore.sync()
+                                }
                             }) {
-                                
-                                Text(Image(systemName: "checkmark"))
-                                    .bold()
-                                    .foregroundColor(Color.primary)
-                                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                                    .padding()
-                                    .background(Color("Positive"))
+                                HStack(alignment: .center ) {
+                                    Text("Przywróć zakupy")
+                                        .padding()
+                                }
                                 
                             }
+                            .background(Color("AccentColor"))
+                            .foregroundColor(Color.primary)
                             .clipShape(RoundedRectangle(cornerRadius: 10))
-                            .disabled(true)
                             
                         }
-                        ForEach(store.products) { item in
-                            ProductView(product: item)
-                            
-                        }
-
-                    }
-                    VStack(alignment: .trailing) {
                         Spacer()
-                        Button(action: {
-                            Task {
-                                try? await AppStore.sync()
-                            }
-                        }) {
-                            HStack(alignment: .center ) {
-                                Text("Przywróć zakupy")
-                                    .padding()
-                            }
-                            
-                        }
-                        .background(Color("AccentColor"))
-                        .foregroundColor(Color.primary)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        
                     }
-                    Spacer()
+                    .padding()
+                    .navigationTitle("Moduły")
+                    .navigationBarTitleDisplayMode(.large)
                 }
-                .padding()
-                .navigationTitle("Moduły")
-                .navigationBarTitleDisplayMode(.large)
             }
         }
         .navigationViewStyle(.stack)

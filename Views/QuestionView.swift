@@ -28,7 +28,7 @@ struct QuestionView: View {
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
-//    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     func calculateQuestionsTotal() -> Int {
         // calculates total number of all questions in a set (all categories)
@@ -164,7 +164,10 @@ struct QuestionView: View {
                     .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
                 HStack {
                     //                        Text(startTime, style: .relative)
-//                    Text(selectedModule)
+                    let module_name = selectedModule.components(separatedBy: ".")[1].uppercased()
+//                    let module_name = prefixarray[1].uppercased()
+                    Text(module_name)
+                        .bold()
                     Spacer()
                     Text(String(questionNumber))
                     Text("/")

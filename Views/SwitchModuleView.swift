@@ -9,7 +9,7 @@ import SwiftUI
 import StoreKit
 
 struct SwitchModuleView: View {
-
+    
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String
@@ -17,12 +17,13 @@ struct SwitchModuleView: View {
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
-
+    
     
     var body: some View {
-        VStack(alignment: .leading)  {
+        VStack {
             HStack {
                 Text("Wybrany moduł")
+                Spacer()
                 Picker(selection: $selectedModule, label: Text("Wybierz zestaw pytań")) {
                     Text(builtInProductName!)
                         .tag(builtInProduct!)
@@ -38,11 +39,12 @@ struct SwitchModuleView: View {
                 .onChange(of: selectedModule) { newValue in
                     data.load(module: selectedModule)
                 }
-//                .pickerStyle(.inline)
+                //                .pickerStyle(.inline)
             }
-
-                
+            
+            
         }
+        .padding()
     }
 }
 
