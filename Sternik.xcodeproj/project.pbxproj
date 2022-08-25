@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		800B6EDF28B4587800FA583B /* VHF.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* VHF.xcassets */; };
+		800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
+		800B6EEB28B77DF000FA583B /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionsList.swift */; };
+		800B6EEC28B77DF000FA583B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0F10328A460E00056A911 /* MainView.swift */; };
+		800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
+		800B6EEE28B77DF000FA583B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
+		800B6EEF28B77DF000FA583B /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
+		800B6EF028B77DF000FA583B /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
+		800B6EF128B77DF000FA583B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
+		800B6EF228B77DF000FA583B /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
+		800B6EF328B77DF000FA583B /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
+		800B6EF428B77DF000FA583B /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		800B6EF528B77DF000FA583B /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
+		800B6EF628B77DF000FA583B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
+		800B6EF828B77DF000FA583B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 800B6EE728B77DF000FA583B /* GoogleMobileAds */; };
+		800B6F0928B7877B00FA583B /* questions_c.json in Resources */ = {isa = PBXBuildFile; fileRef = 800B6F0828B7877B00FA583B /* questions_c.json */; };
+		800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE328B77DAC00FA583B /* Amator.xcassets */; };
+		800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE428B77DAC00FA583B /* Products_Amator.plist */; };
+		800B6F0D28B787B000FA583B /* Configuration_Amator.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */; };
 		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
@@ -50,6 +68,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_Amator.storekit; sourceTree = "<group>"; };
+		800B6EE328B77DAC00FA583B /* Amator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Amator.xcassets; sourceTree = "<group>"; };
+		800B6EE428B77DAC00FA583B /* Products_Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Amator.plist; sourceTree = "<group>"; };
+		800B6F0528B77DF100FA583B /* Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Amator.plist; path = /Users/madrafi/Documents/Swift/Sternik/Amator.plist; sourceTree = "<absolute>"; };
+		800B6F0628B77FA000FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Amator.app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Amator.app"; sourceTree = "<absolute>"; };
+		800B6F0828B7877B00FA583B /* questions_c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_c.json; sourceTree = "<group>"; };
 		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		80345980289FFC0400CBC0FA /* VHF.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VHF.xcassets; sourceTree = "<group>"; };
@@ -81,6 +105,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		800B6EF728B77DF000FA583B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800B6EF828B77DF000FA583B /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80CF62D728A0756D00C59CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +132,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		800B6EE028B77D7600FA583B /* Amator */ = {
+			isa = PBXGroup;
+			children = (
+				800B6F0828B7877B00FA583B /* questions_c.json */,
+				800B6EE328B77DAC00FA583B /* Amator.xcassets */,
+				800B6F0528B77DF100FA583B /* Amator.plist */,
+				800B6EE428B77DAC00FA583B /* Products_Amator.plist */,
+				800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */,
+			);
+			path = Amator;
+			sourceTree = "<group>";
+		};
 		8034597C289FE7B300CBC0FA /* Sternik */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +189,7 @@
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
+				800B6EE028B77D7600FA583B /* Amator */,
 				8036FE4328B0D39300A94DBE /* Views */,
 				8034597D289FFA1300CBC0FA /* VHF */,
 				8034597C289FE7B300CBC0FA /* Sternik */,
@@ -159,6 +204,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		800B6EE528B77DF000FA583B /* Radio Amator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800B6F0128B77DF000FA583B /* Build configuration list for PBXNativeTarget "Radio Amator (iOS)" */;
+			buildPhases = (
+				800B6EE928B77DF000FA583B /* Sources */,
+				800B6EF728B77DF000FA583B /* Frameworks */,
+				800B6EF928B77DF000FA583B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800B6EE628B77DF000FA583B /* PBXTargetDependency */,
+			);
+			name = "Radio Amator (iOS)";
+			packageProductDependencies = (
+				800B6EE728B77DF000FA583B /* GoogleMobileAds */,
+			);
+			productName = "Sternik (iOS)";
+			productReference = 800B6F0628B77FA000FA583B /* Radio Amator.app */;
+			productType = "com.apple.product-type.application";
+		};
 		80CF62D128A0756D00C59CAD /* Radio Operator (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CF62DD28A0756D00C59CAD /* Build configuration list for PBXNativeTarget "Radio Operator (iOS)" */;
@@ -235,11 +301,23 @@
 			targets = (
 				80D7D84F2884A132009EB03A /* Sternik (iOS) */,
 				80CF62D128A0756D00C59CAD /* Radio Operator (iOS) */,
+				800B6EE528B77DF000FA583B /* Radio Amator (iOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		800B6EF928B77DF000FA583B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */,
+				800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */,
+				800B6F0D28B787B000FA583B /* Configuration_Amator.storekit in Resources */,
+				800B6F0928B7877B00FA583B /* questions_c.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80CF62D828A0756D00C59CAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +347,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		800B6EE928B77DF000FA583B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */,
+				800B6EEB28B77DF000FA583B /* QuestionsList.swift in Sources */,
+				800B6EEC28B77DF000FA583B /* MainView.swift in Sources */,
+				800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */,
+				800B6EEE28B77DF000FA583B /* SettingsView.swift in Sources */,
+				800B6EEF28B77DF000FA583B /* ProductView.swift in Sources */,
+				800B6EF028B77DF000FA583B /* StatsView.swift in Sources */,
+				800B6EF128B77DF000FA583B /* Store.swift in Sources */,
+				800B6EF228B77DF000FA583B /* ADBanner.swift in Sources */,
+				800B6EF328B77DF000FA583B /* SwitchModuleView.swift in Sources */,
+				800B6EF428B77DF000FA583B /* question.swift in Sources */,
+				800B6EF528B77DF000FA583B /* ModuleView.swift in Sources */,
+				800B6EF628B77DF000FA583B /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80CF62D228A0756D00C59CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +410,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		800B6EE628B77DF000FA583B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8036FE4128B0224800A94DBE /* GoogleMobileAds */;
+		};
 		8036FE4228B0224800A94DBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 8036FE4128B0224800A94DBE /* GoogleMobileAds */;
@@ -323,6 +425,75 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		800B6F0228B77DF000FA583B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = Amator/Amator.xcassets;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amator.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio Amator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Amator;
+				PRODUCT_NAME = "Radio Amator";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800B6F0328B77DF000FA583B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = Amator/Amator.xcassets;
+				DEVELOPMENT_TEAM = ZBBD84W4M2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amator.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio Amator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Amator;
+				PRODUCT_NAME = "Radio Amator";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		80CF62DE28A0756D00C59CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -580,6 +751,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		800B6F0128B77DF000FA583B /* Build configuration list for PBXNativeTarget "Radio Amator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800B6F0228B77DF000FA583B /* Debug */,
+				800B6F0328B77DF000FA583B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80CF62DD28A0756D00C59CAD /* Build configuration list for PBXNativeTarget "Radio Operator (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -610,6 +790,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		800B6EE828B77DF000FA583B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
@@ -629,6 +817,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		800B6EE728B77DF000FA583B /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800B6EE828B77DF000FA583B /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
 		8036FE3C28B0204C00A94DBE /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8036FE3B28B0204C00A94DBE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
