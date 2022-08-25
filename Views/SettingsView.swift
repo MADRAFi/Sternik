@@ -43,9 +43,10 @@ struct SettingsView: View {
                         
                         VStack(alignment: .leading){
                             Text(about ?? "")
-                                .padding(.vertical)
+//                                .padding(.vertical)
 //                            Spacer()
                             Text("Pytania w aplikacji pochodzą z udostępionych w internecie materiałów do nauki.")
+                                .padding(.vertical, 8)
                         }
                         .multilineTextAlignment(.leading)
                         .lineLimit(nil)
