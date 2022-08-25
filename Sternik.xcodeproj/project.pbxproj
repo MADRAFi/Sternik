@@ -72,8 +72,10 @@
 		800B6EE328B77DAC00FA583B /* Amator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Amator.xcassets; sourceTree = "<group>"; };
 		800B6EE428B77DAC00FA583B /* Products_Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Amator.plist; sourceTree = "<group>"; };
 		800B6F0528B77DF100FA583B /* Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Amator.plist; path = /Users/madrafi/Documents/Swift/Sternik/Amator.plist; sourceTree = "<absolute>"; };
-		800B6F0628B77FA000FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Amator.app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Amator.app"; sourceTree = "<absolute>"; };
 		800B6F0828B7877B00FA583B /* questions_c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_c.json; sourceTree = "<group>"; };
+		800B6F0E28B795B600FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Amator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800B6F0F28B795C500FA583B /* Radio Operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800B6F1128B7B94F00FA583B /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		80345980289FFC0400CBC0FA /* VHF.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VHF.xcassets; sourceTree = "<group>"; };
@@ -81,8 +83,6 @@
 		8036FE4428B0D3E000A94DBE /* ModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleView.swift; sourceTree = "<group>"; };
 		8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration_Sternik.storekit; sourceTree = "<group>"; };
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		807FF65828B40D8D00AF2682 /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
-		807FF65928B40D8D00AF2682 /* Radio Operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Operator.app"; path = "/Users/madrafi/Documents/Swift/Sternik/build/Debug-iphoneos/Radio Operator.app"; sourceTree = "<absolute>"; };
 		807FF65A28B40E6D00AF2682 /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		807FF65B28B40E6D00AF2682 /* questions_vhf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_vhf.json; sourceTree = "<group>"; };
 		807FF65C28B40E6D00AF2682 /* questions_iwc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_iwc.json; sourceTree = "<group>"; };
@@ -198,6 +198,9 @@
 				80C88BF02885F8A200059C2C /* question.swift */,
 				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
+				800B6F0E28B795B600FA583B /* Radio Amator.app */,
+				800B6F0F28B795C500FA583B /* Radio Operator.app */,
+				800B6F1128B7B94F00FA583B /* Sternik.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,7 +225,7 @@
 				800B6EE728B77DF000FA583B /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
-			productReference = 800B6F0628B77FA000FA583B /* Radio Amator.app */;
+			productReference = 800B6F0E28B795B600FA583B /* Radio Amator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80CF62D128A0756D00C59CAD /* Radio Operator (iOS) */ = {
@@ -243,7 +246,7 @@
 				80A3525628B2E0DB0094ADC9 /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
-			productReference = 807FF65928B40D8D00AF2682 /* Radio Operator.app */;
+			productReference = 800B6F0F28B795C500FA583B /* Radio Operator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80D7D84F2884A132009EB03A /* Sternik (iOS) */ = {
@@ -264,7 +267,7 @@
 				8036FE3C28B0204C00A94DBE /* GoogleMobileAds */,
 			);
 			productName = "Sternik (iOS)";
-			productReference = 807FF65828B40D8D00AF2682 /* Sternik.app */;
+			productReference = 800B6F1128B7B94F00FA583B /* Sternik.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -449,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Amator;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -483,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Amator;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -518,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MADsoft.Radio-Operator";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -552,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MADsoft.Radio-Operator";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -684,6 +687,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = Sternik/Sternik.xcassets;
@@ -703,7 +707,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
+				PRODUCT_BUNDLE_IDENTIFIER = us.madsoft.sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = JSM;
@@ -718,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = Sternik/Sternik.xcassets;
@@ -737,7 +742,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MADsoft.Sternik;
+				PRODUCT_BUNDLE_IDENTIFIER = us.madsoft.sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = JSM;

@@ -15,7 +15,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-amator.full",
+      "productID" : "radio_amator.full",
       "referenceName" : "full",
       "type" : "NonConsumable"
     },
@@ -30,7 +30,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-amator.a",
+      "productID" : "radio_amator.a",
       "referenceName" : "a",
       "type" : "NonConsumable"
     }

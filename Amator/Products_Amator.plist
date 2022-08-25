@@ -2,9 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>radio-amator.a</key>
+	<key>radio_amator.a</key>
 	<string></string>
-	<key>radio-amator.full</key>
+	<key>radio_amator.full</key>
 	<string></string>
 </dict>
 </plist>

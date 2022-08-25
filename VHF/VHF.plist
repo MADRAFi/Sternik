@@ -7,13 +7,13 @@
 	<key>About</key>
 	<string>Aplikacja zawiera zestaw pytań do egzaminów (świadectwo operatora łączności) organizowanych przez UKE</string>
 	<key>BuiltInProduct</key>
-	<string>radio-operator.src</string>
+	<string>radio_operator.src</string>
 	<key>BuiltInProductDescription</key>
 	<string>Zestaw pytań operatora SRC</string>
 	<key>BuiltInProductName</key>
 	<string>Pytania SRC</string>
 	<key>FullVersionProduct</key>
-	<string>radio-operator.full</string>
+	<string>radio_operator.full</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADIsAdManagerApp</key>
@@ -22,13 +22,13 @@
 	<string>Products_VHF</string>
 	<key>Questions_Files</key>
 	<dict>
-		<key>radio-operator.iwc</key>
-		<string>questions_iwc_test</string>
-		<key>radio-operator.lrc</key>
-		<string>questions_lrc_test</string>
-		<key>radio-operator.src</key>
+		<key>radio_operator.iwc</key>
+		<string>questions_iwc</string>
+		<key>radio_operator.lrc</key>
+		<string>questions_lrc</string>
+		<key>radio_operator.src</key>
 		<string>questions_src</string>
-		<key>radio-operator.vhf</key>
+		<key>radio_operator.vhf</key>
 		<string>questions_vhf</string>
 	</dict>
 	<key>SKAdNetworkItems</key>

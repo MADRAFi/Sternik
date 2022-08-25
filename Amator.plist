@@ -7,13 +7,13 @@
 	<key>About</key>
 	<string>Aplikacja zawiera zestaw pytań do egzaminów (świadectwo operatora łączności) organizowanych przez UKE</string>
 	<key>BuiltInProduct</key>
-	<string>radio-amator.c</string>
+	<string>radio_amator.c</string>
 	<key>BuiltInProductDescription</key>
 	<string>Zestaw pytań operatora klasy C</string>
 	<key>BuiltInProductName</key>
 	<string>Pytania klasy C</string>
 	<key>FullVersionProduct</key>
-	<string>radio-amator.full</string>
+	<string>radio_amator.full</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADIsAdManagerApp</key>
@@ -22,9 +22,9 @@
 	<string>Products_Amator</string>
 	<key>Questions_Files</key>
 	<dict>
-		<key>radio-amator.a</key>
+		<key>radio_amator.a</key>
 		<string>questions_a</string>
-		<key>radio-amator.c</key>
+		<key>radio_amator.c</key>
 		<string>questions_c</string>
 	</dict>
 	<key>SKAdNetworkItems</key>
