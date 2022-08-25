@@ -36,7 +36,7 @@ struct ModuleView: View {
                         VStack(alignment: .leading) {
 
                             HStack {
-                                Image("About")
+                                Image(builtInProduct!)
                                     .resizable()
                                     .scaledToFit()
                                     .cornerRadius(8)
