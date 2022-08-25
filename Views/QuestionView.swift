@@ -228,6 +228,7 @@ struct QuestionView: View {
                     }
                     Spacer()
                 }
+                .padding(.vertical ,8)
                 .lineLimit(nil)
                 .contentShape(Rectangle())
                 .onTapGesture {
@@ -262,6 +263,7 @@ struct QuestionView: View {
                     }
                     Spacer()
                 }
+                .padding(.vertical ,8)
                 .lineLimit(nil)
                 .contentShape(Rectangle())
                 .onTapGesture {
@@ -296,6 +298,7 @@ struct QuestionView: View {
                     }
                     Spacer()
                 }
+                .padding(.vertical ,8)
                 .lineLimit(nil)
                 .contentShape(Rectangle())
                 .onTapGesture {
@@ -321,7 +324,6 @@ struct QuestionView: View {
             questionTotal = self.calculateQuestionsTotal()
             if questionTotal == answersCorrect + answersWrong && showStats == true {
                 showStats = false
-                //                    self.presentationMode.wrappedValue.dismiss()
             } else {
                 startTime = .now
             }

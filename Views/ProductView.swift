@@ -25,16 +25,16 @@ struct ProductView: View {
         self.purchasingEnabled = purchasingEnabled
     }
     
-   
+    
     var body: some View {
         HStack {
             Image(product.id)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(8)
-                .frame(width: 80, height: 80)
+                .frame(width: 50, height: 50)
                 .padding(.vertical, 8)
-                .padding(.trailing)
+                .padding(.horizontal)
             if purchasingEnabled {
                 productDetail
                 Spacer()
@@ -69,29 +69,20 @@ struct ProductView: View {
             }
         }) {
             
-          if isPurchased {
-            Text(Image(systemName: "checkmark"))
-                .bold()
-                .foregroundColor(Color.primary)
-//                .clipShape(Capsule())
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-                .padding()
-                .background(Color("Positive"))
-//                .frame(maxWidth: .infinity)
-          }
+            if isPurchased {
+                ownedButton
+            }
             else {
                 Text(product.displayPrice)
                     .bold()
-                    .foregroundColor(Color.primary)
-//                    .clipShape(Capsule())
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     .padding()
                     .background(Color("AccentColor"))
-//                    .frame(maxWidth: .infinity)
+                    .foregroundColor(Color.primary)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
             }
-          
+            
         }
-
+        .frame(maxWidth: 100)
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .onAppear() {
             Task {

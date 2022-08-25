@@ -20,6 +20,28 @@ struct ModuleView: View {
     let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String
     let builtInProductDescription = Bundle.main.infoDictionary?["BuiltInProductDescription"] as? String
     
+    fileprivate func buitInProductView() -> some View {
+        return HStack {
+            Image(builtInProduct!)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(8)
+                .frame(width: 50, height: 50)
+                .padding(.vertical, 8)
+                .padding(.horizontal)
+            
+            VStack(alignment: .leading) {
+                Text(builtInProductName!)
+                    .bold()
+                Text(builtInProductDescription!)
+                    .font(.caption)
+            }
+            Spacer()
+            ownedButton
+            
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -35,37 +57,7 @@ struct ModuleView: View {
                     VStack {
                         VStack(alignment: .leading) {
 
-                            HStack {
-                                Image(builtInProduct!)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .cornerRadius(8)
-                                    .frame(width: 80, height: 80)
-                                    .padding(.vertical, 8)
-                                    .padding(.trailing)
-                                
-                                VStack(alignment: .leading) {
-                                    Text(builtInProductName!)
-                                        .bold()
-                                    Text(builtInProductDescription!)
-                                        .font(.caption)
-                                }
-                                Spacer()
-                                Button(action: {
-                                }) {
-                                    
-                                    Text(Image(systemName: "checkmark"))
-                                        .bold()
-                                        .foregroundColor(Color.primary)
-                                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                                        .padding()
-                                        .background(Color("Positive"))
-                                    
-                                }
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .disabled(true)
-                                
-                            }
+                            buitInProductView()
                             ForEach(store.products) { item in
                                 ProductView(product: item)
                                 
@@ -92,7 +84,7 @@ struct ModuleView: View {
                         }
                         Spacer()
                     }
-                    .padding()
+//                    .padding()
                     .navigationTitle("Moduły")
                     .navigationBarTitleDisplayMode(.large)
                 }
@@ -103,6 +95,19 @@ struct ModuleView: View {
     }
 }
 
+var ownedButton: some View {
+    Button(action: {}) {
+        Text(Image(systemName: "checkmark"))
+            .bold()
+            .padding()
+            .background(Color("Positive"))
+            .foregroundColor(Color.primary)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+    }
+    .frame(maxWidth: 100)
+    .clipShape(RoundedRectangle(cornerRadius: 10))
+    .disabled(true)
+}
 struct ModuleView_Previews: PreviewProvider {
     
     static var previews: some View {
