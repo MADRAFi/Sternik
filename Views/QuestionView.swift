@@ -30,6 +30,8 @@ struct QuestionView: View {
     @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+    
     func calculateQuestionsTotal() -> Int {
         // calculates total number of all questions in a set (all categories)
         
@@ -322,6 +324,9 @@ struct QuestionView: View {
                 //                    self.presentationMode.wrappedValue.dismiss()
             } else {
                 startTime = .now
+            }
+            if selectedModule.isEmpty {
+                selectedModule = builtInProduct!
             }
         }
         .onDisappear() {

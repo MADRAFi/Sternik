@@ -45,8 +45,11 @@ struct MainView: View {
         .environmentObject(store)
         .environmentObject(data)
         .onAppear() {
-            selectedModule = builtInProduct!
+            if selectedModule.isEmpty {
+                selectedModule = builtInProduct!
+            }
             data.load(module: selectedModule)
+            
         }
     }
 }

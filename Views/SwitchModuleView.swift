@@ -10,14 +10,13 @@ import StoreKit
 
 struct SwitchModuleView: View {
     
-    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
-    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
-    let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String
-    
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
+    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+    let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String
     
     var body: some View {
         VStack {
@@ -45,6 +44,11 @@ struct SwitchModuleView: View {
             
         }
         .padding()
+        .onAppear() {
+            if selectedModule.isEmpty {
+                selectedModule = builtInProduct!
+            }
+        }
     }
 }
 

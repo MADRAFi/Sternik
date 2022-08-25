@@ -76,6 +76,11 @@ struct CategoryView: View {
 
             }
             .navigationViewStyle(.stack)
+            .onAppear() {
+                if selectedModule.isEmpty {
+                    selectedModule = selectedModule
+                }
+            }
         
     }
 }
