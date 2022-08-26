@@ -23,7 +23,7 @@
                 "answer_1": "dla uzyskania porady medycznej",
                 "answer_2": "pomiędzy stacją statkową i stacją nadbrzeżną",
                 "answer_3": "do przekazywania ostrzeżeń",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 3,
@@ -33,7 +33,7 @@
                 "answer_1": "ruchu portowego",
                 "answer_2": "ruchu statków",
                 "answer_3": "służbową z telekomunikacyjną siecią lądową",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 4,
@@ -43,7 +43,7 @@
                 "answer_1": "prowadzenie łączności na miejscu akcji ratowniczej",
                 "answer_2": "przygotowanie służb uczestniczących w akcjach ppoż w porcie",
                 "answer_3": "kierowanie akcją SAR",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 6,
@@ -53,7 +53,7 @@
                 "answer_1": "3 ÷ 30 MHz",
                 "answer_2": "30 ÷ 300 MHz",
                 "answer_3": "10 ÷ 100 MHz",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 7,
@@ -63,7 +63,7 @@
                 "answer_1": "10 ÷ 30 MHz",
                 "answer_2": "300 ÷ 3000 kHz",
                 "answer_3": "156 ÷ 174 MHz",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 8,
@@ -73,7 +73,7 @@
                 "answer_1": "z modulacją fazy",
                 "answer_2": "amplitudowa",
                 "answer_3": "cyfrowa",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 9,
@@ -83,7 +83,7 @@
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
                 "answer_2": "obie stacje pracują simpleksem wykorzystując kanał dupleksowy",
                 "answer_3": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 10,
@@ -93,7 +93,7 @@
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
                 "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
                 "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 11,
@@ -103,7 +103,7 @@
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
                 "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
                 "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 12,
@@ -113,7 +113,7 @@
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
                 "answer_3": "tylko odbieramy na określonej częstotliwości",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 13,
@@ -123,7 +123,7 @@
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
                 "answer_3": "nadajemy i odbieramy na różnych częstotliwościach",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 14,
@@ -133,7 +133,7 @@
                 "answer_1": "dupleksowym",
                 "answer_2": "jednoczęstotliwościowym",
                 "answer_3": "semidupleksowym",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 15,
@@ -143,7 +143,7 @@
                 "answer_1": "dupleksowym",
                 "answer_2": "dwuczęstotliwościowym",
                 "answer_3": "simpleksowym",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 16,
@@ -153,7 +153,7 @@
                 "answer_1": "dupleksowym",
                 "answer_2": "jednoczęstotliwościowym",
                 "answer_3": "duosimpleksowym",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 17,
@@ -163,7 +163,7 @@
                 "answer_1": "dupleksowym",
                 "answer_2": "dwuczęstotliwościowym",
                 "answer_3": "simpleksowym",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 18,
@@ -173,7 +173,7 @@
                 "answer_1": "do łączności radiotelefonicznej",
                 "answer_2": "wyłącznie do wywołań DSC",
                 "answer_3": "do łączności radiotelefonicznej i wywołań DSC",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 19,
@@ -183,7 +183,7 @@
                 "answer_1": "66",
                 "answer_2": "6",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 20,
@@ -193,7 +193,7 @@
                 "answer_1": "15",
                 "answer_2": "27",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 21,
@@ -203,7 +203,7 @@
                 "answer_1": "numer seryjny radiotelefonu VHF",
                 "answer_2": "znak wywoławczy",
                 "answer_3": "nazwę armatora/właściciela",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 22,
@@ -213,7 +213,7 @@
                 "answer_1": "międzystatkowej",
                 "answer_2": "jedynie radiotelefonicznej wewnątrzstatkowej",
                 "answer_3": "DSC",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 23,
@@ -223,7 +223,7 @@
                 "answer_1": "radiotelefonicznej łączności międzystatkowej",
                 "answer_2": "radiotelefonicznej",
                 "answer_3": "EPIRB",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 24,
@@ -233,7 +233,7 @@
                 "answer_1": "przez właściciela jednostki",
                 "answer_2": "tylko do łączności bezpieczeństwa",
                 "answer_3": "przez administrację krajową z międzynarodowej serii znaków wywoławczych",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 25,
@@ -243,7 +243,7 @@
                 "answer_1": "13",
                 "answer_2": "16",
                 "answer_3": "6",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 26,
@@ -253,7 +253,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 27,
@@ -263,7 +263,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 28,
@@ -273,7 +273,7 @@
                 "answer_1": "pozycję jednostki",
                 "answer_2": "ostatni port zawinięcia",
                 "answer_3": "sygnał niebezpieczeństwa PAN PAN",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 29,
@@ -283,7 +283,7 @@
                 "answer_1": "13",
                 "answer_2": "26",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 30,
@@ -293,7 +293,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 31,
@@ -303,7 +303,7 @@
                 "answer_1": "osoba odpowiedzialna za jednostkę uzna dalszą pomoc za niezbędną",
                 "answer_2": "nakaże to osoba odpowiedzialna za jednostkę zagrożoną",
                 "answer_3": "nakaże to osoba odpowiedzialna za stację nadbrzeżną",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 32,
@@ -313,7 +313,7 @@
                 "answer_1": "MAYDAY",
                 "answer_2": "MAYDAY MAYDAY MAYDAY",
                 "answer_3": "MAYDAY RELAY MAYDAY RELAY MAYDAY RELAY",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 33,
@@ -323,7 +323,7 @@
                 "answer_1": "70",
                 "answer_2": "13",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 34,
@@ -333,7 +333,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "MAYDAY",
                 "answer_3": "MAYDAY MAYDAY MAYDAY",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 35,
@@ -343,7 +343,7 @@
                 "answer_1": "26",
                 "answer_2": "16",
                 "answer_3": "70",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 36,
@@ -353,7 +353,7 @@
                 "answer_1": "Ratowniczy Ośrodek Koordynacyjny (ROK)",
                 "answer_2": "wyłącznie stacja nadbrzeżna zaangażowana w akcję (CRS)",
                 "answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 37,
@@ -363,7 +363,7 @@
                 "answer_1": "Ratowniczy Ośrodek Koordynacyjny (ROK)",
                 "answer_2": "wyłącznie jednostka zagrożona",
                 "answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 38,
@@ -373,7 +373,7 @@
                 "answer_1": "tylko ROK",
                 "answer_2": "każda stacja statkowa i nadbrzeżna",
                 "answer_3": "kierownik na miejscu akcji ratunkowej (OSC)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 39,
@@ -383,7 +383,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "SEELONCE MAYDAY",
                 "answer_3": "MAYDAY",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 40,
@@ -393,7 +393,7 @@
                 "answer_1": "tylko ROK",
                 "answer_2": "każda stacja statkowa i nadbrzeżna",
                 "answer_3": "jednostka koordynująca SAR",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 41,
@@ -403,7 +403,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "SEELONCE MAYDAY",
                 "answer_3": "SEELONCE FEENEE",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 42,
@@ -413,7 +413,7 @@
                 "answer_1": "porady i pomocy medycznej",
                 "answer_2": "jedynie pomocy medycznej",
                 "answer_3": "ostrzeżeń meteorologicznych",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 43,
@@ -423,7 +423,7 @@
                 "answer_1": "rutynową",
                 "answer_2": "Distress",
                 "answer_3": "pilną",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 44,
@@ -433,7 +433,7 @@
                 "answer_1": "rutynową",
                 "answer_2": "pilną",
                 "answer_3": "distress",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 45,
@@ -443,7 +443,7 @@
                 "answer_1": "URGENCY",
                 "answer_2": "PAN PAN",
                 "answer_3": "DISTRESS",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 46,
@@ -453,7 +453,7 @@
                 "answer_1": "wypadnięcia człowieka za burtę",
                 "answer_2": "uzyskania porady medycznej",
                 "answer_3": "uzyskania ostrzeżenia",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 47,
@@ -463,7 +463,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 48,
@@ -473,7 +473,7 @@
                 "answer_1": "12",
                 "answer_2": "6",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 49,
@@ -483,7 +483,7 @@
                 "answer_1": "wypadnięcia człowieka za burtę",
                 "answer_2": "uzyskania porady medycznej",
                 "answer_3": "nadania ostrzeżenia",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 50,
@@ -493,7 +493,7 @@
                 "answer_1": "nadania porady medycznej",
                 "answer_2": "odbioru ostrzeżeń pogodowych",
                 "answer_3": "nadania alarmowania",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 51,
@@ -503,7 +503,7 @@
                 "answer_1": "URGENCY",
                 "answer_2": "PAN PAN",
                 "answer_3": "SECURITE",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 52,
@@ -513,7 +513,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 53,
@@ -523,7 +523,7 @@
                 "answer_1": "12",
                 "answer_2": "6",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 54,
@@ -533,7 +533,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla zwykłej łączności publicznej",
                 "answer_3": "bezpieczeństwa",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 55,
@@ -543,7 +543,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla zwykłej łączności publicznej",
                 "answer_3": "bezpieczeństwa",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 56,
@@ -553,7 +553,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 57,
@@ -563,7 +563,7 @@
                 "answer_1": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności w niebezpieczeństwie",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 58,
@@ -573,7 +573,7 @@
                 "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "wyłącznie do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 59,
@@ -583,7 +583,7 @@
                 "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności SAR z samolotami",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 60,
@@ -593,7 +593,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 61,
@@ -603,7 +603,7 @@
                 "answer_1": "można wykorzystywać tylko do łączności związanej z bezpieczeństwem żeglugi",
                 "answer_2": "są zabronione na Bałtyku",
                 "answer_3": "nie są zabronione na wodach Unii Europejskiej",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 62,
@@ -613,7 +613,7 @@
                 "answer_1": "stacji nadbrzeżnej",
                 "answer_2": "najbliższej stacji statkowej",
                 "answer_3": "wszystkich stacji",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 63,
@@ -623,7 +623,7 @@
                 "answer_1": "pozycję jednostki, rodzaj odwoływanego alarmowania, godzinę nadania i odwołania fałszywego alarmowania",
                 "answer_2": "rodzaj odwoływanego alarmowania, godzinę nadania i ostatni port postoju jednostki",
                 "answer_3": "tylko godzinę nadania fałszywego alarmowania i ostatni port postoju jednostki",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 64,
@@ -633,7 +633,7 @@
                 "answer_1": "comiesięcznego testu „wewnętrznego” (bez nadawania)",
                 "answer_2": "comiesięcznej próby z nadaniem sygnału alarmowego",
                 "answer_3": "corocznego testu „wewnętrznego”",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 65,
@@ -643,7 +643,7 @@
                 "answer_1": "70",
                 "answer_2": "67",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 66,
@@ -653,7 +653,7 @@
                 "answer_1": "zawsze powinna podać kanał roboczy",
                 "answer_2": "nie powinna podawać kanału roboczego",
                 "answer_3": "może podać kanał roboczy",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 68,
@@ -663,7 +663,7 @@
                 "answer_1": "powinna podać kanał roboczy",
                 "answer_2": "nie powinna podawać kanału roboczego",
                 "answer_3": "może podać kanał roboczy",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 69,
@@ -673,7 +673,7 @@
                 "answer_1": "stacja wywołująca",
                 "answer_2": "zawsze stacja wywoływana",
                 "answer_3": "stacja, która pierwsza przejdzie na kanał roboczy",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 71,
@@ -683,7 +683,7 @@
                 "answer_1": "15",
                 "answer_2": "70",
                 "answer_3": "16",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 72,
@@ -693,7 +693,7 @@
                 "answer_1": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /2x",
                 "answer_2": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /3x",
                 "answer_3": "nazwa stacji wywoływanej /2x Tu nazwa stacji wywołującej /2x",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 73,
@@ -703,7 +703,7 @@
                 "answer_1": "nazwa stacji wywołującej /1x Tu nazwa stacji wywoływanej /2x",
                 "answer_2": "nazwa stacji wywoływanej /4x Tu nazwa stacji wywołującej /4x",
                 "answer_3": "nazwa stacji wywołującej /2x Tu nazwa stacji wywoływanej /2x",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 74,
@@ -713,7 +713,7 @@
                 "answer_1": "1 minuty",
                 "answer_2": "2 minut",
                 "answer_3": "3 minut",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 75,
@@ -723,7 +723,7 @@
                 "answer_1": "w niebezpieczeństwie",
                 "answer_2": "bezpieczeństwa",
                 "answer_3": "ogólnej",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 76,
@@ -733,7 +733,7 @@
                 "answer_1": "w niebezpieczeństwie",
                 "answer_2": "bezpieczeństwa",
                 "answer_3": "ogólnej",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 77,
@@ -743,7 +743,7 @@
                 "answer_1": "16",
                 "answer_2": "70",
                 "answer_3": "6",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 78,
@@ -753,7 +753,7 @@
                 "answer_1": "stacja statkowa",
                 "answer_2": "stacja wywoływana",
                 "answer_3": "stacja nadbrzeżna",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 79,
@@ -763,7 +763,7 @@
                 "answer_1": "stację statkową",
                 "answer_2": "stację nadbrzeżną",
                 "answer_3": "stację pilotową",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 80,
@@ -773,7 +773,7 @@
                 "answer_1": "3 minutach",
                 "answer_2": "5 minutach",
                 "answer_3": "2 minutach",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 81,
@@ -783,7 +783,7 @@
                 "answer_1": "bezpośrednio przez telekomunikacyjną sieć lądową",
                 "answer_2": "za pośrednictwem innej, większej stacji statkowej",
                 "answer_3": "za pośrednictwem stacji nadbrzeżnej",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 82,
@@ -793,7 +793,7 @@
                 "answer_1": "16",
                 "answer_2": "13",
                 "answer_3": "wskazanym przez stację nadbrzeżną",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 83,
@@ -803,7 +803,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "SECURITE",
                 "answer_3": "ODBIÓR",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 84,
@@ -813,7 +813,7 @@
                 "answer_1": "KONIEC",
                 "answer_2": "SECURITE",
                 "answer_3": "BEZ ODBIORU",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 85,
@@ -823,7 +823,7 @@
                 "answer_1": "nazwa stacji wywoływanej /4x Tu nazwa stacji wywołującej /4x",
                 "answer_2": "nazwa stacji wywoływanej /1x Tu nazwa stacji wywołującej /1x",
                 "answer_3": "nazwa stacji wywoływanej /2x Tu nazwa stacji wywołującej /2x",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 86,
@@ -833,7 +833,7 @@
                 "answer_1": "QRJ",
                 "answer_2": "QTH",
                 "answer_3": "QRC",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 87,
@@ -843,7 +843,7 @@
                 "answer_1": "QRJ",
                 "answer_2": "AAIC",
                 "answer_3": "QTH",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 88,
@@ -853,7 +853,7 @@
                 "answer_1": "stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
                 "answer_2": "portowych stacjach ppoż",
                 "answer_3": "stacjach statkowych",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 89,
@@ -863,7 +863,7 @@
                 "answer_1": "PRS",
                 "answer_2": "ITU",
                 "answer_3": "Urząd Komunikacji Elektronicznej (UKE)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 90,
@@ -873,7 +873,7 @@
                 "answer_1": "okres 1 roku",
                 "answer_2": "czas określony w „Pozwoleniu…”",
                 "answer_3": "czas nieokreślony",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 91,
@@ -883,7 +883,7 @@
                 "answer_1": "przepisami PRS",
                 "answer_2": "postanowieniami Regulaminu Radiokomunikacyjnego",
                 "answer_3": "prawidłami Konwencji SOLAS",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 92,
@@ -893,7 +893,7 @@
                 "answer_1": "PRS",
                 "answer_2": "ITU",
                 "answer_3": "Urząd Morski (UM)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 93,
@@ -903,7 +903,7 @@
                 "answer_1": "VHF, MF i HF",
                 "answer_2": "tylko VHF",
                 "answer_3": "tylko MF",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 94,
@@ -913,7 +913,7 @@
                 "answer_1": "radiotelefonicznych VHF, MF i HF",
                 "answer_2": "tylko radiotelefonicznych VHF",
                 "answer_3": "radiotelefonicznych i DSC VHF",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 95,
@@ -923,7 +923,7 @@
                 "answer_1": "przynajmniej raz dziennie pozycję jednostki",
                 "answer_2": "liczbę członków załogi",
                 "answer_3": "mijane jednostki",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 96,
@@ -933,7 +933,7 @@
                 "answer_1": "komercyjną stacją statkową",
                 "answer_2": "usługową stacją statkową",
                 "answer_3": "stacją statkową otwartą dla korespondencji publicznej",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 97,
@@ -943,7 +943,7 @@
                 "answer_1": "bezpośrednio właściciela jednostki",
                 "answer_2": "QRC",
                 "answer_3": "RCC",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 98,
@@ -953,7 +953,7 @@
                 "answer_1": "pilotową (PC)",
                 "answer_2": "nadbrzeżną (CC) i lądową (LL)",
                 "answer_3": "portową (CP)",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 99,
@@ -963,7 +963,7 @@
                 "answer_1": "czasu trwania rozmowy",
                 "answer_2": "QRC",
                 "answer_3": "rodzaju jednostki",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 100,
@@ -973,7 +973,7 @@
                 "answer_1": "tylko informacja wychodząca ze stacji nie może trafić do osób trzecich",
                 "answer_2": "tylko informacja przychodząca do stacji nie może trafić do osób trzecich",
                 "answer_3": "informacja przychodząca i wychodząca ze stacji nie może trafić do osób trzecich",
-                "correct": 0
+                "correct": 3
             }
         ]
     },
@@ -990,7 +990,7 @@
                 "answer_1": "nieprzerwaną pracę radioławy przez 96 godzin",
                 "answer_2": "nieprzerwaną pracę radioławy przez 48 godzin",
                 "answer_3": "nieprzerwaną pracę radioławy do momentu wykrycia przez jednostki SAR",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 102,
@@ -1000,7 +1000,7 @@
                 "answer_1": "końcowego naprowadzania jednostek SAR na rozbitków (na radiopławę)",
                 "answer_2": "do lokalizacji położenia radiopław w dowolnym rejonie globu",
                 "answer_3": "do lokalizacji położenia radiopław w obszarze pokrycia satelitów geostacjonarnych",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 103,
@@ -1010,7 +1010,7 @@
                 "answer_1": "około 5 km w przypadku wykorzystania sygnałów o częstotliwości 406MHz",
                 "answer_2": "około 1 km w przypadku wykorzystania sygnałów o częstotliwości 406 MHz i 121,5 MHz",
                 "answer_3": "około 100 m w przypadku gdy radiopława ma wbudowany odbiornik GPS",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 104,
@@ -1020,7 +1020,7 @@
                 "answer_1": "zasięg wykrywania radiopław 121,5 MHz jest globalny",
                 "answer_2": "częstotliwość 121,5 MHz jest śledzona przez satelity geostacjonarne",
                 "answer_3": "częstotliwość 121,5 MHz służy do wykrywania radiopław przez lotnicze i morskie jednostki SAR",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 105,
@@ -1030,7 +1030,7 @@
                 "answer_1": "sygnału wywoławczego (call sign)",
                 "answer_2": "MID (Maritime Identification Digits) - kodu kraju",
                 "answer_3": "oznaczenia armatora",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 106,
@@ -1040,7 +1040,7 @@
                 "answer_1": "mieć wbudowany odbiornik GPS",
                 "answer_2": "mieć wbudowane źródło światła błyskowego",
                 "answer_3": "mieć wbudowane źródło światła ciagłego",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 107,
@@ -1050,7 +1050,7 @@
                 "answer_1": "ręcznie przez operatora",
                 "answer_2": "przez wpisanie właściwego kodu",
                 "answer_3": "zdalnie z RCC",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 108,
@@ -1060,7 +1060,7 @@
                 "answer_1": "około 5 minut jeżeli radiopława znajduje się w zasięgu satelitów geostacjonarnych",
                 "answer_2": "około 15 minut jeżeli radiopława została uruchomiona w dzień",
                 "answer_3": "około 25 minut jeżeli radiopława została uruchomiona w nocy",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 109,
@@ -1070,7 +1070,7 @@
                 "answer_1": "zgłosić się do lokalnego oddziału Urzędu Komunikacji Elektronicznej",
                 "answer_2": "zgłosić się do właściwego terytorialnie Urzędu Morskiego",
                 "answer_3": "zgłosić się do MRCC Gdynia",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 110,
@@ -1080,7 +1080,7 @@
                 "answer_1": "określa pozycję radiopławy i przekazuje tę informację do RCC",
                 "answer_2": "określa pozycję radiopławy i przekazuje tę informację do LUT",
                 "answer_3": "retransmituje odebrane z radiopławy sygnały do stacji LUT",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 111,
@@ -1090,7 +1090,7 @@
                 "answer_1": "tylko w przypadku, gdy satelita widzi jednocześnie radiopławę i stację LUT",
                 "answer_2": "zawsze",
                 "answer_3": "w przypadku, gdy satelita widzi jednocześnie radiopławę i stację GEOLUT",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 112,
@@ -1100,7 +1100,7 @@
                 "answer_1": "wykonaniu raz w miesiącu testu zgodnie z instrukcją na obudowie radiopławy",
                 "answer_2": "ręcznym uruchomieniu radiopławy i sprawdzeniu czy zareagowały RCC",
                 "answer_3": "wrzuceniu radiopławy do wody i sprawdzeniu czy zacznie działać światło błyskowe",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 113,
@@ -1110,7 +1110,7 @@
                 "answer_1": "przez wszystkie statki wyposażone w VHF DSC jeżeli radiopława znajdzie się w zasięgu ich odbioru",
                 "answer_2": "przez wszystkie RCC",
                 "answer_3": "przez jednostki SAR",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 114,
@@ -1120,7 +1120,7 @@
                 "answer_1": "namiarom radiowym dokonywanym przez jednostki SAR na częstotliwości kanału 70",
                 "answer_2": "wbudowanemu w radiopławę transponderowi radarowemu (SART)",
                 "answer_3": "nadawaniu przez radiopławę sygnału na częstotliwości kanału 16",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 115,
@@ -1130,7 +1130,7 @@
                 "answer_1": "natychmiast wyłączyć radiopławę",
                 "answer_2": "natychmiast wyłączyć radiopławę i powiadomić o zaistniałym fakcie najbliższe RCC",
                 "answer_3": "wyłączyć radiopławę i czekać na rozwój sytuacji",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 116,
@@ -1140,7 +1140,7 @@
                 "answer_1": "lokalizacji rozbitków na miejscu katastrofy",
                 "answer_2": "szybkiego powiadamiania RCC o katastrofie",
                 "answer_3": "wykrywania jednostek znajdujących się w pobliżu",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 117,
@@ -1150,7 +1150,7 @@
                 "answer_1": "w paśmie S",
                 "answer_2": "w paśmie X",
                 "answer_3": "pracującymi w paśmie 3 GHz",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 118,
@@ -1160,7 +1160,7 @@
                 "answer_1": "natychmiast po włączeniu",
                 "answer_2": "po włączeniu i pobudzeniu przez radar pracujący w paśmie 9 GHz",
                 "answer_3": "po zanurzeniu w wodzie morskiej",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 119,
@@ -1170,7 +1170,7 @@
                 "answer_1": "wysokości umieszczenia transpondera na tratwie ratunkowej",
                 "answer_2": "od tego czy nadaje w paśmie X czy S",
                 "answer_3": "od temperatury otoczenia",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 120,
@@ -1180,7 +1180,7 @@
                 "answer_1": "minimum 96 godz w stanie gotowości plus 8 godz nadawania",
                 "answer_2": "minimum 48 godz w stanie gotowości plus 8 godz nadawania",
                 "answer_3": "minimum 24 godz w stanie gotowości plus 8 godz nadawania",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 121,
@@ -1190,7 +1190,7 @@
                 "answer_1": "codziennie",
                 "answer_2": "raz na miesiąc",
                 "answer_3": "raz na rok",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 122,
@@ -1200,7 +1200,7 @@
                 "answer_1": "jasnego kółka w pozycji transpondera",
                 "answer_2": "serii równo oddalonych od siebie kropek",
                 "answer_3": "jasnego trójkąta w pozycji transpondera",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 123,
@@ -1210,7 +1210,7 @@
                 "answer_1": "na stałej częstotliwości 9,5 GHz",
                 "answer_2": "w paśmie 9,2 – 9,5 GHz",
                 "answer_3": "w paśmie 9,0 – 9,4 GHz",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 124,
@@ -1220,7 +1220,7 @@
                 "answer_1": "w postaci łuków przy odległości do rozbitków poniżej 1 mili",
                 "answer_2": "w postaci łuków przy odległości do rozbitków poniżej 3 mil",
                 "answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 5 mil",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 125,
@@ -1230,7 +1230,7 @@
                 "answer_1": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 1 mili",
                 "answer_2": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 0,1 mili",
                 "answer_3": "w postaci koncentrycznych okręgów przy odległości do rozbitków poniżej 1,5 mili",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 126,
@@ -1240,7 +1240,7 @@
                 "answer_1": "najdalsza kropka",
                 "answer_2": "najbliższy łuk",
                 "answer_3": "najdalszy łuk",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 127,
@@ -1250,7 +1250,7 @@
                 "answer_1": "najdalsza kropka",
                 "answer_2": "najdalszy łuk",
                 "answer_3": "najbliższa kropka",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 128,
@@ -1260,7 +1260,7 @@
                 "answer_1": "aby uzyskać większą odległość wykrywania",
                 "answer_2": "ponieważ trudno jest utrzymać stałą częstotliwość",
                 "answer_3": "by umożliwić współpracę z wszystkimi radarami w paśmie X",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 129,
@@ -1270,7 +1270,7 @@
                 "answer_1": "przez sygnalizację świetlną lub akustyczną na transponderze",
                 "answer_2": "ponieważ zostaną powiadomieni przez przenośny radiotelefon VHF",
                 "answer_3": "nie wiedzą czy zostali wykryci",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 130,
@@ -1280,7 +1280,7 @@
                 "answer_1": "podgrzanie transpondera własnym ciałem",
                 "answer_2": "umieszczenie go jak najwyżej",
                 "answer_3": "załączanie transpondera w cyklu minuta pracy, minuta przerwy 31",
-                "correct": 0
+                "correct": 2
             },
             {               "question_id": 131,
                 "question": "W radiotelefonii używana jest fala nośna:",
@@ -1289,7 +1289,7 @@
                 "answer_1": "prostokątna",
                 "answer_2": "trójkątna",
                 "answer_3": "sinusoidalna",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 132,
@@ -1299,7 +1299,7 @@
                 "answer_1": "maksymalna wartość napięcia wyrażona w woltach",
                 "answer_2": "skuteczna wartość napięcia wyrażona w woltach",
                 "answer_3": "średnia wartość napięcia wyrażona w woltach",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 133,
@@ -1309,7 +1309,7 @@
                 "answer_1": "amplitudy",
                 "answer_2": "fazy",
                 "answer_3": "długości",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 134,
@@ -1319,7 +1319,7 @@
                 "answer_1": "około 20 metrów",
                 "answer_2": "około 15 metrów",
                 "answer_3": "około 2 metrów",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 135,
@@ -1329,7 +1329,7 @@
                 "answer_1": "150 MHz",
                 "answer_2": "1500 MHz",
                 "answer_3": "1500 kHz",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 136,
@@ -1339,7 +1339,7 @@
                 "answer_1": "pośrednie",
                 "answer_2": "średnie",
                 "answer_3": "ultrakrótkie",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 137,
@@ -1349,7 +1349,7 @@
                 "answer_1": "300 000 km/sec",
                 "answer_2": "300 000 m/sec",
                 "answer_3": "300 000 km/godz",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 138,
@@ -1359,7 +1359,7 @@
                 "answer_1": "tylko częstotliwości",
                 "answer_2": "tylko fazy",
                 "answer_3": "częstotliwości lub fazy",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 139,
@@ -1369,7 +1369,7 @@
                 "answer_1": "200 W",
                 "answer_2": "5W",
                 "answer_3": "25 W",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 140,
@@ -1379,7 +1379,7 @@
                 "answer_1": "słyszalność dalekich stacji",
                 "answer_2": "poziom szumów",
                 "answer_3": "jego zasięg",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 141,
@@ -1389,7 +1389,7 @@
                 "answer_1": "jednoczesny nasłuch dwóch dowolnych kanałów",
                 "answer_2": "jednoczesny nasłuch kanału 16 i 70",
                 "answer_3": "jednoczesny nasłuch kanału 16 i dowolnego roboczego",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 142,
@@ -1399,7 +1399,7 @@
                 "answer_1": "zmienia moc nadawania we wszystkich kanałach",
                 "answer_2": "zmienia niektóre kanały z simpleksowych na dupleksowe",
                 "answer_3": "C zmienia niektóre kanały z dupleksowych na simpleksowe",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 143,
@@ -1409,7 +1409,7 @@
                 "answer_1": "156 – 174 MHz",
                 "answer_2": "121,5 – 156 MHz",
                 "answer_3": "156 – 162 kHz",
-                "correct": 0
+                "correct": 1
             },
             
             
@@ -1422,7 +1422,7 @@
                 "answer_1": "mocy nadajnika",
                 "answer_2": "częstotliwości nadajnika",
                 "answer_3": "amplitudy napięcia",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 145,
@@ -1432,7 +1432,7 @@
                 "answer_1": "zmianę wzmocnienia wzmacniacza akustycznego",
                 "answer_2": "zastosowanie blokady szumów",
                 "answer_3": "zmianę wzmocnienia wzmacniacza pośredniej częstotliwości",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 146,
@@ -1442,7 +1442,7 @@
                 "answer_1": "kwas siarkowy",
                 "answer_2": "wodny roztwór kwasu siarkowego",
                 "answer_3": "wodny roztwór kwasu solnego",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 147,
@@ -1452,7 +1452,7 @@
                 "answer_1": "wodór",
                 "answer_2": "chlor",
                 "answer_3": "azot",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 148,
@@ -1462,7 +1462,7 @@
                 "answer_1": "akumulator jest całkowicie rozładowany",
                 "answer_2": "akumulator jest częściowo rozładowany",
                 "answer_3": "akumulator jest naładowany",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 149,
@@ -1472,7 +1472,7 @@
                 "answer_1": "1,75 V/ogniwo",
                 "answer_2": "1,95 V/ogniwo",
                 "answer_3": "1,6 V/ogniwo",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 150,
@@ -1482,7 +1482,7 @@
                 "answer_1": "nie wolno ładować akumulatora przez czas dłuższy niż 10 godzin",
                 "answer_2": "akumulator powinien być ładowany prądem wynoszącym 0,1 Q przez 10 godzin (Q – pojemność znamionowa akumulatora)",
                 "answer_3": "co 10 godzin należy robić przerwy w ładowaniu akumulatora",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 151,
@@ -1492,7 +1492,7 @@
                 "answer_1": "1,0 Q (Q – pojemność znamionowa akumulatora)",
                 "answer_2": "0,8 Q (Q – pojemność znamionowa akumulatora)",
                 "answer_3": "0,5 Q (Q – pojemność znamionowa akumulatora)",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 152,
@@ -1502,7 +1502,7 @@
                 "answer_1": "nie zmienia się",
                 "answer_2": "spada o 0,5-1,0 % na stopień C",
                 "answer_3": "wzrasta o około 1 % na stopień C",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 153,
@@ -1512,7 +1512,7 @@
                 "answer_1": "naładowanym",
                 "answer_2": "całkowicie rozładowanym",
                 "answer_3": "naładowanym do 50 % pojemności znamionowej",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 154,
@@ -1522,7 +1522,7 @@
                 "answer_1": "kwasu siarkowego",
                 "answer_2": "wody destylowanej",
                 "answer_3": "wody",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 155,
@@ -1532,7 +1532,7 @@
                 "answer_1": "niski poziom elektrolitu",
                 "answer_2": "silne grzanie elektrolitu w trakcie ładowania",
                 "answer_3": "nalot na zaciskach akumulatora",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 156,
@@ -1542,7 +1542,7 @@
                 "answer_1": "1,2 V / ogniwo",
                 "answer_2": "1,05 V / ogniwo",
                 "answer_3": "1,85 V / ogniwo",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 157,
@@ -1552,7 +1552,7 @@
                 "answer_1": "2,3 V / ogniwo",
                 "answer_2": "1,8 V / ogniwo",
                 "answer_3": "1,9 V / ogniwo",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 158,
@@ -1562,7 +1562,7 @@
                 "answer_1": "0,1 Q (Q – pojemność znamionowa akumulatora)",
                 "answer_2": "0,5 Q (Q – pojemność znamionowa akumulatora)",
                 "answer_3": "0,25 Q (Q – pojemność znamionowa akumulatora)",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 159,
@@ -1572,7 +1572,7 @@
                 "answer_1": "sezon",
                 "answer_2": "rok",
                 "answer_3": "2-3 lata",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 160,
@@ -1582,7 +1582,7 @@
                 "answer_1": "wyższą rezystancją wewnętrzną niż akumulatory zasadowe",
                 "answer_2": "wyższą sprawnością energetyczną niż akumulatory zasadowe",
                 "answer_3": "są mniej wrażliwe na niewłaściwą eksploatację niż akumulatory zasadowe",
-                "correct": 0
+                "correct": 2
             },
             {
                 "question_id": 161,
@@ -1592,7 +1592,7 @@
                 "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 8 godzin pracy radiotelefonu z pełną mocą w cyklu pracy 1:9 (6 sekund nadawanie, 6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
                 "answer_2": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy radiotelefonu z pełną mocą w cyklu pracy 1:9 (6 sekund nadawanie, 6 sekund odbiór bez blokady szumów, 48 sekund odbiór z blokada szumów)",
                 "answer_3": "powinny posiadać pojemność zapewniającą co najmniej 8 godzin pracy radiotelefonu z pełną mocą",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 162,
@@ -1602,7 +1602,7 @@
                 "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy w stanie czuwania i następnie umożliwiać nadawanie sygnałów przez 8 godzin",
                 "answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy",
                 "answer_3": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy w stanie czuwania i następnie umożliwiać nadawanie sygnałów przez 8 godzin",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 163,
@@ -1612,7 +1612,7 @@
                 "answer_1": "powinny posiadać pojemność zapewniającą co najmniej 48 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
                 "answer_2": "powinny posiadać pojemność zapewniającą co najmniej 96 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
                 "answer_3": "powinny posiadać pojemność zapewniającą co najmniej 12 godzin pracy, w tym nadawania sygnałów do lokalizacji i zasilanie światła błyskowego",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 164,
@@ -1622,7 +1622,7 @@
                 "answer_1": "f = c · λ",
                 "answer_2": "f = λ / c",
                 "answer_3": "f = c / λ",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 165,
@@ -1632,7 +1632,7 @@
                 "answer_1": "340 m/s",
                 "answer_2": "300 km/s",
                 "answer_3": "300 000 000 m/s",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 166,
@@ -1642,7 +1642,7 @@
                 "answer_1": "od wysokości anteny nadawczej i odbiorczej",
                 "answer_2": "od pory doby",
                 "answer_3": "od szerokości geograficznej",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 167,
@@ -1652,7 +1652,7 @@
                 "answer_1": "zmianę charakterystyki promieniowania anteny",
                 "answer_2": "uszkodzenie anteny",
                 "answer_3": "zmianę polaryzacji promieniowanej fali",
-                "correct": 0
+                "correct": 1
             },
             {
                 "question_id": 168,
@@ -1662,7 +1662,7 @@
                 "answer_1": "4-6 metrowe anteny prętowe (pionowe)",
                 "answer_2": "anteny linkowe typu „Γ” lub „Τ”",
                 "answer_3": "anteny w postaci kilku lub kilkunastometrowego masztu",
-                "correct": 0
+                "correct": 1
             }
         ]
     },
