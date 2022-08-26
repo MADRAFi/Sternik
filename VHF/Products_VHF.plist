@@ -4,6 +4,8 @@
 <dict>
 	<key>radio_operator.vhf</key>
 	<string></string>
+	<key>radio_operator.iwc</key>
+	<string></string>
 	<key>radio_operator.full</key>
 	<string></string>
 </dict>
