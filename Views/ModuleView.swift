@@ -26,7 +26,7 @@ struct ModuleView: View {
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(8)
-                .frame(width: 50, height: 50)
+                .frame(width: 80, height: 80)
                 .padding(.vertical, 8)
                 .padding(.horizontal)
             

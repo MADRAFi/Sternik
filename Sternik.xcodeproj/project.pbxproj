@@ -22,7 +22,6 @@
 		800B6EF528B77DF000FA583B /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		800B6EF628B77DF000FA583B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		800B6EF828B77DF000FA583B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 800B6EE728B77DF000FA583B /* GoogleMobileAds */; };
-		800B6F0928B7877B00FA583B /* questions_c.json in Resources */ = {isa = PBXBuildFile; fileRef = 800B6F0828B7877B00FA583B /* questions_c.json */; };
 		800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE328B77DAC00FA583B /* Amator.xcassets */; };
 		800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE428B77DAC00FA583B /* Products_Amator.plist */; };
 		800B6F0D28B787B000FA583B /* Configuration_Amator.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */; };
@@ -72,7 +71,6 @@
 		800B6EE328B77DAC00FA583B /* Amator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Amator.xcassets; sourceTree = "<group>"; };
 		800B6EE428B77DAC00FA583B /* Products_Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Amator.plist; sourceTree = "<group>"; };
 		800B6F0528B77DF100FA583B /* Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Amator.plist; path = /Users/madrafi/Documents/Swift/Sternik/Amator.plist; sourceTree = "<absolute>"; };
-		800B6F0828B7877B00FA583B /* questions_c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_c.json; sourceTree = "<group>"; };
 		800B6F0E28B795B600FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Amator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		800B6F0F28B795C500FA583B /* Radio Operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		800B6F1128B7B94F00FA583B /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +133,6 @@
 		800B6EE028B77D7600FA583B /* Amator */ = {
 			isa = PBXGroup;
 			children = (
-				800B6F0828B7877B00FA583B /* questions_c.json */,
 				800B6EE328B77DAC00FA583B /* Amator.xcassets */,
 				800B6F0528B77DF100FA583B /* Amator.plist */,
 				800B6EE428B77DAC00FA583B /* Products_Amator.plist */,
@@ -317,7 +314,6 @@
 				800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */,
 				800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */,
 				800B6F0D28B787B000FA583B /* Configuration_Amator.storekit in Resources */,
-				800B6F0928B7877B00FA583B /* questions_c.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
