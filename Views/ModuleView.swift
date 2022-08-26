@@ -23,10 +23,10 @@ struct ModuleView: View {
     fileprivate func buitInProductView() -> some View {
         return HStack {
             Image(builtInProduct!)
-                .resizable()
-                .scaledToFit()
+//                .resizable()
+//                .scaledToFit()
                 .cornerRadius(8)
-                .frame(width: 80, height: 80)
+//                .frame(width: 80, height: 80)
                 .padding(.vertical, 8)
                 .padding(.horizontal)
             
@@ -64,24 +64,24 @@ struct ModuleView: View {
                             }
 
                         }
-                        VStack(alignment: .trailing) {
-                            Spacer()
-                            Button(action: {
-                                Task {
-                                    try? await AppStore.sync()
-                                }
-                            }) {
-                                HStack(alignment: .center ) {
-                                    Text("Przywróć zakupy")
-                                        .padding()
-                                }
-                                
-                            }
-                            .background(Color("AccentColor"))
-                            .foregroundColor(Color.primary)
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
-                            
-                        }
+//                        VStack(alignment: .trailing) {
+//                            Spacer()
+//                            Button(action: {
+//                                Task {
+//                                    try? await AppStore.sync()
+//                                }
+//                            }) {
+//                                HStack(alignment: .center ) {
+//                                    Text("Przywróć zakupy")
+//                                        .padding()
+//                                }
+//                                
+//                            }
+//                            .background(Color("AccentColor"))
+//                            .foregroundColor(Color.primary)
+//                            .clipShape(RoundedRectangle(cornerRadius: 10))
+//                            
+//                        }
                         Spacer()
                     }
 //                    .padding()
@@ -104,7 +104,9 @@ var ownedButton: some View {
             .foregroundColor(Color.primary)
             .clipShape(RoundedRectangle(cornerRadius: 10))
     }
-    .frame(maxWidth: 100)
+    .padding(.vertical, 8)
+    .padding(.horizontal)
+//    .frame(maxWidth: 100)
     .clipShape(RoundedRectangle(cornerRadius: 10))
     .disabled(true)
 }

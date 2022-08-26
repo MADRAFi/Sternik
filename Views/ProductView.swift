@@ -29,10 +29,10 @@ struct ProductView: View {
     var body: some View {
         HStack {
             Image(product.id)
-                .resizable()
-                .scaledToFit()
+//                .resizable()
+//                .scaledToFit()
                 .cornerRadius(8)
-                .frame(width: 80, height: 80)
+//                .frame(width: 80, height: 80)
                 .padding(.vertical, 8)
                 .padding(.horizontal)
             if purchasingEnabled {
@@ -71,6 +71,7 @@ struct ProductView: View {
             
             if isPurchased {
                 ownedButton
+                
             }
             else {
                 Text(product.displayPrice)
@@ -82,7 +83,7 @@ struct ProductView: View {
             }
             
         }
-        .frame(maxWidth: 100)
+//        .frame(maxWidth: 100)
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .onAppear() {
             Task {
