@@ -32,7 +32,7 @@
                 "answer_1": "tylko kontroli ruchu portowego",
                 "answer_2": "tylko ruchu statków",
                 "answer_3": "publiczną statek-ląd, ląd-statek",
-                "correct": 0
+                "correct": 3
             },
             {
                 "question_id": 4,
@@ -42,7 +42,7 @@
                 "answer_1": "prowadzenie łączności na miejscu akcji ratowniczej",
                 "answer_2": "przygotowanie służb uczestniczących w akcjach SAR",
                 "answer_3": "kierowanie akcją ppoż. w porcie.",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 5,
@@ -102,7 +102,7 @@
                 "answer_1": "4 ÷ 27,5 MHz",
                 "answer_2": "300 ÷ 3000 kHz",
                 "answer_3": "6 ÷ 30 MHz",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 11,
@@ -122,7 +122,7 @@
                 "answer_1": "1,5 kHz",
                 "answer_2": "2 kHz",
                 "answer_3": "2,5 kHz",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 13,
@@ -132,7 +132,7 @@
                 "answer_1": "2 kHz",
                 "answer_2": "2,7 kHz",
                 "answer_3": "3 kHz",
-                "correct": 1
+                "correct": 2
             },
             {
                 "question_id": 14,
@@ -142,7 +142,7 @@
                 "answer_1": "z dwuwstęgową modulacją amplitudy",
                 "answer_2": "analogowa",
                 "answer_3": "z jednowstęgową modulacją częstotliwości",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 15,
@@ -162,7 +162,7 @@
                 "answer_1": "z dwuwstęgową modulacją amplitudy",
                 "answer_2": "analogowa",
                 "answer_3": "cyfrowa",
-                "correct": 1
+                "correct": 2
             },
             {
                 "question_id": 17,
@@ -172,7 +172,7 @@
                 "answer_1": "VHF",
                 "answer_2": "HF",
                 "answer_3": "UHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 18,
@@ -192,7 +192,7 @@
                 "answer_1": "T",
                 "answer_2": "X",
                 "answer_3": "V",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 20,
@@ -202,7 +202,7 @@
                 "answer_1": "G3E",
                 "answer_2": "J3E",
                 "answer_3": "F1B",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 21,
@@ -212,7 +212,7 @@
                 "answer_1": "J3E",
                 "answer_2": "H3E",
                 "answer_3": "G3B",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 22,
@@ -242,7 +242,7 @@
                 "answer_1": "nadawanie jest możliwe jednocześnie w obu kierunkach łączności",
                 "answer_2": "nadawanie jest możliwe jedynie na zmianę w każdym kierunku łączności",
                 "answer_3": "jedna stacja pracuje simpleksem a druga dupleksem",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 25,
@@ -252,7 +252,7 @@
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
                 "answer_3": "tylko odbieramy na określonej częstotliwości",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 26,
@@ -282,7 +282,7 @@
                 "answer_1": "simpleksowym",
                 "answer_2": "dwuczęstotliwościowym",
                 "answer_3": "dupleksowym",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 29,
@@ -292,7 +292,7 @@
                 "answer_1": "simpleksowym",
                 "answer_2": "dwuczęstotliwościowym",
                 "answer_3": "dupleksowym",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 30,
@@ -302,16 +302,16 @@
                 "answer_1": "simpleksowym",
                 "answer_2": "dwuczęstotliwościowym",
                 "answer_3": "dupleksowym",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 31,
                 "question": "Kanał 13 VHF jest kanałem",
                 "question_image": "",
                 "images": false,
-                "answer_1": "jednoczęstotliwościowym",
+                "answer_1": "dupleksowym",
                 "answer_2": "dwuczęstotliwościowym",
-                "answer_3": "dupleksowym",
+                "answer_3": "simpleksowym",
                 "correct": 3
             },
             {
@@ -322,7 +322,7 @@
                 "answer_1": "simpleksowym",
                 "answer_2": "dupleksowym",
                 "answer_3": "dwuczęstotliwościowym",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 33,
@@ -342,7 +342,7 @@
                 "answer_1": "częstotliwość 2177 kHz",
                 "answer_2": "częstotliwość 8414,5 kHz",
                 "answer_3": "kanał 26 VHF",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 35,
@@ -352,7 +352,7 @@
                 "answer_1": "między stacjami nadbrzeżnymi",
                 "answer_2": "radiotelefonicznej",
                 "answer_3": "DSC",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 36,
@@ -362,7 +362,7 @@
                 "answer_1": "międzystatkowej",
                 "answer_2": "radiotelefonicznej wyłącznie w paśmie VHF",
                 "answer_3": "wyłącznie w niebezpieczeństwie",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 37,
@@ -412,7 +412,7 @@
                 "answer_1": "AOR",
                 "answer_2": "A3",
                 "answer_3": "A1",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 42,
@@ -432,7 +432,7 @@
                 "answer_1": "RSC",
                 "answer_2": "OSC",
                 "answer_3": "RCC",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 44,
@@ -452,7 +452,7 @@
                 "answer_1": "RSC",
                 "answer_2": "OSC",
                 "answer_3": "RCC",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 46,
@@ -462,7 +462,7 @@
                 "answer_1": "2187,5 kHz",
                 "answer_2": "kanał 16 VHF",
                 "answer_3": "kanał 26 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 47,
@@ -482,7 +482,7 @@
                 "answer_1": "identyfikację i pozycję jednostki zagrożonej",
                 "answer_2": "identyfikację, pozycję jednostki zagrożonej i liczbę osób na pokładzie jednostki",
                 "answer_3": "znak wywoławczy, pozycję jednostki zagrożonej i liczbę rannych",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 49,
@@ -492,7 +492,7 @@
                 "answer_1": "radiotelefonii na kanale 16 VHF",
                 "answer_2": "DSC",
                 "answer_3": "radiotelefonii na kanale 6 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 50,
@@ -502,7 +502,7 @@
                 "answer_1": "jedynie do najbliższej stacji nadbrzeżnej",
                 "answer_2": "do wszystkich stacji",
                 "answer_3": "jedynie do najbliższej stacji statkowej",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 51,
@@ -512,7 +512,7 @@
                 "answer_1": "potwierdzić odbiór za pomocą DSC",
                 "answer_2": "potwierdzić odbiór za pomocą radiotelefonii",
                 "answer_3": "tylko dokonać zapisu w dzienniku radiowym",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 52,
@@ -522,27 +522,27 @@
                 "answer_1": "jednostka zagrożona sama nie jest w stanie nadać alarmowania",
                 "answer_2": "tylko na prośbę stacji zagrożonej",
                 "answer_3": "jest wstanie sam udzielić pomocy",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 53,
                 "question": "Operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC w zakresie VHF",
                 "question_image": "",
                 "images": false,
-                "answer_1": "gdy osoba odpowiedzialna za jego jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
+                "answer_1": "nigdy nie wolno mu tego uczynić",
                 "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "natychmiast po odbiorze alarmowania",
-                "correct": 3
+                "answer_3": "gdy osoba odpowiedzialna za jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
+                "correct": 1
             },
             {
                 "question_id": 54,
                 "question": "Operator stacji statkowej może nadać pośrednie alarmowanie DSC po odbiorze alarmowania DSC w zakresie MF",
                 "question_image": "",
                 "images": false,
-                "answer_1": "gdy osoba odpowiedzialna za jego jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
+                "answer_1": "nigdy nie wolno mu tego uczynić",
                 "answer_2": "tylko na prośbę stacji zagrożonej",
-                "answer_3": "natychmiast po odbiorze alarmowania",
-                "correct": 3
+                "answer_3": "gdy osoba odpowiedzialna za jego jednostkę uzna, iż wymagana jest dalsza pomoc dla jednostki zagrożonej",
+                "correct": 1
             },
             {
                 "question_id": 55,
@@ -572,7 +572,7 @@
                 "answer_1": "po 3 minutach od odebrania alarmowania",
                 "answer_2": "po 5 minutach od odebrania alarmowania i powiadomieniu o tym stacji nadbrzeżnej",
                 "answer_3": "po 4 minutach od odebrania alarmowania",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 58,
@@ -592,7 +592,7 @@
                 "answer_1": "tylko DSC",
                 "answer_2": "radiotelefonii lub DSC",
                 "answer_3": "tylko radiotelefonii",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 60,
@@ -602,7 +602,7 @@
                 "answer_1": "tylko DSC",
                 "answer_2": "radiotelefonii lub DSC",
                 "answer_3": "tylko radiotelefonii",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 61,
@@ -612,17 +612,17 @@
                 "answer_1": "tylko DSC",
                 "answer_2": "nigdy nie wolno mu tego uczynić",
                 "answer_3": "radiotelefonii",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 62,
                 "question": "Operator stacji nadbrzeżnej może nadać potwierdzenie odbioru alarmowania DSC za pomocą",
                 "question_image": "",
                 "images": false,
-                "answer_1": "radiotelefonii lub DSC",
-                "answer_2": "tylko DSC",
+                "answer_1": "tylko DSC",
+                "answer_2": "radiotelefonii lub DSC",
                 "answer_3": "tylko radiotelefonii",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 63,
@@ -632,7 +632,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "MAYDAY",
                 "answer_3": "MAYDAY MAYDAY MAYDAY",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 64,
@@ -652,7 +652,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "SEELONCE MAYDAY",
                 "answer_3": "MAYDAY",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 66,
@@ -662,7 +662,7 @@
                 "answer_1": "tylko RCC",
                 "answer_2": "każda stacja statkowa i nadbrzeżna",
                 "answer_3": "OSC",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 67,
@@ -692,7 +692,7 @@
                 "answer_1": "tylko RCC",
                 "answer_2": "OSC",
                 "answer_3": "jedynie stacja nadbrzeżna",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 70,
@@ -702,7 +702,7 @@
                 "answer_1": "porady i pomocy medycznej",
                 "answer_2": "jedynie pomocy medycznej",
                 "answer_3": "ostrzeżeń meteorologicznych",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 71,
@@ -712,7 +712,7 @@
                 "answer_1": "2182 kHz",
                 "answer_2": "2187,5 kHz",
                 "answer_3": "kanale 16 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 72,
@@ -722,7 +722,7 @@
                 "answer_1": "URGENCY",
                 "answer_2": "SAFETY",
                 "answer_3": "DISTRESS",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 73,
@@ -742,7 +742,7 @@
                 "answer_1": "URGENCY",
                 "answer_2": "PAN PAN",
                 "answer_3": "DISTRESS",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 75,
@@ -772,7 +772,7 @@
                 "answer_1": "2182 kHz",
                 "answer_2": "2187,5 kHz",
                 "answer_3": "kanale 16 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 78,
@@ -782,7 +782,7 @@
                 "answer_1": "URGENCY",
                 "answer_2": "SAFETY",
                 "answer_3": "DISTRESS",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 79,
@@ -822,7 +822,7 @@
                 "answer_1": "pozycji jednostki, rodzaju niebezpieczeństwa i liczbie członków załogi",
                 "answer_2": "identyfikacji i pozycji jednostki oraz rodzaju niebezpieczeństwa",
                 "answer_3": "stanie pogody i morza oraz pozycji jednostki",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 83,
@@ -832,7 +832,7 @@
                 "answer_1": "13",
                 "answer_2": "16",
                 "answer_3": "6",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 84,
@@ -852,7 +852,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 86,
@@ -872,7 +872,7 @@
                 "answer_1": "1 raz",
                 "answer_2": "2 razy",
                 "answer_3": "3 razy",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 88,
@@ -892,7 +892,7 @@
                 "answer_1": "wypadnięcia człowieka za burtę",
                 "answer_2": "uzyskania porady medycznej",
                 "answer_3": "uzyskania informacji o pogodzie",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 90,
@@ -932,7 +932,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla zwykłej łączności publicznej",
                 "answer_3": "bezpieczeństwa",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 94,
@@ -942,7 +942,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla zwykłej łączności publicznej",
                 "answer_3": "bezpieczeństwa",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 95,
@@ -962,7 +962,7 @@
                 "answer_1": "do łączności wewnątrzstatkowej z mocą zredukowaną do 1 W",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności w niebezpieczeństwie",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 97,
@@ -972,7 +972,7 @@
                 "answer_1": "do łączności związanej z bezpieczeństwem żeglugi",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "wyłącznie do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 98,
@@ -992,7 +992,7 @@
                 "answer_1": "do łączności w niebezpieczeństwie",
                 "answer_2": "zabronionym dla łączności publicznej",
                 "answer_3": "do łączności międzystatkowej z mocą zredukowaną do 1 W",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 100,
@@ -1012,7 +1012,7 @@
                 "answer_1": "codziennie",
                 "answer_2": "raz w tygodniu",
                 "answer_3": "raz w miesiącu",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 102,
@@ -1022,7 +1022,7 @@
                 "answer_1": "LF",
                 "answer_2": "HF",
                 "answer_3": "UHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 103,
@@ -1030,8 +1030,8 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "codziennie",
-                "answer_2": "zabronione jest takie testowanie",
-                "answer_3": "raz w tygodniu",
+                "answer_2": "raz w tygodniu",
+                "answer_3": "zabronione jest takie testowanie",
                 "correct": 3
             },
             {
@@ -1042,7 +1042,7 @@
                 "answer_1": "codziennie",
                 "answer_2": "raz w tygodniu",
                 "answer_3": "zabronione jest takie testowanie",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 105,
@@ -1082,7 +1082,7 @@
                 "answer_1": "radiotelefonicznej, skojarzonej z częstotliwością na której nadano fałszywe alarmowanie",
                 "answer_2": "kanale 16 VHF",
                 "answer_3": "2174,5 kHz",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 109,
@@ -1102,17 +1102,17 @@
                 "answer_1": "stacji nadbrzeżnej",
                 "answer_2": "najbliższej stacji statkowej",
                 "answer_3": "wszystkich stacji",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 111,
                 "question": "Odwołanie fałszywego alarmowania nadanego za pomocą Inmarsat-C powinno być nadane przez",
                 "question_image": "",
                 "images": false,
-                "answer_1": "naziemną stację nadbrzeżną (CES) przez którą nadano fałszywe alarmowanie",
+                "answer_1": "zaprogramowanej naziemnej stacji nadbrzeżnej (CES)",
                 "answer_2": "najbliższą stację statkową",
-                "answer_3": "OSC",
-                "correct": 3
+                "answer_3": "wszystkich stacji",
+                "correct": 1
             },
             {
                 "question_id": 112,
@@ -1132,7 +1132,7 @@
                 "answer_1": "alarmowania w niebezpieczeństwie",
                 "answer_2": "wywołania radiotelefonicznego",
                 "answer_3": "wyłącznie wywołania pilnego",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 114,
@@ -1142,7 +1142,7 @@
                 "answer_1": "alarmowania w niebezpieczeństwie",
                 "answer_2": "wywołania radiotelefonicznego stacji nadbrzeżnej",
                 "answer_3": "wyłącznie wywołania pilnego",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 115,
@@ -1162,16 +1162,16 @@
                 "answer_1": "70 VHF",
                 "answer_2": "2182 kHz",
                 "answer_3": "2187,5 kHz",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 117,
                 "question": "Stacja statkowa nadając wywołanie publiczne DSC do innej stacji statkowej",
                 "question_image": "",
                 "images": false,
-                "answer_1": "może podać częstotliwość/kanał roboczy",
+                "answer_1": "zawsze powinna podać częstotliwość/kanał roboczy",
                 "answer_2": "nie powinna podawać częstotliwości/kanału roboczego",
-                "answer_3": "musi podać częstotliwość/kanał roboczy",
+                "answer_3": "może podać częstotliwość/kanał roboczy",
                 "correct": 3
             },
             {
@@ -1182,7 +1182,7 @@
                 "answer_1": "powinna podać częstotliwość/kanał roboczy",
                 "answer_2": "nie powinna podawać częstotliwości/kanału roboczego",
                 "answer_3": "może podać częstotliwość/kanał roboczy",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 119,
@@ -1192,7 +1192,7 @@
                 "answer_1": "stacja wywołująca za pomocą DSC",
                 "answer_2": "zawsze stacja wywoływana za pomocą DSC",
                 "answer_3": "stacja wywoływana za pomocą DSC jeżeli tak podano w wywołaniu DSC",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 120,
@@ -1202,7 +1202,7 @@
                 "answer_1": "2187,5 kHz",
                 "answer_2": "70 VHF",
                 "answer_3": "26 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 121,
@@ -1212,7 +1212,7 @@
                 "answer_1": "2187,5 kHz",
                 "answer_2": "70 VHF",
                 "answer_3": "17 VHF",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 122,
@@ -1222,7 +1222,7 @@
                 "answer_1": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
                 "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /3x",
                 "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /2x",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 123,
@@ -1232,7 +1232,7 @@
                 "answer_1": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
                 "answer_2": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
                 "answer_3": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /2x",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 124,
@@ -1242,7 +1242,7 @@
                 "answer_1": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
                 "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /2x",
                 "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /4x",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 125,
@@ -1252,7 +1252,7 @@
                 "answer_1": "1 minuty",
                 "answer_2": "2 minut",
                 "answer_3": "3 minut",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 126,
@@ -1262,7 +1262,7 @@
                 "answer_1": "26",
                 "answer_2": "70",
                 "answer_3": "6",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 127,
@@ -1272,7 +1272,7 @@
                 "answer_1": "16 VHF",
                 "answer_2": "17 VHF",
                 "answer_3": "6 VHF",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 128,
@@ -1282,7 +1282,7 @@
                 "answer_1": "16 VHF",
                 "answer_2": "8291 kHz",
                 "answer_3": "6 VHF",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 129,
@@ -1312,7 +1312,7 @@
                 "answer_1": "3 minutach",
                 "answer_2": "5 minutach",
                 "answer_3": "8 minutach",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 132,
@@ -1352,7 +1352,7 @@
                 "answer_1": "PAN PAN",
                 "answer_2": "OVER",
                 "answer_3": "STOP",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 136,
@@ -1362,7 +1362,7 @@
                 "answer_1": "OVER AND OUT",
                 "answer_2": "OVER",
                 "answer_3": "STOP",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 137,
@@ -1372,7 +1372,7 @@
                 "answer_1": "nazwa stacji wywoływanej /4x This is nazwa stacji wywołującej /4x",
                 "answer_2": "nazwa stacji wywoływanej /1x This is nazwa stacji wywołującej /1x",
                 "answer_3": "nazwa stacji wywoływanej /2x This is nazwa stacji wywołującej /2x",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 138,
@@ -1382,7 +1382,7 @@
                 "answer_1": "QRJ",
                 "answer_2": "AAIC",
                 "answer_3": "QTH",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 139,
@@ -1402,7 +1402,7 @@
                 "answer_1": "stacjach statkowych otwartych dla korespondencji publicznej",
                 "answer_2": "jedynie stacjach statkowych służby SAR",
                 "answer_3": "statkowych stacjach hydrograficznych",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 141,
@@ -1422,7 +1422,7 @@
                 "answer_1": "tylko stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
                 "answer_2": "stacjach nadbrzeżnych nadających MSI",
                 "answer_3": "stacjach RSC",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 143,
@@ -1432,7 +1432,7 @@
                 "answer_1": "stacjach nadbrzeżnych otwartych dla korespondencji publicznej",
                 "answer_2": "stacjach statkowych SAR",
                 "answer_3": "stacjach statkowych",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 144,
@@ -1452,7 +1452,7 @@
                 "answer_1": "przepisami PRS",
                 "answer_2": "postanowieniami Regulaminu Radiokomunikacyjnego ITU",
                 "answer_3": "prawidłami Konwencji SOLAS",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 146,
@@ -1472,7 +1472,7 @@
                 "answer_1": "na obszarach morza A1 i A2",
                 "answer_2": "na obszarach morza A1, A2, A3 i A4",
                 "answer_3": "na obszarach morza A1, A2 i A3",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 148,
@@ -1482,7 +1482,7 @@
                 "answer_1": "przynajmniej raz dziennie pozycję jednostki",
                 "answer_2": "liczbę członków załogi",
                 "answer_3": "jedynie potwierdzone alarmowania w niebezpieczeństwie",
-                "correct": 3
+                "correct": 1
             },
             {
                 "question_id": 149,
@@ -1502,7 +1502,7 @@
                 "answer_1": "właściciela jednostki",
                 "answer_2": "QRC",
                 "answer_3": "operatora radiowego",
-                "correct": 3
+                "correct": 2
             }
         ]
     },
@@ -1547,10 +1547,10 @@
                 "question": "Pożar w nadbudówce.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Superstructure is fireing.",
-                "answer_2": "I am having fire in superstructure.",
-                "answer_3": "Superstructure on fire.",
-                "correct": 3
+                "answer_1": "I am having fire in superstructure.",
+                "answer_2": "Superstructure on fire.",
+                "answer_3": "Superstructure in fire.",
+                "correct": 2
             },
             {
                 "question_id": 155,
@@ -1580,7 +1580,7 @@
                 "answer_1": "Casualties flown off by helicopter.", 
                 "answer_2": "Survivals flew by chopper.", 
                 "answer_3": "Helicopter flown by casualties",
-                "correct": 2
+                "correct": 1
             }, 
             {
                 "question_id": 158,
@@ -1590,7 +1590,7 @@
                 "answer_1": "are damage", 
                 "answer_2": "is damage?", 
                 "answer_3": "have you damaged",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 159,
@@ -1600,7 +1600,7 @@
                 "answer_1": "I expect to leave the ground when draft decreases.",
                 "answer_2": "I expect to refloat when draft increases.",
                 "answer_3": "I expect to refloat when draft decreases.",
-                "correct": 2
+                "correct": 3
             },
             {
                 "question_id": 160,
@@ -1620,7 +1620,7 @@
                 "answer_1": "I have ground on rock bottom.",
                 "answer_2": "I went aground on rocky seabed.",
                 "answer_3": "I am aground on rocky bottom",
-                "correct": 1
+                "correct": 3
             },
             {
                 "question_id": 162,
@@ -1641,7 +1641,7 @@
                 "answer_1": "Keep clear of me.",
                 "answer_2": "Stay far away from me.",
                 "answer_3": "Gave me wide berth.",
-                "correct": 2
+                "correct": 1
             },
             {
                 "question_id": 164,
@@ -1721,7 +1721,7 @@
                 "answer_1": "Keep sharp lookout for life rafts.",
                 "answer_2": "Look for inflatable rafts.",
                 "answer_3": "Keep lookout for boats with caution.",
-                "correct": 3
+                "correct": 1
             }, 
             
             {
@@ -1740,10 +1740,10 @@
                 "question": "Czy możesz płynąć bez pomocy?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Can you head without escort?",
-                "answer_2": "Can you proceed without assistance?",
+                "answer_1": "Can you proceed without assistance?",
+                "answer_2": "Can you head without escort?",
                 "answer_3": "Can you steer without attendance?",
-                "correct": 2
+                "correct": 1
             }, 
             
             {
@@ -1751,10 +1751,10 @@
                 "question": "Czy przewiduje się, że siła wiatru wzrośnie?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Is wind expected to increase?",
-                "answer_2": "Is wind strength bigger?",
-                "answer_3": "Is wind force to decrease?",
-                "correct": 1
+                "answer_1": "Is wind strength bigger?",
+                "answer_2": "Is wind force to decrease?",
+                "answer_3": "Is wind expected to increase?",
+                "correct": 3
             }, 
             
             {
@@ -1792,10 +1792,10 @@
                 "question": "Stan rozbitków jest dobry.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Survivors in good condition.",
-                "answer_2": "Survivors are good.",
+                "answer_1": "Survivors are good.",
+                "answer_2": "Survivors in good condition.",
                 "answer_3": "Survivors in bad condition.",
-                "correct": 1
+                "correct": 2
             },
             {
                 "question_id": 179,
@@ -1912,7 +1912,7 @@
                 "answer_1": "Barometer continuous.",
                 "answer_2": "Barometer indications without difference.",
                 "answer_3": "Barometer steady.",
-                "correct": 2
+                "correct": 3
             }, 
             {
                 "question_id": 190,
@@ -1932,7 +1932,7 @@
                 "answer_1": "Swell is tall.",
                 "answer_2": "Dead wave is high.",
                 "answer_3": "High swell.",
-                "correct": 2
+                "correct": 3
             }, 
             
             {
@@ -1970,10 +1970,10 @@
                 "question": "Kiedy nadejdzie pomoc?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "When is assistance going?",
-                "answer_2": "When help is to come?",
-                "answer_3": "When will assistance arrive?",
-                "correct": 3
+                "answer_1": "When will assistance arrive?",
+                "answer_2": "When is assistance is due?",
+                "answer_3": "When is assistance going?",
+                "correct": 1
             },
             {
                 "question_id": 196,
@@ -1993,7 +1993,7 @@
                 "answer_1": "Can you ran the vessel aground?",
                 "answer_2": "Can you beach?",
                 "answer_3": "Can you grounded?",
-                "correct": 1
+                "correct": 2
             },
             
             {
@@ -2004,7 +2004,7 @@
                 "answer_1": "To portside.",
                 "answer_2": "Put helm hard to port.",
                 "answer_3": "Rudder to port.",
-                "correct": 3
+                "correct": 2
             }, 
             {
                 "question_id": 199,
@@ -2024,7 +2024,7 @@
                 "answer_1": "I am swimming to help you.",
                 "answer_2": "I am proceeding to your assistance.",
                 "answer_3": "I am proceeding with assistance.",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 201,
@@ -2044,7 +2044,7 @@
                 "answer_1": "I am leaking oil.",
                 "answer_2": "I have poured oil.",
                 "answer_3": "I have accidental oil spillage.",
-                "correct": 1
+                "correct": 3
             },
             
             {
@@ -2062,8 +2062,8 @@
                 "question": "I read you (dobrze).",
                 "question_image": "",
                 "images": false,
-                "answer_1": "fair",
-                "answer_2": "good",
+                "answer_1": "fairly well",
+                "answer_2": "fairly good",
                 "answer_3": "very well",
                 "correct": 2
             },
@@ -2075,7 +2075,7 @@
                 "answer_1": "Is wind backing?",
                 "answer_2": "Is wind turning to port?",
                 "answer_3": "Is wind turning anticlockwise?",
-                "correct": 2
+                "correct": 1
             }, 
             
             {
@@ -2117,7 +2117,7 @@
                 "answer_1": "You are going to fishing equipment.",
                 "answer_2": "You coming straight into fishing gear.",
                 "answer_3": "You are heading towards fishing gear.",
-                "correct": 1
+                "correct": 3
             }, 
             
             {
@@ -2284,16 +2284,16 @@
                 "answer_1": "foam extinguishers", 
                 "answer_2": "CO2 extinguishers", 
                 "answer_3": "snow extinguishers",
-                "correct": 1
+                "correct": 2
             }, 
             {
                 "question_id": 226,
-                "question": "Załoga opuściła statek.",
+                "question": "Załoga opuściła statek w tratwach ratunkowych.",
                 "question_image": "",
                 "images": false,
                 "answer_1": "Crew left ship.",
-                "answer_2": "Crew are abandoning vessel.",
-                "answer_3": "Crew has abandoned vessel.",
+                "answer_2": "Crew are abandoning vessel in life raft.",
+                "answer_3": "Crew abandoned vessel in life rafts.",
                 "correct": 3
             },
             {
@@ -2368,7 +2368,7 @@
                 "answer_1": "Wind expected to increase in your position.",
                 "answer_2": "Wind expected variable in your position.",
                 "answer_3": "Wind expected to change in your position.",
-                "correct": 3
+                "correct": 2
             }, 
             {
                 "question_id": 234,
@@ -2459,7 +2459,7 @@
                 "answer_1": "Bow on the ground.", 
                 "answer_2": "Aground forward.", 
                 "answer_3": "Aground aft.",
-                "correct": 1
+                "correct": 2
             }, 
             
             {
@@ -2533,9 +2533,9 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Visibility is smaller by hail.",
-                "answer_2": "Visibility is reduced by mist.",
-                "answer_3": "Visibility is limited by drizzle.",
-                "correct": 2
+                "answer_2": "Visibility is limited by fog.",
+                "answer_3": "Visibility is reduced by mist.",
+                "correct": 3
             },
             {
                 "question_id": 300,
@@ -2543,9 +2543,9 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "I must get rid of fairway.",
-                "answer_2": "I must leave fairway.",
-                "answer_3": "I have to left fairway.",
-                "correct": 2
+                "answer_2": "I have abandon fairway.",
+                "answer_3": "I must leave fairway.",
+                "correct": 3
             },
             {
                 "question_id": 301,
@@ -2553,19 +2553,19 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Finished.",
-                "answer_2": "Over and out.",
-                "answer_3": "Out.",
-                "correct": 2
+                "answer_2": "The end.",
+                "answer_3": "Over and out.",
+                "correct": 3
             },
             {
                 "question_id": 302,
                 "question": "Mam przeciek poniżej linii wodnej.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I am leaking above water line.",
-                "answer_2": "I have a leak below water line.",
-                "answer_3": "I have a leak under water line.",
-                "correct": 2
+                "answer_1": "I have a leak below deck.",
+                "answer_2": "I have a leak over water line.",
+                "answer_3": "I have a leak below water line.",
+                "correct": 3
             },
             {
                 "question_id": 303,
@@ -2582,10 +2582,10 @@
                 "question": "Rufa na mieliźnie.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Aground aft.",
-                "answer_2": "Stern in the shallow.",
-                "answer_3": "Aground forward.",
-                "correct": 2
+                "answer_1": "Stern aground.",
+                "answer_2": "Aground forward",
+                "answer_3": "Aground aft.",
+                "correct": 1
             },
             {
                 "question_id": 305,
@@ -2635,17 +2635,17 @@
                 "answer_1": "Oil noticed in your wake.",
                 "answer_2": "Oil sighted in your keelwater.",
                 "answer_3": "Crude oil observed in killwater.",
-                "correct": 2
+                "correct": 1
             },
             {
                 "question_id": 310,
                 "question": "Nie mogę ustąpić z drogi, mam zablokowany ster",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I cannot give way, my rudder blocked.",
-                "answer_2": "I can stand on, my steering stopped.",
-                "answer_3": "I cannot give way, my steer blocked.",
-                "correct": 1
+                "answer_1": "I can stand on, my steering stopped.",
+                "answer_2": "I cannot give way, my steer blocked.",
+                "answer_3": "I cannot give way, my rudder blocked.",
+                "correct": 3
             },
             {
                 "question_id": 311,
@@ -2655,7 +2655,7 @@
                 "answer_1": "Have you saw rescue boats in vicinity of position?",
                 "answer_2": "Have you sighted lifeboats in vicinity of position?",
                 "answer_3": "Did you see rescue boats near position?",
-                "correct": 3
+                "correct": 2
             },
             {
                 "question_id": 312,
@@ -2695,7 +2695,7 @@
                 "answer_1": "Is wind turning to starboard?",
                 "answer_2": "Is wind turning right?",
                 "answer_3": "Is wind veering?",
-                "correct": 1
+                "correct": 3
             },
             {
                 "question_id": 316,
@@ -2769,13 +2769,13 @@
             },
             {
                 "question_id": 323,
-                "question": "Manewruję z trudnością.",
+                "question": "Czy udzieliliście pierwszej pomocy ofiarom?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "I am steering with problem.",
-                "answer_2": "I am manoeuvring with difficulty.",
-                "answer_3": "I was maneuvering with difficulty.",
-                "correct": 2
+                "answer_1": "Have you help casualties?",
+                "answer_2": "Did you render assist to victims?",
+                "answer_3": "Did you give first aid to casualties?",
+                "correct": 3
             },
             {
                 "question_id": 324,
@@ -2795,7 +2795,7 @@
                 "answer_1": "Rocks are not on map",
                 "answer_2": "Uncharted rocks.",
                 "answer_3": "Rocky charts.",
-                "correct": 1
+                "correct": 2
             },
             {
                 "question_id": 326,
@@ -2813,9 +2813,9 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Mistake, advice.",
-                "answer_2": "Error, improvement.",
-                "answer_3": "Mistake, correction.",
-                "correct": 3
+                "answer_2": "Mistake, correction.",
+                "answer_3": "Error, acknowledge.",
+                "correct": 2
             },
             {
                 "question_id": 328,
@@ -2865,7 +2865,7 @@
                 "answer_1": "Sighted derelict in position.",
                 "answer_2": "Watched abandon ship in position.",
                 "answer_3": "Seen abandoning vessel in position.",
-                "correct": 2
+                "correct": 1
             },
             {
                 "question_id": 333,
@@ -2875,17 +2875,17 @@
                 "answer_1": "You are not staying in the correct route.",
                 "answer_2": "You are proceeding in the wrong fairway.",
                 "answer_3": "You are not keeping to the correct traffic lane.",
-                "correct": 1
+                "correct": 2
             },
             {
                 "question_id": 334,
                 "question": "Czy możesz zejść z mielizny w czasie przypływu?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Can you refloat in ebb tide?",
-                "answer_2": "Can you aground during tide?",
-                "answer_3": "Can you refloat when tide rises?",
-                "correct": 3
+                "answer_1": "Can you aground during tide?",
+                "answer_2": "Can you refloat when tide rises?",
+                "answer_3": "Can you leave aground during tide?",
+                "correct": 2
             },
             {
                 "question_id": 335,
@@ -2902,19 +2902,19 @@
                 "question": "Pława świetlna nie świeci.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Lightbuoy not illuminated.",
-                "answer_2": "Lightbeacon unlighted.",
-                "answer_3": "Lightbuoy unlit.",
-                "correct": 3
+                "answer_1": "Light buoy not illuminated.",
+                "answer_2": "Light buoy unlit.",
+                "answer_3": "Light beacon unlit.",
+                "correct": 2
             },
             {
                 "question_id": 337,
                 "question": "Na torze wodnym znajdują się sieci rybackie.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Fairway in fishing gear.",
-                "answer_2": "Fishing nets fouled fairway.",
-                "answer_3": "Fishing nets in fairway.",
+                "answer_1": "Fishing nets fouled fairway.",
+                "answer_2": "Fishing nets in fairway.",
+                "answer_3": "Fishing gear in fairway.",
                 "correct": 2
             },
             {
