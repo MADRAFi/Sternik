@@ -32,13 +32,12 @@ struct ProductView: View {
         return HStack {
             Image(id)
                 .cornerRadius(8)
-//                .padding(.vertical, 8)
-                .padding(.horizontal)
+                .padding(.leading, 15)
             VStack(alignment: .leading) {
                 Text(name)
-                    .font(.title2)
-                Text(description)
                     .font(.body)
+                Text(description)
+                    .font(.caption2)
             }
             Spacer()
             if purchasingEnabled {
@@ -86,6 +85,7 @@ struct ProductView: View {
         HStack {
             Text(product.displayPrice)
                 .bold()
+                .font(.caption)
                 .padding()
                 .background(Color("AccentColor"))
                 .foregroundColor(Color.primary)

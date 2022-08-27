@@ -27,7 +27,7 @@ struct QuestionView: View {
     
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
-    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = true
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String

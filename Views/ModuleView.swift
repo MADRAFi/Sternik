@@ -32,13 +32,12 @@ struct ModuleView: View {
         return HStack {
             Image(id)
                 .cornerRadius(8)
-//                .padding(.vertical, 8)
-                .padding(.horizontal)
+                .padding(.leading, 15)
             VStack(alignment: .leading) {
                 Text(name)
-                    .font(.title2)
-                Text(description)
                     .font(.body)
+                Text(description)
+                    .font(.caption2)
             }
             Spacer()
             productButton
@@ -49,7 +48,6 @@ struct ModuleView: View {
         NavigationView {
             VStack {
                 VStack {
-    //                          if !isFullVersion {
                     if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
                         ADBanner()
                             .frame(width: 320, height: 100, alignment: .center)
@@ -72,9 +70,11 @@ struct ModuleView: View {
                                     try? await AppStore.sync()
                                 }
                             }) {
-                                HStack(alignment: .center ) {
+                                HStack {
                                     Text("Przywróć zakupy")
-                                        .padding()
+                                        .font(.body)
+//                                        .padding(.vertical, 8)
+                                        .padding(.horizontal)
                                 }
                                 
                             }
@@ -101,6 +101,6 @@ struct ModuleView_Previews: PreviewProvider {
     static var previews: some View {
 
 //        ModuleView(isFullVersion: .constant(true))
-        ModuleView()
+            ModuleView()
     }
 }
