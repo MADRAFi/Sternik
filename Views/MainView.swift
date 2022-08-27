@@ -25,6 +25,7 @@ struct MainView: View {
                 CategoryView()
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
+                            .font(Font.system(.largeTitle).bold())
                     }
                     .tag(0)
             
@@ -32,6 +33,7 @@ struct MainView: View {
                 ModuleView()
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")
+                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(1)
@@ -39,6 +41,7 @@ struct MainView: View {
                 SettingsView()
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
+                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(2)
