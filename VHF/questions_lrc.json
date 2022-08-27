@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category_name": "Regulaminy",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 1,
@@ -1509,7 +1509,7 @@
     {
         "id": 2,
         "category_name": "Język angielski",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 151,
@@ -3052,7 +3052,7 @@
     {
         "id": 3,
         "category_name": "Urządzenia radiowe GMDSS",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 175,
@@ -4559,7 +4559,7 @@
     {
         "id": 4,
         "category_name": "Obsługa urządzeń radiowych",
-        "exam": 2,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 325,

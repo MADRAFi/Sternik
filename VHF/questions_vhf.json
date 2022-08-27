@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category_name": "Regulaminy",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 1,
@@ -980,7 +980,7 @@
     {
         "id": 2,
         "category_name": "Budowa urządzeń radiotelefonicznych VHF",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 101,
@@ -1669,7 +1669,7 @@
     {
         "id": 3,
         "category_name": "Obsługa urządzeń radiowych",
-        "exam": 2,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 169,

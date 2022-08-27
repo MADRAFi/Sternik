@@ -341,15 +341,18 @@ struct QuestionView: View {
             }
             
             .toolbar {
-                ToolbarItemGroup(placement: .navigationBarLeading) {
+                ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     },
                            label: {
                         Image(systemName: "chevron.backward")
-                            .font(Font.system(.largeTitle).bold())
+                            .font(Font.system(.title).bold())
 
                     })
+                }
+                ToolbarItemGroup(placement: .status) {
+
                     Button(action: {
                         lastCategory = currentCategory
                         lastQuestion = currentQuestion
@@ -360,7 +363,7 @@ struct QuestionView: View {
                     },
                            label: {
                         Image(systemName: "1.square.fill")
-                            .font(Font.system(.largeTitle))
+                            .font(Font.system(.title))
                     })
                     
                     Button(action: {
@@ -371,7 +374,7 @@ struct QuestionView: View {
                     },
                            label: {
                         Image(systemName: "rectangle.trailinghalf.inset.filled.arrow.trailing")
-                            .font(Font.system(.largeTitle))
+                            .font(Font.system(.title))
                     })
                     Button(action: {
                         lastCategory = currentCategory
@@ -383,8 +386,8 @@ struct QuestionView: View {
                         
                     },
                            label: {
-                        Image(systemName: "o.square.fill")
-                            .font(Font.system(.largeTitle))
+                        Image(systemName: "pin.square.fill")
+                            .font(Font.system(.title))
                     })
                 }
 
@@ -394,14 +397,14 @@ struct QuestionView: View {
                     },
                            label: {
                         Image(systemName: "arrow.left.square.fill")
-                            .font(Font.system(.largeTitle))
+                            .font(Font.system(.title))
                     })
                     Button(action: {
                         nextQuestion()
                     },
                            label: {
                         Image(systemName: "arrow.right.square.fill")
-                            .font(Font.system(.largeTitle))
+                            .font(Font.system(.title))
                     })
                 }
                 
