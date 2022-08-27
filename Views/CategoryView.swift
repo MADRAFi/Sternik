@@ -43,7 +43,7 @@ struct CategoryView: View {
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie pytania")) {
+                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)

@@ -183,7 +183,7 @@ struct QuestionView: View {
                     
                     
                 }
-                .padding()
+                .padding(.top)
             }
             .padding(.horizontal)
         
@@ -390,7 +390,22 @@ struct QuestionView: View {
                             .font(Font.system(.title))
                     })
                 }
-
+//                ToolbarItemGroup(placement: .navigationBarTrailing) {
+//                    Button(action: {
+////                        previousQuestion()
+//                    },
+//                           label: {
+//                        Image(systemName: "arrow.up.square.fill")
+//                            .font(Font.system(.title))
+//                    })
+//                    Button(action: {
+////                        nextQuestion()
+//                    },
+//                           label: {
+//                        Image(systemName: "arrow.down.square.fill")
+//                            .font(Font.system(.title))
+//                    })
+//                }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
                         previousQuestion()
