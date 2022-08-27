@@ -13,7 +13,7 @@ struct ModuleViewTest: View {
 
 //    @EnvironmentObject var store: Store
 //    @EnvironmentObject var data: QuestionsList
-    @Binding var isFullVersion: Bool
+//    @Binding var isFullVersion: Bool
     
 //    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
 //    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
@@ -69,7 +69,9 @@ struct ModuleViewTest: View {
                             }) {
                                 HStack(alignment: .center ) {
                                     Text("Przywróć zakupy")
-                                        .padding()
+//                                        .padding()
+                                        .padding(.vertical, 8)
+                                        .padding(.horizontal)
                                 }
                                 
                             }
@@ -107,7 +109,7 @@ var ownedButton_test: some View {
 struct ModuleViewTest_Previews: PreviewProvider {
     
     static var previews: some View {
-
-        ModuleViewTest(isFullVersion: .constant(true))
+//        ModuleViewTest(isFullVersion: .constant(true))
+        ModuleViewTest()
     }
 }

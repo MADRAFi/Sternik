@@ -12,7 +12,7 @@ struct CategoryView: View {
     
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
-    @Binding var isFullVersion: Bool
+//    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
@@ -90,6 +90,7 @@ struct CategoryView: View {
         static var data = QuestionsList()
         
         static var previews: some View {
-            CategoryView(isFullVersion: .constant(true))
+//            CategoryView(isFullVersion: .constant(true))
+            CategoryView()
         }
     }

@@ -13,7 +13,7 @@ struct ModuleView: View {
 
     @EnvironmentObject var store: Store
     @EnvironmentObject var data: QuestionsList
-    @Binding var isFullVersion: Bool
+//    @Binding var isFullVersion: Bool
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String ?? ""
@@ -100,6 +100,7 @@ struct ModuleView_Previews: PreviewProvider {
     
     static var previews: some View {
 
-        ModuleView(isFullVersion: .constant(true))
+//        ModuleView(isFullVersion: .constant(true))
+        ModuleView()
     }
 }
