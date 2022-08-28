@@ -17,8 +17,8 @@ struct QuestionView: View {
     @State var showStats: Bool = false
     @State var selectedRow : Int = 0
     @State var lastCategory: Int = 0             // index of previous category before jump
-    @State var lastQuestion: Int = 1             // index of previous question before jump
-    @State var lastQuestionNumber: Int = 0       // last question number in a set
+    @State var lastQuestion: Int = 0            // index of previous question before jump
+    @State var lastQuestionNumber: Int = 1       // last question number in a set
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
