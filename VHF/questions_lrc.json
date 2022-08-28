@@ -5033,7 +5033,7 @@
 	"questions": [{
 		"question_id": 647,
 		"question": "Włącz i przygotuj do pracy, dla łączności pokładowej radiotelefon VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć i ustaw [P1], wciśnij [1], wciśnij [7], wciśnij [SHIFT], wciśnij [9], ustaw blokadę szumów.",
 		"answer_2": "Obróć [P1], wciśnij [2], wciśnij [SHIFT], wciśnij [7]",
@@ -5042,7 +5042,7 @@
 	}, {
 		"question_id": 648,
 		"question": "Włącz i przygotuj do pracy, dla łączności alarmowej radiotelefon VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć i ustaw [P1], wciśnij [1], wciśnij [6], ustaw [P2] maksymalnie w prawo ",
 		"answer_2": "Obróć i ustaw [P1], wciśnij [16], ustaw [P2] maksymalnie w lewo ",
@@ -5051,7 +5051,7 @@
 	}, {
 		"question_id": 649,
 		"question": "Dokonaj redukcji mocy radiotelefonu VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć i ustaw [P1], wciśnij [SHIFT], wciśnij [9]",
 		"answer_2": "Obróć i ustaw [P1], wciśnij [9]",
@@ -5060,7 +5060,7 @@
 	}, {
 		"question_id": 650,
 		"question": "Ustaw podwójny nasłuch w radiotelefonie VHF na kanałach 14 i 16.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć i ustaw [P1], wciśnij [SHIFT], wciśnij [6] ",
 		"answer_2": "Obróć i ustaw [P1], wciśnij [1], wciśnij [4], wciśnij [SHIFT], wciśnij [6] ",
@@ -5069,7 +5069,7 @@
 	}, {
 		"question_id": 651,
 		"question": "Ustaw podświetlenie wskaźników w radiotelefonie VHF dla warunków dziennych i nocnych.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Wciśnij [7], wciśnij [5] ",
 		"answer_2": "Wciśnij [9], wciśnij [16] ",
@@ -5078,7 +5078,7 @@
 	}, {
 		"question_id": 652,
 		"question": "Sprawdź, które kanały są wpisane do pamięci skanowania radiotelefonu RT 233048",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Wciśnij [SHIFT], wciśnij [5] ",
 		"answer_2": "Wciśnij [SHIFT], wciśnij [2]",
@@ -5087,7 +5087,7 @@
 	}, {
 		"question_id": 653,
 		"question": "Ustaw skanowanie kanałów 6,13 i 16 w radiotelefonie VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [6], wciśnij [SHIFT], wciśnij [2], wciśnij [1], wciśnij [3], wciśnij [SHIFT], wciśnij [2]",
 		"answer_2": "Obróć [P1], wciśnij [6], wciśnij [SHIFT], wciśnij [1], wciśnij [3], wciśnij [SHIFT], wciśnij [16]",
@@ -5096,7 +5096,7 @@
 	}, {
 		"question_id": 654,
 		"question": "Nadaj ostrzeżenie nawigacyjne, przy użyciu radiotelefonu VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [8], nadaj komunikat ",
 		"answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj zapowiedź komunikatu ostrzegawczego, wciśnij [1], wciśnij [3], nadaj komunikat",
@@ -5105,7 +5105,7 @@
 	}, {
 		"question_id": 655,
 		"question": "Ustaw pracę na kanałach amerykańskich w radiotelefonie VHF",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [5]",
 		"answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [8]",
@@ -5114,7 +5114,7 @@
 	}, {
 		"question_id": 656,
 		"question": "Nadaj komunikat alarmowy, przy użyciu radiotelefonu VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy ",
 		"answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj wywołanie alarmowe, wciśnij [1], wciśnij [3], nadaj komunikat alarmowy",
@@ -5123,7 +5123,7 @@
 	}, {
 		"question_id": 657,
 		"question": " Nadaj komunikat, w sytuacji wypadnięcia człowieka za burtę, przy użyciu radiotelefonu VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........” ",
 		"answer_2": "Obróć [P1], wciśnij [SHIFT], wciśnij [9], sprawdź moc, wciśnij [16] nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
@@ -5132,7 +5132,7 @@
 	}, {
 		"question_id": 658,
 		"question": "Potwierdź odbiór alarmu przy użyciu radiotelefonu VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [1], wciśnij [3], nadaj „ Mayday 3x znak stacji zagrożonej, tu 3x znak własnej stacji, RECEIVED MAYDAY” ",
 		"answer_2": "Obróć [P1], wciśnij [16], sprawdź moc, nadaj „ Mayday 3x znak stacji zagrożonej, tu 3x znak własnej stacji, RECEIVED MAYDAY” ",
@@ -5141,7 +5141,7 @@
 	}, {
 		"question_id": 659,
 		"question": "Wywołaj inny statek, przy użyciu radiotelefonu VHF i przeprowadź z nim rozmowę rutynową. ",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q1",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [16], nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę ",
 		"answer_2": " Obróć [P1], wciśnij [1], wciśnij [3], nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę ",
@@ -5150,7 +5150,7 @@
 	}, {
 		"question_id": 660,
 		"question": "Nadaj wywołanie alarmowe za inny statek.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [P1], wciśnij [1], wciśnij [3], nadaj „Mayday relay, tu 3x znak własnej stacji, treść komunikatu, Mayday” ",
 		"answer_2": "Obróć [P1], wciśnij [16], nadaj „Pan pan, tu 3x znak własnej stacji, treść komunikatu, pan pan” ",
@@ -5159,7 +5159,7 @@
 	}, {
 		"question_id": 661,
 		"question": "Wprowadź pozycję geograficzną do przystawki DSC VHF. ",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij [EDIT], wprowadź pozycję ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wprowadź pozycję",
@@ -5168,7 +5168,7 @@
 	}, {
 		"question_id": 662,
 		"question": "Ustaw aktualny czas i strefę czasową w przystawce DSC VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Time, wciśnij [NEXT] wprowadź aktualną strefę czasową i czas UTC, wciśnij [NEXT]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Time, wciśnij [NEXT] wprowadź aktualną strefę czasową i czas UTC, wciśnij [NEXT]",
@@ -5177,7 +5177,7 @@
 	}, {
 		"question_id": 663,
 		"question": "Wprowadź do rejestru stacji przystawki DSC VHF stację brzegową Lyngby.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij 2x [>], wciśnij [NEXT], wprowadź z klawiatury słowo Lyngby, wciśnij [ENT], wprowadź z klawiatury 002191000, wciśnij [NEXT]",
 		"answer_2": "Obróć [VOL], wciśnij [EDIT], z klawiatury słowo Lyngby, wciśnij [ENT], wprowadź z klawiatury 002191000, wciśnij [NEXT]",
@@ -5186,7 +5186,7 @@
 	}, {
 		"question_id": 664,
 		"question": "Ustaw wyświetlacz przystawki DSC VHF odpowiednio na warunki dzienne i nocne.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [EDIT], wciśnij [^] tyle razy, aż uzyskasz odpowiednią jasność wyświetlacza",
 		"answer_2": "Obróć [VOL], wciśnij [FUNC], wciśnij [^] tyle razy, aż uzyskasz odpowiednią jasność wyświetlacza, wciśnij [NEXT] ",
@@ -5195,7 +5195,7 @@
 	}, {
 		"question_id": 665,
 		"question": "Przetestuj przystawkę DSC VHF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij [NEXT] ",
 		"answer_2": "Obróć [VOL], wciśnij [FUNC], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Test, wciśnij [NEXT] ",
@@ -5204,7 +5204,7 @@
 	}, {
 		"question_id": 666,
 		"question": "Nadaj za pomocą przystawki DSC VHF wywołanie alarmowe.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [^] rodzaj zagrożenia, wciśnij [NEXT], wciśnij [DISTRESS] ",
 		"answer_2": "Obróć [VOL], wciśnij [FUNC], wciśnij [EDIT], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [^] rodzaj zagrożenia, wciśnij [NEXT], wciśnij jednocześnie [DISTRESS] i [SENT]",
@@ -5213,7 +5213,7 @@
 	}, {
 		"question_id": 667,
 		"question": " Nadaj za pomocą przystawki DSC VHF zapowiedź ostrzeżenia.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wybierz klawiszem [>] słowa All ships, wciśnij [NEXT], wybierz klawiszem [>] słowo Safety, wciśnij [NEXT] wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij, wybierz klawiszem [>] słowa All ships, wciśnij [NEXT], wybierz klawiszem [>] słowo Safety, wciśnij [NEXT] tyle razy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [NEXT] wciśnij [SENT]",
@@ -5222,7 +5222,7 @@
 	}, {
 		"question_id": 668,
 		"question": "Nadaj za pomocą przystawki DSC VHF wywołanie alarmowe za inny statek.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [>] słowa Distress relay, wciśnij [NEXT], wybierz klawiszem [>] adres, wciśnij [NEXT], wprowadź pozycję statku zagrożonego oraz rodzaj zagrożenia, wciśnij [NEXT], wciśnij [SENT]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wybierz klawiszem [>] słowo Distress, wciśnij [NEXT], wybierz klawiszem [>] słowa Distress relay, wciśnij [NEXT], wybierz klawiszem [>] adres, wciśnij [NEXT], wprowadź pozycję statku zagrożonego oraz rodzaj zagrożenia, wciśnij [NEXT], wciśnij jednocześnie [DISTRESS] i [SEND]",
@@ -5231,7 +5231,7 @@
 	}, {
 		"question_id": 669,
 		"question": "Nadaj za pomocą przystawki DSC VHF zapowiedź prośby o pomoc medyczną do innych statków.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wybierz klawiszem [>] słowa All ships, wciśnij [NEXT], wybierz klawiszem [>] słowo Urgency, wciśnij [NEXT] tyle rzy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [NEXT] wciśnij [SENT] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wybierz klawiszem [>] słowa All ships, wciśnij [NEXT], wybierz klawiszem [>] słowo Urgency, wciśnij [NEXT] tyle razy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [NEXT] wciśnij [SENT]",
@@ -5240,7 +5240,7 @@
 	}, {
 		"question_id": 670,
 		"question": "Nadaj za pomocą przystawki DSC VHF wywołanie rutynowe do innego statku.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wprowadź z klawiatury numer DSC żądanej stacji, wciśnij [NEXT] tyle razy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [SENT]",
 		"answer_2": "Obróć [VOL], wciśnij [EDIT], wprowadź z klawiatury numer DSC żądanej stacji, wciśnij [NEXT] tyle razy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [SENT]",
@@ -5249,7 +5249,7 @@
 	}, {
 		"question_id": 671,
 		"question": "Nadaj za pomocą przystawki DSC VHF wywołanie do stacji brzegowej w celu przeprowadzenia rozmowy z operatorem.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q2",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [^], wprowadź z klawiatury numer DSC żądanej stacji, wciśnij [NEXT] tyle razy, aż pojawią się na ekranie słowa Position Omit, wybierz klawiszem [<] Position, wciśnij [NEXT] wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [EDIT], wciśnij [^], wprowadź z klawiatury numer DSC żądanej stacji, wciśnij [NEXT] tyle razy, aż pojawi się na ekranie Work channel, wprowadź numer kanału, wciśnij [SEND]",
@@ -5258,7 +5258,7 @@
 	}, {
 		"question_id": 672,
 		"question": "Dokonaj redukcji mocy radiotelefonu MF/HF o połowę.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [AGC/POWER]",
 		"answer_2": "Obróć [VOL], wciśnij [TX], wciśnij [AGC/POWER]",
@@ -5267,7 +5267,7 @@
 	}, {
 		"question_id": 673,
 		"question": "Ustaw podświetlenie wskaźników w radiotelefonie MF/HF dla warunków dziennych i nocnych. ",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [DIM/DUMMY LOAD] tyle razy, aby uzyskać zadawalające podświetlenie ",
 		"answer_2": "Obróć [VOL], wciśnij [MODE/DEL] tyle razy, aby uzyskać zadawalające podświetlenie ",
@@ -5276,7 +5276,7 @@
 	}, {
 		"question_id": 674,
 		"question": "Włącz i przygotuj radiostację MF/HF do nadawania alarmu na 2182 kHz.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [2182], wciśnij [MODE/DEL] tyle razy, aby pod wyświetlaczem pojawił się napis TLX ",
 		"answer_2": "Obróć [VOL], wciśnij [2182], wciśnij [TEST ALARM] ",
@@ -5285,7 +5285,7 @@
 	}, {
 		"question_id": 675,
 		"question": "Włącz i przygotuj radiostację MF/HF do łączności rutynowej bliskiego zasięgu.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość z pasma 2 MHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość z pasma 2 MHz, wciśnij [ENT], wciśnij [TX], wciśnij 3x [AGC/POWER] ",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość z pasma 8 MHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość z pasma 4 MHz, wciśnij [ENT]",
@@ -5294,7 +5294,7 @@
 	}, {
 		"question_id": 676,
 		"question": "Włącz i przygotuj radiostację MF/HF do łączności rutynowej dalekiego zasięgu.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [SC], wprowadź z klawiatury częstotliwość z pasma 2 MHz, wciśnij [ENT], wciśnij [SC], wprowadź z klawiatury częstotliwość z pasma 2 MHz, wciśnij [ENT]",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość z pasma 8 MHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość z pasma 8 MHz, wciśnij [ENT] ",
@@ -5303,7 +5303,7 @@
 	}, {
 		"question_id": 677,
 		"question": "Ustaw radiotelefoniczną częstotliwość alarmową z pasma 8 MHz.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 8414.5 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 8414.5 kHz, wciśnij [ENT] ",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 8291 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 8291 kHz, wciśnij [ENT] ",
@@ -5312,7 +5312,7 @@
 	}, {
 		"question_id": 678,
 		"question": "Ustaw na radiostacji MF/HF częstotliwość/kanał do wywołania stacji brzegowej Lyngby. Jesteś na południowym Bałtyku.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 8414.5 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 8291 kHz, wciśnij [ENT]",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 8291 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 8291kHz, wciśnij [ENT]",
@@ -5321,7 +5321,7 @@
 	}, {
 		"question_id": 679,
 		"question": "Ustaw na radiostacji MF/HF częstotliwość/kanał do wywołania stacji brzegowej Lyngby. Jesteś na południowym Atlantyku (dzień).",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 13104 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 12257 kHz, wciśnij [ENT]",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 2182 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 2182 kHz, wciśnij [ENT]",
@@ -5330,7 +5330,7 @@
 	}, {
 		"question_id": 680,
 		"question": "Ustaw na radiostacji MF/HF częstotliwość/kanał do wywołania stacji brzegowej Lyngby. Jesteś na południowym Atlantyku (noc).",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 4408 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 4116 kHz, wciśnij [ENT] ",
 		"answer_2": "Obróć [VOL], wciśnij [RX], wprowadź z klawiatury częstotliwość 2187.5 kHz, wciśnij [ENT], wciśnij [TX], wprowadź z klawiatury częstotliwość 2187.5 kHz, wciśnij [ENT] ",
@@ -5339,7 +5339,7 @@
 	}, {
 		"question_id": 681,
 		"question": "Ustaw na radiostacji MF/HF właściwą emisję do rozmów radiotelefonicznych.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [MODE/DEL] tyle razy, aby uzyskać pod wyświetlaczem napis H3E",
 		"answer_2": "Obróć [VOL], wciśnij [2182] wciśnij [ENT]",
@@ -5348,7 +5348,7 @@
 	}, {
 		"question_id": 682,
 		"question": "Ustaw pracę radiostacji MF/HF z automatyczną regulacją wzmocnienia.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [AGC/POWER] tyle razy, aby uzyskać pod wyświetlaczem napis AGC, ustaw pokrętło [RF] w położeniu środkowym",
 		"answer_2": "Obróć [VOL], wciśnij [AGC/POWER] tyle razy, aby uzyskać pod wyświetlaczem napis AGC, skręć pokrętło [RF] maksymalnie w lewo ",
@@ -5357,7 +5357,7 @@
 	}, {
 		"question_id": 683,
 		"question": "Dokonaj automatycznego strojenia radiostacji MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [TUNE]",
 		"answer_2": "Obróć [VOL], wciśnij przycisk nadawania na słuchawce",
@@ -5366,7 +5366,7 @@
 	}, {
 		"question_id": 684,
 		"question": "Dokonaj ręcznego strojenia radiostacji MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q3",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [TUNE]",
 		"answer_2": "Obróć [VOL], wciśnij [TX], wciśnij [TUNE] ",
@@ -5375,7 +5375,7 @@
 	}, {
 		"question_id": 685,
 		"question": "Dokonaj sprawdzenia nadajnika radiostacji MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [TX], wciśnij [DIM/DUMMY LOAD] zestrój radiostację, wciśnij przycisk nadawania na słuchawce, obserwuj wychylenie wskaźnika sygnału",
 		"answer_2": "Obróć [VOL], wciśnij [TX], wciśnij [2182] zestrój radiostację, wciśnij przycisk nadawania na słuchawce, obserwuj wychylenie wskaźnika sygnału",
@@ -5384,7 +5384,7 @@
 	}, {
 		"question_id": 686,
 		"question": "Wprowadź pozycję geograficzną do przystawki DSC MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij [EDIT], wprowadź pozycję",
 		"answer_2": "Obróć [VOL], wciśnij [FUNC], wciśnij [>], wciśnij [NEXT], wprowadź czas i pozycję, wciśnij [NEXT]",
@@ -5393,7 +5393,7 @@
 	}, {
 		"question_id": 687,
 		"question": "Ustaw aktualny czas i strefę czasową w przystawce DSC MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [FUNC], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Time, wciśnij [NEXT] wprowadź aktualną strefę czasową i czas UTC, wciśnij [NEXT]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Time, wciśnij [NEXT] wprowadź aktualną strefę czasową i czas UTC, wciśnij [NEXT]",
@@ -5402,7 +5402,7 @@
 	}, {
 		"question_id": 688,
 		"question": "Ustaw wyświetlacz przystawki DSC MF/HF odpowiednio na warunki dzienne i nocne.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [EDIT], wciśnij [^] tyle razy, aż uzyskasz odpowiednią jasność wyświetlacza",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [^] tyle razy, aż uzyskasz odpowiednią jasność wyświetlacza",
@@ -5411,7 +5411,7 @@
 	}, {
 		"question_id": 689,
 		"question": "Wykonaj test wewnętrzny przystawki DSC MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [EDIT], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Test, wciśnij [NEXT], wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Test, wciśnij [SEND] ",
@@ -5420,7 +5420,7 @@
 	}, {
 		"question_id": 690,
 		"question": "Wykonaj test zewnętrzny przystawki DSC MF/HF.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [EDIT], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Test, wciśnij [NEXT], wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [FUNC], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Test, wciśnij [NEXT], wciśnij [>], wciśnij [NEXT], wpisz numer stacji brzegowej, wciśnij [NEXT] ",
@@ -5429,7 +5429,7 @@
 	}, {
 		"question_id": 691,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF szybkie wywołanie alarmowe.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [DISTRESS], i [SEND] jednocześnie ",
 		"answer_2": "Obróć [VOL], wciśnij [DISTRESS], i [CALL] jednocześnie",
@@ -5438,7 +5438,7 @@
 	}, {
 		"question_id": 692,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF zapowiedź ostrzeżenia.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostaną słowa All ships, wciśnij [NEXT], wciśnij [NEXT], wprowadź częstotliwość wywoławczą 2187.5, przyciskiem [>] wyróżnij słowo Safety, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 2182, zatwierdź przyciskiem [NEXT], wciśnij [SEND] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [>] tyle razy, aż wyróżnione zostaną słowa All ships, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wciśnij [NEXT], wprowadź częstotliwość wywoławczą 8414.5, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 8291, zatwierdź przyciskiem [NEXT], wciśnij [SEND]",
@@ -5447,7 +5447,7 @@
 	}, {
 		"question_id": 693,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie alarmowe za inny statek.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [ENT], wyróżnij adres All ships, wprowadź częstotliwość wywoławczą 8414.5, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [ENT], wciśnij [SEND] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [NEXT], wyróżnij adres All ships, wprowadź częstotliwość wywoławczą 2187.5, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [SEND]",
@@ -5456,7 +5456,7 @@
 	}, {
 		"question_id": 694,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF zapowiedź prośby o pomoc medyczną do stacji brzegowej.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [SEND], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wprowadź częstotliwość roboczą w zależności od rejonu morza, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wprowadź częstotliwość roboczą w zależności od rejonu morza, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
@@ -5465,7 +5465,7 @@
 	}, {
 		"question_id": 695,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF zapowiedź prośby o pomoc medyczną do innych statków.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wciśnij [>] tyle razy, aż wyróżnione zostaną słowa All ships, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wciśnij [NEXT], wprowadź częstotliwość wywoławczą 2187.5, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 2182, zatwierdź przyciskiem [NEXT], wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT], wciśnij [>] tyle razy, aż wyróżnione zostaną słowa All ships, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Urgency, wciśnij [NEXT], wprowadź częstotliwość wywoławczą 2187.5, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 2182, zatwierdź przyciskiem [NEXT], wciśnij [SEND]",
@@ -5474,7 +5474,7 @@
 	}, {
 		"question_id": 696,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie rutynowe do innego statku.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wprowadź numer wywoływanego statku, wciśnij [ENT], wybierz przyciskiem[>] priorytet Routine wprowadź częstotliwość wywoławczą 2187.5, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 2182, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wprowadź numer wywoływanego statku, wciśnij [NEXT], wybierz przyciskiem[>] priorytet Urgency wprowadź częstotliwość wywoławczą 2177, zatwierdź przyciskiem [NEXT], wprowadź częstotliwość roboczą 2182, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND].",
@@ -5483,7 +5483,7 @@
 	}, {
 		"question_id": 697,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie do stacji brzegowej z automatycznym zamówieniem rozmowy telefonicznej.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wprowadź numer stacji brzegowej, wprowadź w notacji międzynarodowej numer żądanego telefonu, wciśnij [NEXT], wprowadź częstotliwość wywoławczą wybranej stacji, zatwierdź przyciskiem [NEXT], wyróżnij przyciskiem [>] słowo Position, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wprowadź numer stacji brzegowej, wprowadź w notacji międzynarodowej numer żądanego telefonu, wciśnij [ENT], wprowadź częstotliwość wywoławczą 2187.5, zatwierdź przyciskiem [NEXT], wyróżnij przyciskiem [>] słowo Position, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
@@ -5492,7 +5492,7 @@
 	}, {
 		"question_id": 698,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie do stacji brzegowej w celu przeprowadzenia rozmowy z operatorem.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wprowadź numer stacji brzegowej, wprowadź w notacji międzynarodowej numer żądanego telefonu, wciśnij [NEXT], wprowadź częstotliwość wywoławczą wybranej stacji, zatwierdź przyciskiem [NEXT], wyróżnij przyciskiem [>] słowo Omit, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wprowadź numer stacji brzegowej, wciśnij [NEXT], wprowadź częstotliwość wywoławczą wybranej stacji, zatwierdź przyciskiem [NEXT], wyróżnij przyciskiem [>] słowo Position, wciśnij [NEXT] tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND",
@@ -5501,7 +5501,7 @@
 	}, {
 		"question_id": 699,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie alarmowe będąc w rejonie A2.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress, wciśnij [NEXT], wybierz przyciskiem [^] częstotliwość wywoławczą 8414.5, wprowadź rodzaj zagrożenia, pozycję i rodzaj korespondencji J3E, potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [DISTRESS] i [SEND] jednocześnie",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress, wciśnij [NEXT], wybierz przyciskiem [^] częstotliwość wywoławczą 2187.5, wprowadź rodzaj zagrożenia, pozycję i rodzaj korespondencji J3E, potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [SEND]",
@@ -5510,7 +5510,7 @@
 	}, {
 		"question_id": 700,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie alarmowe będąc w rejonie A3.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress, wciśnij [NEXT], wybierz przyciskiem [^] częstotliwość wywoławczą 2187.5, wprowadź rodzaj zagrożenia, pozycję i rodzaj korespondencji J3E, potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [DISTRESS] i [SEND] jednocześnie",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress, wciśnij [NEXT], wybierz przyciskiem [^] częstotliwość wywoławczą 8414.5, wprowadź rodzaj zagrożenia, pozycję i rodzaj korespondencji J3E, potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [DISTRESS] i [SEND] jednocześnie ",
@@ -5519,7 +5519,7 @@
 	}, {
 		"question_id": 701,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie alarmowe za inny statek z rejonu A3 do stacji brzegowej.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [NEXT], wyróżnij adres Inividual, wprowadź częstotliwość wywoławczą 8414.5, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [SEND] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [NEXT], wyróżnij adres Individual, wprowadź częstotliwość wywoławczą 2187.5, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [SEND]",
@@ -5528,7 +5528,7 @@
 	}, {
 		"question_id": 702,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF wywołanie alarmowe za inny statek z rejonu A3 do innych statków.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [NEXT], wyróżnij adres All ships, wprowadź częstotliwość wywoławczą 2187.5, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [DISTRESS] i [SEND] jednocześnie ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Distress, wciśnij [NEXT], przyciskiem [>] wyróżnij słowa Distress relay, wciśnij [NEXT], wyróżnij adres All ships, wprowadź częstotliwość wywoławczą 8291, wprowadź dane statku zagrożonego potwierdzając każdorazowo przyciskiem [NEXT], wciśnij [SEND]",
@@ -5537,7 +5537,7 @@
 	}, {
 		"question_id": 703,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF zapowiedź prośby o poradę medyczną do stacji brzegowej z rejonu A3. ",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Urgency, wprowadź częstotliwość roboczą 2187.5, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Urgency, wprowadź częstotliwość wywoławczą 8414.5, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND] ",
@@ -5546,7 +5546,7 @@
 	}, {
 		"question_id": 704,
 		"question": "Nadaj za pomocą przystawki DSC MF/HF zapowiedź prośby o pomoc medyczną do stacji brzegowej z rejonu A2.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Urgency, wprowadź częstotliwość wywoławczą 2187.5, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND] ",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Individual, wciśnij [NEXT], wprowadź numer stacji brzegowej, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wprowadź częstotliwość wywoławczą 2182, wciśnij [NEXT], tyle razy by pojawiło się polecenie wysłania, wciśnij [SEND]",
@@ -5555,7 +5555,7 @@
 	}, {
 		"question_id": 705,
 		"question": " Nadaj za pomocą przystawki DSC MF/HF zapowiedź ostrzeżenia na określony obszar geograficzny.",
-		"question_image": "lrc_q",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Obróć [VOL], wciśnij [SEND], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo Selective, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Group, wciśnij [NEXT], wprowadź adres żądanego obszaru, wciśnij [NEXT], wprowadź częstotliwość 2187.5, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wciśnij [NEXT], wybierz przyciskiem [^] J3E, wciśnij [NEXT], wybierz przyciskiem [>] Work freq, wciśnij [NEXT], wprowadź częstotliwość roboczą 2182, wciśnij [NEXT], wciśnij [SEND]",
 		"answer_2": "Obróć [VOL], wciśnij [CALL], wciśnij [EDIT] wciśnij [>] tyle razy, aż wyróżnione zostanie słowo All ships, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo G Area, wciśnij [NEXT], wprowadź adres żądanego obszaru, wciśnij [NEXT], wprowadź częstotliwość 8414.5, wciśnij [NEXT], przyciskiem [>] wyróżnij słowo Safety, wciśnij [NEXT], wybierz przyciskiem [^] J3E, wciśnij [NEXT], wybierz przyciskiem [>] Work freq, wciśnij [NEXT], wprowadź częstotliwość roboczą 2182, wciśnij [NEXT], wciśnij [SEND]",
@@ -5564,7 +5564,7 @@
 	}, {
 		"question_id": 706,
 		"question": "Sposób postępowania z radiopławą EPIRB, będąc na tratwie ratunkowej.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Uruchom zabraną ze statku radiopławę, przywiąż ją do tratwy i wrzuć do wody.",
 		"answer_2": "Wciśnij przycisk ON na zabranej ze statku radiopławie i umieść ją możliwie wysoko na tratwie.",
@@ -5573,7 +5573,7 @@
 	}, {
 		"question_id": 707,
 		"question": "Przetestuj radiopławę EPIRB.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Połącz wystające metalowe bolce na bokach radiopławy przewodem o długości około 20 cm, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie,",
 		"answer_2": "Zdejmij radiopławę z obudowy i umieść ją w naczyniu z wodą morską, obserwuj jej zachowanie, powinno być zgodne z opisem na obudowie,",
@@ -5582,7 +5582,7 @@
 	}, {
 		"question_id": 708,
 		"question": "Uruchom transponder radarowy, będąc na tratwie ratunkowej.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Przywiąż zabrany ze statku transponder radarowy do tratwy i wrzuć go do wody.",
 		"answer_2": "Przywiąż zabrany ze statku transponder radarowy do tratwy, wciśnij przycisk uruchomienia i umieść go możliwie wysoko na tratwie.",
@@ -5591,7 +5591,7 @@
 	}, {
 		"question_id": 709,
 		"question": "Przetestuj transponder radarowy.",
-		"question_image": "",
+		"question_image": "lrc_q4",
 		"images": false,
 		"answer_1": "Wciśnij na 5 sekund przycisk uruchomienia i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze, wyłącz transponder",
 		"answer_2": "Zbliż transponder do radaru pracującego w paśmie X i obserwuj jego zachowanie powinno być zgodne z opisem na transponderze,",
