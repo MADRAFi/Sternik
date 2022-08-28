@@ -62,7 +62,6 @@ class QuestionsList: ObservableObject {
     func generateQuestionsList() -> [categoryList] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
         
-//        var set : [categoryList] = questions
         var examSet: [categoryList] = []
         var questions_list: [question] = []
         var element: question

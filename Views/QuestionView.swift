@@ -17,7 +17,7 @@ struct QuestionView: View {
     @State var showStats: Bool = false
     @State var selectedRow : Int = 0
     @State var lastCategory: Int = 0             // index of previous category before jump
-    @State var lastQuestion: Int = 0             // index of previous question before jump
+    @State var lastQuestion: Int = 1             // index of previous question before jump
     @State var lastQuestionNumber: Int = 0       // last question number in a set
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
@@ -362,7 +362,7 @@ struct QuestionView: View {
                         questionNumber = 1
                     },
                            label: {
-                        Image(systemName: "1.square.fill")
+                        Image(systemName: "arrow.left.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
                     
@@ -373,7 +373,7 @@ struct QuestionView: View {
                         
                     },
                            label: {
-                        Image(systemName: "rectangle.trailinghalf.inset.filled.arrow.trailing")
+                        Image(systemName: "pin.circle.fill")
                             .font(Font.system(.title))
                     })
                     Button(action: {
@@ -386,27 +386,25 @@ struct QuestionView: View {
                         
                     },
                            label: {
-                        Image(systemName: "pin.square.fill")
+                        Image(systemName: "arrow.right.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
                 }
-//                ToolbarItemGroup(placement: .navigationBarTrailing) {
-//                    Button(action: {
-////                        previousQuestion()
-//                    },
-//                           label: {
-//                        Image(systemName: "arrow.up.square.fill")
-//                            .font(Font.system(.title))
-//                    })
-//                    Button(action: {
-////                        nextQuestion()
-//                    },
-//                           label: {
-//                        Image(systemName: "arrow.down.square.fill")
-//                            .font(Font.system(.title))
-//                    })
-//                }
+
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+                    },
+                           label: {
+                        if questions[currentCategory].questions[currentQuestion].isFavourite {
+                            Image(systemName: "bookmark.square.fill")
+                                .font(Font.system(.title))
+                        } else {
+                            Image(systemName: "bookmark.square")
+                                .font(Font.system(.title))
+                        }
+                        
+                    })
                     Button(action: {
                         previousQuestion()
                     },
