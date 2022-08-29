@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category_name": "Regulaminy",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 1,
@@ -46,7 +46,7 @@
             },
             {
                 "question_id": 5,
-                "question": "Pasmo VHF obejmuje częstotliwości: ",
+                "question": "Pasmo VHF obejmuje częstotliwości:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "3 ÷ 30 MHz",
@@ -131,7 +131,7 @@
                 "images": false,
                 "answer_1": "nadajemy i odbieramy na tej samej częstotliwości",
                 "answer_2": "tylko nadajemy na określonej częstotliwości",
-                "answer_3": "nadajemy i odbieramy na różnych częstotliwościach ",
+                "answer_3": "nadajemy i odbieramy na różnych częstotliwościach",
                 "correct": 3
             },
             {
@@ -1149,7 +1149,7 @@
     {
         "id": 2,
         "category_name": "Terminy anglojęzyczne",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 115,
@@ -1188,7 +1188,7 @@
                 "images": false,
                 "answer_1": "Are you helping me?",
                 "answer_2": "Can you render assistance?",
-                "answer_3": "Do you help me? ",
+                "answer_3": "Do you help me?",
                 "correct": 2
             },
             {
@@ -1228,7 +1228,7 @@
                 "images": false,
                 "answer_1": "Survivors in good condition.",
                 "answer_2": "Survivors are good.",
-                "answer_3": "Survivors in bad condition. ",
+                "answer_3": "Survivors in bad condition.",
                 "correct": 1
             },
             {
@@ -1247,7 +1247,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Propeller damaged.",
-                "answer_2": "Bolt damaged. ",
+                "answer_2": "Bolt damaged.",
                 "answer_3": "Propeller are damaged.",
                 "correct": 3
             },
@@ -1398,7 +1398,7 @@
                 "images": false,
                 "answer_1": "What is your present maximum freeboard?",
                 "answer_2": "What is your present air draft?",
-                "answer_3": "What is your present maximum draft? ",
+                "answer_3": "What is your present maximum draft?",
                 "correct": 3
             },
             {
@@ -1586,9 +1586,9 @@
                 "question": "Osłońcie mnie od wiatru.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Make a lee for me. ",
+                "answer_1": "Make a lee for me.",
                 "answer_2": "Shelter me.",
-                "answer_3": "IKeep wind away of me.",
+                "answer_3": "Keep wind away of me.",
                 "correct": 1
             },
             {
@@ -1667,7 +1667,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Can you refloat in ebb tide?",
-                "answer_2": "Can you aground during tide? ",
+                "answer_2": "Can you aground during tide?",
                 "answer_3": "Can you refloat when tide rises?",
                 "correct": 3
             },
@@ -1756,7 +1756,7 @@
     {
         "id": 3,
         "category_name": "Urządzenia radiowe GMDSS",
-        "exam": 8,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 175,
@@ -1815,7 +1815,7 @@
                 "images": false,
                 "answer_1": "NAVTEX",
                 "answer_2": "DSC",
-                "answer_3": "EGC ",
+                "answer_3": "EGC",
                 "correct": 2
             },
             {
@@ -1865,7 +1865,7 @@
                 "images": false,
                 "answer_1": "zapewnienia koordynacji działań statków i lotnictwa",
                 "answer_2": "koordynacji ruchu statku",
-                "answer_3": "koordynacji kolejności działań środków radiokomunikacyjnych ",
+                "answer_3": "koordynacji kolejności działań środków radiokomunikacyjnych",
                 "correct": 1
             },
             {
@@ -2113,7 +2113,7 @@
                 "question": "W jaki sposób dokonuje się w odbiorniku NAVTEX ustawienia rodzaju odbieranych informacji:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "przez wpisanie numeru informacji ",
+                "answer_1": "przez wpisanie numeru informacji",
                 "answer_2": "przez ustawienie litery odpowiadającej typowi informacji",
                 "answer_3": "w odbiorniku nie ma możliwości wyboru odbieranych informacji",
                 "correct": 2
@@ -2164,7 +2164,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "dwa razy na dobę",
-                "answer_2": "o godz. 0700 i 2300 UTC ",
+                "answer_2": "o godz. 0700 i 2300 UTC",
                 "answer_3": "nie częściej niż co cztery godziny",
                 "correct": 3
             },
@@ -2333,7 +2333,7 @@
                 "question": "W skład systemu COSPAS-SARSAT wchodzi blok satelitów poruszających siępo orbitach polarnych. Które z poniższych stwierdzeń jest prawdziwe:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wysokość orbit polarnych wynosi około 3000 km ",
+                "answer_1": "wysokość orbit polarnych wynosi około 3000 km",
                 "answer_2": "wysokość orbit polarnych wynosi 850 - 1000 km",
                 "answer_3": "wysokość orbit polarnych wynosi około 240 km",
                 "correct": 2
@@ -2540,7 +2540,7 @@
             },
             {
                 "question_id": 253,
-                "question": "Testowanie radiopławy polega na: ",
+                "question": "Testowanie radiopławy polega na:",
                 "question_image": "",
                 "images": false,
                 "answer_1": "wykonaniu raz w miesiącu testu zgodnie z instrukcją na obudowie radiopławy",
@@ -2643,7 +2643,7 @@
                 "question": "Maksymalny zasięg transpondera radarowego przy wykrywaniu z helikoptera wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "15 mil ",
+                "answer_1": "15 mil",
                 "answer_2": "30-40 mil",
                 "answer_3": "60 mil",
                 "correct": 2
@@ -2773,7 +2773,7 @@
                 "question": "W radiotelefonii używana jest fala nośna:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "prostokątna ",
+                "answer_1": "prostokątna",
                 "answer_2": "trójkątna",
                 "answer_3": "sinusoidalna",
                 "correct": 3
@@ -3083,7 +3083,7 @@
                 "question": "Które ze zdań jest prawdziwe?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "Transponder AIS SART nie ma nadanego numeru identyfikacyjnego. ",
+                "answer_1": "Transponder AIS SART nie ma nadanego numeru identyfikacyjnego.",
                 "answer_2": "Numer identyfikacyjny transpondera jest taki sam jak numer MMSI statku,  na którym się znajduje transponder.",
                 "answer_3": "Numer identyfikacyjny transpondera AIS SART zawsze rozpoczyna się ciągiem cyfr 970.",
                 "correct": 3
@@ -3183,7 +3183,7 @@
                 "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów to zasięg stacji wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "10 km ",
+                "answer_1": "10 km",
                 "answer_2": "40 km",
                 "answer_3": "100 km",
                 "correct": 2
@@ -3203,7 +3203,7 @@
                 "question": "Jeżeli antena nadajnika radiotelefonu VHF znajduje się na maszcie o wysokości 100 metrów, zaś antena odbiornika usytuowana jest na wysokości 25 m to zasięg odbioru wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "30 km ",
+                "answer_1": "30 km",
                 "answer_2": "60 km",
                 "answer_3": "90 km",
                 "correct": 2
@@ -3263,7 +3263,7 @@
     {
         "id": 4,
         "category_name": "Obsługa urządzeń radiowych",
-        "exam": 2,
+        "exam": 5,
         "questions": [
             {
                 "question_id": 325,
@@ -3281,7 +3281,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 17, ustaw głośność VOL, ustaw blokadę szumów SQL",
-                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo ",
+                "answer_2": "Naciśnij i przytrzymaj przez chwilę PWR, wciśnij przycisk 16/C, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL maksymalnie w lewo",
                 "answer_3": "Naciśnij i przytrzymaj przez chwilę PWR, za pomocą przycisków CH ustaw kanał 13, za pomocą przycisku funkcyjnego HI/LO zmień na wyświetlaczu moc wyjściową z 1 W na 25 W, ustaw głośność VOL, ustaw blokadę szumów SQL",
                 "correct": 2
             },
@@ -3311,7 +3311,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie",
-                "answer_2": "ZaZa pomocą  przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie, za pomocą przycisku ENT zatwierdź ustawienia podświetlenia",
+                "answer_2": "Za pomocą przycisku funkcyjnego HI/LO ustaw jaśniejsze lub ciemniejsze podświetlenie, za pomocą przycisku ENT zatwierdź ustawienia podświetlenia",
                 "answer_3": "Za pomocą przycisków ◀︎ ▶︎ przydziel do jednego z przycisków funkcyjnych funkcję BKLT, naciśnij przycisk funkcyjny BKLT, za pomocą pokrętła VOL/SQL ustaw intensywność podświetlenia",
                 "correct": 3
             },
@@ -3321,7 +3321,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Wciśnij i przytrzymaj przez 3 sekundy przycisk funkcyjny *️⃣",
-                "answer_2": "ZaDo pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Naciśnij jednocześnie przyciski funkcyjne SCAN i *️⃣",
+                "answer_2": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Naciśnij jednocześnie przyciski funkcyjne SCAN i *️⃣",
                 "answer_3": "Do pamięci skanowania wpisane są kanały oznaczone na wyświetlaczu symbolem ✽ Za pomocą przycisków CH sprawdź, który kanał oznaczony jest na wyświetlaczu symbolem ✽",
                 "correct": 1
             },
@@ -3331,7 +3331,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą przycisków CH ustaw kanał 6, wciśnij przycisk funkcyjny *️⃣, powtórz to samo dla kanału 13 i kanału 16.",
-                "answer_2": "ZaWciśnij przycisk funkcyjny SCAN, w ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, wciśnij przycisk ENT.",
+                "answer_2": "Wciśnij przycisk funkcyjny SCAN, w ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, wciśnij przycisk ENT.",
                 "answer_3": "W ciągu 10 sekund, za pomocą przycisków CH, wybierz kolejno kanały: 6, 13 i 16, naciśnij przycisk funkcyjny SCAN.",
                 "correct": 1
             },
@@ -3341,7 +3341,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Wciśnij przycisk funkcyjny AQUA, nadaj komunikat.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj zapowiedź komunikatu ostrzegawczego, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
+                "answer_2": "Wciśnij przycisk 16/C, nadaj zapowiedź komunikatu ostrzegawczego, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
                 "answer_3": "Za pomocą przycisków CH ustaw kanał 13, nadaj komunikat.",
                 "correct": 2
             },
@@ -3351,8 +3351,8 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj wywołanie alarmowe, po krótkiej przerwie nadaj komunikat alarmowy.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj wywołanie alarmowe, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat alarmowy.",
-                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy. ",
+                "answer_2": "Wciśnij przycisk 16/C, nadaj wywołanie alarmowe, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, za pomocą przycisków CH ustaw kanał 13, nadaj komunikat alarmowy.",
+                "answer_3": "Za pomocą  przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, sprawdź moc, nadaj komunikat alarmowy, po krótkiej przerwie nadaj komunikat alarmowy.",
                 "correct": 1
             },
             {
@@ -3361,7 +3361,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat „3 x SECURITE, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
-                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
+                "answer_2": "Za pomocą przycisków CH ustaw kanał 16, nadaj komunikat: „3 x MAYDAY, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
                 "answer_3": "Za pomocą przycisków CH ustaw kanał 15, nadaj komunikat „3 x PAN PAN, 3 x ALL STATIONS, 3 x znak własnej stacji, man over board in position..........”",
                 "correct": 2
             },
@@ -3371,7 +3371,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą  przycisków CH ustaw kanał 13, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
-                "answer_2": "ZaWciśnij przycisk 16/C, sprawdź moc, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
+                "answer_2": "Wciśnij przycisk 16/C, sprawdź moc, nadaj „MAYDAY, 3x znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
                 "answer_3": "Za pomocą przycisków CH ustaw kanał 13, wciśnij przycisk funkcyjny HI/LO, nadaj „MAYDAY, znak stacji zagrożonej, TU 3x znak własnej stacji, RECEIVED MAYDAY”.",
                 "correct": 2
             },
@@ -3381,7 +3381,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
-                "answer_2": "ZaZa pomocą przycisków CH ustaw kanał 13, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
+                "answer_2": "Za pomocą przycisków CH ustaw kanał 13, nadaj „znak wywoływanej stacji, 3x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji prowadź rozmowę.",
                 "answer_3": "Wciśnij przycisk 16/C, nadaj „znak wywoływanej stacji, 2x znak własnej stacji”, po zgłoszeniu się wywoływanej stacji, uzgodnij kanał roboczy, ustaw go i prowadź rozmowę.",
                 "correct": 3
             },
@@ -3391,7 +3391,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Za pomocą przycisków CH ustaw kanał 13, nadaj „MAYDAY RELAY, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
-                "answer_2": "ZaWciśnij przycisk 16/C, nadaj „PAN PAN, TU 3x znak własnej stacji, treść komunikatu, PAN PAN”.",
+                "answer_2": "Wciśnij przycisk 16/C, nadaj „PAN PAN, TU 3x znak własnej stacji, treść komunikatu, PAN PAN”.",
                 "answer_3": "Wciśnij przycisk 16/C, nadaj „3x MAYDAY RELAY, 3x nazwa wywoływanej stacji, TU 3x znak własnej stacji, treść komunikatu, MAYDAY”.",
                 "correct": 3
             },
@@ -3400,8 +3400,8 @@
                 "question": "Wprowadź pozycję geograficzną oraz aktualny czas.",
                 "question_image": "",
                 "images": false,
-                "answer_1": " Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, Scan Timer, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
-                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: Configuration, UTC Offset, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, Scan Timer, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: Configuration, UTC Offset, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
                 "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Position Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: szerokość i długość geograficzną oraz czas, każde z ustawień zatwierdź hasłem FINISH.",
                 "correct": 3
             },
@@ -3410,8 +3410,8 @@
                 "question": "Wprowadź do rejestru radiotelefonu numer MMSI duńskiej stacji brzegowej Lyngby.",
                 "question_image": "",
                 "images": false,
-                "answer_1": "  Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, naciśnij przycisk funkcyjny ADD,  za pomocą  przycisków ▲,  ▼,  ◀︎,  ▶︎, ENT wprowadź kolejno: ID stacji (002191000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
-                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, Manual Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002619000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+                "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, naciśnij przycisk funkcyjny ADD,  za pomocą  przycisków ▲,  ▼,  ◀︎,  ▶︎, ENT wprowadź kolejno: ID stacji (002191000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, Manual Input, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002619000) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH,",
                 "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, za pomocą przycisków ▲, ▼, ◀︎, ▶︎, ENT wprowadź kolejno: ID stacji (002610100) i nazwę stacji (Lyngby), każde z ustawień zatwierdź hasłem FINISH.",
                 "correct": 1
             },
@@ -3421,7 +3421,7 @@
                 "question_image": "",
                 "images": false,
                 "answer_1": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Settings, Individual ID, LYNGBY, naciśnij przycisk funkcyjny DEL, zatwierdź przyciskiem funkcyjnym OK,",
-                "answer_2": "ZaWciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, LYNGBY, zatwierdź przyciskiem funkcyjnym EXIT,",
+                "answer_2": "Wciśnij przycisk MENU, wybierz ścieżkę: DSC Calls, Individual Call, LYNGBY, zatwierdź przyciskiem funkcyjnym EXIT,",
                 "answer_3": "Wciśnij przycisk MENU, wybierz ścieżkę: Radio Settings, CHAN Group, DSC, LYNGBY, zatwierdź przyciskiem funkcyjnym EXIT.",
                 "correct": 1
             },

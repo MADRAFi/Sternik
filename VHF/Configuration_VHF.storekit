@@ -15,7 +15,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-operator.full",
+      "productID" : "radio_operator.full",
       "referenceName" : "full",
       "type" : "NonConsumable"
     },
@@ -30,7 +30,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-operator.lrc",
+      "productID" : "radio_operator.lrc",
       "referenceName" : "lrc",
       "type" : "NonConsumable"
     },
@@ -45,7 +45,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-operator.vhf",
+      "productID" : "radio_operator.vhf",
       "referenceName" : "vhf",
       "type" : "NonConsumable"
     },
@@ -60,7 +60,7 @@
           "locale" : "pl"
         }
       ],
-      "productID" : "radio-operator.iwc",
+      "productID" : "radio_operator.iwc",
       "referenceName" : "iwc",
       "type" : "NonConsumable"
     }

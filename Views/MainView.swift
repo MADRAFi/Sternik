@@ -11,7 +11,7 @@ import StoreKit
 struct MainView: View {
     
     @State var selectedTab: Int = 0
-    @State var isFullVersion: Bool = false
+//    @State var isFullVersion: Bool = false
     @StateObject var store : Store = Store()
     @ObservedObject var data = QuestionsList()
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
@@ -21,15 +21,19 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-                CategoryView(isFullVersion: $isFullVersion)
+//                CategoryView(isFullVersion: $isFullVersion)
+                CategoryView()
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
+                            .font(Font.system(.largeTitle).bold())
                     }
                     .tag(0)
             
-                ModuleView(isFullVersion: $isFullVersion)
+//                ModuleView(isFullVersion: $isFullVersion)
+                ModuleView()
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")
+                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(1)
@@ -37,6 +41,7 @@ struct MainView: View {
                 SettingsView()
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
+                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(2)
@@ -45,8 +50,11 @@ struct MainView: View {
         .environmentObject(store)
         .environmentObject(data)
         .onAppear() {
-            selectedModule = builtInProduct!
+            if selectedModule.isEmpty {
+                selectedModule = builtInProduct!
+            }
             data.load(module: selectedModule)
+            
         }
     }
 }

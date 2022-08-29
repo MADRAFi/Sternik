@@ -12,7 +12,8 @@ struct CategoryView: View {
     
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
-    @Binding var isFullVersion: Bool
+//    @Binding var isFullVersion: Bool
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
 
@@ -26,26 +27,28 @@ struct CategoryView: View {
                                 ADBanner()
 //                                    .frame(width: 320, height: 50, alignment: .center)
                             }
-                            ForEach(data.questions) { item in
-                                NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
-                                    HStack {
-                                        Image("Icon_\(item.id)")
-                                            .padding(.vertical, 8)
-                                            .padding(.horizontal)
-                                        Text(item.category_name)
-                                        Spacer()
+                            if !selectedModule.isEmpty {
+                                let prefix = selectedModule.components(separatedBy: ".")[1]
+                                ForEach(data.questions) { item in
+                                    NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                        HStack {
+                                            Image("Icon_\(prefix)_\(item.id)")
+                                                .padding(.vertical, 8)
+                                                .padding(.horizontal, 5)
+                                            Text(item.category_name)
+                                            Spacer()
+                                        }
+                                        
                                     }
-                                    
                                 }
                             }
-                            
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Nauka")) {
+                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
-                                            .padding(.horizontal)
-                                        Text("Nauka")
+                                            .padding(.horizontal, 5)
+                                        Text("Wszystkie pytania")
                                         Spacer()
                                     }
                                 }
@@ -57,7 +60,7 @@ struct CategoryView: View {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
-                                            .padding(.horizontal)
+                                            .padding(.horizontal, 5)
                                         Text("Egzamin próbny")
                                         Spacer()
                                     }
@@ -73,6 +76,11 @@ struct CategoryView: View {
 
             }
             .navigationViewStyle(.stack)
+            .onAppear() {
+                if selectedModule.isEmpty {
+                    selectedModule = selectedModule
+                }
+            }
         
     }
 }
@@ -82,6 +90,7 @@ struct CategoryView: View {
         static var data = QuestionsList()
         
         static var previews: some View {
-            CategoryView(isFullVersion: .constant(true))
+//            CategoryView(isFullVersion: .constant(true))
+            CategoryView()
         }
     }
