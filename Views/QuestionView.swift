@@ -10,19 +10,31 @@ import SwiftUI
 struct QuestionView: View {
 
     @Environment(\.presentationMode) var presentationMode
-    @State var questions : [categoryList]
-    @State var title: String
 
+    let category: CategoryType
+
+    @EnvironmentObject var data: QuestionsList
+//    @State var questions : [categoryList]
+//    @State var title: String
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
-    @State var selectedRow : Int = 0
+    @State var selectedRow: Int = 0
     @State var lastCategory: Int = 0             // index of previous category before jump
     @State var lastQuestion: Int = 0            // index of previous question before jump
     @State var lastQuestionNumber: Int = 1       // last question number in a set
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
-    @State var questionTotal: Int = 1            // number of all questions in set
+//    @State var questionTotal: Int = 1            // number of all questions in set
+    // number of all questions in set
+    var questionTotal: Int {
+        var value: Int = 0
+        for item in questions {
+            value += item.questions.count
+        }
+
+        return value
+    }
     @State var answersCorrect: Int = 0
     @State var answersWrong: Int = 0
     @State var startTime: Date = .now
@@ -35,18 +47,52 @@ struct QuestionView: View {
     
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
+    var title: String {
+        switch category {
+        case .chosenCategory(_):
+            return "Wybrany dział"
+        case .favourites:
+            return "Ulubione"
+        case .all:
+            return "Wszytkie"
+        case .exam:
+            return "Egzamin"
+        }
+    }
+    var questions: [categoryList] {
+//        get {
+            switch category {
+            case let .chosenCategory(value):
+                return data.questions.filter({$0.id == value })
+            case .favourites:
+                return data.questions.filter({ category in
+                    return category.questions.contains(where: { $0.isFavourite == true })
+                })
+            case .all:
+                return data.questions
+            case .exam:
+                return data.generateQuestionsList()
+            default:
+                return data.questions
+            }
+//        }
+//        set {
+//                data.questions = newValue
+//        }
+    }
+    
     func calculateQuestionsTotal() -> Int {
         // calculates total number of all questions in a set (all categories)
-        
+
         var value: Int = 0
         for item in questions {
             value += item.questions.count
         }
-        
+
         return value
     }
     
-    func checkAnswer() {
+    fileprivate func checkAnswer() {
         switch  questions[currentCategory].questions[currentQuestion].choice {
         case 0:
             isAnswered = false
@@ -64,14 +110,14 @@ struct QuestionView: View {
             isAnswered = true
         }
     }
-    func validateAnswer() -> Bool {
+    fileprivate func validateAnswer() -> Bool {
         if  questions[currentCategory].questions[currentQuestion].correct == questions[currentCategory].questions[currentQuestion].choice {
             return true
         } else {
             return false
         }
     }
-    func getRowColor(selected: Int, current: Int) -> Color {
+    fileprivate func getRowColor(selected: Int, current: Int) -> Color {
         var rowColor: Color = Color.clear
         
         if isAnswered {
@@ -98,7 +144,7 @@ struct QuestionView: View {
         return rowColor
     }
     
-    func advanceToNextQuestion() {
+    fileprivate func advanceToNextQuestion() {
         if ShowNextQuestion && isAnswered {
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
@@ -210,7 +256,7 @@ struct QuestionView: View {
                     }
                 }
                 
-                // ---------------------------------------------------------------------------
+
                 Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
@@ -234,7 +280,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
-                        questions[currentCategory].questions[currentQuestion].choice = 1
+//                        questions[currentCategory].questions[currentQuestion].choice = 1
+                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 1)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -269,7 +316,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
-                        questions[currentCategory].questions[currentQuestion].choice = 2
+//                        questions[currentCategory].questions[currentQuestion].choice = 2
+                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 2)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -304,7 +352,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
-                        questions[currentCategory].questions[currentQuestion].choice = 3
+//                        questions[currentCategory].questions[currentQuestion].choice = 3
+                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 3)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -323,7 +372,8 @@ struct QuestionView: View {
             .navigationBarBackButtonHidden(true)
             //            .listStyle(GroupedListStyle())
             .onAppear {
-                questionTotal = self.calculateQuestionsTotal()
+//                data.filterdata(category: categoryType)
+//                questionTotal = self.calculateQuestionsTotal()
                 if questionTotal == answersCorrect + answersWrong && showStats == true {
                     showStats = false
                 } else {
@@ -337,7 +387,7 @@ struct QuestionView: View {
                 presentationMode.wrappedValue.dismiss()
             }
             .sheet(isPresented: $showStats) {
-                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
+                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
             }
             
             .toolbar {
@@ -393,12 +443,14 @@ struct QuestionView: View {
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+//                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+                        data.toggleFavourite(categoryIndex: currentCategory, questionIndex: currentQuestion)
                     },
                            label: {
                         if questions[currentCategory].questions[currentQuestion].isFavourite {
                             Image(systemName: "bookmark.square.fill")
                                 .font(Font.system(.title))
+                                .foregroundColor(.red)
                         } else {
                             Image(systemName: "bookmark.square")
                                 .font(Font.system(.title))
@@ -425,6 +477,8 @@ struct QuestionView: View {
         }
         
     }
+    
+
 }
 
 
@@ -433,6 +487,6 @@ struct QuestionView_Previews: PreviewProvider {
     static var questions = categoryList.example_data()
     
     static var previews: some View {
-        QuestionView(questions: questions, title: "Preview")
+        QuestionView(category: .all)
     }
 }

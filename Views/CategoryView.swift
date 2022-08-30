@@ -12,7 +12,7 @@ struct CategoryView: View {
     
     @EnvironmentObject var store: Store
     @EnvironmentObject var data : QuestionsList
-//    @Binding var isFullVersion: Bool
+
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
@@ -22,7 +22,6 @@ struct CategoryView: View {
             NavigationView {
                     List {
                         Section {
-//                            if !isFullVersion {
                             if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
                                 ADBanner()
 //                                    .frame(width: 320, height: 50, alignment: .center)
@@ -30,7 +29,7 @@ struct CategoryView: View {
                             if !selectedModule.isEmpty {
                                 let prefix = selectedModule.components(separatedBy: ".")[1]
                                 ForEach(data.questions) { item in
-                                    NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                    NavigationLink(destination: QuestionView(category: .chosenCategory(item.id))) {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
                                                 .padding(.vertical, 8)
@@ -43,7 +42,7 @@ struct CategoryView: View {
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie")) {
+                                NavigationLink(destination: QuestionView(category: .all)) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
@@ -56,7 +55,7 @@ struct CategoryView: View {
                             }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
+                                NavigationLink(destination: QuestionView(category: .exam)) {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
@@ -80,17 +79,14 @@ struct CategoryView: View {
                 if selectedModule.isEmpty {
                     selectedModule = selectedModule
                 }
+                data.load(module: selectedModule)
             }
         
     }
 }
     struct CategoryView_Previews: PreviewProvider {
         
-//        static var questions = categoryList.example_data()
-        static var data = QuestionsList()
-        
         static var previews: some View {
-//            CategoryView(isFullVersion: .constant(true))
             CategoryView()
         }
     }

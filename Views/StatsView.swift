@@ -13,7 +13,7 @@ struct StatsView: View {
     
     @Binding var startTime: Date
     @Binding var endTime: Date
-    @Binding var questionTotal: Int
+    @State var questionTotal: Int
     @Binding var answersCorrect: Int
     @Binding var answersWrong: Int
     
@@ -89,6 +89,6 @@ struct StatsView: View {
 struct StatsView_Previews: PreviewProvider {
     
     static var previews: some View {
-        StatsView(showStats: .constant(true), startTime: .constant(Date().addingTimeInterval(12)),endTime: .constant(Date()), questionTotal: .constant(75), answersCorrect: .constant(65), answersWrong: .constant(10))
+        StatsView(showStats: .constant(true), startTime: .constant(Date().addingTimeInterval(12)),endTime: .constant(Date()), questionTotal: 75, answersCorrect: .constant(65), answersWrong: .constant(10))
     }
 }

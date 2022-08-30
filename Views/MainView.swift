@@ -11,17 +11,14 @@ import StoreKit
 struct MainView: View {
     
     @State var selectedTab: Int = 0
-//    @State var isFullVersion: Bool = false
     @StateObject var store : Store = Store()
     @ObservedObject var data = QuestionsList()
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
-//    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
     var body: some View {
         TabView(selection: $selectedTab) {
-//                CategoryView(isFullVersion: $isFullVersion)
                 CategoryView()
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
@@ -29,7 +26,6 @@ struct MainView: View {
                     }
                     .tag(0)
             
-//                ModuleView(isFullVersion: $isFullVersion)
                 ModuleView()
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")
@@ -53,7 +49,7 @@ struct MainView: View {
             if selectedModule.isEmpty {
                 selectedModule = builtInProduct!
             }
-            data.load(module: selectedModule)
+//            data.load(module: selectedModule)
             
         }
     }
@@ -62,5 +58,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {    
     static var previews: some View {
         MainView()
+            .environmentObject(QuestionsList())
     }
 }

@@ -8,16 +8,29 @@
 import Foundation
 import SwiftUI
 
-class QuestionsList: ObservableObject {
+enum CategoryType {
+    case chosenCategory(Int)
+    case favourites
+    case all
+    case exam
+}
+
+@MainActor class QuestionsList: ObservableObject {
 
     @Published var questions = [categoryList]()
+//    @Published var filteredQuestions : [categoryList] = []
+    
+//    init(category: CategoryType) {
+//        let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+//        load(module: builtInProduct!)
+//        filterdata(category: category)
+//    }
 
     init() {
         let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
         load(module: builtInProduct!)
-//        sort()
-    }
 
+    }
     func load(module: String) {
 
         // read plist file to get name of the json file
@@ -44,20 +57,46 @@ class QuestionsList: ObservableObject {
 
     }
 
+//    func filterdata(category: CategoryType) {
+//       switch category {
+//       case let .chosenCategory(value):
+//           filteredQuestions = questions.filter({$0.id == value })
+//       case .favourites:
+//           filteredQuestions = questions.filter({ category in
+//               return category.questions.contains(where: { $0.isFavourite == true })
+//           })
+//       case .all:
+//           filteredQuestions = questions
+//       case .exam:
+//           filteredQuestions = generateQuestionsList()
+//
+//       }
+//   }
+    
+    func toggleFavourite(categoryIndex : Int, questionIndex: Int) {
+        objectWillChange.send()
+        questions[categoryIndex].questions[questionIndex].isFavourite.toggle()
+    }
+    
+    func setAnswer(categoryIndex : Int, questionIndex: Int, choice: Int) {
+        objectWillChange.send()
+        questions[categoryIndex].questions[questionIndex].choice = choice
+    }
+    
 //    func sort() {
 //        self.questionsData = self.questionsData.sorted(by: { $0.question_id < $1.question_id })
 //    }
 
-    func calculateQuestionsTotal() -> Int {
-    // calculates total number of all questions in a set (all categories)
-
-        var value: Int = 0
-        for item in questions {
-            value += item.questions.count
-        }
-
-        return value
-    }
+//    func calculateQuestionsTotal() -> Int {
+//    // calculates total number of all questions in a set (all categories)
+//
+//        var value: Int = 0
+//        for item in questions {
+//            value += item.questions.count
+//        }
+//
+//        return value
+//    }
 
     func generateQuestionsList() -> [categoryList] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category

@@ -8,8 +8,8 @@
 import Foundation
 
 
-struct question: Codable {
-
+struct question: Codable, Identifiable {
+    var id = UUID()
     var question_id: Int
     var question: String
     var question_image: String
