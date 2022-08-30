@@ -15,7 +15,7 @@ enum CategoryType {
     case exam
 }
 
-@MainActor class QuestionsList: ObservableObject {
+class QuestionsList: ObservableObject {
 
     @Published var questions = [categoryList]()
 //    @Published var filteredQuestions : [categoryList] = []

@@ -13,8 +13,8 @@ struct QuestionView: View {
 
     let category: CategoryType
 
-    @EnvironmentObject var data: QuestionsList
-//    @State var questions : [categoryList]
+//    @Binding var data: QuestionsList
+    @Binding var questions : [categoryList]
 //    @State var title: String
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
@@ -59,36 +59,32 @@ struct QuestionView: View {
             return "Egzamin"
         }
     }
-    var questions: [categoryList] {
-//        get {
-            switch category {
-            case let .chosenCategory(value):
-                return data.questions.filter({$0.id == value })
-            case .favourites:
-                return data.questions.filter({ category in
-                    return category.questions.contains(where: { $0.isFavourite == true })
-                })
-            case .all:
-                return data.questions
-            case .exam:
-                return data.generateQuestionsList()
-            }
-//        }
-//        set {
-//                data.questions = newValue
-//        }
-    }
+//    var questions: [categoryList] {
+//            switch category {
+//            case let .chosenCategory(value):
+//                return data.questions.filter({$0.id == value })
+//            case .favourites:
+//                return data.questions.filter({ category in
+//                    return category.questions.contains(where: { $0.isFavourite == true })
+//                })
+//            case .all:
+//                return data.questions
+//            case .exam:
+//                return data.generateQuestionsList()
+//            }
+//
+//    }
     
-    func calculateQuestionsTotal() -> Int {
-        // calculates total number of all questions in a set (all categories)
-
-        var value: Int = 0
-        for item in questions {
-            value += item.questions.count
-        }
-
-        return value
-    }
+//    func calculateQuestionsTotal() -> Int {
+//        // calculates total number of all questions in a set (all categories)
+//
+//        var value: Int = 0
+//        for item in questions {
+//            value += item.questions.count
+//        }
+//
+//        return value
+//    }
     
     fileprivate func checkAnswer() {
         switch  questions[currentCategory].questions[currentQuestion].choice {
@@ -278,8 +274,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
-//                        questions[currentCategory].questions[currentQuestion].choice = 1
-                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 1)
+                        questions[currentCategory].questions[currentQuestion].choice = 1
+//                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 1)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -314,8 +310,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
-//                        questions[currentCategory].questions[currentQuestion].choice = 2
-                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 2)
+                        questions[currentCategory].questions[currentQuestion].choice = 2
+//                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 2)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -350,8 +346,8 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
-//                        questions[currentCategory].questions[currentQuestion].choice = 3
-                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 3)
+                        questions[currentCategory].questions[currentQuestion].choice = 3
+//                        data.setAnswer(categoryIndex: currentCategory, questionIndex: currentQuestion, choice: 3)
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -441,8 +437,8 @@ struct QuestionView: View {
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
-                        data.toggleFavourite(categoryIndex: currentCategory, questionIndex: currentQuestion)
+                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+//                        data.toggleFavourite(categoryIndex: currentCategory, questionIndex: currentQuestion)
                     },
                            label: {
                         if questions[currentCategory].questions[currentQuestion].isFavourite {
@@ -480,11 +476,11 @@ struct QuestionView: View {
 }
 
 
-struct QuestionView_Previews: PreviewProvider {
-    
-    static var questions = categoryList.example_data()
-    
-    static var previews: some View {
-        QuestionView(category: .all)
-    }
-}
+//struct QuestionView_Previews: PreviewProvider {
+//
+//    static var questions = categoryList.example_data()
+//
+//    static var previews: some View {
+//        QuestionView(category: .all, data: questions )
+//    }
+//}

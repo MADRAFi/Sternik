@@ -29,7 +29,7 @@ struct CategoryView: View {
                             if !selectedModule.isEmpty {
                                 let prefix = selectedModule.components(separatedBy: ".")[1]
                                 ForEach(data.questions) { item in
-                                    NavigationLink(destination: QuestionView(category: .chosenCategory(item.id))) {
+                                    NavigationLink(destination: QuestionView(category: .chosenCategory(item.id), questions: $data.questions.filter({$0.id == item.id }))) {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
                                                 .padding(.vertical, 8)
@@ -42,7 +42,7 @@ struct CategoryView: View {
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(category: .all)) {
+                                NavigationLink(destination: QuestionView(category: .all, questions: $data.questions)) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
@@ -53,9 +53,24 @@ struct CategoryView: View {
                                 }
                                 
                             }
+                            HStack {
+                                NavigationLink(destination: QuestionView(category: .favourites, questions: data.questions.filter({ category in
+                                    return category.questions.contains(where: { $0.isFavourite == true })
+                                }))) {
+                                    HStack {
+                                        Image("Icon_Learn")
+                                            .padding(.vertical, 8)
+                                            .padding(.horizontal, 5)
+                                        Text("Ulubione")
+                                        Spacer()
+                                    }
+                                }
+                                
+                            }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(category: .exam)) {
+
+                                NavigationLink(destination: QuestionView(category: .exam, questions: $data.generateQuestionsList)) {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
@@ -63,9 +78,9 @@ struct CategoryView: View {
                                         Text("Egzamin próbny")
                                         Spacer()
                                     }
-                                    
+
                                 }
-                                
+
                             }
                             
                         }
