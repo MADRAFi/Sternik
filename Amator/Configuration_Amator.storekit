@@ -1,0 +1,48 @@
+{
+  "identifier" : "31D51E00",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "49C40E3D",
+      "localizations" : [
+        {
+          "description" : "Wersja programu bez reklam",
+          "displayName" : "Pełna wersja",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio_amator.full",
+      "referenceName" : "full",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "900CFA8B",
+      "localizations" : [
+        {
+          "description" : "Zestaw pytań operatora klasy A",
+          "displayName" : "Pytania klasy A",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "radio_amator.a",
+      "referenceName" : "a",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

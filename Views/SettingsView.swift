@@ -18,10 +18,9 @@ extension Bundle {
 }
 struct SettingsView: View {
     @AppStorage("Show_Correct_Answer") private var ShowCorrect : Bool = true
-    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = true
     
     let about = Bundle.main.infoDictionary?["About"] as? String
-    //    else {return print("About not found")}
     
     var body: some View {
         NavigationView {
@@ -44,9 +43,10 @@ struct SettingsView: View {
                         
                         VStack(alignment: .leading){
                             Text(about ?? "")
-                                .padding(.vertical)
+//                                .padding(.vertical)
 //                            Spacer()
                             Text("Pytania w aplikacji pochodzą z udostępionych w internecie materiałów do nauki.")
+                                .padding(.vertical, 8)
                         }
                         .multilineTextAlignment(.leading)
                         .lineLimit(nil)

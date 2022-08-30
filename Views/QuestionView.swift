@@ -9,16 +9,20 @@ import SwiftUI
 
 struct QuestionView: View {
 
+    @Environment(\.presentationMode) var presentationMode
     @State var questions : [categoryList]
     @State var title: String
 
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
     @State var selectedRow : Int = 0
+    @State var lastCategory: Int = 0             // index of previous category before jump
+    @State var lastQuestion: Int = 0            // index of previous question before jump
+    @State var lastQuestionNumber: Int = 1       // last question number in a set
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
-    @State var questionTotal: Int = 1        // number of all questions in set
+    @State var questionTotal: Int = 1            // number of all questions in set
     @State var answersCorrect: Int = 0
     @State var answersWrong: Int = 0
     @State var startTime: Date = .now
@@ -26,11 +30,13 @@ struct QuestionView: View {
     
     
     @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
-    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = false
-      
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = true
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
+    
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
     func calculateQuestionsTotal() -> Int {
-    // calculates total number of all questions in a set (all categories)
+        // calculates total number of all questions in a set (all categories)
         
         var value: Int = 0
         for item in questions {
@@ -85,7 +91,7 @@ struct QuestionView: View {
                     rowColor = Color.clear
                 }
             }
-
+            
         } else {
             rowColor = Color.clear
         }
@@ -94,9 +100,9 @@ struct QuestionView: View {
     
     func advanceToNextQuestion() {
         if ShowNextQuestion && isAnswered {
-
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            // code to execute after 1 second
+                // code to execute after 1 second
                 nextQuestion()
             }
         }
@@ -145,43 +151,46 @@ struct QuestionView: View {
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
-
+            
         }
     }
     
     var body: some View {
-// ---------------------------------------------------------------------------
-        Section {
-            VStack {
-                HStack() {
-                    Text(String(questions[currentCategory].id) + ":")
-                    Text(questions[currentCategory].category_name)
-                    Spacer()
+        VStack {
+            Section {
+                VStack {
+                    HStack() {
+                        Text(String(questions[currentCategory].id) + ":")
+                        Text(questions[currentCategory].category_name)
+                        Spacer()
+                    }
+                    ProgressView(value: Float(questionNumber) / Float(questionTotal))
+//                        .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    HStack {
+                        //                        Text(startTime, style: .relative)
+                        if !selectedModule.isEmpty {
+                            let module_name = selectedModule.components(separatedBy: ".")[1].uppercased()
+                            Text(module_name)
+                                .bold()
+                        }
+                        Spacer()
+                        Text(String(questionNumber))
+                        Text("/")
+                        Text(String(questionTotal))
+                        
+                    }
+                    
+                    
+                    
                 }
-                ProgressView(value: Float(questionNumber) / Float(questionTotal))
-                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                    .controlSize(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
-                HStack {
-                    //                        Text(startTime, style: .relative)
-                    Spacer()
-                    Text(String(questionNumber))
-                    Text("/")
-                    Text(String(questionTotal))
-
-                }
-
-
-                
+                .padding(.top)
             }
-        }
-        .padding(.horizontal)
-// ---------------------------------------------------------------------------
+            .padding(.horizontal)
         
-        List {
-               
-// ---------------------------------------------------------------------------
+            List {
+                
                 Section(header: Text("Pytanie")) {
-                    VStack {
+                    VStack(alignment: .center) {
                         HStack {
                             Text(String(questions[currentCategory].questions[currentQuestion].question_id))
                             Text(questions[currentCategory].questions[currentQuestion].question)
@@ -189,10 +198,19 @@ struct QuestionView: View {
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(10)
                         }
+                        if !(questions[currentCategory].questions[currentQuestion].question_image.isEmpty) {
+                            Image((questions[currentCategory].questions[currentQuestion].question_image))
+                                .resizable()
+                                .scaledToFit()
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .frame(maxWidth: 300)
+                                .padding(5)
+                        }
+
                     }
                 }
                 
-// ---------------------------------------------------------------------------
+                // ---------------------------------------------------------------------------
                 Section(header: Text("Odpowiedzi")) {
                     HStack {
                         Text("A")
@@ -211,6 +229,7 @@ struct QuestionView: View {
                         }
                         Spacer()
                     }
+                    .padding(.vertical ,8)
                     .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
@@ -241,10 +260,11 @@ struct QuestionView: View {
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(.vertical, 5)
-
+                            
                         }
                         Spacer()
                     }
+                    .padding(.vertical ,8)
                     .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
@@ -274,11 +294,12 @@ struct QuestionView: View {
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(.vertical, 5)
-
+                            
                             
                         }
                         Spacer()
                     }
+                    .padding(.vertical ,8)
                     .lineLimit(nil)
                     .contentShape(Rectangle())
                     .onTapGesture {
@@ -294,57 +315,114 @@ struct QuestionView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .disabled(self.isAnswered)
                 }
-//                .multilineTextAlignment(.leading)
+                //                .multilineTextAlignment(.leading)
                 .lineLimit(nil)
             }
             .navigationTitle(title)
-            .navigationBarTitleDisplayMode(.large)
-//            .listStyle(GroupedListStyle())
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarBackButtonHidden(true)
+            //            .listStyle(GroupedListStyle())
             .onAppear {
                 questionTotal = self.calculateQuestionsTotal()
                 if questionTotal == answersCorrect + answersWrong && showStats == true {
                     showStats = false
-//                    self.presentationMode.wrappedValue.dismiss()
                 } else {
                     startTime = .now
                 }
+                if selectedModule.isEmpty {
+                    selectedModule = builtInProduct!
+                }
+            }
+            .onDisappear() {
+                presentationMode.wrappedValue.dismiss()
             }
             .sheet(isPresented: $showStats) {
                 StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
             }
-
+            
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    },
+                           label: {
+                        Image(systemName: "chevron.backward")
+                            .font(Font.system(.title).bold())
+
+                    })
+                }
+                ToolbarItemGroup(placement: .status) {
+
+                    Button(action: {
+                        lastCategory = currentCategory
+                        lastQuestion = currentQuestion
+                        lastQuestionNumber = questionNumber
                         currentQuestion = 0
                         currentCategory = 0
                         questionNumber = 1
                     },
-                        label: {
-                            Image(systemName: "1.square.fill")
-                                .imageScale(.large)
+                           label: {
+                        Image(systemName: "arrow.left.to.line.circle.fill")
+                            .font(Font.system(.title))
+                    })
+                    
+                    Button(action: {
+                        currentCategory = lastCategory
+                        currentQuestion = lastQuestion
+                        questionNumber = lastQuestionNumber
+                        
+                    },
+                           label: {
+                        Image(systemName: "pin.circle.fill")
+                            .font(Font.system(.title))
+                    })
+                    Button(action: {
+                        lastCategory = currentCategory
+                        lastQuestion = currentQuestion
+                        lastQuestionNumber = questionNumber
+                        currentCategory = questions.count - 1
+                        currentQuestion = questions[currentCategory].questions.count - 1
+                        questionNumber = questionTotal
+                        
+                    },
+                           label: {
+                        Image(systemName: "arrow.right.to.line.circle.fill")
+                            .font(Font.system(.title))
                     })
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
+
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+                    },
+                           label: {
+                        if questions[currentCategory].questions[currentQuestion].isFavourite {
+                            Image(systemName: "bookmark.square.fill")
+                                .font(Font.system(.title))
+                        } else {
+                            Image(systemName: "bookmark.square")
+                                .font(Font.system(.title))
+                        }
+                        
+                    })
                     Button(action: {
                         previousQuestion()
                     },
-                        label: {
-                            Image(systemName: "arrow.left.square.fill")
-                                .imageScale(.large)
+                           label: {
+                        Image(systemName: "arrow.left.square.fill")
+                            .font(Font.system(.title))
                     })
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         nextQuestion()
                     },
-                        label: {
-                            Image(systemName: "arrow.right.square.fill")
-                                .imageScale(.large)
+                           label: {
+                        Image(systemName: "arrow.right.square.fill")
+                            .font(Font.system(.title))
                     })
                 }
+                
             }
-            
+        }
         
     }
 }

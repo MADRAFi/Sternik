@@ -6,61 +6,101 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct ModuleView: View {
-    var body: some View {
-        
-        NavigationView {
-                List {
-                    Section {
+    
 
-                        
-                        HStack {
-                            NavigationLink(destination: Text("Purachse 1")) {
-                                HStack {
-                                    Image("Icon_Learn")
-                                        .padding(.vertical, 8)
-                                        .padding(.horizontal)
-                                    Text("Nauka")
-                                    Spacer()
-                                }
+    @EnvironmentObject var store: Store
+    @EnvironmentObject var data: QuestionsList
+//    @Binding var isFullVersion: Bool
+    
+    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String ?? ""
+    let builtInProductName = Bundle.main.infoDictionary?["BuiltInProductName"] as? String ?? ""
+    let builtInProductDescription = Bundle.main.infoDictionary?["BuiltInProductDescription"] as? String ?? ""
+    
+    
+    var productButton: some View {
+        Button(action: {}) {
+            ownedButton
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 10))
+    }
+    func displayProduct(id: String, name: String, description: String) -> some View {
+        
+        return HStack {
+            Image(id)
+                .cornerRadius(8)
+                .padding(.leading, 15)
+            VStack(alignment: .leading) {
+                Text(name)
+                    .font(.body)
+                Text(description)
+                    .font(.caption2)
+            }
+            Spacer()
+            productButton
+        }
+    }
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                VStack {
+                    if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
+                        ADBanner()
+                            .frame(width: 320, height: 100, alignment: .center)
+                    }
+                    SwitchModuleView()
+                }
+                ScrollView {
+                    VStack {
+                        VStack(alignment: .leading) {
+                            displayProduct(id: builtInProduct, name: builtInProductName, description: builtInProductDescription)
+                            ForEach(store.products) { item in
+                                ProductView(product: item)
                             }
-                            
+
                         }
-                        
                         HStack {
-                            NavigationLink(destination: Text("Purchase 2")) {
+                            Spacer()
+                            Button(action: {
+                                Task {
+                                    try? await AppStore.sync()
+                                }
+                            }) {
                                 HStack {
-                                    Image("Icon_Exam")
-                                        .padding(.vertical, 8)
+                                    Text("Przywróć zakupy")
+                                        .font(.body)
+//                                        .padding(.vertical, 8)
                                         .padding(.horizontal)
-                                    Text("Egzamin próbny")
-                                    Spacer()
                                 }
                                 
                             }
-                            
+//                            .background(Color("AccentColor"))
+//                            .foregroundColor(Color.primary)
+//                            .clipShape(RoundedRectangle(cornerRadius: 10))
+//                            
                         }
-                        
+//                        Spacer()
                     }
-//                    ADBanner()
-//                            .frame(width: 320, height: 100, alignment: .center)
+//                    .padding()
+                    .navigationTitle("Moduły")
+                    .navigationBarTitleDisplayMode(.large)
                 }
-                .navigationTitle("Moduły")
-                .navigationBarTitleDisplayMode(.large)
-
+            }
         }
         .navigationViewStyle(.stack)
-        
-        
-        
-        
-        
+
     }
 }
 
 struct ModuleView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        ModuleView()
+
+//        ModuleView(isFullVersion: .constant(true))
+            ModuleView()
     }
 }
