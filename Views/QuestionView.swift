@@ -72,8 +72,6 @@ struct QuestionView: View {
                 return data.questions
             case .exam:
                 return data.generateQuestionsList()
-            default:
-                return data.questions
             }
 //        }
 //        set {
