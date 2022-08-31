@@ -143,3 +143,24 @@ class QuestionRepository: ObservableObject {
         ]
     }
 }
+
+/**
+ Injects your QuestionRepository so that you can access it from anywhere
+ */
+private struct TheKey: InjectionKey {
+     static var currentValue: QuestionRepository = QuestionRepository()
+}
+
+extension InjectedValues {
+    /**
+     Adds the Injection Key universally in your code. You can now do:
+     ````
+     @Injected(\.questions) var questions
+     ````
+     And you have a variable of type `QuestionRepository` containing the singular, central Instance.
+     */
+    var questions: QuestionRepository {
+        get { Self[TheKey.self] }
+        set { Self[TheKey.self] = newValue }
+    }
+}

@@ -68,6 +68,9 @@
 		DAAEA07328BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
 		DAAEA07428BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
 		DAAEA07528BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
+		DAAEA07928BF7C650034897E /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07828BF7C650034897E /* DependencyInjection.swift */; };
+		DAAEA07A28BF7C650034897E /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07828BF7C650034897E /* DependencyInjection.swift */; };
+		DAAEA07B28BF7C650034897E /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07828BF7C650034897E /* DependencyInjection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +108,7 @@
 		80D7D84B2884A132009EB03A /* Sternik.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sternik.xcassets; sourceTree = "<group>"; };
 		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
 		DAAEA07228BF74C00034897E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DAAEA07828BF7C650034897E /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,7 @@
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
+				DAAEA07728BF7C580034897E /* DependencyInjection */,
 				DAAEA07628BF757D0034897E /* Repositories */,
 				DAAEA07128BF74AB0034897E /* Models */,
 				8036FE4328B0D39300A94DBE /* Views */,
@@ -229,6 +234,14 @@
 				80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DAAEA07728BF7C580034897E /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				DAAEA07828BF7C650034897E /* DependencyInjection.swift */,
+			);
+			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +395,7 @@
 			files = (
 				800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */,
 				DAAEA07528BF74C00034897E /* Category.swift in Sources */,
+				DAAEA07B28BF7C650034897E /* DependencyInjection.swift in Sources */,
 				800B6EEB28B77DF000FA583B /* QuestionRepository.swift in Sources */,
 				800B6EEC28B77DF000FA583B /* MainView.swift in Sources */,
 				800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */,
@@ -403,6 +417,7 @@
 			files = (
 				80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */,
 				DAAEA07428BF74C00034897E /* Category.swift in Sources */,
+				DAAEA07A28BF7C650034897E /* DependencyInjection.swift in Sources */,
 				80A3525D28B2E1530094ADC9 /* QuestionRepository.swift in Sources */,
 				80B0F10528A460E00056A911 /* MainView.swift in Sources */,
 				80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */,
@@ -424,6 +439,7 @@
 			files = (
 				80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */,
 				DAAEA07328BF74C00034897E /* Category.swift in Sources */,
+				DAAEA07928BF7C650034897E /* DependencyInjection.swift in Sources */,
 				80A3525C28B2E1530094ADC9 /* QuestionRepository.swift in Sources */,
 				80B0F10428A460E00056A911 /* MainView.swift in Sources */,
 				80D7D8592884A133009EB03A /* SternikApp.swift in Sources */,
