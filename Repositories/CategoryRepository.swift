@@ -11,14 +11,17 @@ import SwiftUI
 class CategoryRepository: ObservableObject {
     @Published var categories = [Category.ID:Category]() {
         didSet {
-            sorted = categories.values.sorted(by: { lhs, rhs in
+            sortedCategories = categories.values.sorted(by: { lhs, rhs in
                 lhs.id < rhs.id
             })
+            favourites = filterFavourites()
+            
         }
     }
-    
-    var sorted = [Category]()
-    
+
+    var sortedCategories = [Category]()
+//    var favourites = [Category]()
+    var favourites : [Category] = []
     
     /**
      This Subscript allows us to Get and Set Questions by referencing the Repository itself, rather than a property or method
@@ -28,6 +31,7 @@ class CategoryRepository: ObservableObject {
             return categories[id]
         }
         set {
+            objectWillChange.send()
             categories[id] = newValue
         }
     }
@@ -35,7 +39,6 @@ class CategoryRepository: ObservableObject {
     init() {
         let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
         load(module: builtInProduct!)
-//        sort()
     }
 
     func load(module: String) {
@@ -69,20 +72,16 @@ class CategoryRepository: ObservableObject {
 
     }
 
-//    func sort() {
-//        self.questionsData = self.questionsData.sorted(by: { $0.question_id < $1.question_id })
+//    func calculateQuestionsTotal() -> Int {
+//    // calculates total number of all questions in a set (all categories)
+//
+//        var value: Int = 0
+//        for item in categories.values {
+//            value += item.questions.count
+//        }
+//
+//        return value
 //    }
-
-    func calculateQuestionsTotal() -> Int {
-    // calculates total number of all questions in a set (all categories)
-
-        var value: Int = 0
-        for item in categories.values {
-            value += item.questions.count
-        }
-
-        return value
-    }
 
     func generateQuestionsList() -> [Category] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
@@ -118,6 +117,28 @@ class CategoryRepository: ObservableObject {
         return examSet
     }
     
+    
+    func filterFavourites() -> [Category] {
+        
+        var favourites: [Category] = []
+        
+        let filteredCategories = categories.values.filter({ category in
+            return category.questions.contains(where: { $0.isFavourite == true })
+
+        })
+
+        for category in filteredCategories {
+            favourites.append(
+                Category(
+                    id: category.id,
+                    category_name: category.category_name,
+                    exam: category.exam,
+                    questions: category.questions.filter({$0.isFavourite == true })
+                )
+            )
+        }
+        return favourites
+    }
     static func example_data() -> [Category] {
         return [
             Category(
