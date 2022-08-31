@@ -129,9 +129,12 @@ var ownedButton: some View {
     .clipShape(RoundedRectangle(cornerRadius: 10))
     .disabled(true)
 }
-//struct ProductView_Previews: PreviewProvider {
-//    let product: Product
-//    static var previews: some View {
-//        ProductView(product: )
-//    }
-//}
+
+struct ProductView_Previews: PreviewProvider {
+    let product: Product
+    static var previews: some View {
+        Group {
+            //        ProductView(product: ) // Add this back in when it's time
+        }
+    }
+}

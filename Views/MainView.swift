@@ -8,12 +8,11 @@
 import SwiftUI
 import StoreKit
 
-struct MainView: View {
-    
+struct MainView: View {    
     @State var selectedTab: Int = 0
 //    @State var isFullVersion: Bool = false
-    @StateObject var store : Store = Store()
-    @ObservedObject var data = CategoryRepository()
+    @EnvironmentObject var store : Store
+    @ObservedObject var data = Category.repository
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
 //    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
@@ -47,8 +46,6 @@ struct MainView: View {
                     .tag(2)
                 
         }
-        .environmentObject(store)
-        .environmentObject(data)
         .onAppear() {
             if selectedModule.isEmpty {
                 selectedModule = builtInProduct!
@@ -62,5 +59,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {    
     static var previews: some View {
         MainView()
+            .environmentObject(Store())
     }
 }

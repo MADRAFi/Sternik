@@ -9,10 +9,8 @@ import SwiftUI
 import StoreKit
 
 struct ModuleView: View {
-    
-
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data: CategoryRepository
+    @ObservedObject var data = Category.repository // This ensures we are Observing the Repository!
 //    @Binding var isFullVersion: Bool
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""
@@ -102,5 +100,6 @@ struct ModuleView_Previews: PreviewProvider {
 
 //        ModuleView(isFullVersion: .constant(true))
             ModuleView()
+                .environmentObject(Store())
     }
 }

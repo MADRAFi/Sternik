@@ -53,5 +53,6 @@ struct SwitchModuleView_Previews: PreviewProvider {
     
     static var previews: some View {
         SwitchModuleView()
+            .environmentObject(Store())
     }
 }

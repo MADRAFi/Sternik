@@ -8,10 +8,11 @@
 import SwiftUI
 import StoreKit
 
-struct CategoryView: View {
-    
+struct CategoryView: View {    
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data : CategoryRepository
+    
+    @ObservedObject var data = Category.repository // This ensures we are Observing the Repository!
+
 //    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
@@ -92,5 +93,6 @@ struct CategoryView: View {
         static var previews: some View {
 //            CategoryView(isFullVersion: .constant(true))
             CategoryView()
+                .environmentObject(Store())
         }
     }

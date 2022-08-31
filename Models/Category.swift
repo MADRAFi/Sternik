@@ -8,6 +8,8 @@
 import Foundation
 
 struct Category: Codable, Identifiable {
+    @Injected(\.categories) static var repository
+    
     var id: Int
     var category_name: String
     var exam: Int
@@ -16,6 +18,15 @@ struct Category: Codable, Identifiable {
 
 extension Category {
 
+    static subscript(id: Int) -> Category? {
+        get {
+            return Category.repository[id]
+        }
+        set {
+            Category.repository[id] = newValue
+        }
+    }
+    
     static func example_data() -> [Category] {
         return [
             Category(
