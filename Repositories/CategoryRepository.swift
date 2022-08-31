@@ -9,7 +9,16 @@ import Foundation
 import SwiftUI
 
 class CategoryRepository: ObservableObject {
-    @Published var categories = [Category.ID:Category]()
+    @Published var categories = [Category.ID:Category]() {
+        didSet {
+            sorted = categories.values.sorted(by: { lhs, rhs in
+                lhs.id < rhs.id
+            })
+        }
+    }
+    
+    var sorted = [Category]()
+    
     
     /**
      This Subscript allows us to Get and Set Questions by referencing the Repository itself, rather than a property or method
