@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		800B6EDF28B4587800FA583B /* VHF.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80345980289FFC0400CBC0FA /* VHF.xcassets */; };
 		800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
-		800B6EEB28B77DF000FA583B /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionsList.swift */; };
+		800B6EEB28B77DF000FA583B /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */; };
 		800B6EEC28B77DF000FA583B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0F10328A460E00056A911 /* MainView.swift */; };
 		800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		800B6EEE28B77DF000FA583B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
@@ -46,8 +46,8 @@
 		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
 		80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525B28B2E1500094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
-		80A3525C28B2E1530094ADC9 /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionsList.swift */; };
-		80A3525D28B2E1530094ADC9 /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionsList.swift */; };
+		80A3525C28B2E1530094ADC9 /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */; };
+		80A3525D28B2E1530094ADC9 /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */; };
 		80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 80A6801528A6B69600C28473 /* Configuration_VHF.storekit */; };
 		80B0F10428A460E00056A911 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0F10328A460E00056A911 /* MainView.swift */; };
 		80B0F10528A460E00056A911 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0F10328A460E00056A911 /* MainView.swift */; };
@@ -65,9 +65,9 @@
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80E67F8928860B9900247DDF /* questions_jsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions_jsm.json */; };
-		DAAEA07328BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
-		DAAEA07428BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
-		DAAEA07528BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
+		DAAEA07328BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
+		DAAEA07428BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
+		DAAEA07528BF74C00034897E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +90,7 @@
 		807FF65E28B40E6D00AF2682 /* questions_lrc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lrc.json; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
-		80A3525828B2E13D0094ADC9 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
+		80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
 		80A3525928B2E13E0094ADC9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
 		80B0F10328A460E00056A911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		80D7D84A2884A12B009EB03A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* Sternik.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sternik.xcassets; sourceTree = "<group>"; };
 		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
-		DAAEA07228BF74C00034897E /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		DAAEA07228BF74C00034897E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				80C88BF02885F8A200059C2C /* Question.swift */,
-				DAAEA07228BF74C00034897E /* CategoryList.swift */,
+				DAAEA07228BF74C00034897E /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 		DAAEA07628BF757D0034897E /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
+				80A3525828B2E13D0094ADC9 /* QuestionRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -381,8 +381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */,
-				DAAEA07528BF74C00034897E /* CategoryList.swift in Sources */,
-				800B6EEB28B77DF000FA583B /* QuestionsList.swift in Sources */,
+				DAAEA07528BF74C00034897E /* Category.swift in Sources */,
+				800B6EEB28B77DF000FA583B /* QuestionRepository.swift in Sources */,
 				800B6EEC28B77DF000FA583B /* MainView.swift in Sources */,
 				800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */,
 				800B6EEE28B77DF000FA583B /* SettingsView.swift in Sources */,
@@ -402,8 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */,
-				DAAEA07428BF74C00034897E /* CategoryList.swift in Sources */,
-				80A3525D28B2E1530094ADC9 /* QuestionsList.swift in Sources */,
+				DAAEA07428BF74C00034897E /* Category.swift in Sources */,
+				80A3525D28B2E1530094ADC9 /* QuestionRepository.swift in Sources */,
 				80B0F10528A460E00056A911 /* MainView.swift in Sources */,
 				80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */,
 				80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */,
@@ -423,8 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */,
-				DAAEA07328BF74C00034897E /* CategoryList.swift in Sources */,
-				80A3525C28B2E1530094ADC9 /* QuestionsList.swift in Sources */,
+				DAAEA07328BF74C00034897E /* Category.swift in Sources */,
+				80A3525C28B2E1530094ADC9 /* QuestionRepository.swift in Sources */,
 				80B0F10428A460E00056A911 /* MainView.swift in Sources */,
 				80D7D8592884A133009EB03A /* SternikApp.swift in Sources */,
 				80CF62F228A1473600C59CAD /* SettingsView.swift in Sources */,

@@ -10,7 +10,7 @@ import SwiftUI
 struct QuestionView: View {
 
     @Environment(\.presentationMode) var presentationMode
-    @State var questions : [CategoryList]
+    @State var questions : [Category]
     @State var title: String
 
     @State var isAnswered: Bool = false
@@ -430,7 +430,7 @@ struct QuestionView: View {
 
 struct QuestionView_Previews: PreviewProvider {
     
-    static var questions = CategoryList.example_data()
+    static var questions = Category.example_data()
     
     static var previews: some View {
         QuestionView(questions: questions, title: "Preview")

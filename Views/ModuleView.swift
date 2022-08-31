@@ -12,7 +12,7 @@ struct ModuleView: View {
     
 
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data: QuestionsList
+    @EnvironmentObject var data: QuestionRepository
 //    @Binding var isFullVersion: Bool
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""

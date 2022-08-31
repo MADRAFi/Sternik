@@ -11,7 +11,7 @@ import StoreKit
 struct CategoryView: View {
     
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data : QuestionsList
+    @EnvironmentObject var data : QuestionRepository
 //    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
@@ -87,7 +87,7 @@ struct CategoryView: View {
     struct CategoryView_Previews: PreviewProvider {
         
 //        static var questions = categoryList.example_data()
-        static var data = QuestionsList()
+        static var data = QuestionRepository()
         
         static var previews: some View {
 //            CategoryView(isFullVersion: .constant(true))

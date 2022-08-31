@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-class QuestionsList: ObservableObject {
+class QuestionRepository: ObservableObject {
 
-    @Published var questions = [CategoryList]()
+    @Published var questions = [Category]()
 
     init() {
         let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
@@ -31,7 +31,7 @@ class QuestionsList: ObservableObject {
                 do {
                     let data = try Data(contentsOf: fileLocation)
                     let jsonDecoder = JSONDecoder()
-                    let JSONdata = try jsonDecoder.decode([CategoryList].self, from: data)
+                    let JSONdata = try jsonDecoder.decode([Category].self, from: data)
 
                     self.questions = JSONdata
 
@@ -59,10 +59,10 @@ class QuestionsList: ObservableObject {
         return value
     }
 
-    func generateQuestionsList() -> [CategoryList] {
+    func generateQuestionsList() -> [Category] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
         
-        var examSet: [CategoryList] = []
+        var examSet: [Category] = []
         var questions_list: [Question] = []
         var element: Question
         var questions_all: [Question]
@@ -82,7 +82,7 @@ class QuestionsList: ObservableObject {
 //                print("-- P: \(element.question_id)")
             }
             examSet.append(
-                CategoryList(
+                Category(
                     id: item.id,
                     category_name: item.category_name,
                     exam: item.exam,
@@ -93,9 +93,9 @@ class QuestionsList: ObservableObject {
         return examSet
     }
     
-    static func example_data() -> [CategoryList] {
+    static func example_data() -> [Category] {
         return [
-            CategoryList(
+            Category(
                 id: 1,
                 category_name: "Regulaminy",
                 exam: 1,
@@ -112,7 +112,7 @@ class QuestionsList: ObservableObject {
                     )
                 ]
             ),
-            CategoryList(
+            Category(
                 id: 2,
                 category_name: "Terminy anglojęzyczne",
                 exam: 1,

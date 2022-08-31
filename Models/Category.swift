@@ -7,18 +7,18 @@
 
 import Foundation
 
-struct CategoryList: Codable, Identifiable {
+struct Category: Codable, Identifiable {
     var id: Int
     var category_name: String
     var exam: Int
     var questions: [Question]
 }
 
-extension CategoryList {
+extension Category {
 
-    static func example_data() -> [CategoryList] {
+    static func example_data() -> [Category] {
         return [
-            CategoryList(
+            Category(
                 id: 1,
                 category_name: "Regulaminy",
                 exam: 1,
@@ -35,7 +35,7 @@ extension CategoryList {
                     )
                 ]
             ),
-            CategoryList(
+            Category(
                 id: 2,
                 category_name: "Terminy anglojęzyczne",
                 exam: 1,

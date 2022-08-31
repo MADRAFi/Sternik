@@ -13,7 +13,7 @@ struct MainView: View {
     @State var selectedTab: Int = 0
 //    @State var isFullVersion: Bool = false
     @StateObject var store : Store = Store()
-    @ObservedObject var data = QuestionsList()
+    @ObservedObject var data = QuestionRepository()
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
 //    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
