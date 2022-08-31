@@ -18,6 +18,7 @@ struct SternikApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .environmentObject(Store())
         }
     }
 }
