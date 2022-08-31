@@ -18,7 +18,7 @@
 		800B6EF128B77DF000FA583B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		800B6EF228B77DF000FA583B /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
 		800B6EF328B77DF000FA583B /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
-		800B6EF428B77DF000FA583B /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		800B6EF428B77DF000FA583B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* Question.swift */; };
 		800B6EF528B77DF000FA583B /* ModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE4428B0D3E000A94DBE /* ModuleView.swift */; };
 		800B6EF628B77DF000FA583B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		800B6EF828B77DF000FA583B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 800B6EE728B77DF000FA583B /* GoogleMobileAds */; };
@@ -54,10 +54,10 @@
 		80C219E128B9642000CD492C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 80C219E028B9642000CD492C /* GoogleMobileAds */; };
 		80C219E328B9643E00CD492C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 80C219E228B9643E00CD492C /* GoogleMobileAds */; };
 		80C219E928BA7AD400CD492C /* Amator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80C219E828BA7AD400CD492C /* Amator.plist */; };
-		80C88BF12885F8A300059C2C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		80C88BF12885F8A300059C2C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* Question.swift */; };
 		80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
-		80CF62D628A0756D00C59CAD /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* question.swift */; };
+		80CF62D628A0756D00C59CAD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C88BF02885F8A200059C2C /* Question.swift */; };
 		80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
@@ -65,6 +65,9 @@
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80E67F8928860B9900247DDF /* questions_jsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions_jsm.json */; };
+		DAAEA07328BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
+		DAAEA07428BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
+		DAAEA07528BF74C00034897E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA07228BF74C00034897E /* CategoryList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +95,7 @@
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
 		80B0F10328A460E00056A911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		80C219E828BA7AD400CD492C /* Amator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Amator.plist; sourceTree = "<group>"; };
-		80C88BF02885F8A200059C2C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		80C88BF02885F8A200059C2C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		80CF62E728A0877E00C59CAD /* VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VHF.plist; sourceTree = "<group>"; };
 		80CF62E928A0887A00C59CAD /* Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Sternik.plist; sourceTree = "<group>"; };
 		80CF62ED28A1057400C59CAD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		80D7D84A2884A12B009EB03A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* Sternik.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sternik.xcassets; sourceTree = "<group>"; };
 		80E67F8828860B9900247DDF /* questions_jsm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_jsm.json; sourceTree = "<group>"; };
+		DAAEA07228BF74C00034897E /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,20 +198,37 @@
 		80D7D8432884A12A009EB03A = {
 			isa = PBXGroup;
 			children = (
+				DAAEA07628BF757D0034897E /* Repositories */,
+				DAAEA07128BF74AB0034897E /* Models */,
 				8036FE4328B0D39300A94DBE /* Views */,
 				800B6EE028B77D7600FA583B /* Amator */,
 				8034597D289FFA1300CBC0FA /* VHF */,
 				8034597C289FE7B300CBC0FA /* Sternik */,
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
-				80C88BF02885F8A200059C2C /* question.swift */,
-				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
 				800B6F0E28B795B600FA583B /* Radio Amator.app */,
 				800B6F0F28B795C500FA583B /* Radio Operator.app */,
 				800B6F1128B7B94F00FA583B /* Sternik.app */,
 				80C219DF28B9642000CD492C /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		DAAEA07128BF74AB0034897E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80C88BF02885F8A200059C2C /* Question.swift */,
+				DAAEA07228BF74C00034897E /* CategoryList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAAEA07628BF757D0034897E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				80A3525828B2E13D0094ADC9 /* QuestionsList.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800B6EEA28B77DF000FA583B /* QuestionView.swift in Sources */,
+				DAAEA07528BF74C00034897E /* CategoryList.swift in Sources */,
 				800B6EEB28B77DF000FA583B /* QuestionsList.swift in Sources */,
 				800B6EEC28B77DF000FA583B /* MainView.swift in Sources */,
 				800B6EED28B77DF000FA583B /* SternikApp.swift in Sources */,
@@ -369,7 +391,7 @@
 				800B6EF128B77DF000FA583B /* Store.swift in Sources */,
 				800B6EF228B77DF000FA583B /* ADBanner.swift in Sources */,
 				800B6EF328B77DF000FA583B /* SwitchModuleView.swift in Sources */,
-				800B6EF428B77DF000FA583B /* question.swift in Sources */,
+				800B6EF428B77DF000FA583B /* Question.swift in Sources */,
 				800B6EF528B77DF000FA583B /* ModuleView.swift in Sources */,
 				800B6EF628B77DF000FA583B /* CategoryView.swift in Sources */,
 			);
@@ -380,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CF62D328A0756D00C59CAD /* QuestionView.swift in Sources */,
+				DAAEA07428BF74C00034897E /* CategoryList.swift in Sources */,
 				80A3525D28B2E1530094ADC9 /* QuestionsList.swift in Sources */,
 				80B0F10528A460E00056A911 /* MainView.swift in Sources */,
 				80CF62D528A0756D00C59CAD /* SternikApp.swift in Sources */,
@@ -389,7 +412,7 @@
 				80A3525B28B2E1500094ADC9 /* Store.swift in Sources */,
 				8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */,
 				8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */,
-				80CF62D628A0756D00C59CAD /* question.swift in Sources */,
+				80CF62D628A0756D00C59CAD /* Question.swift in Sources */,
 				8036FE4628B0D3E000A94DBE /* ModuleView.swift in Sources */,
 				80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */,
 			);
@@ -400,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */,
+				DAAEA07328BF74C00034897E /* CategoryList.swift in Sources */,
 				80A3525C28B2E1530094ADC9 /* QuestionsList.swift in Sources */,
 				80B0F10428A460E00056A911 /* MainView.swift in Sources */,
 				80D7D8592884A133009EB03A /* SternikApp.swift in Sources */,
@@ -409,7 +433,7 @@
 				80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */,
 				8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */,
 				8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */,
-				80C88BF12885F8A300059C2C /* question.swift in Sources */,
+				80C88BF12885F8A300059C2C /* Question.swift in Sources */,
 				8036FE4528B0D3E000A94DBE /* ModuleView.swift in Sources */,
 				80CF62EE28A1057400C59CAD /* CategoryView.swift in Sources */,
 			);

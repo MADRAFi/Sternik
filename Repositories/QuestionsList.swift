@@ -10,7 +10,7 @@ import SwiftUI
 
 class QuestionsList: ObservableObject {
 
-    @Published var questions = [categoryList]()
+    @Published var questions = [CategoryList]()
 
     init() {
         let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
@@ -31,7 +31,7 @@ class QuestionsList: ObservableObject {
                 do {
                     let data = try Data(contentsOf: fileLocation)
                     let jsonDecoder = JSONDecoder()
-                    let JSONdata = try jsonDecoder.decode([categoryList].self, from: data)
+                    let JSONdata = try jsonDecoder.decode([CategoryList].self, from: data)
 
                     self.questions = JSONdata
 
@@ -59,13 +59,13 @@ class QuestionsList: ObservableObject {
         return value
     }
 
-    func generateQuestionsList() -> [categoryList] {
+    func generateQuestionsList() -> [CategoryList] {
     // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
         
-        var examSet: [categoryList] = []
-        var questions_list: [question] = []
-        var element: question
-        var questions_all: [question]
+        var examSet: [CategoryList] = []
+        var questions_list: [Question] = []
+        var element: Question
+        var questions_all: [Question]
         var number: Int
        
         for item in questions {
@@ -82,7 +82,7 @@ class QuestionsList: ObservableObject {
 //                print("-- P: \(element.question_id)")
             }
             examSet.append(
-                categoryList(
+                CategoryList(
                     id: item.id,
                     category_name: item.category_name,
                     exam: item.exam,
@@ -93,14 +93,14 @@ class QuestionsList: ObservableObject {
         return examSet
     }
     
-    static func example_data() -> [categoryList] {
+    static func example_data() -> [CategoryList] {
         return [
-            categoryList(
+            CategoryList(
                 id: 1,
                 category_name: "Regulaminy",
                 exam: 1,
                 questions: [
-                    question(
+                    Question(
                         question_id: 1,
                         question: "Zgodnie z kolejnością pierwszeństwa łączności:",
                         question_image: "",
@@ -112,12 +112,12 @@ class QuestionsList: ObservableObject {
                     )
                 ]
             ),
-            categoryList(
+            CategoryList(
                 id: 2,
                 category_name: "Terminy anglojęzyczne",
                 exam: 1,
                 questions: [
-                    question(
+                    Question(
                         question_id: 115,
                         question: "Potrzebuję asysty.",
                         question_image: "",
@@ -127,7 +127,7 @@ class QuestionsList: ObservableObject {
                         answer_3: "I need attention.",
                         correct: 2
                     ),
-                    question(
+                    Question(
                         question_id: 116,
                         question: "Pożar w nadbudówce.",
                         question_image: "",
