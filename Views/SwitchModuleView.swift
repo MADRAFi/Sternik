@@ -11,7 +11,7 @@ import StoreKit
 struct SwitchModuleView: View {
     
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data : CategoryRepository
+    @ObservedObject var data = Category.repository
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""

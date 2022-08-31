@@ -9,7 +9,6 @@ import SwiftUI
 import GoogleMobileAds
 
 @main
-
 struct SternikApp: App {
     init() {
         GADMobileAds.sharedInstance().start(completionHandler: nil)
