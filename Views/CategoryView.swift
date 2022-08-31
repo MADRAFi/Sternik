@@ -56,12 +56,12 @@ struct CategoryView: View {
                                 }
                                 
                             }
-                            let favourites = data.categories.values.filter({ category in
-                                return category.questions.contains(where: { $0.isFavourite == true })
-                                
-                            })
+//                            let favourites = data.categories.values.filter({ category in
+//                                return category.questions.contains(where: { $0.isFavourite == true })
+//                                
+//                            })
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: favourites, title: "Ulubione")) {
+                                NavigationLink(destination: QuestionView(categories: data.favourites, title: "Ulubione")) {
                                     HStack {
                                         Image("Icon_Favourite")
                                             .padding(.vertical, 8)
@@ -70,7 +70,7 @@ struct CategoryView: View {
                                         Spacer()
                                     }
                                 }
-                                .disabled(favourites.count == 0)
+                                .disabled(data.favourites.count == 0)
                                 
                             }
                             
