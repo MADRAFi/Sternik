@@ -10,7 +10,7 @@ import SwiftUI
 struct QuestionView: View {
 
     @Environment(\.presentationMode) var presentationMode
-    @State var questions : [Category]
+    @State var categories : [Category]
     @State var title: String
 
     @State var isAnswered: Bool = false
@@ -39,7 +39,7 @@ struct QuestionView: View {
         // calculates total number of all questions in a set (all categories)
         
         var value: Int = 0
-        for item in questions {
+        for item in categories {
             value += item.questions.count
         }
         
@@ -47,7 +47,7 @@ struct QuestionView: View {
     }
     
     func checkAnswer() {
-        switch  questions[currentCategory].questions[currentQuestion].choice {
+        switch  categories[currentCategory].questions[currentQuestion].choice {
         case 0:
             isAnswered = false
             selectedRow = 0
@@ -65,7 +65,7 @@ struct QuestionView: View {
         }
     }
     func validateAnswer() -> Bool {
-        if  questions[currentCategory].questions[currentQuestion].correct == questions[currentCategory].questions[currentQuestion].choice {
+        if  categories[currentCategory].questions[currentQuestion].correct == categories[currentCategory].questions[currentQuestion].choice {
             return true
         } else {
             return false
@@ -76,15 +76,15 @@ struct QuestionView: View {
         
         if isAnswered {
             if validateAnswer() {
-                if selected == current && selected == questions[currentCategory].questions[currentQuestion].choice {
+                if selected == current && selected == categories[currentCategory].questions[currentQuestion].choice {
                     rowColor = Color("Positive")
                 } else {
                     rowColor = Color.clear
                 }
             } else {
-                if current == selected && current == questions[currentCategory].questions[currentQuestion].choice  {
+                if current == selected && current == categories[currentCategory].questions[currentQuestion].choice  {
                     rowColor = Color("Negative")
-                } else if showCorrect && current != selected && current == questions[currentCategory].questions[currentQuestion].correct {
+                } else if showCorrect && current != selected && current == categories[currentCategory].questions[currentQuestion].correct {
                     rowColor = Color("Positive")
                 } else {
                     
@@ -114,7 +114,7 @@ struct QuestionView: View {
         } else {
             if (currentCategory > 0) {
                 currentCategory -= 1
-                currentQuestion = questions[currentCategory].questions.count - 1
+                currentQuestion = categories[currentCategory].questions.count - 1
             }
         }
         if questionNumber > 1 {
@@ -124,10 +124,10 @@ struct QuestionView: View {
     }
     
     fileprivate func nextQuestion() {
-        if currentQuestion < questions[currentCategory].questions.count - 1 {
+        if currentQuestion < categories[currentCategory].questions.count - 1 {
             currentQuestion += 1
         } else {
-            if (currentCategory < questions.count - 1) {
+            if (currentCategory < categories.count - 1) {
                 currentCategory += 1
                 currentQuestion = 0
             }
@@ -160,8 +160,8 @@ struct QuestionView: View {
             Section {
                 VStack {
                     HStack() {
-                        Text(String(questions[currentCategory].id) + ":")
-                        Text(questions[currentCategory].category_name)
+                        Text(String(categories[currentCategory].id) + ":")
+                        Text(categories[currentCategory].category_name)
                         Spacer()
                     }
                     ProgressView(value: Float(questionNumber) / Float(questionTotal))
@@ -192,14 +192,14 @@ struct QuestionView: View {
                 Section(header: Text("Pytanie")) {
                     VStack(alignment: .center) {
                         HStack {
-                            Text(String(questions[currentCategory].questions[currentQuestion].question_id))
-                            Text(questions[currentCategory].questions[currentQuestion].question)
+                            Text(String(categories[currentCategory].questions[currentQuestion].question_id))
+                            Text(categories[currentCategory].questions[currentQuestion].question)
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(10)
                         }
-                        if !(questions[currentCategory].questions[currentQuestion].question_image.isEmpty) {
-                            Image((questions[currentCategory].questions[currentQuestion].question_image))
+                        if !(categories[currentCategory].questions[currentQuestion].question_image.isEmpty) {
+                            Image((categories[currentCategory].questions[currentQuestion].question_image))
                                 .resizable()
                                 .scaledToFit()
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -216,13 +216,13 @@ struct QuestionView: View {
                         Text("A")
                             .padding(.horizontal)
                             .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a1")
+                        if (categories[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a1")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_1)
+                            Text(categories[currentCategory].questions[currentQuestion].answer_1)
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(.vertical, 5)
@@ -234,7 +234,7 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 1
-                        questions[currentCategory].questions[currentQuestion].choice = 1
+                        categories[currentCategory].questions[currentQuestion].choice = 1
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -250,13 +250,13 @@ struct QuestionView: View {
                         Text("B")
                             .padding(.horizontal)
                             .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a2")
+                        if (categories[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a2")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_2)
+                            Text(categories[currentCategory].questions[currentQuestion].answer_2)
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(.vertical, 5)
@@ -269,7 +269,7 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 2
-                        questions[currentCategory].questions[currentQuestion].choice = 2
+                        categories[currentCategory].questions[currentQuestion].choice = 2
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -284,13 +284,13 @@ struct QuestionView: View {
                         Text("C")
                             .padding(.horizontal)
                             .padding(.trailing, 5)
-                        if (questions[currentCategory].questions[currentQuestion].images) {
-                            Image("q\(questions[currentCategory].questions[currentQuestion].question_id)_a3")
+                        if (categories[currentCategory].questions[currentQuestion].images) {
+                            Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a3")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 128, height: 128)
                         } else {
-                            Text(questions[currentCategory].questions[currentQuestion].answer_3)
+                            Text(categories[currentCategory].questions[currentQuestion].answer_3)
                                 .lineLimit(nil)
                                 .fixedSize(horizontal: false, vertical: true)
                                 .padding(.vertical, 5)
@@ -304,7 +304,7 @@ struct QuestionView: View {
                     .contentShape(Rectangle())
                     .onTapGesture {
                         selectedRow = 3
-                        questions[currentCategory].questions[currentQuestion].choice = 3
+                        categories[currentCategory].questions[currentQuestion].choice = 3
                         isAnswered = true
                         incrementAnswerCounters()
                         checkFinished()
@@ -380,8 +380,8 @@ struct QuestionView: View {
                         lastCategory = currentCategory
                         lastQuestion = currentQuestion
                         lastQuestionNumber = questionNumber
-                        currentCategory = questions.count - 1
-                        currentQuestion = questions[currentCategory].questions.count - 1
+                        currentCategory = categories.count - 1
+                        currentQuestion = categories[currentCategory].questions.count - 1
                         questionNumber = questionTotal
                         
                     },
@@ -393,10 +393,10 @@ struct QuestionView: View {
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-                        questions[currentCategory].questions[currentQuestion].isFavourite.toggle()
+                        categories[currentCategory].questions[currentQuestion].isFavourite.toggle()
                     },
                            label: {
-                        if questions[currentCategory].questions[currentQuestion].isFavourite {
+                        if categories[currentCategory].questions[currentQuestion].isFavourite {
                             Image(systemName: "bookmark.square.fill")
                                 .font(Font.system(.title))
                         } else {
@@ -430,9 +430,9 @@ struct QuestionView: View {
 
 struct QuestionView_Previews: PreviewProvider {
     
-    static var questions = Category.example_data()
+    static var categories = Category.example_data()
     
     static var previews: some View {
-        QuestionView(questions: questions, title: "Preview")
+        QuestionView(categories: categories, title: "Preview")
     }
 }

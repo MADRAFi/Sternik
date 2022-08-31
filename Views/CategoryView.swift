@@ -11,7 +11,7 @@ import StoreKit
 struct CategoryView: View {
     
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data : QuestionRepository
+    @EnvironmentObject var data : CategoryRepository
 //    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
@@ -29,8 +29,8 @@ struct CategoryView: View {
                             }
                             if !selectedModule.isEmpty {
                                 let prefix = selectedModule.components(separatedBy: ".")[1]
-                                ForEach(data.questions) { item in
-                                    NavigationLink(destination: QuestionView(questions: data.questions.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                ForEach(Array(data.categories.values)) { item in
+                                    NavigationLink(destination: QuestionView(categories: data.categories.values.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
                                                 .padding(.vertical, 8)
@@ -43,7 +43,7 @@ struct CategoryView: View {
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.questions, title: "Wszystkie")) {
+                                NavigationLink(destination: QuestionView(categories: Array(data.categories.values), title: "Wszystkie")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
@@ -56,7 +56,7 @@ struct CategoryView: View {
                             }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(questions: data.generateQuestionsList(), title: "Egzamin" )) {
+                                NavigationLink(destination: QuestionView(categories: data.generateQuestionsList(), title: "Egzamin" )) {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
@@ -87,7 +87,7 @@ struct CategoryView: View {
     struct CategoryView_Previews: PreviewProvider {
         
 //        static var questions = categoryList.example_data()
-        static var data = QuestionRepository()
+        static var data = CategoryRepository()
         
         static var previews: some View {
 //            CategoryView(isFullVersion: .constant(true))

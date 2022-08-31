@@ -1,5 +1,5 @@
 //
-//  questionsList.swift
+//  CategoryRepository.swift
 //  Sternik
 //
 //  Created by MADRAFi on 13/08/20 22.
@@ -8,9 +8,20 @@
 import Foundation
 import SwiftUI
 
-class QuestionRepository: ObservableObject {
-
-    @Published var questions = [Category]()
+class CategoryRepository: ObservableObject {
+    @Published var categories = [Category.ID:Category]()
+    
+    /**
+     This Subscript allows us to Get and Set Questions by referencing the Repository itself, rather than a property or method
+     */
+    subscript(id: Category.ID) -> Category? {
+        get {
+            return categories[id]
+        }
+        set {
+            categories[id] = newValue
+        }
+    }
 
     init() {
         let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
@@ -31,9 +42,14 @@ class QuestionRepository: ObservableObject {
                 do {
                     let data = try Data(contentsOf: fileLocation)
                     let jsonDecoder = JSONDecoder()
-                    let JSONdata = try jsonDecoder.decode([Category].self, from: data)
+                    let questions = try jsonDecoder.decode([Category].self, from: data)
 
-                    self.questions = JSONdata
+                    /**
+                    Added by Simon... this code populates the `questions` Dictionary from the `JSONdata` Array
+                     */
+                    for question in questions {
+                        self.categories[question.id] = question
+                    }
 
                 } catch {
                     print(error)
@@ -52,7 +68,7 @@ class QuestionRepository: ObservableObject {
     // calculates total number of all questions in a set (all categories)
 
         var value: Int = 0
-        for item in questions {
+        for item in categories.values {
             value += item.questions.count
         }
 
@@ -68,7 +84,7 @@ class QuestionRepository: ObservableObject {
         var questions_all: [Question]
         var number: Int
        
-        for item in questions {
+        for item in categories.values {
             number = 0
             questions_list = []
             questions_all = item.questions
@@ -145,21 +161,21 @@ class QuestionRepository: ObservableObject {
 }
 
 /**
- Injects your QuestionRepository so that you can access it from anywhere
+ Injects your CategoryRepository so that you can access it from anywhere
  */
 private struct TheKey: InjectionKey {
-     static var currentValue: QuestionRepository = QuestionRepository()
+     static var currentValue: CategoryRepository = CategoryRepository()
 }
 
 extension InjectedValues {
     /**
      Adds the Injection Key universally in your code. You can now do:
      ````
-     @Injected(\.questions) var questions
+     @Injected(\.categories) var categories
      ````
-     And you have a variable of type `QuestionRepository` containing the singular, central Instance.
+     And you have a variable of type `CategoryRepository` containing the singular, central Instance.
      */
-    var questions: QuestionRepository {
+    var categories: CategoryRepository {
         get { Self[TheKey.self] }
         set { Self[TheKey.self] = newValue }
     }
