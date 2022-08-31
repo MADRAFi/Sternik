@@ -13,6 +13,7 @@ struct CategoryView: View {
     
     @ObservedObject var data = Category.repository // This ensures we are Observing the Repository!
 
+
 //    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
@@ -30,7 +31,7 @@ struct CategoryView: View {
                             }
                             if !selectedModule.isEmpty {
                                 let prefix = selectedModule.components(separatedBy: ".")[1]
-                                ForEach(Array(data.categories.values)) { item in
+                                ForEach(Array(data.sortedCategories)) { item in
                                     NavigationLink(destination: QuestionView(categories: data.categories.values.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
@@ -53,6 +54,23 @@ struct CategoryView: View {
                                         Spacer()
                                     }
                                 }
+                                
+                            }
+                            let favourites = data.categories.values.filter({ category in
+                                return category.questions.contains(where: { $0.isFavourite == true })
+                                
+                            })
+                            HStack {
+                                NavigationLink(destination: QuestionView(categories: favourites, title: "Ulubione")) {
+                                    HStack {
+                                        Image("Icon_Favourite")
+                                            .padding(.vertical, 8)
+                                            .padding(.horizontal, 5)
+                                        Text("Ulubione")
+                                        Spacer()
+                                    }
+                                }
+                                .disabled(favourites.count == 0)
                                 
                             }
                             

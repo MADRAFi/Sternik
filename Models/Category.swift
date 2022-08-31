@@ -24,6 +24,7 @@ extension Category {
         }
         set {
             Category.repository[id] = newValue
+            
         }
     }
     

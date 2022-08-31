@@ -22,21 +22,9 @@ struct QuestionView: View {
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
-    @State var questionTotal: Int = 1            // number of all questions in set
-    @State var answersCorrect: Int = 0
-    @State var answersWrong: Int = 0
-    @State var startTime: Date = .now
-    @State var endTime: Date = .now
-    
-    
-    @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
-    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = true
-    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
-    
-    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
-    
-    func calculateQuestionsTotal() -> Int {
-        // calculates total number of all questions in a set (all categories)
+//    @State var questionTotal: Int = 1            // number of all questions in set
+    var questionTotal: Int {
+    // calculates total number of all questions in a set (all categories)
         
         var value: Int = 0
         for item in categories {
@@ -45,6 +33,32 @@ struct QuestionView: View {
         
         return value
     }
+    @State var answersCorrect: Int = 0
+    @State var answersWrong: Int = 0
+    @State var startTime: Date = .now
+    @State var endTime: Date = .now
+    @State var showFavourite: Bool = false
+    
+    @AppStorage("Show_Correct_Answer") private var showCorrect : Bool = true
+    @AppStorage("Show_Next_Question") private var ShowNextQuestion : Bool = true
+    @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
+    
+    let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+    
+//    var thisCategory : Category
+//    var thisQuestion : Question
+
+    
+//    func calculateQuestionsTotal() -> Int {
+//        // calculates total number of all questions in a set (all categories)
+//
+//        var value: Int = 0
+//        for item in categories {
+//            value += item.questions.count
+//        }
+//
+//        return value
+//    }
     
     func checkAnswer() {
         switch  categories[currentCategory].questions[currentQuestion].choice {
@@ -323,7 +337,7 @@ struct QuestionView: View {
             .navigationBarBackButtonHidden(true)
             //            .listStyle(GroupedListStyle())
             .onAppear {
-                questionTotal = self.calculateQuestionsTotal()
+//                questionTotal = self.calculateQuestionsTotal()
                 if questionTotal == answersCorrect + answersWrong && showStats == true {
                     showStats = false
                 } else {
@@ -337,7 +351,7 @@ struct QuestionView: View {
                 presentationMode.wrappedValue.dismiss()
             }
             .sheet(isPresented: $showStats) {
-                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: $questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
+                StatsView(showStats: $showStats, startTime: $startTime, endTime: $endTime, questionTotal: questionTotal, answersCorrect: $answersCorrect, answersWrong: $answersWrong)
             }
             
             .toolbar {
@@ -389,16 +403,40 @@ struct QuestionView: View {
                         Image(systemName: "arrow.right.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
+//                    if showFavourite {
+//                        Button(action: {
+//
+//                        },
+//                               label: {
+//                            Image(systemName: "bookmark.circle.fill")
+//                                .font(Font.system(.title))
+//                        })
+//                    } else {
+//                        Button(action: {
+//
+//                        },
+//                               label: {
+//                            Image(systemName: "bookmark.circle")
+//                                .font(Font.system(.title))
+//                        })
+//                    }
                 }
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-                        categories[currentCategory].questions[currentQuestion].isFavourite.toggle()
+//                        categories[currentCategory].questions[currentQuestion].isFavourite.toggle()
+                        
+                        var thisCategory = categories[currentCategory]
+                        var thisQuestion = thisCategory.questions[currentQuestion]
+                        thisQuestion.isFavourite.toggle()
+                        thisCategory.questions[currentQuestion] = thisQuestion
+                        Category[thisCategory.id] = thisCategory
                     },
                            label: {
                         if categories[currentCategory].questions[currentQuestion].isFavourite {
                             Image(systemName: "bookmark.square.fill")
                                 .font(Font.system(.title))
+                                .foregroundColor(.red)
                         } else {
                             Image(systemName: "bookmark.square")
                                 .font(Font.system(.title))
