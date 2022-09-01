@@ -31,7 +31,7 @@ class CategoryRepository: ObservableObject {
             return categories[id]
         }
         set {
-            objectWillChange.send()
+//            objectWillChange.send()
             categories[id] = newValue
         }
     }
@@ -139,6 +139,14 @@ class CategoryRepository: ObservableObject {
         }
         return favourites
     }
+    func removeFavourites() {
+        for category_index in 0...categories.values.count-1 {
+            for index in 0...((categories[category_index]?.questions.count)!-1) {
+                categories[category_index]!.questions[index].isFavourite = false
+            }
+        }
+    }
+    
     static func example_data() -> [Category] {
         return [
             Category(

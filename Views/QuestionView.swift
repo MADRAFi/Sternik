@@ -444,6 +444,13 @@ struct QuestionView: View {
                         
                     })
                     Button(action: {
+                        
+                    },
+                           label: {
+                        Image(systemName: "bookmark.slash.fill")
+                            .font(Font.system(.title))
+                    })
+                    Button(action: {
                         previousQuestion()
                     },
                            label: {
