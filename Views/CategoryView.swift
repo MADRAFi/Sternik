@@ -32,7 +32,7 @@ struct CategoryView: View {
                             if !selectedModule.isEmpty {
                                 let prefix = selectedModule.components(separatedBy: ".")[1]
                                 ForEach(Array(data.sortedCategories)) { item in
-                                    NavigationLink(destination: QuestionView(categories: data.categories.values.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+                                    NavigationLink(destination: QuestionView(categories: data.sortedCategories.filter({$0.id == item.id }) , title: "Wybrany dział")) {
                                         HStack {
                                             Image("Icon_\(prefix)_\(item.id)")
                                                 .padding(.vertical, 8)
@@ -45,7 +45,7 @@ struct CategoryView: View {
                                 }
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: Array(data.categories.values), title: "Wszystkie")) {
+                                NavigationLink(destination: QuestionView(categories: Array(data.sortedCategories), title: "Wszystkie")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
