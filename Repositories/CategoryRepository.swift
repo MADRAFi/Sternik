@@ -118,9 +118,15 @@ class CategoryRepository: ObservableObject {
      Returns all `Category` models where `isFavorite` == `true`
      */
     func filterFavourites() -> [Category] {
-        return categories.values.filter({ category in
-            category.questions.contains(where: { $0.isFavourite == true })
-        })
+        var results = [Category]() // Empty Results Array of Categories
+        for category in categories.values {
+            var thisCategory = category /// Take a copy because we're going to mutate it!
+            thisCategory.questions = category.questions.filter( { $0.isFavourite } ) /// Set the Copy's Questions to an Array of only those where `.isFavourite == true`
+            if thisCategory.questions.count == 0 { continue } /// If there are no Favourite Questions, move on to the next Category
+            // If we reach this line, we have only Favourite Questions for this Category....
+            results.append(thisCategory) /// ... so let's add this filtered Category to the output Array
+        }
+        return results
     }
     
     func removeFavourites() {
