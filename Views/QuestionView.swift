@@ -165,7 +165,6 @@ struct QuestionView: View {
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
-            
         }
     }
     
@@ -191,18 +190,13 @@ struct QuestionView: View {
                         Text(String(questionNumber))
                         Text("/")
                         Text(String(questionTotal))
-                        
                     }
-                    
-                    
-                    
                 }
                 .padding(.top)
             }
             .padding(.horizontal)
         
             List {
-                
                 Section(header: Text("Pytanie")) {
                     VStack(alignment: .center) {
                         HStack {

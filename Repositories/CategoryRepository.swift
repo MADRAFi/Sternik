@@ -15,7 +15,6 @@ class CategoryRepository: ObservableObject {
                 lhs.id < rhs.id
             })
             favourites = filterFavourites()
-            
         }
     }
 
@@ -117,32 +116,25 @@ class CategoryRepository: ObservableObject {
         return examSet
     }
     
-    
+    /**
+     Returns all `Category` models where `isFavorite` == `true`
+     */
     func filterFavourites() -> [Category] {
-        
-        var favourites: [Category] = []
-        
-        let filteredCategories = categories.values.filter({ category in
-            return category.questions.contains(where: { $0.isFavourite == true })
-
+        return categories.values.filter({ category in
+            category.questions.contains(where: { $0.isFavourite == true })
         })
-
-        for category in filteredCategories {
-            favourites.append(
-                Category(
-                    id: category.id,
-                    category_name: category.category_name,
-                    exam: category.exam,
-                    questions: category.questions.filter({$0.isFavourite == true })
-                )
-            )
-        }
-        return favourites
     }
+    
     func removeFavourites() {
-        for category_index in 0...categories.values.count-1 {
-            for index in 0...((categories[category_index]?.questions.count)!-1) {
-                categories[category_index]!.questions[index].isFavourite = false
+        for category in categories.values { /// Iterate Categories
+            var updatedCategory = category /// Take a copy of the Category we're about to update
+            var questionIndex = 0 /// We always start at Index 0 of the Question Array
+            for question in category.questions { /// Iterate Questions in Category
+                var updatedQuestion = question /// Take a copy of the Question we're about to update
+                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
+                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
+                questionIndex += 1 /// Increment the Question Index for the next iteration
             }
         }
     }

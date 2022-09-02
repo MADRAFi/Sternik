@@ -11,7 +11,7 @@ import StoreKit
 struct CategoryView: View {    
     @EnvironmentObject var store: Store
     
-    @ObservedObject var data = Category.repository // This ensures we are Observing the Repository!
+    @ObservedObject var categoryRepository = Category.repository // This ensures we are Observing the Repository!
 
 
 //    @Binding var isFullVersion: Bool
@@ -19,6 +19,34 @@ struct CategoryView: View {
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
 
+    /**
+     Builds all of the Navigation Links for the Sorted Categories
+     */
+    @ViewBuilder
+    func categoryNavLinks() -> some View {
+        let prefix = selectedModule.components(separatedBy: ".")[1]
+        ForEach(Array(categoryRepository.sortedCategories)) { item in
+            questionNavLink(item: item, prefix: prefix)
+        }
+    }
+    
+    /**
+     Builds an individual `NavigationLink` for a specific `Category`
+     */
+    @ViewBuilder
+    func questionNavLink(item: Category, prefix: String) -> some View {
+        NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+            HStack {
+                Image("Icon_\(prefix)_\(item.id)")
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 5)
+                Text(item.category_name)
+                Spacer()
+            }
+            
+        }
+    }
+    
     var body: some View {
         
             NavigationView {
@@ -30,22 +58,10 @@ struct CategoryView: View {
 //                                    .frame(width: 320, height: 50, alignment: .center)
                             }
                             if !selectedModule.isEmpty {
-                                let prefix = selectedModule.components(separatedBy: ".")[1]
-                                ForEach(Array(data.sortedCategories)) { item in
-                                    NavigationLink(destination: QuestionView(categories: data.sortedCategories.filter({$0.id == item.id }) , title: "Wybrany dział")) {
-                                        HStack {
-                                            Image("Icon_\(prefix)_\(item.id)")
-                                                .padding(.vertical, 8)
-                                                .padding(.horizontal, 5)
-                                            Text(item.category_name)
-                                            Spacer()
-                                        }
-                                        
-                                    }
-                                }
+                                categoryNavLinks()
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: Array(data.sortedCategories), title: "Wszystkie")) {
+                                NavigationLink(destination: QuestionView(categories: Array(categoryRepository.sortedCategories), title: "Wszystkie")) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
@@ -61,7 +77,7 @@ struct CategoryView: View {
 //                                
 //                            })
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: data.favourites, title: "Ulubione")) {
+                                NavigationLink(destination: QuestionView(categories: categoryRepository.favourites, title: "Ulubione")) {
                                     HStack {
                                         Image("Icon_Favourite")
                                             .padding(.vertical, 8)
@@ -70,12 +86,12 @@ struct CategoryView: View {
                                         Spacer()
                                     }
                                 }
-                                .disabled(data.favourites.count == 0)
+                                .disabled(categoryRepository.favourites.count == 0)
                                 
                             }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: data.generateQuestionsList(), title: "Egzamin" )) {
+                                NavigationLink(destination: QuestionView(categories: categoryRepository.generateQuestionsList(), title: "Egzamin" )) {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
