@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Icon_Module_C_1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Icon_Module_C_2x.png",
+      "filename" : "ca_q44_x2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "ca_q44_x3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
