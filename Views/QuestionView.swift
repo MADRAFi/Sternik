@@ -448,6 +448,7 @@ struct QuestionView: View {
                         thisQuestion.isFavourite.toggle()
                         thisCategory.questions[currentQuestion] = thisQuestion
                         Category[thisCategory.id] = thisCategory
+                        categories[currentCategory].questions[currentQuestion] = thisQuestion
                     },
                            label: {
                         if categories[currentCategory].questions[currentQuestion].isFavourite {
