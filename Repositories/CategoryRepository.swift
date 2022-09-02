@@ -19,8 +19,7 @@ class CategoryRepository: ObservableObject {
     }
 
     var sortedCategories = [Category]()
-//    var favourites = [Category]()
-    var favourites : [Category] = []
+    var favourites = [Category]()
     
     /**
      This Subscript allows us to Get and Set Questions by referencing the Repository itself, rather than a property or method
@@ -30,8 +29,8 @@ class CategoryRepository: ObservableObject {
             return categories[id]
         }
         set {
-//            objectWillChange.send()
             categories[id] = newValue
+            objectWillChange.send()
         }
     }
 
@@ -40,6 +39,9 @@ class CategoryRepository: ObservableObject {
         load(module: builtInProduct!)
     }
 
+    /**
+     Load the Categories from the given `module` File
+     */
     func load(module: String) {
 
         // read plist file to get name of the json file
@@ -82,9 +84,10 @@ class CategoryRepository: ObservableObject {
 //        return value
 //    }
 
+    /**
+     randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
+     */
     func generateQuestionsList() -> [Category] {
-    // randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
-        
         var examSet: [Category] = []
         var questions_list: [Question] = []
         var element: Question
@@ -92,6 +95,7 @@ class CategoryRepository: ObservableObject {
         var number: Int
        
         for item in categories.values {
+            var category = item /// Take a Copy of the Category here
             number = 0
             questions_list = []
             questions_all = item.questions
@@ -104,14 +108,8 @@ class CategoryRepository: ObservableObject {
                 number += 1
 //                print("-- P: \(element.question_id)")
             }
-            examSet.append(
-                Category(
-                    id: item.id,
-                    category_name: item.category_name,
-                    exam: item.exam,
-                    questions: questions_list.sorted(by: { $0.question_id < $1.question_id })
-                )
-            )
+            category.questions = questions_list /// Replace its Question List with the results of the above
+            examSet.append(category) /// Append the mutated Copy of the Category to the resulting `examSet`
         }
         return examSet
     }
