@@ -114,10 +114,12 @@ class Store: ObservableObject {
         }
     }
     
-//    func isPurchased(_ productID: String) async throws -> Bool {
-//        return purchasedProducts.contains(where: { $0.id == productID })
-//    }
-    
+    // return true if full version of app has been purchased
+    func isFullVersion() -> Bool {
+        let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+        return purchasedProducts.contains(where: {$0.id == fullVersionID})
+    }
+
     
     func checkVerified<T>(_ result: VerificationResult<T>) throws -> T {
         switch result {

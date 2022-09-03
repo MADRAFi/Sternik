@@ -11,7 +11,7 @@ struct QuestionView: View {
 
     @Environment(\.presentationMode) var presentationMode
     @State var categories : [Category]
-    @State var title: String
+//    @State var title: String
 
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
@@ -44,10 +44,20 @@ struct QuestionView: View {
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
+    let chosenCategory: CategoryType
     
-//    var thisCategory : Category
-//    var thisQuestion : Question
-
+    var title: String {
+        switch chosenCategory {
+        case .id:
+            return "Wybrany dział"
+        case .favourites:
+            return "Ulubione"
+        case .all:
+            return "Wszytkie"
+        case .exam:
+            return "Egzamin"
+        }
+    }
     
 //    func calculateQuestionsTotal() -> Int {
 //        // calculates total number of all questions in a set (all categories)
@@ -115,7 +125,6 @@ struct QuestionView: View {
     
     func advanceToNextQuestion() {
         if ShowNextQuestion && isAnswered {
-            
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 // code to execute after 1 second
                 nextQuestion()
@@ -166,6 +175,29 @@ struct QuestionView: View {
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
+        }
+    }
+    //                var updatedQuestion = question /// Take a copy of the Question we're about to update
+    //                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
+    //                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+    //                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
+    //                questionIndex += 1 /// Increment the Question Index for the next iteration
+    
+    func removeFavourites() {
+        var categoryIndex = 0 /// We always start at Index 0 of the Category Array
+        for category in categories { /// Iterate Categories
+            var updatedCategory = category /// Take a copy of the Category we're about to update
+            var questionIndex = 0 /// We always start at Index 0 of the Question Array
+            for question in category.questions { /// Iterate Questions in Category
+                var updatedQuestion = question /// Take a copy of the Question we're about to update
+                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
+                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
+
+                questionIndex += 1 /// Increment the Question Index for the next iteration
+            }
+            Category[updatedCategory.id] = updatedCategory
+            categoryIndex += 1
         }
     }
     
@@ -397,16 +429,7 @@ struct QuestionView: View {
                             .font(Font.system(.title))
                     })
                     
-                    Button(action: {
-                        currentCategory = lastCategory
-                        currentQuestion = lastQuestion
-                        questionNumber = lastQuestionNumber
-                        
-                    },
-                           label: {
-                        Image(systemName: "pin.circle.fill")
-                            .font(Font.system(.title))
-                    })
+
                     Button(action: {
                         lastCategory = currentCategory
                         lastQuestion = currentQuestion
@@ -420,52 +443,14 @@ struct QuestionView: View {
                         Image(systemName: "arrow.right.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
-//                    if showFavourite {
-//                        Button(action: {
-//
-//                        },
-//                               label: {
-//                            Image(systemName: "bookmark.circle.fill")
-//                                .font(Font.system(.title))
-//                        })
-//                    } else {
-//                        Button(action: {
-//
-//                        },
-//                               label: {
-//                            Image(systemName: "bookmark.circle")
-//                                .font(Font.system(.title))
-//                        })
-//                    }
-                }
-
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        categories[currentCategory].questions[currentQuestion].isFavourite.toggle()
-                        
-                        var thisCategory = categories[currentCategory]
-                        var thisQuestion = thisCategory.questions[currentQuestion]
-                        thisQuestion.isFavourite.toggle()
-                        thisCategory.questions[currentQuestion] = thisQuestion
-                        Category[thisCategory.id] = thisCategory
-                        categories[currentCategory].questions[currentQuestion] = thisQuestion
-                    },
-                           label: {
-                        if categories[currentCategory].questions[currentQuestion].isFavourite {
-                            Image(systemName: "bookmark.square.fill")
-                                .font(Font.system(.title))
-                                .foregroundColor(.red)
-                        } else {
-                            Image(systemName: "bookmark.square")
-                                .font(Font.system(.title))
-                        }
-                        
-                    })
-                    Button(action: {
+                        currentCategory = lastCategory
+                        currentQuestion = lastQuestion
+                        questionNumber = lastQuestionNumber
                         
                     },
                            label: {
-                        Image(systemName: "bookmark.slash.fill")
+                        Image(systemName: "pin.square.fill")
                             .font(Font.system(.title))
                     })
                     Button(action: {
@@ -483,6 +468,48 @@ struct QuestionView: View {
                             .font(Font.system(.title))
                     })
                 }
+
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        switch chosenCategory {
+                        case .favourites:
+                            var thisCategory = categories[currentCategory]
+                            var thisQuestion = thisCategory.questions[currentQuestion]
+                            thisQuestion.isFavourite.toggle()
+                            thisCategory.questions[currentQuestion] = thisQuestion
+//                            Category[thisCategory.id] = thisCategory
+//                            categories[currentCategory].questions[currentQuestion] = thisQuestion
+//                            currentCategory = 0
+//                            currentQuestion = 0
+                        default:
+                            var thisCategory = categories[currentCategory]
+                            var thisQuestion = thisCategory.questions[currentQuestion]
+                            thisQuestion.isFavourite.toggle()
+                            thisCategory.questions[currentQuestion] = thisQuestion
+                            Category[thisCategory.id] = thisCategory
+                            categories[currentCategory].questions[currentQuestion] = thisQuestion
+                        }
+                    },
+                           label: {
+                        if categories[currentCategory].questions[currentQuestion].isFavourite {
+                            Image(systemName: "bookmark.square.fill")
+                                .font(Font.system(.title))
+                                .foregroundColor(.red)
+                        } else {
+                            Image(systemName: "bookmark.square")
+                                .font(Font.system(.title))
+                        }
+                        
+                    })
+                    Button(action: {
+                        removeFavourites()
+                    },
+                           label: {
+                        Image(systemName: "bookmark.slash.fill")
+                            .font(Font.system(.title))
+                    })
+     
+                }
                 
             }
         }
@@ -495,6 +522,6 @@ struct QuestionView_Previews: PreviewProvider {
     static var categories = Category.example_data()
     
     static var previews: some View {
-        QuestionView(categories: categories, title: "Preview")
+        QuestionView(categories: categories, chosenCategory: .all)
     }
 }

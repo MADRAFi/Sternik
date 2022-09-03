@@ -77,9 +77,9 @@
 		800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_Amator.storekit; sourceTree = "<group>"; };
 		800B6EE328B77DAC00FA583B /* Amator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Amator.xcassets; sourceTree = "<group>"; };
 		800B6EE428B77DAC00FA583B /* Products_Amator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Amator.plist; sourceTree = "<group>"; };
-		800B6F0E28B795B600FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Amator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800B6F0E28B795B600FA583B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Radio Amator.app"; path = "/Users/madrafi/Developer/Sternik/build/Debug-iphoneos/Radio Amator.app"; sourceTree = "<absolute>"; };
 		800B6F0F28B795C500FA583B /* Radio Operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Operator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		800B6F1128B7B94F00FA583B /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800B6F1128B7B94F00FA583B /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Sternik.app; path = "/Users/madrafi/Developer/Sternik/build/Debug-iphoneos/Sternik.app"; sourceTree = "<absolute>"; };
 		802302F128B19B5F0008B41C /* Products_VHF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_VHF.plist; sourceTree = "<group>"; };
 		802302F428B21BCB0008B41C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		80345980289FFC0400CBC0FA /* VHF.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VHF.xcassets; sourceTree = "<group>"; };
@@ -212,9 +212,7 @@
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
-				800B6F0E28B795B600FA583B /* Radio Amator.app */,
 				800B6F0F28B795C500FA583B /* Radio Operator.app */,
-				800B6F1128B7B94F00FA583B /* Sternik.app */,
 				80C219DF28B9642000CD492C /* Frameworks */,
 			);
 			sourceTree = "<group>";
