@@ -99,14 +99,17 @@ class CategoryRepository: ObservableObject {
             number = 0
             questions_list = []
             questions_all = item.questions
+            if questions_all.count == 0 { continue } // If there are no Questions... skip this Category!
             while number < item.exam {
-//                print("Losowanie kategoria: \(item.id)")
-                questions_all.shuffle()
-                element = questions_all.first!
-                questions_all.removeFirst()
-                questions_list.append(element)
+                if questions_all.first != nil {
+                    //                print("Losowanie kategoria: \(item.id)")
+                    questions_all.shuffle()
+                    element = questions_all.first!
+                    questions_all.removeFirst()
+                    questions_list.append(element)
+                }
                 number += 1
-//                print("-- P: \(element.question_id)")
+                //                print("-- P: \(element.question_id)")
             }
             category.questions = questions_list /// Replace its Question List with the results of the above
             examSet.append(category) /// Append the mutated Copy of the Category to the resulting `examSet`
