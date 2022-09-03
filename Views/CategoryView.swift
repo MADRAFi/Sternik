@@ -10,7 +10,6 @@ import StoreKit
 
 struct CategoryView: View {    
     @EnvironmentObject var store: Store
-    
     @ObservedObject var categoryRepository = Category.repository // This ensures we are Observing the Repository!
 
 
@@ -52,8 +51,7 @@ struct CategoryView: View {
             NavigationView {
                     List {
                         Section {
-//                            if !isFullVersion {
-                            if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
+                            if !store.isFullVersion() {
                                 ADBanner()
 //                                    .frame(width: 320, height: 50, alignment: .center)
                             }
@@ -120,12 +118,8 @@ struct CategoryView: View {
     }
 }
     struct CategoryView_Previews: PreviewProvider {
-        
-//        static var questions = categoryList.example_data()
         static var data = CategoryRepository()
-        
         static var previews: some View {
-//            CategoryView(isFullVersion: .constant(true))
             CategoryView()
                 .environmentObject(Store())
         }

@@ -10,17 +10,14 @@ import StoreKit
 
 struct MainView: View {    
     @State var selectedTab: Int = 0
-//    @State var isFullVersion: Bool = false
     @EnvironmentObject var store : Store
     @ObservedObject var data = Category.repository
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
-    
-//    let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
+
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
     var body: some View {
         TabView(selection: $selectedTab) {
-//                CategoryView(isFullVersion: $isFullVersion)
                 CategoryView()
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
@@ -28,7 +25,6 @@ struct MainView: View {
                     }
                     .tag(0)
             
-//                ModuleView(isFullVersion: $isFullVersion)
                 ModuleView()
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")

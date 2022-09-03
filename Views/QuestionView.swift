@@ -418,16 +418,7 @@ struct QuestionView: View {
                             .font(Font.system(.title))
                     })
                     
-                    Button(action: {
-                        currentCategory = lastCategory
-                        currentQuestion = lastQuestion
-                        questionNumber = lastQuestionNumber
-                        
-                    },
-                           label: {
-                        Image(systemName: "pin.circle.fill")
-                            .font(Font.system(.title))
-                    })
+
                     Button(action: {
                         lastCategory = currentCategory
                         lastQuestion = currentQuestion
@@ -441,7 +432,30 @@ struct QuestionView: View {
                         Image(systemName: "arrow.right.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
-
+                    Button(action: {
+                        currentCategory = lastCategory
+                        currentQuestion = lastQuestion
+                        questionNumber = lastQuestionNumber
+                        
+                    },
+                           label: {
+                        Image(systemName: "pin.square.fill")
+                            .font(Font.system(.title))
+                    })
+                    Button(action: {
+                        previousQuestion()
+                    },
+                           label: {
+                        Image(systemName: "arrow.left.square.fill")
+                            .font(Font.system(.title))
+                    })
+                    Button(action: {
+                        nextQuestion()
+                    },
+                           label: {
+                        Image(systemName: "arrow.right.square.fill")
+                            .font(Font.system(.title))
+                    })
                 }
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
@@ -471,20 +485,7 @@ struct QuestionView: View {
                         Image(systemName: "bookmark.slash.fill")
                             .font(Font.system(.title))
                     })
-                    Button(action: {
-                        previousQuestion()
-                    },
-                           label: {
-                        Image(systemName: "arrow.left.square.fill")
-                            .font(Font.system(.title))
-                    })
-                    Button(action: {
-                        nextQuestion()
-                    },
-                           label: {
-                        Image(systemName: "arrow.right.square.fill")
-                            .font(Font.system(.title))
-                    })
+     
                 }
                 
             }

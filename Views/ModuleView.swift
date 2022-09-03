@@ -11,7 +11,6 @@ import StoreKit
 struct ModuleView: View {
     @EnvironmentObject var store: Store
     @ObservedObject var data = Category.repository // This ensures we are Observing the Repository!
-//    @Binding var isFullVersion: Bool
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String ?? ""
@@ -46,7 +45,7 @@ struct ModuleView: View {
         NavigationView {
             VStack {
                 VStack {
-                    if !(store.purchasedProducts.contains(where: {$0.id == fullVersionID})) {
+                    if !store.isFullVersion() {
                         ADBanner()
                             .frame(width: 320, height: 100, alignment: .center)
                     }
@@ -97,8 +96,6 @@ struct ModuleView: View {
 struct ModuleView_Previews: PreviewProvider {
     
     static var previews: some View {
-
-//        ModuleView(isFullVersion: .constant(true))
             ModuleView()
                 .environmentObject(Store())
     }
