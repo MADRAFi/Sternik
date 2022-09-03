@@ -126,10 +126,12 @@ class CategoryRepository: ObservableObject {
             // If we reach this line, we have only Favourite Questions for this Category....
             results.append(thisCategory) /// ... so let's add this filtered Category to the output Array
         }
+            results.sort(by: {$0.id < $1.id })
         return results
     }
     
 //    func removeFavourites() {
+//        var categoryIndex = 0 /// We always start at Index 0 of the Category Array
 //        for category in categories.values { /// Iterate Categories
 //            var updatedCategory = category /// Take a copy of the Category we're about to update
 //            var questionIndex = 0 /// We always start at Index 0 of the Question Array
@@ -140,6 +142,8 @@ class CategoryRepository: ObservableObject {
 //                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
 //                questionIndex += 1 /// Increment the Question Index for the next iteration
 //            }
+//                Category[updatedCategory.id] = updatedCategory
+//                categoryIndex += 1
 //        }
 //    }
     

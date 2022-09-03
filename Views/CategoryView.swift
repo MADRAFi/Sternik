@@ -8,6 +8,7 @@
 import SwiftUI
 import StoreKit
 
+
 struct CategoryView: View {    
     @EnvironmentObject var store: Store
     @ObservedObject var categoryRepository = Category.repository // This ensures we are Observing the Repository!
@@ -34,7 +35,7 @@ struct CategoryView: View {
      */
     @ViewBuilder
     func questionNavLink(item: Category, prefix: String) -> some View {
-        NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }) , title: "Wybrany dział")) {
+        NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }), chosenCategory: .id(item.id))) {
             HStack {
                 Image("Icon_\(prefix)_\(item.id)")
                     .padding(.vertical, 8)
@@ -50,7 +51,7 @@ struct CategoryView: View {
         
             NavigationView {
                     List {
-                        Section {
+//                        Section {
                             if !store.isFullVersion() {
                                 ADBanner()
 //                                    .frame(width: 320, height: 50, alignment: .center)
@@ -59,7 +60,7 @@ struct CategoryView: View {
                                 categoryNavLinks()
                             }
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: Array(categoryRepository.sortedCategories), title: "Wszystkie")) {
+                                NavigationLink(destination: QuestionView(categories: Array(categoryRepository.sortedCategories), chosenCategory: .all)) {
                                     HStack {
                                         Image("Icon_Learn")
                                             .padding(.vertical, 8)
@@ -70,12 +71,8 @@ struct CategoryView: View {
                                 }
                                 
                             }
-//                            let favourites = data.categories.values.filter({ category in
-//                                return category.questions.contains(where: { $0.isFavourite == true })
-//                                
-//                            })
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: categoryRepository.favourites, title: "Ulubione")) {
+                                NavigationLink(destination: QuestionView(categories: categoryRepository.favourites, chosenCategory: .favourites)) {
                                     HStack {
                                         Image("Icon_Favourite")
                                             .padding(.vertical, 8)
@@ -89,7 +86,7 @@ struct CategoryView: View {
                             }
                             
                             HStack {
-                                NavigationLink(destination: QuestionView(categories: categoryRepository.generateQuestionsList(), title: "Egzamin" )) {
+                                NavigationLink(destination: QuestionView(categories: categoryRepository.generateQuestionsList(), chosenCategory: .exam)) {
                                     HStack {
                                         Image("Icon_Exam")
                                             .padding(.vertical, 8)
@@ -102,10 +99,10 @@ struct CategoryView: View {
                                 
                             }
                             
-                        }
+//                        }
                     }
                     .navigationTitle("Kategorie")
-                    .navigationBarTitleDisplayMode(.large)
+//                    .navigationBarTitleDisplayMode(.large)
 
             }
             .navigationViewStyle(.stack)

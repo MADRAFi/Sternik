@@ -7,6 +7,13 @@
 
 import Foundation
 
+enum CategoryType {
+    case id(Int)
+    case favourites
+    case all
+    case exam
+}
+
 struct Category: Codable, Identifiable {
     @Injected(\.categories) static var repository
     
