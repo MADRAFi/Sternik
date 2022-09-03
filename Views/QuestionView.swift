@@ -45,9 +45,6 @@ struct QuestionView: View {
     
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
-//    var thisCategory : Category
-//    var thisQuestion : Question
-
     
 //    func calculateQuestionsTotal() -> Int {
 //        // calculates total number of all questions in a set (all categories)
@@ -166,6 +163,30 @@ struct QuestionView: View {
         if questionTotal == answersCorrect + answersWrong {
             endTime = .now
             showStats = true
+        }
+    }
+    
+    
+    func removeFavourites() {
+        
+//        var thisCategory = categories[currentCategory]
+//        var thisQuestion = thisCategory.questions[currentQuestion]
+//        thisQuestion.isFavourite.toggle()
+//        thisCategory.questions[currentQuestion] = thisQuestion
+//        Category[thisCategory.id] = thisCategory
+//        categories[currentCategory].questions[currentQuestion] = thisQuestion
+        
+        for category in categories { /// Iterate Categories
+            var updatedCategory = category /// Take a copy of the Category we're about to update
+            var questionIndex = 0 /// We always start at Index 0 of the Question Array
+            for question in category.questions { /// Iterate Questions in Category
+                var updatedQuestion = question /// Take a copy of the Question we're about to update
+                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
+                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+//                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
+                Category[updatedCategory.id] = updatedCategory
+                questionIndex += 1 /// Increment the Question Index for the next iteration
+            }
         }
     }
     
@@ -420,29 +441,11 @@ struct QuestionView: View {
                         Image(systemName: "arrow.right.to.line.circle.fill")
                             .font(Font.system(.title))
                     })
-//                    if showFavourite {
-//                        Button(action: {
-//
-//                        },
-//                               label: {
-//                            Image(systemName: "bookmark.circle.fill")
-//                                .font(Font.system(.title))
-//                        })
-//                    } else {
-//                        Button(action: {
-//
-//                        },
-//                               label: {
-//                            Image(systemName: "bookmark.circle")
-//                                .font(Font.system(.title))
-//                        })
-//                    }
+
                 }
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        categories[currentCategory].questions[currentQuestion].isFavourite.toggle()
-                        
                         var thisCategory = categories[currentCategory]
                         var thisQuestion = thisCategory.questions[currentQuestion]
                         thisQuestion.isFavourite.toggle()
@@ -462,7 +465,7 @@ struct QuestionView: View {
                         
                     })
                     Button(action: {
-                        
+                        removeFavourites()
                     },
                            label: {
                         Image(systemName: "bookmark.slash.fill")
