@@ -113,6 +113,7 @@ class CategoryRepository: ObservableObject {
             }
             category.questions = questions_list /// Replace its Question List with the results of the above
             examSet.append(category) /// Append the mutated Copy of the Category to the resulting `examSet`
+            examSet.sort(by: { $0.id < $1.id })
         }
         return examSet
     }
