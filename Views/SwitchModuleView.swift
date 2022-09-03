@@ -11,7 +11,7 @@ import StoreKit
 struct SwitchModuleView: View {
     
     @EnvironmentObject var store: Store
-    @EnvironmentObject var data : QuestionsList
+    @ObservedObject var data = Category.repository
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String ?? ""
@@ -53,5 +53,6 @@ struct SwitchModuleView_Previews: PreviewProvider {
     
     static var previews: some View {
         SwitchModuleView()
+            .environmentObject(Store())
     }
 }

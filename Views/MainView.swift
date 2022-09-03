@@ -8,13 +8,12 @@
 import SwiftUI
 import StoreKit
 
-struct MainView: View {
-    
+struct MainView: View {    
     @State var selectedTab: Int = 0
-    @StateObject var store : Store = Store()
-    @ObservedObject var data = QuestionsList()
+    @EnvironmentObject var store : Store
+    @ObservedObject var data = Category.repository
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
-    
+
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     
     var body: some View {
@@ -22,14 +21,14 @@ struct MainView: View {
                 CategoryView()
                     .tabItem {
                         Label("Pytania", systemImage: "filemenu.and.selection")
-                            .font(Font.system(.largeTitle).bold())
+//                            .font(Font.system(.largeTitle).bold())
                     }
                     .tag(0)
             
                 ModuleView()
                     .tabItem {
                         Label("Moduły", systemImage: "bag.fill.badge.plus")
-                            .font(Font.system(.largeTitle).bold())
+//                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(1)
@@ -37,19 +36,17 @@ struct MainView: View {
                 SettingsView()
                     .tabItem {
                         Label("Ustawienia", systemImage: "gearshape.fill")
-                            .font(Font.system(.largeTitle).bold())
+//                            .font(Font.system(.largeTitle).bold())
 
                     }
                     .tag(2)
                 
         }
-        .environmentObject(store)
-        .environmentObject(data)
         .onAppear() {
             if selectedModule.isEmpty {
                 selectedModule = builtInProduct!
             }
-//            data.load(module: selectedModule)
+            data.load(module: selectedModule)
             
         }
     }
@@ -58,6 +55,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {    
     static var previews: some View {
         MainView()
-            .environmentObject(QuestionsList())
+            .environmentObject(Store())
     }
 }

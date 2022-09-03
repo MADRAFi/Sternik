@@ -13,6 +13,7 @@ struct StatsView: View {
     
     @Binding var startTime: Date
     @Binding var endTime: Date
+//    @Binding var questionTotal: Int
     @State var questionTotal: Int
     @Binding var answersCorrect: Int
     @Binding var answersWrong: Int

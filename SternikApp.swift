@@ -9,7 +9,6 @@ import SwiftUI
 import GoogleMobileAds
 
 @main
-
 struct SternikApp: App {
     init() {
         GADMobileAds.sharedInstance().start(completionHandler: nil)
@@ -18,6 +17,7 @@ struct SternikApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .environmentObject(Store())
         }
     }
 }
