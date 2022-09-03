@@ -471,24 +471,12 @@ struct QuestionView: View {
 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button(action: {
-                        switch chosenCategory {
-                        case .favourites:
-                            var thisCategory = categories[currentCategory]
-                            var thisQuestion = thisCategory.questions[currentQuestion]
-                            thisQuestion.isFavourite.toggle()
-                            thisCategory.questions[currentQuestion] = thisQuestion
-//                            Category[thisCategory.id] = thisCategory
-//                            categories[currentCategory].questions[currentQuestion] = thisQuestion
-//                            currentCategory = 0
-//                            currentQuestion = 0
-                        default:
-                            var thisCategory = categories[currentCategory]
-                            var thisQuestion = thisCategory.questions[currentQuestion]
-                            thisQuestion.isFavourite.toggle()
-                            thisCategory.questions[currentQuestion] = thisQuestion
-                            Category[thisCategory.id] = thisCategory
-                            categories[currentCategory].questions[currentQuestion] = thisQuestion
-                        }
+                        var thisCategory = categories[currentCategory]
+                        var thisQuestion = thisCategory.questions[currentQuestion]
+                        thisQuestion.isFavourite.toggle()
+                        thisCategory.questions[currentQuestion] = thisQuestion
+                        Category[thisCategory.id] = thisCategory
+                        categories[currentCategory].questions[currentQuestion] = thisQuestion
                     },
                            label: {
                         if categories[currentCategory].questions[currentQuestion].isFavourite {
