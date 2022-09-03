@@ -168,14 +168,7 @@ struct QuestionView: View {
     
     
     func removeFavourites() {
-        
-//        var thisCategory = categories[currentCategory]
-//        var thisQuestion = thisCategory.questions[currentQuestion]
-//        thisQuestion.isFavourite.toggle()
-//        thisCategory.questions[currentQuestion] = thisQuestion
-//        Category[thisCategory.id] = thisCategory
-//        categories[currentCategory].questions[currentQuestion] = thisQuestion
-        
+        var categoryIndex = 0 /// We always start at Index 0 of the Category Array
         for category in categories { /// Iterate Categories
             var updatedCategory = category /// Take a copy of the Category we're about to update
             var questionIndex = 0 /// We always start at Index 0 of the Question Array
@@ -183,10 +176,10 @@ struct QuestionView: View {
                 var updatedQuestion = question /// Take a copy of the Question we're about to update
                 updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
                 updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
-//                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
-                Category[updatedCategory.id] = updatedCategory
+                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
                 questionIndex += 1 /// Increment the Question Index for the next iteration
             }
+            categoryIndex += 1
         }
     }
     
