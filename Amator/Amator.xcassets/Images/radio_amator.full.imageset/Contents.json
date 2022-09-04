@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Icon_Module_FULL_PL_x1.png",
+      "filename" : "Icon_Module_FULL_x1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Icon_Module_FULL_PL_x2.png",
+      "filename" : "Icon_Module_FULL_x2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Icon_Module_FULL_PL_x3.png",
+      "filename" : "Icon_Module_FULL_x3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
