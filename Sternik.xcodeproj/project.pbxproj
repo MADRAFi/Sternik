@@ -330,6 +330,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				pl,
 			);
 			mainGroup = 80D7D8432884A12A009EB03A;
