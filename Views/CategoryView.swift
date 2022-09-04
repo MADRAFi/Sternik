@@ -38,7 +38,7 @@ struct CategoryView: View {
         NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }), chosenCategory: .id(item.id))) {
             HStack {
                 Image("Icon_\(prefix)_\(item.id)")
-                    .padding(.vertical, 8)
+                    .padding(.vertical, 5)
                     .padding(.horizontal, 5)
                 Text(item.category_name)
                 Spacer()
@@ -63,7 +63,7 @@ struct CategoryView: View {
                                 NavigationLink(destination: QuestionView(categories: Array(categoryRepository.sortedCategories), chosenCategory: .all)) {
                                     HStack {
                                         Image("Icon_Learn")
-                                            .padding(.vertical, 8)
+                                            .padding(.vertical, 5)
                                             .padding(.horizontal, 5)
                                         Text("Wszystkie pytania")
                                         Spacer()
@@ -75,21 +75,20 @@ struct CategoryView: View {
                                 NavigationLink(destination: QuestionView(categories: categoryRepository.favourites, chosenCategory: .favourites)) {
                                     HStack {
                                         Image("Icon_Favourite")
-                                            .padding(.vertical, 8)
+                                            .padding(.vertical, 5)
                                             .padding(.horizontal, 5)
                                         Text("Ulubione")
                                         Spacer()
                                     }
                                 }
-                                .disabled(categoryRepository.favourites.count == 0)
-                                
                             }
+                            .disabled(categoryRepository.favourites.count == 0)
                             
                             HStack {
                                 NavigationLink(destination: QuestionView(categories: categoryRepository.generateQuestionsList(), chosenCategory: .exam)) {
                                     HStack {
                                         Image("Icon_Exam")
-                                            .padding(.vertical, 8)
+                                            .padding(.vertical, 5)
                                             .padding(.horizontal, 5)
                                         Text("Egzamin próbny")
                                         Spacer()
