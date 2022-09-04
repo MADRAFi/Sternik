@@ -425,7 +425,7 @@ struct QuestionView: View {
                         questionNumber = 1
                     },
                            label: {
-                        Image(systemName: "arrow.left.to.line.circle.fill")
+                        Image("arrow.backward.to.line.square.fill")
                             .font(Font.system(.title))
                     })
                     
@@ -440,7 +440,7 @@ struct QuestionView: View {
                         
                     },
                            label: {
-                        Image(systemName: "arrow.right.to.line.circle.fill")
+                        Image("arrow.forward.to.line.square.fill")
                             .font(Font.system(.title))
                     })
                     Button(action: {
