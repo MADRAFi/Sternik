@@ -37,10 +37,10 @@
 		8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 8036FE5228B1016000A94DBE /* Configuration_Sternik.storekit */; };
 		8048F8C028ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
 		8048F8C128ACC82300A209BA /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048F8BF28ACC82200A209BA /* StatsView.swift */; };
+		80653CFA28C4220B00C1741B /* questions_lrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 80653CF928C4220B00C1741B /* questions_lrc.json */; };
 		807FF65F28B40E6D00AF2682 /* questions_src.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65A28B40E6D00AF2682 /* questions_src.json */; };
 		807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65B28B40E6D00AF2682 /* questions_vhf.json */; };
 		807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65C28B40E6D00AF2682 /* questions_iwc.json */; };
-		807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 807FF65E28B40E6D00AF2682 /* questions_lrc.json */; };
 		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
 		8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
 		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
@@ -87,10 +87,10 @@
 		8048F8BF28ACC82200A209BA /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		80653CF728C411C000C1741B /* Sternik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sternik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80653CF828C411C000C1741B /* Radio Amator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Amator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80653CF928C4220B00C1741B /* questions_lrc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lrc.json; sourceTree = "<group>"; };
 		807FF65A28B40E6D00AF2682 /* questions_src.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_src.json; sourceTree = "<group>"; };
 		807FF65B28B40E6D00AF2682 /* questions_vhf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_vhf.json; sourceTree = "<group>"; };
 		807FF65C28B40E6D00AF2682 /* questions_iwc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_iwc.json; sourceTree = "<group>"; };
-		807FF65E28B40E6D00AF2682 /* questions_lrc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lrc.json; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
 		80A3525828B2E13D0094ADC9 /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
@@ -165,8 +165,8 @@
 		8034597D289FFA1300CBC0FA /* VHF */ = {
 			isa = PBXGroup;
 			children = (
+				80653CF928C4220B00C1741B /* questions_lrc.json */,
 				807FF65C28B40E6D00AF2682 /* questions_iwc.json */,
-				807FF65E28B40E6D00AF2682 /* questions_lrc.json */,
 				807FF65A28B40E6D00AF2682 /* questions_src.json */,
 				807FF65B28B40E6D00AF2682 /* questions_vhf.json */,
 				80345980289FFC0400CBC0FA /* VHF.xcassets */,
@@ -369,8 +369,8 @@
 				807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
-				807FF66328B40E6D00AF2682 /* questions_lrc.json in Resources */,
 				807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */,
+				80653CFA28C4220B00C1741B /* questions_lrc.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
