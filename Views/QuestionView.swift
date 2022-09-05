@@ -11,7 +11,6 @@ struct QuestionView: View {
 
     @Environment(\.presentationMode) var presentationMode
     @State var categories : [Category]
-//    @State var title: String
 
     @State var isAnswered: Bool = false
     @State var showStats: Bool = false
@@ -22,7 +21,6 @@ struct QuestionView: View {
     @State var currentCategory: Int = 0          // index of a category
     @State var currentQuestion: Int = 0          // index of a question
     @State var questionNumber: Int = 1           // current question number in a set
-//    @State var questionTotal: Int = 1            // number of all questions in set
     var questionTotal: Int {
     // calculates total number of all questions in a set (all categories)
         
@@ -46,6 +44,14 @@ struct QuestionView: View {
     let builtInProduct = Bundle.main.infoDictionary?["BuiltInProduct"] as? String
     let chosenCategory: CategoryType
     
+//    @GestureState var scale = 1.0
+//    var magnification: some Gesture {
+//        MagnificationGesture()
+//            .updating($scale) { currentState, pastState, transaction in
+//                pastState = currentState
+//            }
+//    }
+    
     var title: String {
         switch chosenCategory {
         case .id:
@@ -58,17 +64,6 @@ struct QuestionView: View {
             return "Egzamin"
         }
     }
-    
-//    func calculateQuestionsTotal() -> Int {
-//        // calculates total number of all questions in a set (all categories)
-//
-//        var value: Int = 0
-//        for item in categories {
-//            value += item.questions.count
-//        }
-//
-//        return value
-//    }
     
     func checkAnswer() {
         switch  categories[currentCategory].questions[currentQuestion].choice {
@@ -177,12 +172,7 @@ struct QuestionView: View {
             showStats = true
         }
     }
-    //                var updatedQuestion = question /// Take a copy of the Question we're about to update
-    //                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
-    //                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
-    //                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
-    //                questionIndex += 1 /// Increment the Question Index for the next iteration
-    
+
     func removeFavourites() {
         var categoryIndex = 0 /// We always start at Index 0 of the Category Array
         for category in categories { /// Iterate Categories
@@ -250,10 +240,17 @@ struct QuestionView: View {
                 if !(categories[currentCategory].questions[currentQuestion].question_image.isEmpty) {
                     Image((categories[currentCategory].questions[currentQuestion].question_image))
                         .resizable()
-                        .scaledToFit()
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .frame(maxWidth: 300)
+                        .aspectRatio(contentMode: .fit)
+//                        .scaleEffect(scale)
+//                        .gesture(magnification)
+//                        .scaledToFit()
+                    //                        .frame(maxWidth: 300)
+                        .clipShape(RoundedRectangle(cornerRadius: 5))
                         .padding(5)
+//                        .onHover(perform: {
+//
+//                        })
+
                 }
 
             }
