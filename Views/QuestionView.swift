@@ -490,7 +490,7 @@ struct QuestionView: View {
                         removeFavourites()
                     },
                            label: {
-                        Image(systemName: "bookmark.slash.fill")
+                        Image("bookmark.square.crossed.fill")
                             .font(Font.system(.title))
                     })
      
