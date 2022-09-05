@@ -28,6 +28,12 @@ struct StatsView: View {
         
         NavigationView {
             VStack {
+                HStack {
+                    VStack(alignment: .center) {
+                        Text("Podsumowanie")
+                            .font(.title)
+                    }
+                }
                 List {
                     Section {
                         HStack {

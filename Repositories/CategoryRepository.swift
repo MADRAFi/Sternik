@@ -14,6 +14,7 @@ class CategoryRepository: ObservableObject {
             sortedCategories = categories.values.sorted(by: { lhs, rhs in
                 lhs.id < rhs.id
             })
+//            sortedCategories = sortCategories()
             favourites = filterFavourites()
         }
     }
@@ -29,8 +30,9 @@ class CategoryRepository: ObservableObject {
             return categories[id]
         }
         set {
-            categories[id] = newValue
             objectWillChange.send()
+            categories[id] = newValue
+
         }
     }
 
@@ -73,19 +75,8 @@ class CategoryRepository: ObservableObject {
 
     }
 
-//    func calculateQuestionsTotal() -> Int {
-//    // calculates total number of all questions in a set (all categories)
-//
-//        var value: Int = 0
-//        for item in categories.values {
-//            value += item.questions.count
-//        }
-//
-//        return value
-//    }
-
     /**
-     randomly picks question and add to a new array. New array will have defined numer of elements equal to "exam" in each category
+     randomly picks question and add to a new array. New array will have defined number of elements equal to "exam" in each category
      */
     func generateQuestionsList() -> [Category] {
         var examSet: [Category] = []
@@ -134,21 +125,13 @@ class CategoryRepository: ObservableObject {
         return results
     }
     
-//    func removeFavourites() {
-//        var categoryIndex = 0 /// We always start at Index 0 of the Category Array
-//        for category in categories.values { /// Iterate Categories
-//            var updatedCategory = category /// Take a copy of the Category we're about to update
-//            var questionIndex = 0 /// We always start at Index 0 of the Question Array
-//            for question in category.questions { /// Iterate Questions in Category
-//                var updatedQuestion = question /// Take a copy of the Question we're about to update
-//                updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
-//                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
-//                categories[updatedCategory.id] = updatedCategory /// Update the Category in the Repository
-//                questionIndex += 1 /// Increment the Question Index for the next iteration
-//            }
-//                Category[updatedCategory.id] = updatedCategory
-//                categoryIndex += 1
+//    func sortCategories() -> [Category] {
+//        var results = [Category]()
+//        for category in categories.values {
+//            results.append(category)
 //        }
+//        results.sort(by: {$0.id < $1.id })
+//        return results
 //    }
     
     static func example_data() -> [Category] {

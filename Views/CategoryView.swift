@@ -36,6 +36,7 @@ struct CategoryView: View {
     @ViewBuilder
     func questionNavLink(item: Category, prefix: String) -> some View {
         NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }), chosenCategory: .id(item.id))) {
+
             HStack {
                 Image("Icon_\(prefix)_\(item.id)")
                     .padding(.vertical, 5)
