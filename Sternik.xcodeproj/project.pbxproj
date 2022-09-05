@@ -44,6 +44,8 @@
 		8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */; };
 		8083DDA028B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
 		8083DDA128B2EF4E00187B4D /* SwitchModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */; };
+		8084919128C569C80047A2BC /* questions_c.json in Resources */ = {isa = PBXBuildFile; fileRef = 8084918F28C569C80047A2BC /* questions_c.json */; };
+		8084919228C569C80047A2BC /* questions_a.json in Resources */ = {isa = PBXBuildFile; fileRef = 8084919028C569C80047A2BC /* questions_a.json */; };
 		80A3525A28B2E14F0094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525B28B2E1500094ADC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525928B2E13E0094ADC9 /* Store.swift */; };
 		80A3525C28B2E1530094ADC9 /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3525828B2E13D0094ADC9 /* CategoryRepository.swift */; };
@@ -93,6 +95,8 @@
 		807FF65C28B40E6D00AF2682 /* questions_iwc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_iwc.json; sourceTree = "<group>"; };
 		8083DD9D28B2E7A900187B4D /* Products_Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products_Sternik.plist; sourceTree = "<group>"; };
 		8083DD9F28B2EF4E00187B4D /* SwitchModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModuleView.swift; sourceTree = "<group>"; };
+		8084918F28C569C80047A2BC /* questions_c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_c.json; sourceTree = "<group>"; };
+		8084919028C569C80047A2BC /* questions_a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_a.json; sourceTree = "<group>"; };
 		80A3525828B2E13D0094ADC9 /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
 		80A3525928B2E13E0094ADC9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		80A6801528A6B69600C28473 /* Configuration_VHF.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration_VHF.storekit; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				80C219E828BA7AD400CD492C /* Amator.plist */,
+				8084919028C569C80047A2BC /* questions_a.json */,
+				8084918F28C569C80047A2BC /* questions_c.json */,
 				800B6EE328B77DAC00FA583B /* Amator.xcassets */,
 				800B6EE428B77DAC00FA583B /* Products_Amator.plist */,
 				800B6EE128B77DAA00FA583B /* Configuration_Amator.storekit */,
@@ -353,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8084919128C569C80047A2BC /* questions_c.json in Resources */,
+				8084919228C569C80047A2BC /* questions_a.json in Resources */,
 				800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */,
 				800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */,
 				80C219E928BA7AD400CD492C /* Amator.plist in Resources */,

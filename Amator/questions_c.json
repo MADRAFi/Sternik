@@ -370,7 +370,7 @@
 {
     "question_id": 37,
                 "question": "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
-                "question_image": "c_q37",
+                "question_image": "ca_q37",
                 "images": false, 
                 "answer_1": "prostownik dwupołówkowy", 
                 "answer_2": "prostownik jednopołówkowy", 
@@ -380,7 +380,7 @@
 {
     "question_id": 38,
                 "question": "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
-                "question_image": "c_q38",
+                "question_image": "ca_q38",
                 "images": false, 
                 "answer_1": "prostownik dwupołówkowy", 
                 "answer_2": "prostownik jednopołówkowy", 
@@ -421,7 +421,7 @@
 {
     "question_id": 42,
                 "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 1 to:",
-                "question_image": "c_q42-43",
+                "question_image": "ca_q42-43",
                 "images": false, 
                 "answer_1": "generator stabilizowany", 
                 "answer_2": "komparator", 
@@ -431,7 +431,7 @@
 {
     "question_id": 43,
                 "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 4 to:",
-                "question_image": "c_42-43",
+                "question_image": "ca_q42-43",
                 "images": false, 
                 "answer_1": "dzielnik wzorca", 
                 "answer_2": "generator wzorca", 
@@ -441,7 +441,7 @@
 {
     "question_id": 44,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
-                "question_image": "c_q44",
+                "question_image": "ca_q44",
                 "images": false, 
                 "answer_1": "wzmacniacz akustyczny", 
                 "answer_2": "detektor z reakcją", 
@@ -451,7 +451,7 @@
 {
     "question_id": 45,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
-                "question_image": "c_q45-46",
+                "question_image": "ca_q45-46",
                 "images": false, 
                 "answer_1": "filtr wejściowy", 
                 "answer_2": "wzmacniacz akustyczny", 
@@ -461,7 +461,7 @@
 {
     "question_id": 46,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
-                "question_image": "c_q45-46",
+                "question_image": "ca_q45-46",
                 "images": false, 
                 "answer_1": "heterodyna", 
                 "answer_2": "wzmacniacz akustyczny", 
@@ -471,7 +471,7 @@
 {
     "question_id": 47,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
-                "question_image": "c_q47-48",
+                "question_image": "ca_q47-48",
                 "images": false, 
                 "answer_1": "wzmacniacz w.cz.", 
                 "answer_2": "wzmacniacz akustyczny", 
@@ -481,7 +481,7 @@
 {
     "question_id": 48,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
-                "question_image": "c_q47-48",
+                "question_image": "ca_q47-48",
                 "images": false, 
                 "answer_1": "wzmacniacz akustyczny", 
                 "answer_2": "wzmacniacz pośredniej cz.", 
@@ -491,7 +491,7 @@
 {
     "question_id": 49,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
-                "question_image": "c_49",
+                "question_image": "ca_q49",
                 "images": false, 
                 "answer_1": "filtr wejściowy",
                 "answer_2": "wzmacniacz akustyczny", 
@@ -501,7 +501,7 @@
 {
     "question_id": 50,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
-                "question_image": "c_q50",
+                "question_image": "ca_q50",
                 "images": false, 
                 "answer_1": "wzmacniacz akustyczny", 
                 "answer_2": "I mieszacz", 
@@ -521,7 +521,7 @@
 {
     "question_id": 52,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
-                "question_image": "c_q52",
+                "question_image": "ca_q52",
                 "images": false, 
                 "answer_1": "filtr wyjściowy", 
                 "answer_2": "wzmacniacz mocy (PA)", 
@@ -531,7 +531,7 @@
 {
     "question_id": 53,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
-                "question_image": "c_q53",
+                "question_image": "ca_q53",
                 "images": false, 
                 "answer_1": "wzmacniacz mocy (PA)", 
                 "answer_2": "oscylator (VFO)", 
@@ -541,7 +541,7 @@
 {
     "question_id": 54,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
-                "question_image": "c_q54-55",
+                "question_image": "ca_q54-55",
                 "images": false, 
                 "answer_1": "wzmacniacz mocy (PA)", 
                 "answer_2": "oscylator (VFO) 5 - 5.5 MHz", 
@@ -551,7 +551,7 @@
 {
     "question_id": 55,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 2 to:",
-                "question_image": "c_q54-55",
+                "question_image": "ca_q54-55",
                 "images": false, 
                 "answer_1": "wzmacniacz sterujący", 
                 "answer_2": "mieszacz", 
@@ -561,7 +561,7 @@
 {
     "question_id": 56,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
-                "question_image": "c_q56-57",
+                "question_image": "ca_q56-57",
                 "images": false, 
                 "answer_1": "wzmacniacz mocy (PA)", 
                 "answer_2": "generator kwarcowy modulowany", 
@@ -571,7 +571,7 @@
 {
     "question_id": 57,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
-                "question_image": "c_q56-57",
+                "question_image": "ca_q56-57",
                 "images": false, 
                 "answer_1": "modulator", 
                 "answer_2": "filtr wyjściowy", 
@@ -602,7 +602,7 @@
 {
     "question_id": 60,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
-                "question_image": "c_q60-63",
+                "question_image": "ca_q60-63",
                 "images": false, 
                 "answer_1": "reflektor", 
                 "answer_2": "radiator", 
@@ -612,7 +612,7 @@
 {
     "question_id": 61,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
-                "question_image": "c_q60-63",
+                "question_image": "ca_q60-63",
                 "images": false, 
                 "answer_1": "radiator", 
                 "answer_2": "II direktor", 
@@ -622,7 +622,7 @@
 {
     "question_id": 62,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
-                "question_image": "c_q60-63",
+                "question_image": "ca_q60-63",
                 "images": false, 
                 "answer_1": "radiator", 
                 "answer_2": "I direktor", 
@@ -633,7 +633,7 @@
 {
     "question_id": 63,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
-                "question_image": "c_q60-63",
+                "question_image": "ca_q60-63",
                 "images": false,  
                 "answer_1": "I direktor", 
                 "answer_2": "II direktor", 
