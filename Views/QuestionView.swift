@@ -186,7 +186,7 @@ struct QuestionView: View {
 
                 questionIndex += 1 /// Increment the Question Index for the next iteration
             }
-            Category[updatedCategory.id] = updatedCategory
+            Category[category.id] = updatedCategory
             categoryIndex += 1
         }
     }
@@ -235,7 +235,7 @@ struct QuestionView: View {
                     Text(categories[currentCategory].questions[currentQuestion].question)
                         .lineLimit(nil)
                         .fixedSize(horizontal: false, vertical: true)
-                        .padding(10)
+                        .padding(5)
                 }
                 if !(categories[currentCategory].questions[currentQuestion].question_image.isEmpty) {
                     Image((categories[currentCategory].questions[currentQuestion].question_image))
@@ -265,8 +265,8 @@ struct QuestionView: View {
         Section(header: Text("Odpowiedzi")) {
             HStack {
                 Text("A")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a1")
                         .resizable()
@@ -280,7 +280,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -299,8 +299,8 @@ struct QuestionView: View {
             
             HStack() {
                 Text("B")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a2")
                         .resizable()
@@ -315,7 +315,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -333,8 +333,8 @@ struct QuestionView: View {
             
             HStack {
                 Text("C")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a3")
                         .resizable()
@@ -350,7 +350,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -473,6 +473,7 @@ struct QuestionView: View {
                         thisQuestion.isFavourite.toggle()
                         thisCategory.questions[currentQuestion] = thisQuestion
                         Category[thisCategory.id] = thisCategory
+
                         categories[currentCategory].questions[currentQuestion] = thisQuestion
                     },
                            label: {

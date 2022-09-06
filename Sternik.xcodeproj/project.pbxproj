@@ -28,7 +28,6 @@
 		802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 802302F128B19B5F0008B41C /* Products_VHF.plist */; };
 		802302F528B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
 		802302F628B21BCB0008B41C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802302F428B21BCB0008B41C /* ProductView.swift */; };
-		8023F1E928B44136007601F1 /* Sternik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80CF62E928A0887A00C59CAD /* Sternik.plist */; };
 		8023F1EA28B4414C007601F1 /* Sternik.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7D84B2884A132009EB03A /* Sternik.xcassets */; };
 		8036FE3928B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
 		8036FE3A28B01FE100A94DBE /* ADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036FE3828B01FE100A94DBE /* ADBanner.swift */; };
@@ -390,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8023F1EA28B4414C007601F1 /* Sternik.xcassets in Resources */,
-				8023F1E928B44136007601F1 /* Sternik.plist in Resources */,
 				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
 				8083DD9E28B2E7A900187B4D /* Products_Sternik.plist in Resources */,

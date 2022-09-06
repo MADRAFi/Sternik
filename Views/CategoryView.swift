@@ -110,12 +110,13 @@ struct CategoryView: View {
                 if selectedModule.isEmpty {
                     selectedModule = selectedModule
                 }
+                categoryRepository.load(module: selectedModule)
             }
         
     }
 }
     struct CategoryView_Previews: PreviewProvider {
-        static var data = CategoryRepository()
+//        static var data = CategoryRepository()
         static var previews: some View {
             CategoryView()
                 .environmentObject(Store())
