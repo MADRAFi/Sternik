@@ -36,6 +36,7 @@ struct CategoryView: View {
     @ViewBuilder
     func questionNavLink(item: Category, prefix: String) -> some View {
         NavigationLink(destination: QuestionView(categories: categoryRepository.sortedCategories.filter({$0.id == item.id }), chosenCategory: .id(item.id))) {
+
             HStack {
                 Image("Icon_\(prefix)_\(item.id)")
                     .padding(.vertical, 5)
@@ -109,12 +110,13 @@ struct CategoryView: View {
                 if selectedModule.isEmpty {
                     selectedModule = selectedModule
                 }
+                categoryRepository.load(module: selectedModule)
             }
         
     }
 }
     struct CategoryView_Previews: PreviewProvider {
-        static var data = CategoryRepository()
+//        static var data = CategoryRepository()
         static var previews: some View {
             CategoryView()
                 .environmentObject(Store())

@@ -4,861 +4,861 @@
         "category_name": "Wiadomości techniczne",
         "exam": 5,
         "questions": [
- 
+            
             {
                 "question_id": 1,
                 "question": "Czy opór elektryczny przewodu zależy od materiału z którego jest wykonany?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "zależy", 
-                "answer_2": "nie zależy", 
+                "answer_1": "zależy",
+                "answer_2": "nie zależy",
                 "answer_3": "zależy od izolacji przewodu",
                 "correct": 1
             },
-{
-    "question_id": 2,
+            {
+                "question_id": 2,
                 "question": "Izolatorami nazywamy materiały które:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "nie przewodzą prądu elektrycznego", 
-                "answer_2": "przewodzą słabo", 
+                "answer_1": "nie przewodzą prądu elektrycznego",
+                "answer_2": "przewodzą słabo",
                 "answer_3": "przewodzą prąd przy wysokim napięciu",
                 "correct": 1
             },
-{
-    "question_id": 3,
+            {
+                "question_id": 3,
                 "question": "Który przewód o tej samej długości i przekroju będzie miał największą oporność?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wykonany z aluminium", 
-                "answer_2": "wykonany z żelaza", 
+                "answer_1": "wykonany z aluminium",
+                "answer_2": "wykonany z żelaza",
                 "answer_3": "wykonany z miedzi",
                 "correct": 2
             },
-{
-    "question_id": 4,
+            {
+                "question_id": 4,
                 "question": "Który z materiałów ma własności półprzewodnikowe?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "złoto", 
-                "answer_2": "german", 
+                "answer_1": "złoto",
+                "answer_2": "german",
                 "answer_3": "platyna",
                 "correct": 2
             },
-{
-    "question_id": 5,
+            {
+                "question_id": 5,
                 "question": "Żarówka 12 V pobiera z baterii 0,1 A. Jaką oporność ma żarówka?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "oporność 120 om", 
-                "answer_2": "oporność 12 om", 
+                "answer_1": "oporność 120 om",
+                "answer_2": "oporność 12 om",
                 "answer_3": "oporność 1,2 kom",
                 "correct": 1
             },
-{
-    "question_id": 6,
+            {
+                "question_id": 6,
                 "question": "Żarówka ma moc 24 W i pobiera z akumulatora 2 A. Jakie jest napięcie akumulatora?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "napięcie wynosi 24 V", 
-                "answer_2": "napięcie wynosi 12 V", 
+                "answer_1": "napięcie wynosi 24 V",
+                "answer_2": "napięcie wynosi 12 V",
                 "answer_3": "napięcie wynosi 48 V",
                 "correct": 2
             },
-{
-    "question_id": 7,
+            {
+                "question_id": 7,
                 "question": "Źródła chemiczne prądu dają prąd:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "stały", 
-                "answer_2": "zmienny", 
+                "answer_1": "stały",
+                "answer_2": "zmienny",
                 "answer_3": "pulsujący",
                 "correct": 1
             },
-{
-    "question_id": 8,
+            {
+                "question_id": 8,
                 "question": "Akumulator ma pojemność 20 Ah. Jak długo będzie świecić z niego żarówka pobierająca 4 A?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "5 godzin", 
-                "answer_2": "4 godziny", 
+                "answer_1": "5 godzin",
+                "answer_2": "4 godziny",
                 "answer_3": "80 godzin",
                 "correct": 1
             },
-{
-    "question_id": 9,
+            {
+                "question_id": 9,
                 "question": "Ile bateryjek 4,5 V potrzebujemy połączyć w szereg, by uzyskać baterię anodową o napięciu 90 V?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "15 szt.", 
-                "answer_2": "10 szt.", 
+                "answer_1": "15 szt.",
+                "answer_2": "10 szt.",
                 "answer_3": "20 szt.",
                 "correct": 3
             },
- 
-{
-    "question_id": 10,
+            
+            {
+                "question_id": 10,
                 "question": "Ładunki elektryczne w przestrzeni przyciągają się jeżeli:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "są jednoimienne", 
-                "answer_2": "są różnoimienne",  
+                "answer_1": "są jednoimienne",
+                "answer_2": "są różnoimienne",
                 "answer_3": "są daleko",
                 "correct": 2
             },
-{
-    "question_id": 11,
+            {
+                "question_id": 11,
                 "question": "Materiały ferromagnetyczne to materiały które przewodzą pole magnetyczne:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "lepiej niż powietrze", 
-                "answer_2": "tak jak powietrze", 
+                "answer_1": "lepiej niż powietrze",
+                "answer_2": "tak jak powietrze",
                 "answer_3": "gorzej niż powietrze",
                 "correct": 1
             },
-{
-    "question_id": 12,
+            {
+                "question_id": 12,
                 "question": "Jaki kierunek przyjmuje pole magnetyczne wokół przewodnika z prądem?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "jest prostopadłe do przewodu", 
-                "answer_2": "jest do niego równoległe", 
+                "answer_1": "jest prostopadłe do przewodu",
+                "answer_2": "jest do niego równoległe",
                 "answer_3": "jest ukośne do przewodu",
                 "correct": 1
             },
-{
-    "question_id": 13,
+            {
+                "question_id": 13,
                 "question": "Jeżeli składowa elektryczna fali jest prostopadła do ziemi to fala ma polaryzację?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "poziomą", 
-                "answer_2": "pionową", 
+                "answer_1": "poziomą",
+                "answer_2": "pionową",
                 "answer_3": "kołową",
                 "correct": 2
             },
-{
-    "question_id": 14,
+            {
+                "question_id": 14,
                 "question": "Czy prędkość fali elektromagnetycznej zależy od ośrodka w którym się rozchodzi?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "tak", 
-                "answer_2": "nie zależy", 
+                "answer_1": "tak",
+                "answer_2": "nie zależy",
                 "answer_3": "jest zawsze jednakowa",
                 "correct": 1
             },
-{
-    "question_id": 15,
+            {
+                "question_id": 15,
                 "question": "Długość fali wynosi 1500 metrów. Jaka jest częstotliwość tej fali?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "2 MHz", 
-                "answer_2": "200 kHz", 
+                "answer_1": "2 MHz",
+                "answer_2": "200 kHz",
                 "answer_3": "233 kHz",
                 "correct": 2
             },
-{
-    "question_id": 16,
+            {
+                "question_id": 16,
                 "question": "Jaki zakres częstotliwości dźwięków wystarcza dla zrozumiałego nadawania mowy?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "od 300 Hz do 3,2 kHz", 
-                "answer_2": "od 100Hz do 5 kHz", 
+                "answer_1": "od 300 Hz do 3,2 kHz",
+                "answer_2": "od 100Hz do 5 kHz",
                 "answer_3": "od 20 Hz do 15 kHz",
                 "correct": 1
             },
-{
-    "question_id": 17,
+            {
+                "question_id": 17,
                 "question": "Nadajnik UKF ma kwarc kanałowy 12 MHz. Ile razy musi być powielony, by uzyskać 144 MHz?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "16 razy", 
-                "answer_2": "12 razy", 
+                "images": false,
+                "answer_1": "16 razy",
+                "answer_2": "12 razy",
                 "answer_3": "18 razy",
                 "correct": 2
             },
-{
-    "question_id": 18,
+            {
+                "question_id": 18,
                 "question": "Modulacja telegraficzna CW polega na:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "przerywaniu fali nośnej", 
-                "answer_2": "zmianie jej częstotliwości", 
+                "answer_1": "przerywaniu fali nośnej",
+                "answer_2": "zmianie jej częstotliwości",
                 "answer_3": "zmianie jej amplitudy",
                 "correct": 1
             },
-{
-    "question_id": 19,
+            {
+                "question_id": 19,
                 "question": "Kanał radiowy nadajnika telegraficznego CW jest:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "bardzo szeroki", 
-                "answer_2": "bardzo wąski", 
+                "answer_1": "bardzo szeroki",
+                "answer_2": "bardzo wąski",
                 "answer_3": "średni",
                 "correct": 2
             },
-{
-    "question_id": 20,
+            {
+                "question_id": 20,
                 "question": "Przy modulacji częstotliwości FM szerokość kanału radiowego dla nadajników amatorskich UKF wynosi:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "12,5 kHz", 
+                "answer_1": "12,5 kHz",
                 "answer_2": "50 kHz",
                 "answer_3": "200 kHz",
                 "correct": 1
             },
-{
-    "question_id": 21,
+            {
+                "question_id": 21,
                 "question": "Jaka jest szerokość kanału radiowego przy emisji SSB?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "9 kHz", 
-                "answer_2": "3,5 kHz",  
+                "answer_1": "9 kHz",
+                "answer_2": "3,5 kHz",
                 "answer_3": "1,5 kHz",
                 "correct": 2
             },
-{
-    "question_id": 22,
+            {
+                "question_id": 22,
                 "question": "Amatorska telewizja z powolnym analizowaniem SSTV może być stosowana do łączności prowadzonych:",
                 "question_image": "",
                 "images": false,
-                "answer_1": "na duże odległości na falach krótkich", 
-                "answer_2": "tylko na UKF", 
+                "answer_1": "na duże odległości na falach krótkich",
+                "answer_2": "tylko na UKF",
                 "answer_3": "tylko w internecie",
                 "correct": 1
             },
-{
-    "question_id": 23,
+            {
+                "question_id": 23,
                 "question": "Która z podanych mocy PEP odpowiada napięciu maksymalnemu U max = 100 V, zmierzonemu oscyloskopem na wyjściu nadajnika, na obciążeniu 50 om?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "200 W", 
-                "answer_2": "100 W", 
+                "images": false,
+                "answer_1": "200 W",
+                "answer_2": "100 W",
                 "answer_3": "50 W",
                 "correct": 2
             },
-{
-    "question_id": 24,
+            {
+                "question_id": 24,
                 "question": "Opornik warstwowy metalizowany jest wykonany jako:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "metalowa warstwa oporowa na wałku ceramicznym", 
-                "answer_2": "warstwa drutu oporowego nawiniętego na wałku ceramicznym", 
+                "images": false,
+                "answer_1": "metalowa warstwa oporowa na wałku ceramicznym",
+                "answer_2": "warstwa drutu oporowego nawiniętego na wałku ceramicznym",
                 "answer_3": "warstwa oporowa węglowa na wałku ceramicznym",
                 "correct": 1
             },
-{
-    "question_id": 25,
+            {
+                "question_id": 25,
                 "question": "Do cewki powietrznej 100 uH wkładamy rdzeń ferrytowy o względnej przenikalności μ =10. Ile wyniesie indukcyjność cewki?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "wzrośnie do 1000 μH", 
-                "answer_2": "nie zmieni się", 
+                "answer_1": "wzrośnie do 1000 μH",
+                "answer_2": "nie zmieni się",
                 "answer_3": "zmaleje do 10 μH",
                 "correct": 1
             },
-{
-    "question_id": 26,
+            {
+                "question_id": 26,
                 "question": "Są dwie cewki powietrzne. Przy tej samej średnicy i ilości zwojów, L 1  jest nawinięta drutem dwa razy grubszym niż L 2 . Która z nich ma większą dobroć Q?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "cewka L2", 
-                "answer_2": "cewka L1", 
+                "answer_1": "cewka L2",
+                "answer_2": "cewka L1",
                 "answer_3": "obie mają taką samą dobroć, bo mają tą samą średnicę",
                 "correct": 2
             },
-{
-    "question_id": 27,
+            {
+                "question_id": 27,
                 "question": "Przekładnia transformatora wynosi 20 do 1. Strona pierwotna włączona jest na napięcie sieci 240 V. Jakie napięcie będzie po stronie wtórnej?",
                 "question_image": "",
                 "images": false,
-                "answer_1": "24 V", 
-                "answer_2": "12 V", 
+                "answer_1": "24 V",
+                "answer_2": "12 V",
                 "answer_3": "20 V",
                 "correct": 2
             },
-{
-    "question_id": 28,
+            {
+                "question_id": 28,
                 "question": "Diody prostownicze zasilające są stosowane do:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "prostowania prądów wysokiej częstotliwości", 
-                "answer_2": "do prostowania prądu w zasilaczach", 
+                "images": false,
+                "answer_1": "prostowania prądów wysokiej częstotliwości",
+                "answer_2": "do prostowania prądu w zasilaczach",
                 "answer_3": "do stabilizacji napięć",
                 "correct": 2
             },
-{
-    "question_id": 29,
+            {
+                "question_id": 29,
                 "question": "Diody Zenera to diody do:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "stabilizacji napięć", 
-                "answer_2": "świecące", 
+                "images": false,
+                "answer_1": "stabilizacji napięć",
+                "answer_2": "świecące",
                 "answer_3": "na bardzo wysokie częstotliwości",
                 "correct": 1
             },
-{
-    "question_id": 30,
+            {
+                "question_id": 30,
                 "question": "Warikap to dioda:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "dioda mikrofalowa", 
-                "answer_2": "dioda pojemnościowa", 
+                "images": false,
+                "answer_1": "dioda mikrofalowa",
+                "answer_2": "dioda pojemnościowa",
                 "answer_3": "dioda stabilizacyjna",
                 "correct": 2
             },
-{
-    "question_id": 31,
+            {
+                "question_id": 31,
                 "question": "Z jakich pierwiastków wykonywane są tranzystory i obwody scalone?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "z absolutnie czystego krzemu i germanu", 
-                "answer_2": "z czystego krzemu i germanu z domieszkami boru i arsenu", 
+                "images": false,
+                "answer_1": "z absolutnie czystego krzemu i germanu",
+                "answer_2": "z czystego krzemu i germanu z domieszkami boru i arsenu",
                 "answer_3": "z krzemu i tlenków krzemu",
                 "correct": 2
             },
- 
-{
-    "question_id": 32,
+            
+            {
+                "question_id": 32,
                 "question": "Do jakiego typu układów scalonych należy scalony wzmacniacz akustyczny?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "do układów scalonych cyfrowych", 
-                "answer_2": "do układów scalonych analogowych", 
+                "images": false,
+                "answer_1": "do układów scalonych cyfrowych",
+                "answer_2": "do układów scalonych analogowych",
                 "answer_3": "do scalonych pamięci",
                 "correct": 2
             },
-{
-    "question_id": 33,
+            {
+                "question_id": 33,
                 "question": "Kalkulator zawiera jeden układ scalony, wyświetlacz i klawiaturę. Do jakiej grupy zaliczymy układ scalony?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "małej skali integracji", 
-                "answer_2": "średniej skali integracji", 
+                "images": false,
+                "answer_1": "małej skali integracji",
+                "answer_2": "średniej skali integracji",
                 "answer_3": "wielkiej skali integracji",
                 "correct": 3
             },
-{
-    "question_id": 34,
+            {
+                "question_id": 34,
                 "question": "Lampa elektronowa pentoda posiada:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "pięć elektrod", 
-                "answer_2": "cztery elektrody", 
+                "images": false,
+                "answer_1": "pięć elektrod",
+                "answer_2": "cztery elektrody",
                 "answer_3": "trzy elektrody",
                 "correct": 1
             },
-{
-    "question_id": 35,
+            {
+                "question_id": 35,
                 "question": "Cztery oporniki o wartościach 5 om zostały połączone szeregowo. Ile wynosi oporność zastępcza tych oporów?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "10 om", 
-                "answer_2": "20 om", 
+                "images": false,
+                "answer_1": "10 om",
+                "answer_2": "20 om",
                 "answer_3": "40 om",
                 "correct": 2
             },
-{
-    "question_id": 36,
+            {
+                "question_id": 36,
                 "question": "Ile oporników o wartości 200 om należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 om?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "5 szt", 
-                "answer_2": "2 szt", 
+                "images": false,
+                "answer_1": "5 szt",
+                "answer_2": "2 szt",
                 "answer_3": "4 szt",
                 "correct": 3
             },
-{
-    "question_id": 37,
+            {
+                "question_id": 37,
                 "question": "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
                 "question_image": "ca_q37",
-                "images": false, 
-                "answer_1": "prostownik dwupołówkowy", 
-                "answer_2": "prostownik jednopołówkowy", 
+                "images": false,
+                "answer_1": "prostownik dwupołówkowy",
+                "answer_2": "prostownik jednopołówkowy",
                 "answer_3": "prostownik mostkowy dwupołówkowy",
                 "correct": 2
             },
-{
-    "question_id": 38,
+            {
+                "question_id": 38,
                 "question": "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
                 "question_image": "ca_q38",
-                "images": false, 
-                "answer_1": "prostownik dwupołówkowy", 
-                "answer_2": "prostownik jednopołówkowy", 
+                "images": false,
+                "answer_1": "prostownik dwupołówkowy",
+                "answer_2": "prostownik jednopołówkowy",
                 "answer_3": "prostownik mostkowy dwupołówkowy",
                 "correct": 1
             },
- 
-{
-    "question_id": 39,
+            
+            {
+                "question_id": 39,
                 "question": "Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "niskiej częstotliwości", 
-                "answer_2": "wzmacniaczem pośredniej częstotliwości", 
+                "images": false,
+                "answer_1": "niskiej częstotliwości",
+                "answer_2": "wzmacniaczem pośredniej częstotliwości",
                 "answer_3": "wzmacniaczem selektywnym",
                 "correct": 1
             },
-{
-    "question_id": 40,
+            {
+                "question_id": 40,
                 "question": "Kiedy wzmacniacz jest przesterowany?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jak ma za duże napięcie zasilania", 
-                "answer_2": "jak ma za duże napięcie wejściowe", 
+                "images": false,
+                "answer_1": "jak ma za duże napięcie zasilania",
+                "answer_2": "jak ma za duże napięcie wejściowe",
                 "answer_3": "jak pracuje w klasie C",
                 "correct": 2
             },
-{
-    "question_id": 41,
+            {
+                "question_id": 41,
                 "question": "W jakiej klasie ma pracować wzmacniacz rezonansowy w.cz. do wzmacniania sygnału SSB?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "w klasie C", 
-                "answer_2": "w klasie AB", 
+                "images": false,
+                "answer_1": "w klasie C",
+                "answer_2": "w klasie AB",
                 "answer_3": "impulsowo",
                 "correct": 2
             },
-{
-    "question_id": 42,
+            {
+                "question_id": 42,
                 "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 1 to:",
                 "question_image": "ca_q42-43",
-                "images": false, 
-                "answer_1": "generator stabilizowany", 
-                "answer_2": "komparator", 
+                "images": false,
+                "answer_1": "generator stabilizowany",
+                "answer_2": "komparator",
                 "answer_3": "dzielnik wzorca",
                 "correct": 1
             },
-{
-    "question_id": 43,
+            {
+                "question_id": 43,
                 "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 4 to:",
                 "question_image": "ca_q42-43",
-                "images": false, 
-                "answer_1": "dzielnik wzorca", 
-                "answer_2": "generator wzorca", 
+                "images": false,
+                "answer_1": "dzielnik wzorca",
+                "answer_2": "generator wzorca",
                 "answer_3": "dzielnik wzorca",
                 "correct": 2
             },
-{
-    "question_id": 44,
+            {
+                "question_id": 44,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
                 "question_image": "ca_q44",
-                "images": false, 
-                "answer_1": "wzmacniacz akustyczny", 
-                "answer_2": "detektor z reakcją", 
+                "images": false,
+                "answer_1": "wzmacniacz akustyczny",
+                "answer_2": "detektor z reakcją",
                 "answer_3": "wzmacniacz w.cz.",
                 "correct": 1
             },
-{
-    "question_id": 45,
+            {
+                "question_id": 45,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
                 "question_image": "ca_q45-46",
-                "images": false, 
-                "answer_1": "filtr wejściowy", 
-                "answer_2": "wzmacniacz akustyczny", 
+                "images": false,
+                "answer_1": "filtr wejściowy",
+                "answer_2": "wzmacniacz akustyczny",
                 "answer_3": "detektor AM",
                 "correct": 1
             },
-{
-    "question_id": 46,
+            {
+                "question_id": 46,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
                 "question_image": "ca_q45-46",
-                "images": false, 
-                "answer_1": "heterodyna", 
-                "answer_2": "wzmacniacz akustyczny", 
+                "images": false,
+                "answer_1": "heterodyna",
+                "answer_2": "wzmacniacz akustyczny",
                 "answer_3": "detektor AM",
                 "correct": 2
             },
-{
-    "question_id": 47,
+            {
+                "question_id": 47,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
                 "question_image": "ca_q47-48",
-                "images": false, 
-                "answer_1": "wzmacniacz w.cz.", 
-                "answer_2": "wzmacniacz akustyczny", 
+                "images": false,
+                "answer_1": "wzmacniacz w.cz.",
+                "answer_2": "wzmacniacz akustyczny",
                 "answer_3": "detektor AM CW SSB",
                 "correct": 1
             },
-{
-    "question_id": 48,
+            {
+                "question_id": 48,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
                 "question_image": "ca_q47-48",
-                "images": false, 
-                "answer_1": "wzmacniacz akustyczny", 
-                "answer_2": "wzmacniacz pośredniej cz.", 
+                "images": false,
+                "answer_1": "wzmacniacz akustyczny",
+                "answer_2": "wzmacniacz pośredniej cz.",
                 "answer_3": "heterodyna",
                 "correct": 1
             },
-{
-    "question_id": 49,
+            {
+                "question_id": 49,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
                 "question_image": "ca_q49",
-                "images": false, 
+                "images": false,
                 "answer_1": "filtr wejściowy",
-                "answer_2": "wzmacniacz akustyczny", 
+                "answer_2": "wzmacniacz akustyczny",
                 "answer_3": "heterodyna",
                 "correct": 1
             },
-{
-    "question_id": 50,
+            {
+                "question_id": 50,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
                 "question_image": "ca_q50",
-                "images": false, 
-                "answer_1": "wzmacniacz akustyczny", 
-                "answer_2": "I mieszacz", 
+                "images": false,
+                "answer_1": "wzmacniacz akustyczny",
+                "answer_2": "I mieszacz",
                 "answer_3": "wzmacniacz II p.cz.",
                 "correct": 2
             },
-{
-    "question_id": 51,
+            {
+                "question_id": 51,
                 "question": "Jaka powinna być stabilność heterodyny w odbiorniku komunikacyjnym? Częstotliwość heterodyny na najwyższym zakresie po włączeniu odbiornika powinna zmieniać się nie więcej jak:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "o 200Hz", 
-                "answer_2": "o 500 Hz", 
+                "images": false,
+                "answer_1": "o 200Hz",
+                "answer_2": "o 500 Hz",
                 "answer_3": "o 1000 Hz",
                 "correct": 1
             },
-{
-    "question_id": 52,
+            {
+                "question_id": 52,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
                 "question_image": "ca_q52",
-                "images": false, 
-                "answer_1": "filtr wyjściowy", 
-                "answer_2": "wzmacniacz mocy (PA)", 
+                "images": false,
+                "answer_1": "filtr wyjściowy",
+                "answer_2": "wzmacniacz mocy (PA)",
                 "answer_3": "separator",
                 "correct": 1
             },
-{
-    "question_id": 53,
+            {
+                "question_id": 53,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
                 "question_image": "ca_q53",
-                "images": false, 
-                "answer_1": "wzmacniacz mocy (PA)", 
-                "answer_2": "oscylator (VFO)", 
+                "images": false,
+                "answer_1": "wzmacniacz mocy (PA)",
+                "answer_2": "oscylator (VFO)",
                 "answer_3": "separator",
                 "correct": 2
             },
-{
-    "question_id": 54,
+            {
+                "question_id": 54,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
                 "question_image": "ca_q54-55",
-                "images": false, 
-                "answer_1": "wzmacniacz mocy (PA)", 
-                "answer_2": "oscylator (VFO) 5 - 5.5 MHz", 
+                "images": false,
+                "answer_1": "wzmacniacz mocy (PA)",
+                "answer_2": "oscylator (VFO) 5 - 5.5 MHz",
                 "answer_3": "wzbudnica SSB 9 MHz",
                 "correct": 3
             },
-{
-    "question_id": 55,
+            {
+                "question_id": 55,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 2 to:",
                 "question_image": "ca_q54-55",
-                "images": false, 
-                "answer_1": "wzmacniacz sterujący", 
-                "answer_2": "mieszacz", 
+                "images": false,
+                "answer_1": "wzmacniacz sterujący",
+                "answer_2": "mieszacz",
                 "answer_3": "filtr wyjściowy",
                 "correct": 2
             },
-{
-    "question_id": 56,
+            {
+                "question_id": 56,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
                 "question_image": "ca_q56-57",
-                "images": false, 
-                "answer_1": "wzmacniacz mocy (PA)", 
-                "answer_2": "generator kwarcowy modulowany", 
+                "images": false,
+                "answer_1": "wzmacniacz mocy (PA)",
+                "answer_2": "generator kwarcowy modulowany",
                 "answer_3": "modulator",
                 "correct": 3
             },
-{
-    "question_id": 57,
+            {
+                "question_id": 57,
                 "question": "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
                 "question_image": "ca_q56-57",
-                "images": false, 
-                "answer_1": "modulator", 
-                "answer_2": "filtr wyjściowy", 
+                "images": false,
+                "answer_1": "modulator",
+                "answer_2": "filtr wyjściowy",
                 "answer_3": "I powielacz x 3",
                 "correct": 2
             },
-{
-    "question_id": 58,
+            {
+                "question_id": 58,
                 "question": "Jaka jest horyzontalna charakterystyka promieniowania dipola półfalowego zawieszonego poziomo?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "dookólna", 
+                "images": false,
+                "answer_1": "dookólna",
                 "answer_2": "ósemkowa",
                 "answer_3": "kierunkowa w linii zawieszenia",
                 "correct": 2
             },
-
-{
-    "question_id": 59,
+            
+            {
+                "question_id": 59,
                 "question": "Jaka jest horyzontalna charakterystyka promieniowania pionowej anteny ćwierćfalowej?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "dookólna", 
-                "answer_2": "kierunkowa", 
+                "images": false,
+                "answer_1": "dookólna",
+                "answer_2": "kierunkowa",
                 "answer_3": "w kształcie koniczyny",
                 "correct": 1
             },
-{
-    "question_id": 60,
+            {
+                "question_id": 60,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
                 "question_image": "ca_q60-63",
-                "images": false, 
-                "answer_1": "reflektor", 
-                "answer_2": "radiator", 
+                "images": false,
+                "answer_1": "reflektor",
+                "answer_2": "radiator",
                 "answer_3": "I direktor",
                 "correct": 1
             },
-{
-    "question_id": 61,
+            {
+                "question_id": 61,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
                 "question_image": "ca_q60-63",
-                "images": false, 
-                "answer_1": "radiator", 
-                "answer_2": "II direktor", 
+                "images": false,
+                "answer_1": "radiator",
+                "answer_2": "II direktor",
                 "answer_3": "reflektor",
                 "correct": 1
             },
-{
-    "question_id": 62,
+            {
+                "question_id": 62,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
                 "question_image": "ca_q60-63",
-                "images": false, 
-                "answer_1": "radiator", 
-                "answer_2": "I direktor", 
+                "images": false,
+                "answer_1": "radiator",
+                "answer_2": "I direktor",
                 "answer_3": "II direktor",
                 "correct": 2
             },
-
-{
-    "question_id": 63,
+            
+            {
+                "question_id": 63,
                 "question": "Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
                 "question_image": "ca_q60-63",
-                "images": false,  
-                "answer_1": "I direktor", 
-                "answer_2": "II direktor", 
+                "images": false,
+                "answer_1": "I direktor",
+                "answer_2": "II direktor",
                 "answer_3": "radiator",
                 "correct": 2
             },
-{
-    "question_id": 64,
+            {
+                "question_id": 64,
                 "question": "Dlaczego kable koncentryczne nadawcze wykonywane są z opornością falową 50 om?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "bo jest ona zbliżona do oporności dipola półfalowego", 
-                "answer_2": "bo najłatwiej takie wykonać", 
+                "images": false,
+                "answer_1": "bo jest ona zbliżona do oporności dipola półfalowego",
+                "answer_2": "bo najłatwiej takie wykonać",
                 "answer_3": "bo wymagają do wykonania najmniejszej ilości materiału",
                 "correct": 1
             },
-{
-    "question_id": 65,
+            {
+                "question_id": 65,
                 "question": "W jakim przypadku powstaje w linii przesyłowej w.cz. fala stojąca?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "kiedy kabel nie jest ułożony prosto", 
-                "answer_2": "kiedy obok kabla koncentrycznego przechodzi inny kabel", 
+                "images": false,
+                "answer_1": "kiedy kabel nie jest ułożony prosto",
+                "answer_2": "kiedy obok kabla koncentrycznego przechodzi inny kabel",
                 "answer_3": "kiedy oporność obciążenia nie jest zgodna z opornością falową kabla",
                 "correct": 3
             },
-{
-    "question_id": 66,
+            {
+                "question_id": 66,
                 "question": "Jak nazywa się przyrząd do mierzenia fali stojącej w kablu koncentrycznym?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "rezystomierz", 
-                "answer_2": "reflektometr", 
+                "images": false,
+                "answer_1": "rezystomierz",
+                "answer_2": "reflektometr",
                 "answer_3": "refraktometr",
                 "correct": 2
             },
-
- 
-{
-    "question_id": 67,
+            
+            
+            {
+                "question_id": 67,
                 "question": "Reflektometr wskazuje że fala padająca równa jest odbitej. WFS równy jest nieskończoność. Co może być przyczyną takiego stanu?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "zwarcie lub przerwa w kablu", 
-                "answer_2": "niewielka zmiana oporności falowej anteny", 
+                "images": false,
+                "answer_1": "zwarcie lub przerwa w kablu",
+                "answer_2": "niewielka zmiana oporności falowej anteny",
                 "answer_3": "zamoczenie izolacji w kablu",
                 "correct": 1
             },
-{
-    "question_id": 68,
+            {
+                "question_id": 68,
                 "question": "Połączenie niesymetrycznego kabla koncentrycznego 50 om do symetrycznej anteny o oporności falowej 50 om wymaga zastosowania:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "transformatora impedancji 1 do 4", 
-                "answer_2": "symetryzatora 1 do 1", 
+                "images": false,
+                "answer_1": "transformatora impedancji 1 do 4",
+                "answer_2": "symetryzatora 1 do 1",
                 "answer_3": "baluna o przekładni 1 do 2",
                 "correct": 2
             },
-{
-    "question_id": 69,
+            {
+                "question_id": 69,
                 "question": "Czy stan jonosfery ma wpływ na rozchodzenie się fal krótkich?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "słaby", 
-                "answer_2": "tylko okresowo, w dzień", 
+                "images": false,
+                "answer_1": "słaby",
+                "answer_2": "tylko okresowo, w dzień",
                 "answer_3": "ma bardzo duży wpływ",
                 "correct": 3
             },
-{
-    "question_id": 70,
+            {
+                "question_id": 70,
                 "question": "Co jaki okres czasu następują bardzo dobre warunki propagacyjne i z czym to jest związane?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "nieregularnie", 
-                "answer_2": "co kilka lat w związku z ociepleniem", 
+                "images": false,
+                "answer_1": "nieregularnie",
+                "answer_2": "co kilka lat w związku z ociepleniem",
                 "answer_3": "regularnie co 11 lat przy maksymalnej aktywności słonecznej",
                 "correct": 3
             },
-{
-    "question_id": 71,
+            {
+                "question_id": 71,
                 "question": "Co to jest zasięg horyzontalny na UKF?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "zasięg wyznaczony linią horyzontu przy prostoliniowym rozchodzeniu się fal", 
-                "answer_2": "zasięg obliczony z mocy promieniowanej e.i.r.p.", 
+                "images": false,
+                "answer_1": "zasięg wyznaczony linią horyzontu przy prostoliniowym rozchodzeniu się fal",
+                "answer_2": "zasięg obliczony z mocy promieniowanej e.i.r.p.",
                 "answer_3": "zasięg teoretyczny nadajnika",
                 "correct": 1
             },
-{
-    "question_id": 72,
+            {
+                "question_id": 72,
                 "question": "Dalekie rozchodzenie się fal UKF podczas inwersji temperaturowej w troposferze polega na:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "na wielokrotnym odbijaniu się fal od ciepłej ziemi", 
-                "answer_2": "na odbijaniu fal radiowych od ciepłego powietrza", 
+                "images": false,
+                "answer_1": "na wielokrotnym odbijaniu się fal od ciepłej ziemi",
+                "answer_2": "na odbijaniu fal radiowych od ciepłego powietrza",
                 "answer_3": "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza",
                 "correct": 3
             },
-{
-    "question_id": 73,
+            {
+                "question_id": 73,
                 "question": "Skrót EME oznacza łączności na UKF:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "z wykorzystaniem odbicia sygnału od Księżyca", 
-                "answer_2": "wykorzystaniem do łączności siły elektromotorycznej SEM", 
+                "images": false,
+                "answer_1": "z wykorzystaniem odbicia sygnału od Księżyca",
+                "answer_2": "wykorzystaniem do łączności siły elektromotorycznej SEM",
                 "answer_3": "za pomocą elektromagnetycznej emisji EME na UKF",
                 "correct": 1
             },
-{
-    "question_id": 74,
+            {
+                "question_id": 74,
                 "question": "Jak nazywa się przyrząd do pomiaru napięcia?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "omomierz", 
-                "answer_2": "woltomierz", 
+                "images": false,
+                "answer_1": "omomierz",
+                "answer_2": "woltomierz",
                 "answer_3": "amperomierz",
                 "correct": 2
             },
-{
-    "question_id": 75,
+            {
+                "question_id": 75,
                 "question": "Jakim przyrządem możemy zmierzyć wartość opornika?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "omomierzem", 
-                "answer_2": "woltomierzem", 
+                "images": false,
+                "answer_1": "omomierzem",
+                "answer_2": "woltomierzem",
                 "answer_3": "amperomierzem",
                 "correct": 1
             },
-{
-    "question_id": 76,
+            {
+                "question_id": 76,
                 "question": "Co to jest przyrząd uniwersalny wielozakresowy?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "przyrząd do pomiaru tylko jednego napięcia", 
-                "answer_2": "przyrząd do pomiarów, napięć, prądów, oporności, w wielu zakresach", 
+                "images": false,
+                "answer_1": "przyrząd do pomiaru tylko jednego napięcia",
+                "answer_2": "przyrząd do pomiarów, napięć, prądów, oporności, w wielu zakresach",
                 "answer_3": "przyrząd do pomiaru wielu napięć",
                 "correct": 2
             },
-{
-    "question_id": 77,
+            {
+                "question_id": 77,
                 "question": "Jak zmierzyć moc prądu stałego?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "zmierzyć prąd i napięcie w obwodzie i obliczyć", 
-                "answer_2": "zmierzyć oporność obwodu i obliczyć",  
+                "images": false,
+                "answer_1": "zmierzyć prąd i napięcie w obwodzie i obliczyć",
+                "answer_2": "zmierzyć oporność obwodu i obliczyć",
                 "answer_3": "zmierzyć prąd i obliczyć",
                 "correct": 1
             },
-{
-    "question_id": 78,
+            {
+                "question_id": 78,
                 "question": "Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "poprzez pomiar napięcia skutecznego na oporze sztucznej anteny 50 om i obliczenie", 
-                "answer_2": "poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)", 
+                "images": false,
+                "answer_1": "poprzez pomiar napięcia skutecznego na oporze sztucznej anteny 50 om i obliczenie",
+                "answer_2": "poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)",
                 "answer_3": "poprzez uzyskanie raportu od korespondenta",
                 "correct": 1
             },
-{
-    "question_id": 79,
+            {
+                "question_id": 79,
                 "question": "Jakim przyrządem mierzymy dopasowanie obciążenia do kabla koncentrycznego?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "żarówką włączoną w szereg na maksimum świecenia", 
-                "answer_2": "sprawdzeniem czy kabel się nie grzeje", 
+                "images": false,
+                "answer_1": "żarówką włączoną w szereg na maksimum świecenia",
+                "answer_2": "sprawdzeniem czy kabel się nie grzeje",
                 "answer_3": "za pomocą reflektometru przelotowego",
                 "correct": 3
             },
-{
-    "question_id": 80,
+            {
+                "question_id": 80,
                 "question": "Jak zwalczamy zakłócenia rozprowadzane siecią energetyczną?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "przez stosowanie grubych przewodów", 
-                "answer_2": "przez stosowanie filtrów sieciowych i ekranowanie urządzeń oraz odpowiednią konstrukcję", 
+                "images": false,
+                "answer_1": "przez stosowanie grubych przewodów",
+                "answer_2": "przez stosowanie filtrów sieciowych i ekranowanie urządzeń oraz odpowiednią konstrukcję",
                 "answer_3": "przez zasilanie bateryjne urządzeń",
                 "correct": 2
             },
-{
-    "question_id": 81,
+            {
+                "question_id": 81,
                 "question": "Co to jest kompatybilność elektromagnetyczna (EMC)?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "zamienność urządzeń", 
-                "answer_2": "wymogi co do podobnej obsługi urządzeń elektrycznych", 
+                "images": false,
+                "answer_1": "zamienność urządzeń",
+                "answer_2": "wymogi co do podobnej obsługi urządzeń elektrycznych",
                 "answer_3": "taka konstrukcja sprzętu, by urządzenia nie wpływały na siebie i mogły pracować bez powodowania wzajemnych zakłóceń",
                 "correct": 3
             },
-{
-    "question_id": 82,
+            {
+                "question_id": 82,
                 "question": "Jeżeli nadajnik amatorski powoduje zakłócenia, to jakie elementy sprawdzamy w pierwszej kolejności?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "zawieszenie anteny", 
-                "answer_2": "odbiornik", 
+                "images": false,
+                "answer_1": "zawieszenie anteny",
+                "answer_2": "odbiornik",
                 "answer_3": "liniowość stopnia mocy (PA) i filtr wyjściowy",
                 "correct": 3
             },
-{
-    "question_id": 83,
+            {
+                "question_id": 83,
                 "question": "Dlaczego w zabudowie miejskiej stosujemy do anten kable koncentryczne?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "bo są ogólnie dostępne", 
-                "answer_2": "bo są trwałe", 
+                "images": false,
+                "answer_1": "bo są ogólnie dostępne",
+                "answer_2": "bo są trwałe",
                 "answer_3": "bo przy dopasowaniu nie promieniują energii i mogą przechodzić obok innych anten i urządzeń",
                 "correct": 3
             },
-{
-    "question_id": 84,
+            {
+                "question_id": 84,
                 "question": "Jeżeli nadajnik promieniuje energię w.cz. poprzez sieć zasilającą to stosujemy:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "filtr w.cz. na wyjściu antenowym nadajnika", 
-                "answer_2": "uziemiamy obudowę", 
+                "images": false,
+                "answer_1": "filtr w.cz. na wyjściu antenowym nadajnika",
+                "answer_2": "uziemiamy obudowę",
                 "answer_3": "uziemiamy obudowę i włączamy filtr sieciowy w zasilanie",
                 "correct": 3
             },
-{
-    "question_id": 85,
+            {
+                "question_id": 85,
                 "question": "Jaka instytucja zajmuje się lokalizowaniem zakłóceń radiowych i radioelektrycznych oraz badaniem sprzętu radionadawczego?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "Urząd Komunikacji Elektronicznej", 
-                "answer_2": "Ministerstwo Ochrony Środowiska", 
+                "images": false,
+                "answer_1": "Urząd Komunikacji Elektronicznej",
+                "answer_2": "Ministerstwo Ochrony Środowiska",
                 "answer_3": "Sztaby antykryzysowe",
                 "correct": 1
             }
@@ -866,224 +866,224 @@
     },
     {
         "id": 2,
-        "category_name": "Bezpieczenstwo pracy",
+        "category_name": "Bezpieczeństwo pracy",
         "exam": 5,
         "questions": [
- 
-
-             
+            
+            
+            
             {
                 "question_id": 86,
                 "question": "Jakie dodatkowe zabezpieczenie, oprócz umieszczenia jej na bezpiecznej wysokości, są zalecane dla anteny na terenowym QTH?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie są potrzebne żądne dodatkowe zabezpieczenia", 
-                            "answer_2": "wykonanie anteny z drutu miedzianego w igielicie", 
-                            "answer_3": "zakaz przebywania pod anteną podczas nadawania",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie są potrzebne żądne dodatkowe zabezpieczenia",
+                "answer_2": "wykonanie anteny z drutu miedzianego w igielicie",
+                "answer_3": "zakaz przebywania pod anteną podczas nadawania",
+                "correct": 2
+            },
             {
                 "question_id": 87,
                 "question": "Czy można wykorzystać sieć wodociągową jako uziemienie?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "tak", 
-                            "answer_2": "jedynie po zbocznikowaniu wodomierza, upewnieniu się, że jest ona uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć", 
-                            "answer_3": "nie, jest to zabronione",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "tak",
+                "answer_2": "jedynie po zbocznikowaniu wodomierza, upewnieniu się, że jest ona uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć",
+                "answer_3": "nie, jest to zabronione",
+                "correct": 2
+            },
             {
                 "question_id": 88,
                 "question": "Resuscytację krążeniowo-oddechową u osoby dorosłej, bez widocznych obrażeń ciała, wykonujemy w stosunku:",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "30 uciśnięć klatki piersiowej na dwa wdechy", 
-                            "answer_2": "20 uciśnięć klatki piersiowej na cztery wdechy", 
-                            "answer_3": "15 uciśnięć klatki piersiowej na sześć wdechów",
-                            "correct": 1
-                        },
+                "images": false,
+                "answer_1": "30 uciśnięć klatki piersiowej na dwa wdechy",
+                "answer_2": "20 uciśnięć klatki piersiowej na cztery wdechy",
+                "answer_3": "15 uciśnięć klatki piersiowej na sześć wdechów",
+                "correct": 1
+            },
             {
                 "question_id": 89,
                 "question": "Podczas pracy z monitorem komputerowym, minimalne zalecane przerwy wynoszą:",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "co dwie godziny po 20 minut", 
-                            "answer_2": "co godzinę pięć minut", 
-                            "answer_3": "co trzy godziny po dziesięć minut",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "co dwie godziny po 20 minut",
+                "answer_2": "co godzinę pięć minut",
+                "answer_3": "co trzy godziny po dziesięć minut",
+                "correct": 2
+            },
             {
                 "question_id": 90,
                 "question": "Jakie oznaczenie na rękojeści narzędzia ma istotne znaczenie przy pracach elektrycznych?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "rodzaj zastosowanej izolacji", 
-                            "answer_2": "nazwa producenta", 
-                            "answer_3": "dopuszczalne napięcie pracy",
-                            "correct": 3
-                        },
-             
+                "images": false,
+                "answer_1": "rodzaj zastosowanej izolacji",
+                "answer_2": "nazwa producenta",
+                "answer_3": "dopuszczalne napięcie pracy",
+                "correct": 3
+            },
+            
             {
                 "question_id": 91,
                 "question": "Dlaczego stosuje się ograniczenia w przebywaniu (zamieszkaniu) w bezpośrednim sąsiedztwie dużych obiektów nadawczych radiowych i telewizyjnych?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "ze względu na wyładowania atmosferyczne", 
-                            "answer_2": "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie", 
-                            "answer_3": "ze względu na możliwość przewrócenia się masztu",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "ze względu na wyładowania atmosferyczne",
+                "answer_2": "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie",
+                "answer_3": "ze względu na możliwość przewrócenia się masztu",
+                "correct": 2
+            },
             {
                 "question_id": 92,
                 "question": "Czy wolno wykonywać prace antenowe przy włączonym nadajniku?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "wolno, bez żadnych ograniczeń", 
-                            "answer_2": "wolno, ale tylko przy małych mocach nadajnika", 
-                            "answer_3": "kategorycznie nie wolno",
-                            "correct": 3
-                        },
+                "images": false,
+                "answer_1": "wolno, bez żadnych ograniczeń",
+                "answer_2": "wolno, ale tylko przy małych mocach nadajnika",
+                "answer_3": "kategorycznie nie wolno",
+                "correct": 3
+            },
             {
                 "question_id": 93,
                 "question": "Na polu antenowym mamy kilka anten na różne pasma. Czy można regulować nieczynne anteny, jeżeli obok pracuje na podobnej antenie nadajnik KF?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie wolno", 
-                            "answer_2": "można", 
-                            "answer_3": "można, ale tylko gdy nadajnik ten pracuje z małą mocą",
-                            "correct": 1
-                        },
+                "images": false,
+                "answer_1": "nie wolno",
+                "answer_2": "można",
+                "answer_3": "można, ale tylko gdy nadajnik ten pracuje z małą mocą",
+                "correct": 1
+            },
             {
                 "question_id": 94,
                 "question": "Spełnienie jakich warunków konstrukcyjnych ogranicza przedostawanie się energii w.cz. niepożądanymi drogami?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "dobre uziemienie i szczelność ekranowania",  
-                            "answer_2": "filtrowany zasilacz", 
-                            "answer_3": "odpowiedni przekrój kabla sieciowego",
-                            "correct": 1
-                        },
+                "images": false,
+                "answer_1": "dobre uziemienie i szczelność ekranowania",
+                "answer_2": "filtrowany zasilacz",
+                "answer_3": "odpowiedni przekrój kabla sieciowego",
+                "correct": 1
+            },
             {
                 "question_id": 95,
                 "question": "Czy źle wykonany uziom może być przyczyną szkodliwego promieniowania w.cz.?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie", 
-                            "answer_2": "tak", 
-                            "answer_3": "nie zawsze",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie",
+                "answer_2": "tak",
+                "answer_3": "nie zawsze",
+                "correct": 2
+            },
             {
                 "question_id": 96,
                 "question": "Jakie niebezpieczeństwo grozi, gdy trzymamy w rękach naładowany kondensator elektrolityczny?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "porażenie prądem elektrycznym", 
-                            "answer_2": "nie ma żadnego niebezpieczeństwa", 
-                            "answer_3": "implozja kondensatora",
-                            "correct": 1
-                        },
+                "images": false,
+                "answer_1": "porażenie prądem elektrycznym",
+                "answer_2": "nie ma żadnego niebezpieczeństwa",
+                "answer_3": "implozja kondensatora",
+                "correct": 1
+            },
             {
                 "question_id": 97,
                 "question": "Czy zwarcie drutem biegunów źródła prądu (bateria, akumulator) może być niebezpieczne?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie ma żadnego zagrożenia", 
-                            "answer_2": "tak, może spowodować pożar", 
-                            "answer_3": "tak, może spowodować stopienie się drutu i poparzenie roztopionym metalem",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie ma żadnego zagrożenia",
+                "answer_2": "tak, może spowodować pożar",
+                "answer_3": "tak, może spowodować stopienie się drutu i poparzenie roztopionym metalem",
+                "correct": 2
+            },
             {
                 "question_id": 98,
                 "question": "Czy kondensator elektrolityczny musi mieć napięcie pracy równe lub większe niż napięcie występujące w układzie w jakim pracuje?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "napięcie pracy kondensatora nie ma znaczenia", 
-                            "answer_2": "napięcie pracy kondensatora ma znaczenia tylko w niektórych typach układów", 
-                            "answer_3": "koniecznie, gdyż może ulec zniszczeniu",
-                            "correct": 3
-                        },
+                "images": false,
+                "answer_1": "napięcie pracy kondensatora nie ma znaczenia",
+                "answer_2": "napięcie pracy kondensatora ma znaczenia tylko w niektórych typach układów",
+                "answer_3": "koniecznie, gdyż może ulec zniszczeniu",
+                "correct": 3
+            },
             {
                 "question_id": 99,
                 "question": "Czy brak filtru przeciw zakłóceniowego na obwodzie zasilania sieciowego może być przyczyną zakłóceń w pracy urządzenia?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "tak, ale tylko przy dużej mocy", 
-                            "answer_2": "zawsze, bez względu na moc", 
-                            "answer_3": "to nie ma znaczenia, rolę filtru pełni transformator zasilacza",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "tak, ale tylko przy dużej mocy",
+                "answer_2": "zawsze, bez względu na moc",
+                "answer_3": "to nie ma znaczenia, rolę filtru pełni transformator zasilacza",
+                "correct": 2
+            },
             {
                 "question_id": 100,
                 "question": "Czy promieniowanie elektromagnetyczne w.cz. może mieć wpływ na zdrowie człowieka?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie", 
-                            "answer_2": "tak", 
-                            "answer_3": "nie, jeśli używamy specjalnego ubrania ochronnego",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie",
+                "answer_2": "tak",
+                "answer_3": "nie, jeśli używamy specjalnego ubrania ochronnego",
+                "correct": 2
+            },
             {
                 "question_id": 101,
                 "question": "Czy sztuczne obciążenie w postaci opornika bezindukcyjnego powinno być ekranowane?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie ma takiej potrzeby", 
-                            "answer_2": "tak, zawsze powinno być ekranowane i uziemione w tym samym punkcie co radiostacja", 
-                            "answer_3": "tylko w przypadku gdy wzmacniacz mocy nie jest właściwie dostrojony",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie ma takiej potrzeby",
+                "answer_2": "tak, zawsze powinno być ekranowane i uziemione w tym samym punkcie co radiostacja",
+                "answer_3": "tylko w przypadku gdy wzmacniacz mocy nie jest właściwie dostrojony",
+                "correct": 2
+            },
             {
                 "question_id": 102,
                 "question": "Czy można uruchomić urządzenie po przeniesieniu z zimnego pomieszczenia do ciepłego?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "istnieje bezwzględny zakaz", 
-                            "answer_2": "można, ale po odczekaniu pewnego czasu", 
-                            "answer_3": "można natychmiast, bez żadnego ryzyka",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "istnieje bezwzględny zakaz",
+                "answer_2": "można, ale po odczekaniu pewnego czasu",
+                "answer_3": "można natychmiast, bez żadnego ryzyka",
+                "correct": 2
+            },
             {
                 "question_id": 103,
                 "question": "Czy plastikowa obudowa urządzenia nadawczego stanowi odpowiednie zabezpieczenie przed oddziaływaniem energii w.cz.?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "jest to wystarczające zabezpieczenie przed energią w.cz.", 
-                            "answer_2": "urządzenia te używa się głównie na terenowym QTH więc takie zabezpieczenie nie jest potrzebne", 
-                            "answer_3": "nie stanowi żadnego zabezpieczenia przed energią w.cz.",
-                            "correct": 3
-                        },
-             
+                "images": false,
+                "answer_1": "jest to wystarczające zabezpieczenie przed energią w.cz.",
+                "answer_2": "urządzenia te używa się głównie na terenowym QTH więc takie zabezpieczenie nie jest potrzebne",
+                "answer_3": "nie stanowi żadnego zabezpieczenia przed energią w.cz.",
+                "correct": 3
+            },
+            
             {
                 "question_id": 104,
                 "question": "Czy dopuszczalne jest użycie sieci CO (np. kaloryfera) do uziemienia radiostacji?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "tak", 
-                            "answer_2": "tylko po upewnieniu się, że jest ona właściwie uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć", 
-                            "answer_3": "nie",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "tak",
+                "answer_2": "tylko po upewnieniu się, że jest ona właściwie uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć",
+                "answer_3": "nie",
+                "correct": 2
+            },
             {
                 "question_id": 105,
                 "question": "Jaki zapas mocy powinien mieć zasilacz urządzeń AM i FM przewidziany do ciągłej bezawaryjnej pracy?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "20% więcej", 
-                            "answer_2": "50% więcej", 
-                            "answer_3": "10 % więcej powyżej mocy maksymalnej",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "20% więcej",
+                "answer_2": "50% więcej",
+                "answer_3": "10 % więcej powyżej mocy maksymalnej",
+                "correct": 2
+            },
             {
                 "question_id": 106,
                 "question": "Czy można wykorzystać jako uziemienie rurę instalacji gazowej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "bezwzględnie nie wolno", 
-                            "answer_2": "wolno bez żadnych ograniczeń", 
-                            "answer_3": "wolno jedynie w sytuacji, gdy nie dysponuje się innym uziemieniem",
-                            "correct": 1
-                        }
+                "images": false,
+                "answer_1": "bezwzględnie nie wolno",
+                "answer_2": "wolno bez żadnych ograniczeń",
+                "answer_3": "wolno jedynie w sytuacji, gdy nie dysponuje się innym uziemieniem",
+                "correct": 1
+            }
         ]
     },
     {
@@ -1095,354 +1095,354 @@
                 "question_id": 107,
                 "question": "Co oznacza wg kodu „Q” symbol QRG?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "włączam większą moc nadajnika", 
-                "answer_2": "moja częstotliwość jest ...", 
+                "images": false,
+                "answer_1": "włączam większą moc nadajnika",
+                "answer_2": "moja częstotliwość jest ...",
                 "answer_3": "siła twoich sygnałów waha się",
                 "correct": 2
             },
-{
-    "question_id": 108,
+            {
+                "question_id": 108,
                 "question": "Co oznacza wg kodu „Q” symbol QSY?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "przejdź na częstotliwość, zmień częstotliwość", 
-                "answer_2": "do usłyszenia na innej częstotliwości", 
+                "images": false,
+                "answer_1": "przejdź na częstotliwość, zmień częstotliwość",
+                "answer_2": "do usłyszenia na innej częstotliwości",
                 "answer_3": "mam uszkodzoną antenę",
                 "correct": 1
             },
-{
-    "question_id": 109,
+            {
+                "question_id": 109,
                 "question": "Co oznacza wg kodu „Q” symbol QRM?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jestem czynny w eterze od miesiąca", 
-                "answer_2": "odbieram twoje sygnały bardzo dobrze zmniejsz moc", 
+                "images": false,
+                "answer_1": "jestem czynny w eterze od miesiąca",
+                "answer_2": "odbieram twoje sygnały bardzo dobrze zmniejsz moc",
                 "answer_3": "mam zakłócenia od innych stacji",
                 "correct": 3
             },
-{
-    "question_id": 110,
+            {
+                "question_id": 110,
                 "question": "Co oznacza wg kodu „Q” symbol QRN?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jestem czynny w eterze od niedawna", 
-                "answer_2": "mam zakłócenia atmosferyczne",  
+                "images": false,
+                "answer_1": "jestem czynny w eterze od niedawna",
+                "answer_2": "mam zakłócenia atmosferyczne",
                 "answer_3": "pracuję na radiostacji tylko w niedzielę",
                 "correct": 2
             },
-{
-    "question_id": 111,
+            {
+                "question_id": 111,
                 "question": "Co oznacza wg kodu „Q” symbol QSB?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "siła twoich sygnałów waha się", 
-                "answer_2": "w okolicy jest burza, wyłączam radiostację", 
+                "images": false,
+                "answer_1": "siła twoich sygnałów waha się",
+                "answer_2": "w okolicy jest burza, wyłączam radiostację",
                 "answer_3": "używam anteny dookolnej",
                 "correct": 1
             },
-{
-    "question_id": 112,
+            {
+                "question_id": 112,
                 "question": "Co oznacza wg kodu „Q” symbol QRV?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "której godzinie rozpoczęliśmy łączność", 
-                "answer_2": "jestem gotów do pracy, jestem czynny w eterze", 
+                "images": false,
+                "answer_1": "której godzinie rozpoczęliśmy łączność",
+                "answer_2": "jestem gotów do pracy, jestem czynny w eterze",
                 "answer_3": "proszę powtórzyć ostatnią relację",
                 "correct": 2
             },
-{
-    "question_id": 113,
+            {
+                "question_id": 113,
                 "question": "Co oznacza wg kodu „Q” symbol QTH?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "nie mam ochoty z tobą dalej rozmawiać", 
-                "answer_2": "przekazuję wiadomość od…", 
+                "images": false,
+                "answer_1": "nie mam ochoty z tobą dalej rozmawiać",
+                "answer_2": "przekazuję wiadomość od…",
                 "answer_3": "moje położenie geograficzne jest…",
                 "correct": 3
             },
-{
-    "question_id": 114,
+            {
+                "question_id": 114,
                 "question": "Co oznacza wg kodu „Q” symbol QRP?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "nadawaj powoli", 
-                "answer_2": "zmniejsz moc, zmniejszam moc", 
+                "images": false,
+                "answer_1": "nadawaj powoli",
+                "answer_2": "zmniejsz moc, zmniejszam moc",
                 "answer_3": "powtórz swój znak wywoławczy",
                 "correct": 2
             },
-{
-    "question_id": 115,
+            {
+                "question_id": 115,
                 "question": "Co oznacza wg kodu „Q” symbol QTC?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "wyłączam stację", 
-                "answer_2": "na jaką częstotliwość mam się przestroić", 
+                "images": false,
+                "answer_1": "wyłączam stację",
+                "answer_2": "na jaką częstotliwość mam się przestroić",
                 "answer_3": "mam dla ciebie pilną wiadomość",
                 "correct": 3
             },
-{
-    "question_id": 116,
+            {
+                "question_id": 116,
                 "question": "Co oznacza wg kodu „Q” symbol QSO?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "moje położenie geograficzne jest…", 
-                "answer_2": "łączność, mam łączność", 
+                "images": false,
+                "answer_1": "moje położenie geograficzne jest…",
+                "answer_2": "łączność, mam łączność",
                 "answer_3": "siła twoich sygnałów waha się",
                 "correct": 2
             },
- 
-  
- 
-{
-    "question_id": 117,
+            
+            
+            
+            {
+                "question_id": 117,
                 "question": "Co oznacza wg kodu „Q” symbol QSL?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "potwierdzam odbiór, przyślę kartę potwierdzającą łączność", 
-                "answer_2": "nadawaj szybciej", 
+                "images": false,
+                "answer_1": "potwierdzam odbiór, przyślę kartę potwierdzającą łączność",
+                "answer_2": "nadawaj szybciej",
                 "answer_3": "słucham na częstotliwości",
                 "correct": 1
             },
-{
-    "question_id": 118,
+            {
+                "question_id": 118,
                 "question": "Co oznacza skrót slangu radioamatorskiego RX?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "antena pionowa", 
-                "answer_2": "odbiornik", 
+                "images": false,
+                "answer_1": "antena pionowa",
+                "answer_2": "odbiornik",
                 "answer_3": "klucz elektroniczny",
                 "correct": 2
             },
-{
-    "question_id": 119,
+            {
+                "question_id": 119,
                 "question": "Co oznacza skrót slangu radioamatorskiego Unlis?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "nielicencjonowany nadawca", 
-                "answer_2": "zakłócenia w odbiorze telewizji", 
+                "images": false,
+                "answer_1": "nielicencjonowany nadawca",
+                "answer_2": "zakłócenia w odbiorze telewizji",
                 "answer_3": "zawody w łowach na lisa",
                 "correct": 1
             },
-{
-    "question_id": 120,
+            {
+                "question_id": 120,
                 "question": "Co oznacza skrót slangu radioamatorskiego YL?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "antena z linki miedzianej", 
-                "answer_2": "czas uniwersalny", 
+                "images": false,
+                "answer_1": "antena z linki miedzianej",
+                "answer_2": "czas uniwersalny",
                 "answer_3": "panna - młoda pani",
                 "correct": 3
             },
-{
-    "question_id": 121,
+            {
+                "question_id": 121,
                 "question": "Co oznacza skrót slangu radioamatorskiego RPT?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "proszę powtórzyć, powtórzę, powtarzam", 
-                "answer_2": "proszę", 
+                "images": false,
+                "answer_1": "proszę powtórzyć, powtórzę, powtarzam",
+                "answer_2": "proszę",
                 "answer_3": "przechodzę na inny kanał",
                 "correct": 1
             },
-{
-    "question_id": 122,
+            {
+                "question_id": 122,
                 "question": "Kiedy należy podawać raport o słyszalności?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "na początku łączności i na życzenie korespondenta", 
-                "answer_2": "w odstępach 5-10 minut", 
+                "images": false,
+                "answer_1": "na początku łączności i na życzenie korespondenta",
+                "answer_2": "w odstępach 5-10 minut",
                 "answer_3": "po każdym przekazaniu mikrofonu",
                 "correct": 1
             },
-{
-    "question_id": 123,
+            {
+                "question_id": 123,
                 "question": "Czy po uzyskaniu świadectwa operatora urządzeń radiowych można samodzielnie obsługiwać stację amatorską?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe", 
-                "answer_2": "można, w określonych przepisami zakresach częstotliwości", 
+                "images": false,
+                "answer_1": "można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe",
+                "answer_2": "można, w określonych przepisami zakresach częstotliwości",
                 "answer_3": "nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie pozwolenie radiowe",
                 "correct": 2
             },
-{
-    "question_id": 124,
+            {
+                "question_id": 124,
                 "question": "Jakie należy spełnić warunki aby uzyskać pozwolenie radiowe na używanie stacji amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej", 
-                "answer_2": "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie", 
+                "images": false,
+                "answer_1": "należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej",
+                "answer_2": "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie",
                 "answer_3": "należy posiadać świadectwo operatora urządzeń radiowych",
                 "correct": 3
             },
-{
-    "question_id": 125,
+            {
+                "question_id": 125,
                 "question": "Czy razem ze świadectwem operatora urządzeń radiowych przydzielany jest znak wywoławczy dla stacji amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "tak", 
-                "answer_2": "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym", 
+                "images": false,
+                "answer_1": "tak",
+                "answer_2": "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym",
                 "answer_3": "tak, jeżeli dana osoba posiada radiostację",
                 "correct": 2
             },
-{
-    "question_id": 126,
+            {
+                "question_id": 126,
                 "question": "Co to jest znak wywoławczy?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jest to symbol określający typ (model) stacji amatorskiej", 
-                "answer_2": "jest to hasło pozwalające wywołać konkretnego rozmówcę", 
+                "images": false,
+                "answer_1": "jest to symbol określający typ (model) stacji amatorskiej",
+                "answer_2": "jest to hasło pozwalające wywołać konkretnego rozmówcę",
                 "answer_3": "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator stacji amatorskiej",
                 "correct": 3
             },
- 
-{
-    "question_id": 127,
+            
+            {
+                "question_id": 127,
                 "question": "Czy można radioamatorski znak wywoławczy używać podczas pracy w zakresach częstotliwości nieprzeznaczonych dla służby amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "można, po uzyskaniu specjalnej zgody UKE", 
-                "answer_2": "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów", 
+                "images": false,
+                "answer_1": "można, po uzyskaniu specjalnej zgody UKE",
+                "answer_2": "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów",
                 "answer_3": "nie jest to zabronione i zależy od decyzji radioamatora",
                 "correct": 2
             },
-{
-    "question_id": 128,
+            {
+                "question_id": 128,
                 "question": "Jak zbudowany jest znak wywoławczy w pozwoleniach kategorii 1, 3 i 5?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr", 
-                "answer_2": "nie ma określonej budowy, składa się z liter i cyfr", 
+                "images": false,
+                "answer_1": "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr",
+                "answer_2": "nie ma określonej budowy, składa się z liter i cyfr",
                 "answer_3": "składa się z prefiksu i dwóch liter",
                 "correct": 1
             },
-{
-    "question_id": 129,
+            {
+                "question_id": 129,
                 "question": "Jak zbudowany jest znak wywoławczy w pozwoleniu dodatkowym?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "nie ma określonej budowy, składa się z liter i cyfr", 
-                "answer_2": "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr", 
+                "images": false,
+                "answer_1": "nie ma określonej budowy, składa się z liter i cyfr",
+                "answer_2": "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr",
                 "answer_3": "składa się z prefiksu i pięciu liter",
                 "correct": 2
             },
-{
-    "question_id": 130,
+            {
+                "question_id": 130,
                 "question": "Co to jest dziennik łączności LOG?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO", 
-                "answer_2": "jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami", 
+                "images": false,
+                "answer_1": "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO",
+                "answer_2": "jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami",
                 "answer_3": "jest to informacja o kontroli radiostacji przez inspektorów UKE",
                 "correct": 1
             },
-{
-    "question_id": 131,
+            {
+                "question_id": 131,
                 "question": "Czy prowadzenie dziennika łączności LOG jest obowiązkowe?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "jest to podstawowy obowiązek każdego radioamatora", 
-                "answer_2": "prowadzenie Logu nie jest obowiązkowe, lecz wskazane", 
+                "images": false,
+                "answer_1": "jest to podstawowy obowiązek każdego radioamatora",
+                "answer_2": "prowadzenie Logu nie jest obowiązkowe, lecz wskazane",
                 "answer_3": "prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne inspektorów ochrony środowiska",
                 "correct": 2
             },
-{
-    "question_id": 132,
+            {
+                "question_id": 132,
                 "question": "Co znaczy określenie czas uniwersalny UTC?",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności", 
-                "answer_2": "czas w którym nie należy nawiązywać QSO", 
+                "images": false,
+                "answer_1": "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności",
+                "answer_2": "czas w którym nie należy nawiązywać QSO",
                 "answer_3": "czas w którym można nawiązywać łączności z krajami europejskimi",
                 "correct": 1
             },
-{
-    "question_id": 133,
+            {
+                "question_id": 133,
                 "question": "Okręg wywoławczy SP1 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa zachodniopomorskiego", 
-                "answer_2": "województwa pomorskiego", 
+                "images": false,
+                "answer_1": "województwa zachodniopomorskiego",
+                "answer_2": "województwa pomorskiego",
                 "answer_3": "województwa mazowieckiego",
                 "correct": 1
             },
-{
-    "question_id": 134,
+            {
+                "question_id": 134,
                 "question": "Okręg wywoławczy SP2 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa zachodniopomorskiego", 
-                "answer_2": "województw kujawsko-pomorskiego i pomorskiego", 
+                "images": false,
+                "answer_1": "województwa zachodniopomorskiego",
+                "answer_2": "województw kujawsko-pomorskiego i pomorskiego",
                 "answer_3": "województwa mazowieckiego",
                 "correct": 2
             },
-{
-    "question_id": 135,
+            {
+                "question_id": 135,
                 "question": "Okręg wywoławczy SP3 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa mazowieckiego",  
-                "answer_2": "województw lubuskiego i wielkopolskiego", 
+                "images": false,
+                "answer_1": "województwa mazowieckiego",
+                "answer_2": "województw lubuskiego i wielkopolskiego",
                 "answer_3": "województw kujawsko-pomorskie i pomorskie",
                 "correct": 2
             },
-{
-    "question_id": 136,
+            {
+                "question_id": 136,
                 "question": "Okręg wywoławczy SP4 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa mazowieckiego",  
-                "answer_2": "województw lubuskiego i wielkopolskiego", 
+                "images": false,
+                "answer_1": "województwa mazowieckiego",
+                "answer_2": "województw lubuskiego i wielkopolskiego",
                 "answer_3": "województw podlaskiego i warmińsko-mazurskiego",
                 "correct": 3
             },
- 
-{
-    "question_id": 137,
+            
+            {
+                "question_id": 137,
                 "question": "Okręg wywoławczy SP5 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa mazowieckiego", 
-                "answer_2": "województw kujawsko-pomorskiego i pomorskiego", 
+                "images": false,
+                "answer_1": "województwa mazowieckiego",
+                "answer_2": "województw kujawsko-pomorskiego i pomorskiego",
                 "answer_3": "województwa zachodnio-pomorskiego",
                 "correct": 1
             },
-{
-    "question_id": 138,
+            {
+                "question_id": 138,
                 "question": "Okręg wywoławczy SP6 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa mazowieckiego", 
-                "answer_2": "województw dolnośląskiego i opolskiego", 
+                "images": false,
+                "answer_1": "województwa mazowieckiego",
+                "answer_2": "województw dolnośląskiego i opolskiego",
                 "answer_3": "województwa zachodniopomorskiego",
                 "correct": 2
             },
-{
-    "question_id": 139,
+            {
+                "question_id": 139,
                 "question": "Okręg wywoławczy SP7 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województwa mazowieckiego", 
-                "answer_2": "województw dolnośląskiego i opolskiego", 
+                "images": false,
+                "answer_1": "województwa mazowieckiego",
+                "answer_2": "województw dolnośląskiego i opolskiego",
                 "answer_3": "województw łódzkiego i świętokrzyskiego",
                 "correct": 3
             },
-{
-    "question_id": 140,
+            {
+                "question_id": 140,
                 "question": "Okręg wywoławczy SP8 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województw dolnośląskiego i opolskiego", 
-                "answer_2": "województw lubelskiego i podkarpackiego", 
+                "images": false,
+                "answer_1": "województw dolnośląskiego i opolskiego",
+                "answer_2": "województw lubelskiego i podkarpackiego",
                 "answer_3": "województwa zachodniopomorskiego",
                 "correct": 2
             },
-{
-    "question_id": 141,
+            {
+                "question_id": 141,
                 "question": "Okręg wywoławczy SP9 to zwyczajowo przyjęty obszar:",
                 "question_image": "",
-                "images": false, 
-                "answer_1": "województw małopolskiego i śląskiego", 
-                "answer_2": "województw lubelskiego i podkarpackiego", 
+                "images": false,
+                "answer_1": "województw małopolskiego i śląskiego",
+                "answer_2": "województw lubelskiego i podkarpackiego",
                 "answer_3": "województwa zachodniopomorskiego",
                 "correct": 1
             }
@@ -1453,472 +1453,472 @@
         "category_name": "Przepisy służby amatorskiej",
         "exam": 5,
         "questions": [
-
-
-              
+            
+            
+            
             {
                 "question_id": 142,
                 "question": "Jak nazywa się organ międzynarodowy ustalający ogólnoświatowe zasady wykonywania działalności telekomunikacyjnej i radiokomunikacyjnej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Organizacja Narodów Zjednoczonych (ONZ)", 
-                            "answer_2": "Międzynarodowy Związek Telekomunikacyjny (ITU)", 
-                            "answer_3": "Światowa Organizacja Handlu (WTO)",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "Organizacja Narodów Zjednoczonych (ONZ)",
+                "answer_2": "Międzynarodowy Związek Telekomunikacyjny (ITU)",
+                "answer_3": "Światowa Organizacja Handlu (WTO)",
+                "correct": 2
+            },
             {
                 "question_id": 143,
                 "question": "Gdzie mieści się siedziba Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w Nowym Jorku", 
-                            "answer_2": "w Wiedniu", 
-                            "answer_3": "w Genewie",
-                            "correct": 3
-                        },
+                "images": false,
+                "answer_1": "w Nowym Jorku",
+                "answer_2": "w Wiedniu",
+                "answer_3": "w Genewie",
+                "correct": 3
+            },
             {
                 "question_id": 144,
                 "question": "Ile krajów zrzesza Międzynarodowy Związek Telekomunikacyjny?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "50-100", 
-                            "answer_2": "100-150", 
-                            "answer_3": "150-200",
-                            "correct": 3
-                        },
+                "images": false,
+                "answer_1": "50-100",
+                "answer_2": "100-150",
+                "answer_3": "150-200",
+                "correct": 3
+            },
             {
                 "question_id": 145,
                 "question": "Jaki organ Międzynarodowego Związku Telekomunikacyjnego (ITU) decyduje o przeznaczeniach poszczególnych zakresów częstotliwości dla różnych służb radiokomunikacyjnych?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)", 
-                            "answer_2": "Światowe Konferencje Radiokomunikacyjne", 
-                            "answer_3": "Biuro Radiokomunikacji ITU",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)",
+                "answer_2": "Światowe Konferencje Radiokomunikacyjne",
+                "answer_3": "Biuro Radiokomunikacji ITU",
+                "correct": 2
+            },
             {
                 "question_id": 146,
                 "question": "Jaki dokument obowiązujący wszystkie kraje członkowskie Międzynarodowego Związku Telekomunikacyjnego (ITU) określa zasady wykonywania służby radiokomunikacyjnej amatorskiej i służby amatorskiej satelitarnej oraz wymienia przyznane tym służbom zakresy częstotliwości?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Konstytucja ITU", 
-                            "answer_2": "Regulamin Radiokomunikacyjny (Radio Regulations) ITU", 
-                            "answer_3": "Konwencja ITU",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "Konstytucja ITU",
+                "answer_2": "Regulamin Radiokomunikacyjny (Radio Regulations) ITU",
+                "answer_3": "Konwencja ITU",
+                "correct": 2
+            },
             {
                 "question_id": 147,
                 "question": "W którym roku Rzeczpospolita Polska przystąpiła do Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "1921", 
-                            "answer_2": "1935", 
-                            "answer_3": "1956",
-                            "correct": 1
-                        },  
+                "images": false,
+                "answer_1": "1921",
+                "answer_2": "1935",
+                "answer_3": "1956",
+                "correct": 1
+            },
             {
                 "question_id": 148,
                 "question": "Jak brzmi definicja służby amatorskiej zamieszczona w Regulaminie Radiokomunikacyjnym Międzynarodowego Związku Telekomunikacyjnego (ITU)",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "„służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych”", 
-                            "answer_2": "„służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych”", 
-                            "answer_3": "„służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych”",
-                            "correct": 2
-                        }, 
-             
+                "images": false,
+                "answer_1": "„służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych”",
+                "answer_2": "„służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych”",
+                "answer_3": "„służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych”",
+                "correct": 2
+            },
+            
             {
                 "question_id": 149,
                 "question": "Regulamin Radiokomunikacyjny ITU dzieli świat na trzy regiony. W którym regionie radiokomunikacyjnym znajduje się Polska?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w trzecim", 
-                            "answer_2": "w pierwszym", 
-                            "answer_3": "w drugim",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "w trzecim",
+                "answer_2": "w pierwszym",
+                "answer_3": "w drugim",
+                "correct": 2
+            },
             {
                 "question_id": 150,
                 "question": "Czy Regulamin Radiokomunikacyjny ITU przewiduje wykorzystanie stacji amatorskich w akcjach humanitarnych, niesienia pomocy w przypadkach katastrof, klęsk żywiołowych i innych zagrożeń?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie zezwala na takie wykorzystanie stacji amatorskich", 
-                            "answer_2": "niezbędny jest specjalny wpis do pozwolenia radioamatorskiego", 
-                            "answer_3": "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "nie zezwala na takie wykorzystanie stacji amatorskich",
+                "answer_2": "niezbędny jest specjalny wpis do pozwolenia radioamatorskiego",
+                "answer_3": "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach",
+                "correct": 3
+            },
             {
                 "question_id": 151,
                 "question": "Czy Regulamin Radiokomunikacyjny reguluje zasady przyznawania znaków wywoławczych stacjom amatorskim?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nie, regulują to przepisy krajowe", 
-                            "answer_2": "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków", 
-                            "answer_3": "nie, znak wywoławczy obiera sobie sam operator stacji",
-                            "correct": 2
-                        },
+                "images": false,
+                "answer_1": "nie, regulują to przepisy krajowe",
+                "answer_2": "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków",
+                "answer_3": "nie, znak wywoławczy obiera sobie sam operator stacji",
+                "correct": 2
+            },
             {
                 "question_id": 152,
                 "question": "Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązują również w służbie amatorskiej satelitarnej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "tak, obowiązują", 
-                            "answer_2": "nie, obowiązują odrębne przepisy", 
-                            "answer_3": "nie obowiązują żadne przepisy",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "tak, obowiązują",
+                "answer_2": "nie, obowiązują odrębne przepisy",
+                "answer_3": "nie obowiązują żadne przepisy",
+                "correct": 1
+            },
             {
                 "question_id": 153,
                 "question": "Co zgodnie z Regulaminem Radiokomunikacyjnym ITU musi zapewnić operator amatorskiej orbitalnej stacji satelitarnej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "nadawanie przez amatorską stację satelitarną jej znaku wywoławczego", 
-                            "answer_2": "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych", 
-                            "answer_3": "nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "nadawanie przez amatorską stację satelitarną jej znaku wywoławczego",
+                "answer_2": "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych",
+                "answer_3": "nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych",
+                "correct": 2
+            },
             {
                 "question_id": 154,
                 "question": "Jak nazywa się organ międzynarodowy zrzeszający krajowe administracje łączności z terenu Europy?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Rada Europy (EC)", 
-                            "answer_2": "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)", 
-                            "answer_3": "Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "Rada Europy (EC)",
+                "answer_2": "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)",
+                "answer_3": "Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)",
+                "correct": 2
+            },
             {
                 "question_id": 155,
                 "question": "Gdzie mieści się siedziba Europejskiego Biura Komunikacji (ECO)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w Brukseli", 
-                            "answer_2": "w Helsinkach", 
-                            "answer_3": "w Kopenhadze",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "w Brukseli",
+                "answer_2": "w Helsinkach",
+                "answer_3": "w Kopenhadze",
+                "correct": 3
+            },
             {
                 "question_id": 156,
                 "question": "Jakiego rodzaju dokumenty regulujące działalność radiokomunikacyjną w Europie przyjmuje i wprowadza Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT) i publikuje Europejskie Biuro Komunikacji (ECO)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "decyzje", 
-                            "answer_2": "decyzje i zalecenia", 
-                            "answer_3": "decyzje, zalecenia i raporty",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "decyzje",
+                "answer_2": "decyzje i zalecenia",
+                "answer_3": "decyzje, zalecenia i raporty",
+                "correct": 3
+            },
             {
                 "question_id": 157,
                 "question": "Jakie dokumenty Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) regulują sprawę międzynarodowego uznawania pozwoleń i międzynarodowych wymagań egzaminacyjnych w służbie amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Uchwały Komitetu Komunikacji Elektronicznej CEPT", 
-                            "answer_2": "Zalecenia CEPT T/R 61-01 i T/R 61-02",  
-                            "answer_3": "Zalecenia CEPT T/R 22-01 i T/R 22-02",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "Uchwały Komitetu Komunikacji Elektronicznej CEPT",
+                "answer_2": "Zalecenia CEPT T/R 61-01 i T/R 61-02",
+                "answer_3": "Zalecenia CEPT T/R 22-01 i T/R 22-02",
+                "correct": 2
+            },
             {
                 "question_id": 158,
                 "question": "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "1 miesiąc", 
-                            "answer_2": "3 miesiące", 
-                            "answer_3": "1 rok",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "1 miesiąc",
+                "answer_2": "3 miesiące",
+                "answer_3": "1 rok",
+                "correct": 2
+            },
             {
                 "question_id": 159,
                 "question": "Czy przepisy Międzynarodowego Związku Telekomunikacyjnego (ITU) i Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) wprowadzają obowiązkowy wymóg umiejętności odbioru i nadawania znaków w kodzie Morse’a przy egzaminie na świadectwo radiooperatora w służbie amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "wprowadzają wymóg jako obowiązkowy", 
-                            "answer_2": "pozostawiają powyższy wymóg do decyzji krajowych administracji łączności", 
-                            "answer_3": "znoszą całkowicie powyższy wymóg",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "wprowadzają wymóg jako obowiązkowy",
+                "answer_2": "pozostawiają powyższy wymóg do decyzji krajowych administracji łączności",
+                "answer_3": "znoszą całkowicie powyższy wymóg",
+                "correct": 2
+            },
             {
                 "question_id": 160,
                 "question": "Kto określa maksymalną moc wyjściową radiostacji amatorskiej podawaną w pozwoleniu?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Międzynarodowy Związek Telekomunikacyjny (ITU)", 
-                            "answer_2": "Europejskie Biuro Komunikacji (ECO)", 
-                            "answer_3": "krajowa administracja łączności",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "Międzynarodowy Związek Telekomunikacyjny (ITU)",
+                "answer_2": "Europejskie Biuro Komunikacji (ECO)",
+                "answer_3": "krajowa administracja łączności",
+                "correct": 3
+            },
             {
                 "question_id": 161,
                 "question": "Jaka organizacja reprezentuje służbę amatorską na forum międzynarodowym?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Międzynarodowy Związek Telekomunikacyjny (ITU)", 
-                            "answer_2": "Międzynarodowy Związek Radioamatorów (IARU)", 
-                            "answer_3": "Europejskie Biuro Komunikacji (ECO)",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "Międzynarodowy Związek Telekomunikacyjny (ITU)",
+                "answer_2": "Międzynarodowy Związek Radioamatorów (IARU)",
+                "answer_3": "Europejskie Biuro Komunikacji (ECO)",
+                "correct": 2
+            },
             {
                 "question_id": 162,
                 "question": "Ile organizacji regionalnych składa się na ogólnoświatowy Międzynarodowy Związek Radioamatorów (IARU – the International Amateur Radio Union)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "trzy", 
-                            "answer_2": "cztery", 
-                            "answer_3": "pięć",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "trzy",
+                "answer_2": "cztery",
+                "answer_3": "pięć",
+                "correct": 1
+            },
             {
                 "question_id": 163,
                 "question": "W którym roku i w jakim miejscu powstał Międzynarodowy Związek Radioamatorów (IARU)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w roku 1930 w Genewie", 
-                            "answer_2": "w roku 1925 w Paryżu", 
-                            "answer_3": "w roku 1910 w Berlinie",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "w roku 1930 w Genewie",
+                "answer_2": "w roku 1925 w Paryżu",
+                "answer_3": "w roku 1910 w Berlinie",
+                "correct": 2
+            },
             {
                 "question_id": 164,
                 "question": "W którym roku powstał Polski Związek Krótkofalowców (PZK)?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w roku 1924", 
-                            "answer_2": "w roku 1930", 
-                            "answer_3": "w roku 1946",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "w roku 1924",
+                "answer_2": "w roku 1930",
+                "answer_3": "w roku 1946",
+                "correct": 2
+            },
             {
                 "question_id": 165,
                 "question": "Jaki organ krajowy reguluje i kontroluje pracę stacji amatorskich oraz wydaje pozwolenia w służbie amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "Minister właściwy do spraw łączności", 
-                            "answer_2": "Prezes Urzędu Komunikacji Elektronicznej", 
-                            "answer_3": "Minister właściwy do spraw wewnętrznych",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "Minister właściwy do spraw łączności",
+                "answer_2": "Prezes Urzędu Komunikacji Elektronicznej",
+                "answer_3": "Minister właściwy do spraw wewnętrznych",
+                "correct": 2
+            },
             {
                 "question_id": 166,
                 "question": "Jaki podstawowy akt prawny reguluje działalność telekomunikacyjną i radiokomunikacyjną w Polsce?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "statut Urzędu Komunikacji Elektronicznej (UKE)", 
-                            "answer_2": "ustawa  Prawo ochrony środowiska",
-                            "answer_3": "ustawa  Prawo telekomunikacyjne",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "statut Urzędu Komunikacji Elektronicznej (UKE)",
+                "answer_2": "ustawa  Prawo ochrony środowiska",
+                "answer_3": "ustawa  Prawo telekomunikacyjne",
+                "correct": 3
+            },
             {
                 "question_id": 167,
                 "question": "W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "w ustawie  Prawo telekomunikacyjne", 
-                            "answer_2": "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości", 
-                            "answer_3": "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "w ustawie  Prawo telekomunikacyjne",
+                "answer_2": "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości",
+                "answer_3": "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej",
+                "correct": 2
+            },
             {
                 "question_id": 168,
                 "question": "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie „służba pierwszej ważności” oznacza, że:",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "służba taka nie jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności", 
-                            "answer_2": "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości zostały już przydzielone", 
-                            "answer_3": "służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony stacji służb drugiej ważności oraz ze strony stacji tej samej lub innych służb pierwszej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym wcześniej przydzielono częstotliwości",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "służba taka nie jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności",
+                "answer_2": "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości zostały już przydzielone",
+                "answer_3": "służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony stacji służb drugiej ważności oraz ze strony stacji tej samej lub innych służb pierwszej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym wcześniej przydzielono częstotliwości",
+                "correct": 3
+            },
             {
                 "question_id": 169,
                 "question": "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie „służba drugiej ważności” oznacza, że:",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "służba taka może powodować szkodliwe zakłócenia w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie", 
-                            "answer_2": "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb drugiej ważności, którym wcześniej przydzielono częstotliwości; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie", 
-                            "answer_3": "służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "służba taka może powodować szkodliwe zakłócenia w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
+                "answer_2": "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb drugiej ważności, którym wcześniej przydzielono częstotliwości; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie",
+                "answer_3": "służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości zostały przydzielone w późniejszym terminie",
+                "correct": 2
+            },
             {
                 "question_id": 170,
                 "question": "Jaki dokument określa kategorie pozwoleń w służbie amatorskiej i dozwolone moce wyjściowe radiostacji amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "ustawa Prawo telekomunikacyjne", 
-                            "answer_2": "rozporządzenie ministra właściwego do spraw łączności", 
-                            "answer_3": "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "ustawa Prawo telekomunikacyjne",
+                "answer_2": "rozporządzenie ministra właściwego do spraw łączności",
+                "answer_3": "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej",
+                "correct": 2
+            },
             {
                 "question_id": 171,
                 "question": "Do czego upoważnia świadectwo operatora klasy A w służbie radiokomunikacyjnej amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "do uzyskania pozwolenia amatorskiego kategorii 1", 
-                            "answer_2": "do uzyskania pozwolenia amatorskiego kategorii 3", 
-                            "answer_3": "wyłącznie do pracy na radiostacji klubowej",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "do uzyskania pozwolenia amatorskiego kategorii 1",
+                "answer_2": "do uzyskania pozwolenia amatorskiego kategorii 3",
+                "answer_3": "wyłącznie do pracy na radiostacji klubowej",
+                "correct": 1
+            },
             {
                 "question_id": 172,
                 "question": "Do czego upoważnia świadectwo operatora klasy C w służbie radiokomunikacyjnej amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "do uzyskania pozwolenia amatorskiego kategorii 2", 
-                            "answer_2": "do uzyskania pozwolenia amatorskiego kategorii 3", 
-                            "answer_3": "do organizowania zawodów w amatorskiej radiolokacji sportowej",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "do uzyskania pozwolenia amatorskiego kategorii 2",
+                "answer_2": "do uzyskania pozwolenia amatorskiego kategorii 3",
+                "answer_3": "do organizowania zawodów w amatorskiej radiolokacji sportowej",
+                "correct": 2
+            },
             {
                 "question_id": 173,
                 "question": "Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3?",
                 "question_image": "",
-                "images": false,  
-             
-                            "answer_1": "10 lat", 
-                            "answer_2": "15 lat", 
-                            "answer_3": "dożywotnio",
-                            "correct": 1
-                        }, 
+                "images": false,
+                
+                "answer_1": "10 lat",
+                "answer_2": "15 lat",
+                "answer_3": "dożywotnio",
+                "correct": 1
+            },
             {
                 "question_id": 174,
                 "question": "Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "5 lat", 
-                            "answer_2": "10 lat", 
-                            "answer_3": "15 lat",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "5 lat",
+                "answer_2": "10 lat",
+                "answer_3": "15 lat",
+                "correct": 1
+            },
             {
                 "question_id": 175,
                 "question": "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 1 uzyskanego po raz pierwszy?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "50 watów", 
-                            "answer_2": "500 watów", 
-                            "answer_3": "250 watów",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "50 watów",
+                "answer_2": "500 watów",
+                "answer_3": "250 watów",
+                "correct": 2
+            },
             {
                 "question_id": 176,
                 "question": "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 3?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "15 watów", 
-                            "answer_2": "100 watów", 
-                            "answer_3": "150 watów",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "15 watów",
+                "answer_2": "100 watów",
+                "answer_3": "150 watów",
+                "correct": 2
+            },
             {
                 "question_id": 177,
                 "question": "Jaka jest moc maksymalna wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 5?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "50 watów dla nadajnika poniżej 30MHz, a 15 watów da nadajnika powyżej 30MHz", 
-                            "answer_2": "50 watów", 
-                            "answer_3": "150 watów",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "50 watów dla nadajnika poniżej 30MHz, a 15 watów da nadajnika powyżej 30MHz",
+                "answer_2": "50 watów",
+                "answer_3": "150 watów",
+                "correct": 1
+            },
             {
                 "question_id": 178,
                 "question": "Jaka jest maksymalna moc wyjściowa radiostacji w przypadku pozwolenia dodatkowego?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "500 watów", 
-                            "answer_2": "1000 watów", 
-                            "answer_3": "1500 watów",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "500 watów",
+                "answer_2": "1000 watów",
+                "answer_3": "1500 watów",
+                "correct": 3
+            },
             {
                 "question_id": 179,
                 "question": "W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "3500 – 3800 kHz oraz 7000 – 7100 kHz", 
-                            "answer_2": "7000 – 7100 kHz oraz 28000 – 29700 kHz", 
-                            "answer_3": "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP",
-                            "correct": 3
-                        },   
+                "images": false,
+                "answer_1": "3500 – 3800 kHz oraz 7000 – 7100 kHz",
+                "answer_2": "7000 – 7100 kHz oraz 28000 – 29700 kHz",
+                "answer_3": "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP",
+                "correct": 3
+            },
             {
                 "question_id": 180,
                 "question": "W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "28000 – 29700 kHz oraz 144 – 146 MHz", 
-                            "answer_2": "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144 – 146 MHz; 430 – 440 MHz oraz 10-10,5 GHz.", 
-                            "answer_3": "28000 – 29700 kHz  oraz 430 – 440 MHz",
-                            "correct": 2
-                        }, 
+                "images": false,
+                "answer_1": "28000 – 29700 kHz oraz 144 – 146 MHz",
+                "answer_2": "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144 – 146 MHz; 430 – 440 MHz oraz 10-10,5 GHz.",
+                "answer_3": "28000 – 29700 kHz  oraz 430 – 440 MHz",
+                "correct": 2
+            },
             {
                 "question_id": 181,
                 "question": "Jaki jest minimalny wiek, w którym można przystąpić do egzaminu i uzyskać świadectwo operatora urządzeń radiowych w służbie amatorskiej oraz uzyskać pozwolenie dla służby radiokomunikacyjnej amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A", 
-                            "answer_2": "15 lat dla uzyskania świadectwa klasy A i C", 
-                            "answer_3": "nie określono minimalnego wieku",
-                            "correct": 1
-                        },  
-             
+                "images": false,
+                "answer_1": "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A",
+                "answer_2": "15 lat dla uzyskania świadectwa klasy A i C",
+                "answer_3": "nie określono minimalnego wieku",
+                "correct": 1
+            },
+            
             {
                 "question_id": 182,
                 "question": "Jakimi rodzajami emisji radiowych wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 50 – 52 MHz?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "wyłącznie emisją A1A (telegrafia)", 
-                            "answer_2": "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)", 
-                            "answer_3": "wszystkimi rodzajami emisji z wyjątkiem F3E",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "wyłącznie emisją A1A (telegrafia)",
+                "answer_2": "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)",
+                "answer_3": "wszystkimi rodzajami emisji z wyjątkiem F3E",
+                "correct": 3
+            },
             {
                 "question_id": 183,
                 "question": "Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7 – 137,8 kHz?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów", 
-                            "answer_2": "wszystkimi rodzajami emisji z mocą wyjściową 250 watów", 
-                            "answer_3": "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów",
+                "answer_2": "wszystkimi rodzajami emisji z mocą wyjściową 250 watów",
+                "answer_3": "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)",
+                "correct": 3
+            },
             {
                 "question_id": 184,
                 "question": "Jaki dokument określa klasy świadectw operatora radiowego w służbie amatorskiej i wymagania egzaminacyjne na poszczególne klasy świadectw?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "rozporządzenie ministra właściwego do spraw łączności", 
-                            "answer_2": "ustawa Prawo telekomunikacyjne", 
-                            "answer_3": "Krajowa Tablica Przeznaczeń Częstotliwości",
-                            "correct": 1
-                        }, 
+                "images": false,
+                "answer_1": "rozporządzenie ministra właściwego do spraw łączności",
+                "answer_2": "ustawa Prawo telekomunikacyjne",
+                "answer_3": "Krajowa Tablica Przeznaczeń Częstotliwości",
+                "correct": 1
+            },
             {
                 "question_id": 185,
                 "question": "Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "rozpowszechnić odebraną wiadomość w internecie", 
-                            "answer_2": "zachować treść wiadomości w ścisłej tajemnicy", 
-                            "answer_3": "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Państwa lub porządku publicznego informacje – powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej",
-                            "correct": 3
-                        }, 
+                "images": false,
+                "answer_1": "rozpowszechnić odebraną wiadomość w internecie",
+                "answer_2": "zachować treść wiadomości w ścisłej tajemnicy",
+                "answer_3": "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Państwa lub porządku publicznego informacje – powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej",
+                "correct": 3
+            },
             {
                 "question_id": 186,
                 "question": "Czy operator stacji amatorskiej może przekazywać przy pomocy swej radiostacji wiadomości pochodzące od osób trzecich i przeznaczone dla osób trzecich?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "jest to dopuszczalne", 
-                            "answer_2": "jest to surowo zabronione", 
-                            "answer_3": "jest to dopuszczalne, jeśli stacja amatorska bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof",
-                            "correct": 3
-                        },  
+                "images": false,
+                "answer_1": "jest to dopuszczalne", 
+                "answer_2": "jest to surowo zabronione",
+                "answer_3": "jest to dopuszczalne, jeśli stacja amatorska bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof",
+                "correct": 3
+            },
             {
                 "question_id": 187,
                 "question": "Jak często operator radiostacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji?",
                 "question_image": "",
-                "images": false, 
-                            "answer_1": "co pół godziny", 
-                            "answer_2": "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na końcu każdego nadawania", 
-                            "answer_3": "nie musi podawać znaku wywoławczego",
-                            "correct": 2
-                        }
+                "images": false,
+                "answer_1": "co pół godziny",
+                "answer_2": "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na końcu każdego nadawania",
+                "answer_3": "nie musi podawać znaku wywoławczego",
+                "correct": 2
+            }
         ]
     }
 ]

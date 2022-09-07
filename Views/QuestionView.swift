@@ -173,20 +173,35 @@ struct QuestionView: View {
         }
     }
 
+//    var allQuestions = Category[thisCategory.id]?.questions
+//    let questionIndex = allQuestions?.firstIndex(where: {$0.id == thisQuestion.id })
+//
+    
+//    allQuestions?[questionIndex!] = thisQuestion
+//    thisCategory.questions = allQuestions ?? []
+//    Category[thisCategory.id] = thisCategory
+//
     func removeFavourites() {
         var categoryIndex = 0 /// We always start at Index 0 of the Category Array
         for category in categories { /// Iterate Categories
             var updatedCategory = category /// Take a copy of the Category we're about to update
+            var allQuestions = Category[category.id]?.questions
             var questionIndex = 0 /// We always start at Index 0 of the Question Array
+            
             for question in category.questions { /// Iterate Questions in Category
                 var updatedQuestion = question /// Take a copy of the Question we're about to update
+                let allQuestionIndex = allQuestions?.firstIndex(where: {$0.id == question.id })
+                
                 updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
-                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
-                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
 
+//                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+                allQuestions?[allQuestionIndex!] = updatedQuestion
+                
+                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
                 questionIndex += 1 /// Increment the Question Index for the next iteration
             }
-            Category[updatedCategory.id] = updatedCategory
+            updatedCategory.questions = allQuestions ?? []
+            Category[category.id] = updatedCategory
             categoryIndex += 1
         }
     }
@@ -235,7 +250,7 @@ struct QuestionView: View {
                     Text(categories[currentCategory].questions[currentQuestion].question)
                         .lineLimit(nil)
                         .fixedSize(horizontal: false, vertical: true)
-                        .padding(10)
+                        .padding(5)
                 }
                 if !(categories[currentCategory].questions[currentQuestion].question_image.isEmpty) {
                     Image((categories[currentCategory].questions[currentQuestion].question_image))
@@ -265,8 +280,8 @@ struct QuestionView: View {
         Section(header: Text("Odpowiedzi")) {
             HStack {
                 Text("A")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a1")
                         .resizable()
@@ -280,7 +295,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -299,8 +314,8 @@ struct QuestionView: View {
             
             HStack() {
                 Text("B")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a2")
                         .resizable()
@@ -315,7 +330,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -333,8 +348,8 @@ struct QuestionView: View {
             
             HStack {
                 Text("C")
-                    .padding(.horizontal)
-                    .padding(.trailing, 5)
+                    .padding(.horizontal, 5)
+//                    .padding(.trailing, 5)
                 if (categories[currentCategory].questions[currentQuestion].images) {
                     Image("q\(categories[currentCategory].questions[currentQuestion].question_id)_a3")
                         .resizable()
@@ -350,7 +365,7 @@ struct QuestionView: View {
                 }
                 Spacer()
             }
-            .padding(.vertical ,8)
+            .padding(.vertical ,2)
             .lineLimit(nil)
             .contentShape(Rectangle())
             .onTapGesture {
@@ -470,9 +485,15 @@ struct QuestionView: View {
                     Button(action: {
                         var thisCategory = categories[currentCategory]
                         var thisQuestion = thisCategory.questions[currentQuestion]
+                        var allQuestions = Category[thisCategory.id]?.questions
+                        let questionIndex = allQuestions?.firstIndex(where: {$0.id == thisQuestion.id })
+                        
                         thisQuestion.isFavourite.toggle()
-                        thisCategory.questions[currentQuestion] = thisQuestion
+//                        thisCategory.questions[currentQuestion] = thisQuestion
+                        allQuestions?[questionIndex!] = thisQuestion
+                        thisCategory.questions = allQuestions ?? []
                         Category[thisCategory.id] = thisCategory
+
                         categories[currentCategory].questions[currentQuestion] = thisQuestion
                     },
                            label: {
@@ -490,7 +511,7 @@ struct QuestionView: View {
                         removeFavourites()
                     },
                            label: {
-                        Image(systemName: "bookmark.slash.fill")
+                        Image("bookmark.square.crossed.fill")
                             .font(Font.system(.title))
                     })
      
