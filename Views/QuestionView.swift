@@ -173,19 +173,34 @@ struct QuestionView: View {
         }
     }
 
+//    var allQuestions = Category[thisCategory.id]?.questions
+//    let questionIndex = allQuestions?.firstIndex(where: {$0.id == thisQuestion.id })
+//
+    
+//    allQuestions?[questionIndex!] = thisQuestion
+//    thisCategory.questions = allQuestions ?? []
+//    Category[thisCategory.id] = thisCategory
+//
     func removeFavourites() {
         var categoryIndex = 0 /// We always start at Index 0 of the Category Array
         for category in categories { /// Iterate Categories
             var updatedCategory = category /// Take a copy of the Category we're about to update
+            var allQuestions = Category[category.id]?.questions
             var questionIndex = 0 /// We always start at Index 0 of the Question Array
+            
             for question in category.questions { /// Iterate Questions in Category
                 var updatedQuestion = question /// Take a copy of the Question we're about to update
+                let allQuestionIndex = allQuestions?.firstIndex(where: {$0.id == question.id })
+                
                 updatedQuestion.isFavourite = false /// Set `isFavorite` to `false`
-                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
-                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
 
+//                updatedCategory.questions[questionIndex] = updatedQuestion /// Update this Question in the Category
+                allQuestions?[allQuestionIndex!] = updatedQuestion
+                
+                categories[categoryIndex].questions[questionIndex] = updatedQuestion /// Update this Question in view collecion of categories
                 questionIndex += 1 /// Increment the Question Index for the next iteration
             }
+            updatedCategory.questions = allQuestions ?? []
             Category[category.id] = updatedCategory
             categoryIndex += 1
         }
@@ -470,8 +485,13 @@ struct QuestionView: View {
                     Button(action: {
                         var thisCategory = categories[currentCategory]
                         var thisQuestion = thisCategory.questions[currentQuestion]
+                        var allQuestions = Category[thisCategory.id]?.questions
+                        let questionIndex = allQuestions?.firstIndex(where: {$0.id == thisQuestion.id })
+                        
                         thisQuestion.isFavourite.toggle()
-                        thisCategory.questions[currentQuestion] = thisQuestion
+//                        thisCategory.questions[currentQuestion] = thisQuestion
+                        allQuestions?[questionIndex!] = thisQuestion
+                        thisCategory.questions = allQuestions ?? []
                         Category[thisCategory.id] = thisCategory
 
                         categories[currentCategory].questions[currentQuestion] = thisQuestion
