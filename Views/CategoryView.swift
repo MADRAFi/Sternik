@@ -49,14 +49,12 @@ struct CategoryView: View {
     }
     
     var body: some View {
-        
             NavigationView {
                     List {
-//                        Section {
-                            if !store.isFullVersion() {
-                                ADBanner()
-//                                    .frame(width: 320, height: 50, alignment: .center)
-                            }
+                        if !store.isFullVersion() {
+                            ADBanner()
+                                .frame(width: 320, height: 50, alignment: .center)
+                        }
                             if !selectedModule.isEmpty {
                                 categoryNavLinks()
                             }
@@ -99,7 +97,6 @@ struct CategoryView: View {
                                 
                             }
                             
-//                        }
                     }
                     .navigationTitle("Kategorie")
 //                    .navigationBarTitleDisplayMode(.large)
