@@ -50,11 +50,12 @@ struct CategoryView: View {
     
     var body: some View {
             NavigationView {
+                VStack {
+                    if !store.isFullVersion() {
+                        ADBanner()
+                            .frame(width: 320, height: 50, alignment: .center)
+                    }
                     List {
-                        if !store.isFullVersion() {
-                            ADBanner()
-                                .frame(width: 320, height: 50, alignment: .center)
-                        }
                             if !selectedModule.isEmpty {
                                 categoryNavLinks()
                             }
@@ -100,7 +101,7 @@ struct CategoryView: View {
                     }
                     .navigationTitle("Kategorie")
 //                    .navigationBarTitleDisplayMode(.large)
-
+                }
             }
             .navigationViewStyle(.stack)
             .onAppear() {
