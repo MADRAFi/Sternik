@@ -14,7 +14,6 @@ struct CategoryView: View {
     @ObservedObject var categoryRepository = Category.repository // This ensures we are Observing the Repository!
 
 
-//    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
