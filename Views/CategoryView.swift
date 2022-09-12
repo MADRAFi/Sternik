@@ -14,7 +14,6 @@ struct CategoryView: View {
     @ObservedObject var categoryRepository = Category.repository // This ensures we are Observing the Repository!
 
 
-//    @Binding var isFullVersion: Bool
     @AppStorage("Selected_Questions_Module") private var selectedModule: String = ""
     
     let fullVersionID = Bundle.main.infoDictionary?["FullVersionProduct"] as? String
@@ -49,14 +48,13 @@ struct CategoryView: View {
     }
     
     var body: some View {
-        
             NavigationView {
+                VStack {
+                    if !store.isFullVersion() {
+                        ADBanner()
+                            .frame(width: 320, height: 50, alignment: .center)
+                    }
                     List {
-//                        Section {
-                            if !store.isFullVersion() {
-                                ADBanner()
-//                                    .frame(width: 320, height: 50, alignment: .center)
-                            }
                             if !selectedModule.isEmpty {
                                 categoryNavLinks()
                             }
@@ -99,11 +97,10 @@ struct CategoryView: View {
                                 
                             }
                             
-//                        }
                     }
                     .navigationTitle("Kategorie")
 //                    .navigationBarTitleDisplayMode(.large)
-
+                }
             }
             .navigationViewStyle(.stack)
             .onAppear() {

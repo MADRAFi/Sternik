@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ADBanner_UnitID</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<string>ca-app-pub-5892472082991738/8345325777</string>
 	<key>About</key>
 	<string>Aplikacja zawiera zestaw pytań do egzaminów (świadectwo operatora łączności) organizowanych przez UKE</string>
 	<key>BuiltInProduct</key>
@@ -15,7 +15,7 @@
 	<key>FullVersionProduct</key>
 	<string>radio_amator.full</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-5892472082991738~7527068126</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
 	<key>ProductsList</key>
