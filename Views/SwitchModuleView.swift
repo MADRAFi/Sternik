@@ -21,9 +21,12 @@ struct SwitchModuleView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Wybrany moduł")
-                Spacer()
-                Picker("Wybierz zestaw pytań", selection: $selectedModule) {
+                /// bugfix for iOS difference between version 16 and olders
+                if #unavailable( iOS 16 ) {
+                    Text("Wybrany moduł")
+                    Spacer()
+                }
+                Picker("Wybrany moduł", selection: $selectedModule) {
                     Text(builtInProductName)
                         .tag(builtInProduct)
                     ForEach(store.purchasedProducts) { product in

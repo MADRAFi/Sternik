@@ -65,6 +65,9 @@
 		80CF62EF28A1057400C59CAD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62ED28A1057400C59CAD /* CategoryView.swift */; };
 		80CF62F128A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
 		80CF62F228A1473600C59CAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62F028A1473600C59CAD /* SettingsView.swift */; };
+		80D5B99728DB87CF0028679E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D5B99B28DB87CF0028679E /* Localizable.strings */; };
+		80D5B99828DB87CF0028679E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D5B99B28DB87CF0028679E /* Localizable.strings */; };
+		80D5B99928DB87CF0028679E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D5B99B28DB87CF0028679E /* Localizable.strings */; };
 		80D7D8592884A133009EB03A /* SternikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D8492884A12B009EB03A /* SternikApp.swift */; };
 		80D7D85B2884A133009EB03A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7D84A2884A12B009EB03A /* QuestionView.swift */; };
 		80E67F8928860B9900247DDF /* questions_jsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E67F8828860B9900247DDF /* questions_jsm.json */; };
@@ -109,6 +112,7 @@
 		80CF62E928A0887A00C59CAD /* Sternik.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Sternik.plist; sourceTree = "<group>"; };
 		80CF62ED28A1057400C59CAD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		80CF62F028A1473600C59CAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		80D5B99A28DB87CF0028679E /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		80D7D8492884A12B009EB03A /* SternikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SternikApp.swift; sourceTree = "<group>"; };
 		80D7D84A2884A12B009EB03A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		80D7D84B2884A132009EB03A /* Sternik.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sternik.xcassets; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 				80D7D8492884A12B009EB03A /* SternikApp.swift */,
 				8036FE3828B01FE100A94DBE /* ADBanner.swift */,
 				80A3525928B2E13E0094ADC9 /* Store.swift */,
+				80D5B99B28DB87CF0028679E /* Localizable.strings */,
 				80C219DF28B9642000CD492C /* Frameworks */,
 				800B6F0F28B795C500FA583B /* Radio Operator.app */,
 				80653CF728C411C000C1741B /* Sternik.app */,
@@ -341,6 +346,7 @@
 			knownRegions = (
 				en,
 				pl,
+				Base,
 			);
 			mainGroup = 80D7D8432884A12A009EB03A;
 			packageReferences = (
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8084919128C569C80047A2BC /* questions_c.json in Resources */,
+				80D5B99928DB87CF0028679E /* Localizable.strings in Resources */,
 				8084919228C569C80047A2BC /* questions_a.json in Resources */,
 				800B6F0A28B787B000FA583B /* Amator.xcassets in Resources */,
 				800B6F0C28B787B000FA583B /* Products_Amator.plist in Resources */,
@@ -379,6 +386,7 @@
 				807FF66128B40E6D00AF2682 /* questions_iwc.json in Resources */,
 				80A6801628A6B69600C28473 /* Configuration_VHF.storekit in Resources */,
 				802302F328B19B5F0008B41C /* Products_VHF.plist in Resources */,
+				80D5B99828DB87CF0028679E /* Localizable.strings in Resources */,
 				807FF66028B40E6D00AF2682 /* questions_vhf.json in Resources */,
 				80653CFA28C4220B00C1741B /* questions_lrc.json in Resources */,
 			);
@@ -388,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D5B99728DB87CF0028679E /* Localizable.strings in Resources */,
 				8023F1EA28B4414C007601F1 /* Sternik.xcassets in Resources */,
 				8036FE5328B1016000A94DBE /* Configuration_Sternik.storekit in Resources */,
 				80E67F8928860B9900247DDF /* questions_jsm.json in Resources */,
@@ -484,6 +493,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		80D5B99B28DB87CF0028679E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D5B99A28DB87CF0028679E /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		800B6F0228B77DF000FA583B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -509,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
@@ -544,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
@@ -580,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;
@@ -615,7 +635,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;
@@ -632,6 +652,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -693,6 +714,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -768,7 +790,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = us.madsoft.sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
@@ -804,7 +826,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = us.madsoft.sternik;
 				PRODUCT_NAME = Sternik;
 				SDKROOT = iphoneos;
