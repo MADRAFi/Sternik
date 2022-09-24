@@ -529,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
@@ -564,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-amator";
 				PRODUCT_NAME = "Radio Amator";
 				SDKROOT = iphoneos;
@@ -600,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "us.madsoft.radio-operator";
 				PRODUCT_NAME = "Radio Operator";
 				SDKROOT = iphoneos;

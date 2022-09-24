@@ -12,6 +12,8 @@
 	<string>Zestaw pytań operatora SRC</string>
 	<key>BuiltInProductName</key>
 	<string>Pytania SRC</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
 	<key>FullVersionProduct</key>
 	<string>radio_operator.full</string>
 	<key>GADApplicationIdentifier</key>

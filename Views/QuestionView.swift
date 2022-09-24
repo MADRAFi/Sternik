@@ -459,7 +459,7 @@ struct QuestionView: View {
                         currentCategory = lastCategory
                         currentQuestion = lastQuestion
                         questionNumber = lastQuestionNumber
-                        
+                        checkAnswer()
                     },
                            label: {
                         Image(systemName: "pin.square.fill")
