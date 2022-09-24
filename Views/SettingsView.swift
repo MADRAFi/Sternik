@@ -52,7 +52,7 @@ struct SettingsView: View {
                         .lineLimit(nil)
                         .fixedSize(horizontal: false, vertical: true)
                     }
-                    .padding(.vertical)
+//                    .padding(.vertical)
                 }
                 
                 Section(header: Text("Pytania"))  {

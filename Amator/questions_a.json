@@ -431,7 +431,7 @@
             {
                 "question_id": 43,
                 "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 4 to:",
-                "question_image": "ca_42-43",
+                "question_image": "ca_q42-43",
                 "images": false,
                 "answer_1": "dzielnik wzorca",
                 "answer_2": "generator wzorca",
@@ -491,7 +491,7 @@
             {
                 "question_id": 49,
                 "question": "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
-                "question_image": "ca_49",
+                "question_image": "ca_q49",
                 "images": false,
                 "answer_1": "filtr wejściowy",
                 "answer_2": "wzmacniacz akustyczny",
